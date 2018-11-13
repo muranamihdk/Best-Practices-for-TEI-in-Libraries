@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2018-11-13 12:35+0900\n"
+"PO-Revision-Date: 2018-11-14 01:13+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,12 +16,12 @@ msgstr ""
 #. (itstool) path: p/title
 #: bptl-driver.odd:11 bptl-driver.odd:1457
 msgid "Best Practices for TEI in Libraries"
-msgstr ""
+msgstr "図書館における TEI 活用のベストプラクティス"
 
 #. (itstool) path: titleStmt/title
 #: bptl-driver.odd:12
 msgid "A guide for mass digitization, automated workflows, and promotion of interoperability with XML using the TEI"
-msgstr ""
+msgstr "TEI を使った大規模デジタル化と自動化ワークフローおよび XML による相互運用性促進のためのガイド"
 
 #. (itstool) path: author/name
 #. (itstool) path: publicationStmt/authority
@@ -118,7 +118,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:81
 msgid "Introduction"
-msgstr ""
+msgstr "はじめに"
 
 #. (itstool) path: p/title
 #: bptl-driver.odd:83
@@ -152,7 +152,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:82
 msgid "This document is the fourth major revision of a document formerly known as <_:title-1/>, which has been updated to comply with the <_:ref-2/>’s <_:ref-3/>. These <_:title-4/> were originally created for use in large, library-based digitization projects but are useful as a way of approaching digitization and encoding as a whole."
-msgstr ""
+msgstr "この文書は以前は <_:title-1/> という名前だった文書の第4版です。<_:ref-2/> の <_:ref-3/> に準拠するために改定され続けてきました。対応してThis document is the fourth major revision of a document formerly known as <_:title-1/>, which has been updated to comply with the <_:ref-2/>’s <_:ref-3/>. These <_:title-4/> were originally created for use in large, library-based digitization projects but are useful as a way of approaching digitization and encoding as a whole."
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:90
