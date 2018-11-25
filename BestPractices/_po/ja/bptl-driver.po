@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2018-11-14 15:41+0000\n"
+"PO-Revision-Date: 2018-11-26 10:52+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/"
 "tei-in-libraries/bptl-driver/ja/>\n"
@@ -27,54 +27,64 @@ msgstr "TEI を使った大規模デジタル化と自動化ワークフロー�
 #. (itstool) path: author/name
 #. (itstool) path: publicationStmt/authority
 #: bptl-driver.odd:15 bptl-driver.odd:45
+#, fuzzy
 msgid "TEI SIG on Libraries"
-msgstr ""
+msgstr "TEI SIG on Libraries"
 
 #. (itstool) path: editor/name
 #: bptl-driver.odd:18
+#, fuzzy
 msgid "Kevin Hawkins"
-msgstr ""
+msgstr "Kevin Hawkins"
 
 #. (itstool) path: editor/name
 #: bptl-driver.odd:21
+#, fuzzy
 msgid "Michelle Dalmau"
-msgstr ""
+msgstr "Michelle Dalmau"
 
 #. (itstool) path: editor/name
 #: bptl-driver.odd:24
+#, fuzzy
 msgid "Elli Mylonas"
-msgstr ""
+msgstr "Elli Mylonas"
 
 #. (itstool) path: editor/name
 #. (itstool) id: bptl-driver.odd#sbauman.emt
 #: bptl-driver.odd:27 bptl-driver.odd:30
+#, fuzzy
 msgid "Syd Bauman"
-msgstr ""
+msgstr "Syd Bauman"
 
 #. (itstool) path: sponsor/name
 #: bptl-driver.odd:33
+#, fuzzy
 msgid "Text Encoding Initiative Consortium"
-msgstr ""
+msgstr "Text Encoding Initiative Consortium"
 
 #. (itstool) path: p/date
 #: bptl-driver.odd:42
+#, fuzzy
 msgid "Sat, 08 Sep 18"
-msgstr ""
+msgstr "Sat, 08 Sep 18"
 
 #. (itstool) path: editionStmt/p
 #: bptl-driver.odd:42
+#, fuzzy
 msgid "Version 4.0.0 (<_:date-1/>)"
-msgstr ""
+msgstr "Version 4.0.0 (<_:date-1/>)"
 
 #. (itstool) path: availability/ab
 #: bptl-driver.odd:47
+#, fuzzy
 msgid "Copyleft 2009 DLF"
-msgstr ""
+msgstr "Copyleft 2009 DLF"
 
 #. (itstool) path: p/ref
 #: bptl-driver.odd:49
+#, fuzzy
 msgid "GNU Free Documentation License, Version 1.2"
-msgstr ""
+msgstr "GNU Free Documentation License, Version 1.2"
 
 #. (itstool) path: p/name
 #: bptl-driver.odd:54
@@ -172,13 +182,13 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:105
 msgid "Level"
-msgstr ""
+msgstr "レベル"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:106 bptl-driver.odd:536 bptl-driver.odd:584
 #: bptl-driver.odd:733 bptl-driver.odd:1041
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #. (itstool) path: cell/ref
 #: bptl-driver.odd:107 bptl-driver.odd:113 bptl-driver.odd:119
@@ -189,68 +199,73 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:107
 msgid "Example of encoding of <_:ref-1/>"
-msgstr ""
+msgstr "<_:ref-1/> でのエンコーディング例"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:108
 msgid "Display example"
-msgstr ""
+msgstr "例を表示する"
 
 #. (itstool) path: cell/ref
 #: bptl-driver.odd:111
 msgid "Level 1"
-msgstr ""
+msgstr "レベル 1"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:112
 msgid "The text is generated through OCR, is subordinate to the page image, and is not intended to stand alone as an electronic text (without page images)."
-msgstr ""
+msgstr "テキストはOCRによって生成。ページ画像が主で、テキストは付随的。電子テキストとしてページ画像なしに単独で使われることは想定してない。"
 
 #. (itstool) path: cell/ref
 #: bptl-driver.odd:114 bptl-driver.odd:120 bptl-driver.odd:126
 #: bptl-driver.odd:132 bptl-driver.odd:138
 msgid "example"
-msgstr ""
+msgstr "例"
 
 #. (itstool) path: cell/ref
 #: bptl-driver.odd:117
 msgid "Level 2"
-msgstr ""
+msgstr "レベル 2"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:118
 msgid "The text is generated through OCR and is mainly subordinate to the page image, though navigational markers (suchg as textual divisions and headings) are captured."
-msgstr ""
+msgstr "テキストはOCRで生成。主に画像が主、テキストは付随的。しかし閲覧の指標となるもの（たとえばテキストの区切りや見出しなど）は記録される。"
 
 #. (itstool) path: cell/ref
 #: bptl-driver.odd:123
 msgid "Level 3"
-msgstr ""
+msgstr "レベル 3"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:124
 msgid "The text is created by conversion, either by way of OCR or keyboarding. Some structural elements of the text are encoded. The text may be used with or without page images."
 msgstr ""
+"テキストはOCRか手入力のいずれかの方法による変換によって作られる。いくつかのテキストの構造要素がエンコードされる。テキストは単独で使われるかもしれないし"
+"、画像と一緒に使われるかもしれない。"
 
 #. (itstool) path: cell/ref
 #: bptl-driver.odd:129
 msgid "Level 4"
-msgstr ""
+msgstr "レベル 4"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:130
 msgid "The text is generated either through corrected OCR or keyboarding and is able to stand alone without page images in order for them to be read by students, scholars, and general readers."
 msgstr ""
+"テキストは訂正付きOCRか手入力のいずれかによって生成される。テキストはページ画像なしに単独で、学生や学者、一般読者の利用に供することができる。"
 
 #. (itstool) path: cell/ref
 #: bptl-driver.odd:135
 msgid "Level 5"
-msgstr ""
+msgstr "レベル 5"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:136
 msgid "The text is generated either through corrected OCR or keyboarding and is able to stand alone without page images, as in Level 4. In addition, the text includes semantic, linguistic, prosodic, or other types of tagging created through substantial human intervention by encoders with subject knowledge."
 msgstr ""
+"テキストは訂正付きOCRか手入力のいずれかによって生成される。テキストはレベル4に於いてと同様、ページ画像なしに単独で利用することができる。加えてテキスト"
+"は、主題知識を持ったエンコーダにより十分な人間の介在を経て作られた、意味論的・言語学的・韻律学的あるいはそれ以外のタイプのタグ付けを含む。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:137
@@ -260,17 +275,21 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:102
 msgid "In brief, the encoding levels (with approximate examples) are as follows: <_:table-1/>"
-msgstr ""
+msgstr "手短にいえば、エンコーディングレベルとは、以下のようなものである（ほぼ近い例を添付した）。<_:table-1/>"
 
 #. (itstool) path: p/ref
 #: bptl-driver.odd:148
 msgid "full TEI Guidelines (P5)"
-msgstr ""
+msgstr "TEIガイドライン（P5）全文"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:141
 msgid "In these <_:title-1/>, use of elements and attributes tends toward explicitness for ease of processing even though a human or possibly machine reader might be able to make inferences based on context. Only those elements and attributes mentioned below are recommended for use in encoding based on these <_:title-2/>; use of other TEI elements and attributes is not recommended. Consult the <_:ref-3/> for guidance on use of elements and attributes beyond what is described below."
 msgstr ""
+"人間にとっては、あるいは可能性としては機械読み取りであっても、文脈による推測は可能かもしれない。しかし処理の容易さのために、これらの <_:"
+"title-1/> における要素と属性の使用では、明確であることを最優先にしている。これらの <_:title-2/> に基づくエンコーディングにおいては"
+"、以下で言及する要素と属性だけを使用することを奨励する。それ以外のTEIの要素や属性の使用は奨励されない。以下で説明した以上の要素や属性の使用については、"
+"<_:ref-3/> を手引きとして参照してもらいたい。"
 
 #. (itstool) path: p/mentioned
 #: bptl-driver.odd:152 bptl-driver.odd:160
