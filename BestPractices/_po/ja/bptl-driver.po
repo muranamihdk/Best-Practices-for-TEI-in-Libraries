@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2018-11-26 10:52+0000\n"
+"PO-Revision-Date: 2019-04-10 19:30+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/"
 "tei-in-libraries/bptl-driver/ja/>\n"
@@ -11,23 +11,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.2.2\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #. (itstool) path: titleStmt/title
 #. (itstool) path: p/title
 #: bptl-driver.odd:11 bptl-driver.odd:1457
 msgid "Best Practices for TEI in Libraries"
-msgstr "図書館における TEI 活用のベストプラクティス"
+msgstr "図書館における TEI 活用のためのベストプラクティス"
 
 #. (itstool) path: titleStmt/title
 #: bptl-driver.odd:12
 msgid "A guide for mass digitization, automated workflows, and promotion of interoperability with XML using the TEI"
-msgstr "TEI を使った大規模デジタル化と自動化ワークフローおよび XML による相互運用性促進のためのガイド"
+msgstr "TEI 採用の XML による大規模デジタル化と自動化ワークフロー、および相互運用性促進のためのガイド"
 
 #. (itstool) path: author/name
 #. (itstool) path: publicationStmt/authority
 #: bptl-driver.odd:15 bptl-driver.odd:45
-#, fuzzy
 msgid "TEI SIG on Libraries"
 msgstr "TEI SIG on Libraries"
 
@@ -58,13 +57,11 @@ msgstr "Syd Bauman"
 
 #. (itstool) path: sponsor/name
 #: bptl-driver.odd:33
-#, fuzzy
 msgid "Text Encoding Initiative Consortium"
 msgstr "Text Encoding Initiative Consortium"
 
 #. (itstool) path: p/date
 #: bptl-driver.odd:42
-#, fuzzy
 msgid "Sat, 08 Sep 18"
 msgstr "Sat, 08 Sep 18"
 
@@ -330,6 +327,14 @@ msgstr ""
 #: bptl-driver.odd:151
 msgid "As guidelines rather than a specification, these <_:title-1/> use <_:mentioned-2/> or <_:mentioned-3/> instead of <_:mentioned-4/> to explain conformance to the practices described here; the only exception is a practice required by P5, indicated by <_:mentioned-5/>. Optional practices are indicated by <_:mentioned-6/> or <_:mentioned-7/>. However, to encourage conformance to these <_:title-8/>, the ODD files will generate schemas that <_:emph-9/> use of recommended elements (those indicated by <_:mentioned-10/> or <_:mentioned-11/>)."
 msgstr ""
+"仕様というよりガイドラインなので、この <_:title-1/> では、ここで詳述されているプラクティスへの準拠を説明するために、<_:"
+"mentioned-4/> ではなく <_:mentioned-2/> もしくは <_:mentioned-3/> を使用しています。唯一の例外は P5 "
+"によって必須とされるプラクティスで、これは <_:mentioned-5/> という言葉によって示されています。オプションのプラクティスは <_:"
+"mentioned-6/> もしくは <_:mentioned-7/> という言葉によって示されます。しかしこれら <_:title-8/> "
+"への準拠を奨励するために、ODD ファイルは、<_:mentioned-10/> や <_:mentioned-11/> 使用が奨励される要素の使用を "
+"<_:emph-9/>\n"
+"とするスキーマを生成します。files will generate schemas that  use of recommended elements ("
+"those indicated by ."
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:162
