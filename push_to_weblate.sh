@@ -1,5 +1,9 @@
 cd `dirname $0`
 
+echo "git checkout localize_ja"
+git checkout localize_ja
+echo
+
 if [ $(git diff origin/localize_ja --name-only | wc -l) -eq 0 ]
 then
   git status
