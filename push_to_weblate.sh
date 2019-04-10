@@ -16,6 +16,14 @@ then
   exit 0
 fi
 
+if [ $(git status | grep "Your branch is ahead of" | wc -l) -ne 0 ]
+then
+  echo
+  git push origin localize_ja
+  echo "git push origin localize_ja"
+  echo
+fi
+
 # pull at Weblate
 if [ $(curl \
  -s \
