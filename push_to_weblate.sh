@@ -19,8 +19,8 @@ fi
 if [ $(git status | grep "Your branch is ahead of" | wc -l) -ne 0 ]
 then
   echo
-  git push origin localize_ja
   echo "git push origin localize_ja"
+  git push origin localize_ja
   echo
 fi
 
