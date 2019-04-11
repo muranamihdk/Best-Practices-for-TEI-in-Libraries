@@ -14,7 +14,7 @@ then
   exit 1
 fi
 
-if [ $(git diff origin/localize_ja --name-only | wc -l) -eq 0 ]
+if [ $(git diff origin/localize_ja --name-only | wc -l) -ne 0 ]
 then
   git status
   exit 0
