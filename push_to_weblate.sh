@@ -6,7 +6,8 @@ echo
 
 if [ $(curl \
  -s \
- -H "Authorization: Token 4uQDi24YSNEYgpxkkTvwdk7z9gZYupXiUvcxyccT" \ http://www3420ue.sakura.ne.jp:8080/api/projects/tei-in-libraries/repository/ \
+ -H "Authorization: Token 4uQDi24YSNEYgpxkkTvwdk7z9gZYupXiUvcxyccT" \
+ http://www3420ue.sakura.ne.jp:8080/api/projects/tei-in-libraries/repository/ \
 | jq -r '.needs_commit') = true ]
 then
   echo "Changes to commit exists at Weblate. Commit before local update."
