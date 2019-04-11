@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-04-10 19:30+0000\n"
+"PO-Revision-Date: 2019-04-11 11:36+0000\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/"
 "tei-in-libraries/bptl-driver/ja/>\n"
@@ -331,15 +331,18 @@ msgstr ""
 "mentioned-4/> ではなく <_:mentioned-2/> もしくは <_:mentioned-3/> を使用しています。唯一の例外は P5 "
 "によって必須とされるプラクティスで、これは <_:mentioned-5/> という言葉によって示されています。オプションのプラクティスは <_:"
 "mentioned-6/> もしくは <_:mentioned-7/> という言葉によって示されます。しかしこれら <_:title-8/> "
-"への準拠を奨励するために、ODD ファイルは、<_:mentioned-10/> や <_:mentioned-11/> 使用が奨励される要素の使用を "
-"<_:emph-9/>\n"
-"とするスキーマを生成します。files will generate schemas that  use of recommended elements ("
-"those indicated by ."
+"への準拠を奨励するために、ODD ファイルは、<_:mentioned-10/> や <_:mentioned-11/> "
+"という言葉で使用を奨励している要素の使用を <_:emph-9/>\n"
+"とするスキーマを生成します。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:162
 msgid "These <_:title-1/> specify a recommended archival storage format. Local system needs may require transformation of documents in this archival format to another XML format (another TEI customization or another type of XML) for use by a local indexing or delivery software."
 msgstr ""
+"これらの <_:title-1/> はアーカイブに奨励される貯蔵フォーマットを規定しています。Local system needs may "
+"require transformation of documents in this archival format to another XML "
+"format (another TEI customization or another type of XML) for use by a local "
+"indexing or delivery software."
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:169
