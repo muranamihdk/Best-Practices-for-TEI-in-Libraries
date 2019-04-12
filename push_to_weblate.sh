@@ -17,7 +17,6 @@ fi
 if [ $(git diff origin/localize_ja --name-only | wc -l) -ne 0 ]
 then
   git status
-  exit 0
 fi
 
 if [ $(git status | grep Changes | wc -l) -ne 0 ]
