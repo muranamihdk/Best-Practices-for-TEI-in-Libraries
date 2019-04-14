@@ -2,16 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-04-14 08:33+0000\n"
+"PO-Revision-Date: 2019-04-14 17:56+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
-"Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/"
-"tei-in-libraries/bptl-driver/ja/>\n"
+"Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.5.1\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. (itstool) path: titleStmt/title
 #. (itstool) path: p/title
@@ -144,37 +143,19 @@ msgid "Guidelines for Text Encoding and Interchange (P5)"
 msgstr ""
 
 #. (itstool) path: p/title
-#: bptl-driver.odd:87 bptl-driver.odd:92 bptl-driver.odd:141
-#: bptl-driver.odd:146 bptl-driver.odd:151 bptl-driver.odd:158
-#: bptl-driver.odd:162 bptl-driver.odd:176 bptl-driver.odd:182
-#: bptl-driver.odd:183 bptl-driver.odd:191 bptl-driver.odd:194
-#: bptl-driver.odd:201 bptl-driver.odd:203 bptl-driver.odd:205
-#: bptl-driver.odd:216 bptl-driver.odd:219 bptl-driver.odd:221
-#: bptl-driver.odd:251 bptl-driver.odd:864 bptl-driver.odd:952
-#: bptl-driver.odd:1180 bptl-driver.odd:1206 bptl-driver.odd:1429
-#: bptl-driver.odd:1456 bptl-driver.odd:1471 bptl-driver.odd:1481
-#: bptl-driver.odd:1483 bptl-driver.odd:1488 bptl-driver.odd:1493
+#: bptl-driver.odd:87 bptl-driver.odd:92 bptl-driver.odd:141 bptl-driver.odd:146 bptl-driver.odd:151 bptl-driver.odd:158 bptl-driver.odd:162 bptl-driver.odd:176 bptl-driver.odd:182 bptl-driver.odd:183 bptl-driver.odd:191 bptl-driver.odd:194 bptl-driver.odd:201 bptl-driver.odd:203 bptl-driver.odd:205 bptl-driver.odd:216 bptl-driver.odd:219 bptl-driver.odd:221 bptl-driver.odd:251 bptl-driver.odd:864 bptl-driver.odd:952 bptl-driver.odd:1180 bptl-driver.odd:1206 bptl-driver.odd:1429 bptl-driver.odd:1456 bptl-driver.odd:1471 bptl-driver.odd:1481 bptl-driver.odd:1483 bptl-driver.odd:1488 bptl-driver.odd:1493
 msgid "Best Practices"
 msgstr ""
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:82
 msgid "This document is the fourth major revision of a document formerly known as <_:title-1/>, which has been updated to comply with the <_:ref-2/>’s <_:ref-3/>. These <_:title-4/> were originally created for use in large, library-based digitization projects but are useful as a way of approaching digitization and encoding as a whole."
-msgstr ""
-"この文書は以前は <_:title-1/> という名前だった文書の第4版です。<_:ref-2/> の <_:ref-3/> "
-"に準拠するために改定され続けてきました。これらの <_:title-4/> は、元々は大規模な、図書館で行われるデジタル化プロジェクトで使うために作られた"
-"ものですが、全体としてデジタル化とエンコーディングへのアプローチ方法として役立ちます。"
+msgstr "この文書は以前は <_:title-1/> という名前だった文書の第4版です。<_:ref-2/> の <_:ref-3/> に準拠するために改定され続けてきました。これらの <_:title-4/> は、元々は大規模な、図書館で行われるデジタル化プロジェクトで使うために作られたものですが、全体としてデジタル化とエンコーディングへのアプローチ方法として役立ちます。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:90
 msgid "There are many different library text digitization projects, serving a variety of purposes. With this in mind, these <_:title-1/> are meant to be as inclusive as possible by specifying five encoding levels. These levels are meant to allow for a range of practice, from wholly automated text creation and encoding, to encoding that requires expert content knowledge, analysis, and editing. The encoding levels are not strictly cumulative: while higher levels tend to build upon lower levels by including more elements, higher levels are not supersets because some elements used at lower levels are not used at higher levels—often because more specific elements replace generic elements."
-msgstr ""
-"図書館による多くの異なったテキストデジタル化プロジェクトがあり、様々な目的を果たしています。このことを念頭に置き、<_:title-1/> は可能なかぎり"
-"包括的であることを意図して、5段階のエンコーディングレベルを規定しています。これらのレベルは、完全に自動化されたテキスト生成とエンコーディングから、専門家"
-"によるその分野の知識と分析と編集を必要とするものまで、広範囲の実践を意図したものです。これらのエンコーディングレベルは厳密に累積的というわけではありません"
-"。高次のレベルはより多くの要素を低次のレベルに加えることにより、その上に構築される傾向にありますが、高次のレベルは低次のレベルの完全な上位互換というわけで"
-"はありません。それというのも、低次レベルで使われていた要素のうち幾つかは、高次レベルでは使われていないからです。これは多くの場合、低次レベルにおける一般的"
-"な要素が、高次レベルにおいてより具体的な要素によって置き換えられることによります。"
+msgstr "図書館による多くの異なったテキストデジタル化プロジェクトがあり、様々な目的を果たしています。このことを念頭に置き、<_:title-1/> は可能なかぎり包括的であることを意図して、5段階のエンコーディングレベルを規定しています。これらのレベルは、完全に自動化されたテキスト生成とエンコーディングから、専門家によるその分野の知識と分析と編集を必要とするものまで、広範囲の実践を意図したものです。これらのエンコーディングレベルは厳密に累積的というわけではありません。高次のレベルはより多くの要素を低次のレベルに加えることにより、その上に構築される傾向にありますが、高次のレベルは低次のレベルの完全な上位互換というわけではありません。それというのも、低次レベルで使われていた要素のうち幾つかは、高次レベルでは使われていないからです。これは多くの場合、低次レベルにおける一般的な要素が、高次レベルにおいてより具体的な要素によって置き換えられることによります。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:105
@@ -182,14 +163,12 @@ msgid "Level"
 msgstr "レベル"
 
 #. (itstool) path: row/cell
-#: bptl-driver.odd:106 bptl-driver.odd:536 bptl-driver.odd:584
-#: bptl-driver.odd:733 bptl-driver.odd:1041
+#: bptl-driver.odd:106 bptl-driver.odd:536 bptl-driver.odd:584 bptl-driver.odd:733 bptl-driver.odd:1041
 msgid "Description"
 msgstr "説明"
 
 #. (itstool) path: cell/ref
-#: bptl-driver.odd:107 bptl-driver.odd:113 bptl-driver.odd:119
-#: bptl-driver.odd:125 bptl-driver.odd:131
+#: bptl-driver.odd:107 bptl-driver.odd:113 bptl-driver.odd:119 bptl-driver.odd:125 bptl-driver.odd:131
 msgid "Alger Hiss document"
 msgstr ""
 
@@ -214,8 +193,7 @@ msgid "The text is generated through OCR, is subordinate to the page image, and 
 msgstr "テキストはOCRによって生成。ページ画像が主で、テキストは付随的。電子テキストとしてページ画像なしに単独で使われることは想定してない。"
 
 #. (itstool) path: cell/ref
-#: bptl-driver.odd:114 bptl-driver.odd:120 bptl-driver.odd:126
-#: bptl-driver.odd:132 bptl-driver.odd:138
+#: bptl-driver.odd:114 bptl-driver.odd:120 bptl-driver.odd:126 bptl-driver.odd:132 bptl-driver.odd:138
 msgid "example"
 msgstr "例"
 
@@ -237,9 +215,7 @@ msgstr "レベル 3"
 #. (itstool) path: row/cell
 #: bptl-driver.odd:124
 msgid "The text is created by conversion, either by way of OCR or keyboarding. Some structural elements of the text are encoded. The text may be used with or without page images."
-msgstr ""
-"テキストはOCRか手入力のいずれかの方法による変換によって作られる。いくつかのテキストの構造要素がエンコードされる。テキストは単独で使われるかもしれないし"
-"、画像と一緒に使われるかもしれない。"
+msgstr "テキストはOCRか手入力のいずれかの方法による変換によって作られる。いくつかのテキストの構造要素がエンコードされる。テキストは単独で使われるかもしれないし、画像と一緒に使われるかもしれない。"
 
 #. (itstool) path: cell/ref
 #: bptl-driver.odd:129
@@ -249,8 +225,7 @@ msgstr "レベル 4"
 #. (itstool) path: row/cell
 #: bptl-driver.odd:130
 msgid "The text is generated either through corrected OCR or keyboarding and is able to stand alone without page images in order for them to be read by students, scholars, and general readers."
-msgstr ""
-"テキストは訂正付きOCRか手入力のいずれかによって生成される。テキストはページ画像なしに単独で、学生や学者、一般読者の利用に供することができる。"
+msgstr "テキストは訂正付きOCRか手入力のいずれかによって生成される。テキストはページ画像なしに単独で、学生や学者、一般読者の利用に供することができる。"
 
 #. (itstool) path: cell/ref
 #: bptl-driver.odd:135
@@ -260,9 +235,7 @@ msgstr "レベル 5"
 #. (itstool) path: row/cell
 #: bptl-driver.odd:136
 msgid "The text is generated either through corrected OCR or keyboarding and is able to stand alone without page images, as in Level 4. In addition, the text includes semantic, linguistic, prosodic, or other types of tagging created through substantial human intervention by encoders with subject knowledge."
-msgstr ""
-"テキストは訂正付きOCRか手入力のいずれかによって生成される。テキストはレベル4に於いてと同様、ページ画像なしに単独で利用することができる。加えてテキスト"
-"は、主題知識を持ったエンコーダにより十分な人間の介在を経て作られた、意味論的・言語学的・韻律学的あるいはそれ以外のタイプのタグ付けを含む。"
+msgstr "テキストは訂正付きOCRか手入力のいずれかによって生成される。テキストはレベル4に於いてと同様、ページ画像なしに単独で利用することができる。加えてテキストは、主題知識を持ったエンコーダにより十分な人間の介在を経て作られた、意味論的・言語学的・韻律学的あるいはそれ以外のタイプのタグ付けを含む。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:137
@@ -282,11 +255,7 @@ msgstr "TEIガイドライン（P5）全文"
 #. (itstool) path: div/p
 #: bptl-driver.odd:141
 msgid "In these <_:title-1/>, use of elements and attributes tends toward explicitness for ease of processing even though a human or possibly machine reader might be able to make inferences based on context. Only those elements and attributes mentioned below are recommended for use in encoding based on these <_:title-2/>; use of other TEI elements and attributes is not recommended. Consult the <_:ref-3/> for guidance on use of elements and attributes beyond what is described below."
-msgstr ""
-"人間にとっては、あるいは可能性としては機械読み取りであっても、文脈による推測は可能かもしれない。しかし処理の容易さのために、これらの <_:"
-"title-1/> における要素と属性の使用では、明確であることを最優先にしている。これらの <_:title-2/> に基づくエンコーディングにおいては"
-"、以下で言及する要素と属性だけを使用することを奨励する。それ以外のTEIの要素や属性の使用は奨励されない。以下で説明した以上の要素や属性の使用については、"
-"<_:ref-3/> を手引きとして参照してもらいたい。"
+msgstr "人間にとっては、あるいは可能性としては機械読み取りであっても、文脈による推測は可能かもしれない。しかし処理の容易さのために、これらの <_:title-1/> における要素と属性の使用では、明確であることを最優先にしている。これらの <_:title-2/> に基づくエンコーディングにおいては、以下で言及する要素と属性だけを使用することを奨励する。それ以外のTEIの要素や属性の使用は奨励されない。以下で説明した以上の要素や属性の使用については、<_:ref-3/> を手引きとして参照してもらいたい。"
 
 #. (itstool) path: p/mentioned
 #: bptl-driver.odd:152 bptl-driver.odd:160
@@ -327,21 +296,13 @@ msgstr ""
 #: bptl-driver.odd:151
 msgid "As guidelines rather than a specification, these <_:title-1/> use <_:mentioned-2/> or <_:mentioned-3/> instead of <_:mentioned-4/> to explain conformance to the practices described here; the only exception is a practice required by P5, indicated by <_:mentioned-5/>. Optional practices are indicated by <_:mentioned-6/> or <_:mentioned-7/>. However, to encourage conformance to these <_:title-8/>, the ODD files will generate schemas that <_:emph-9/> use of recommended elements (those indicated by <_:mentioned-10/> or <_:mentioned-11/>)."
 msgstr ""
-"仕様というよりガイドラインなので、この <_:title-1/> では、ここで詳述されているプラクティスへの準拠を説明するために、<_:"
-"mentioned-4/> ではなく <_:mentioned-2/> もしくは <_:mentioned-3/> を使用しています。唯一の例外は P5 "
-"によって必須とされるプラクティスで、これは <_:mentioned-5/> という言葉によって示されています。オプションのプラクティスは <_:"
-"mentioned-6/> もしくは <_:mentioned-7/> という言葉によって示されます。しかしこれら <_:title-8/> "
-"への準拠を奨励するために、ODD ファイルは、<_:mentioned-10/> や <_:mentioned-11/> "
-"という言葉で使用を奨励している要素の使用を <_:emph-9/>\n"
+"仕様というよりガイドラインなので、この <_:title-1/> では、ここで詳述されているプラクティスへの準拠を説明するために、<_:mentioned-4/> ではなく <_:mentioned-2/> もしくは <_:mentioned-3/> を使用しています。唯一の例外は P5 によって必須とされるプラクティスで、これは <_:mentioned-5/> という言葉によって示されています。オプションのプラクティスは <_:mentioned-6/> もしくは <_:mentioned-7/> という言葉によって示されます。しかしこれら <_:title-8/> への準拠を奨励するために、ODD ファイルは、<_:mentioned-10/> や <_:mentioned-11/> という言葉で使用を奨励している要素の使用を <_:emph-9/>\n"
 "とするスキーマを生成します。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:162
 msgid "These <_:title-1/> specify a recommended archival storage format. Local system needs may require transformation of documents in this archival format to another XML format (another TEI customization or another type of XML) for use by a local indexing or delivery software."
-msgstr ""
-"これらの <_:title-1/> はアーカイブに奨励される貯蔵フォーマットを規定しています。ローカルシステムのニーズは、ローカルインデクシングや配布ソフ"
-"トウェアの使用により、このアーカイブフォーマットの文書から他のXMLフォーマット（他の "
-"TEIカスタマイゼーションや別のタイプのXMLなど）への変換を必要とするかもしれません。"
+msgstr "これらの <_:title-1/> はアーカイブに推奨されるストレージフォーマットを規定しています。ローカルシステムのニーズは、ローカルのインデックス作成や配信ソフトウェアで使用するために、このアーカイブフォーマットの文書から他のXMLフォーマット（他の TEIカスタマイゼーションや別のタイプのXMLなど）への変換を必要とするかもしれません。"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:169
@@ -361,32 +322,17 @@ msgstr "カスタマイゼーション"
 #. (itstool) path: div/p
 #: bptl-driver.odd:172
 msgid "The TEI Tite <_:ref-1/> of P5 was developed as a subset of the TEI to be used as a vendor specification for outsourced encoding of the type often initiated by libraries, archives and other cultural heritage organizations. These <_:title-2/> were created to support in-house encoding that adheres as closely as possible to common TEI practice and library standards yet still leaves room for variation in local practice."
-msgstr ""
-"P5のTEI Tite <_:ref-1/> はしばしば図書館や文書館やその他の文化遺産組織によって先導されたタイプのアウトソースされたエンコーディングの"
-"ためのベンダー仕様として使用されるべくTEIのサブセットとして開発されました。この <_:title-2/> は共通的なTEIプラクティスを可能な限り厳密"
-"に遵守するインハウスエンコーディングをサポートするために作られ、そして図書館の標準ははまだ依然現場での実践においてはバリエーションの余地を残しています。"
+msgstr "P5のTEI Tite <_:ref-1/> はしばしば図書館や文書館やその他の文化遺産組織によって先導されたタイプのアウトソースされたエンコーディングのためのベンダー仕様として使用されるべくTEIのサブセットとして開発されました。この <_:title-2/> は共通的なTEIプラクティスを可能な限り厳密に遵守するインハウスエンコーディングをサポートするために作られ、そして図書館の標準ははまだ依然現場での実践においてはバリエーションの余地を残しています。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:180
 msgid "If a library uses TEI Tite for outsourced encoding, it should find that converting files from the TEI Tite format to a format conforming to these <_:title-1/> is not difficult. TEI Tite files may be converted to <_:title-2/> Level 3 with some loss of granularity; or to Level 4 with some additional markup with minimal human intervention. (The reason Level 3 does not contain as many elements as TEI Tite is to allow for use of this encoding level, whether for encoding of born-digital source documents or for upgrading Level 1 or Level 2 texts, with less human intervention than would be required by TEI Tite.)"
-msgstr ""
-"もしある図書館がアウトソースされたエンコーディングにTEI Titeを使用しているなら、ファイルをTEI Titeのフォーマットから、この <_:"
-"title-1/> に適合するフォーマットに変換することは難しくないことに気付くべきです。TEI Titeファイルはいくらかの粒度の喪失を伴って <_:"
-"title-2/> レベル3に変換することが可能です。もしくは最小限の人的介入によるいくらかの追加マークアップによってレベル4に変換することが可能です。（"
-"レベル3がTEI Titeがこのレベルのエンコーディングで使用を許しているのと同じほど多くの要素を含まない理由は、ボーンデジタルドキュメントをエンコーディ"
-"ングするためであっても、レベル1かレベル2のテキストをアップグレードするためであっても、"
+msgstr "もしある図書館がアウトソースされたエンコーディングにTEI Titeを使用しているなら、ファイルをTEI Titeのフォーマットから、この <_:title-1/> に適合するフォーマットに変換することは難しくないことに気付くべきです。TEI Titeファイルはいくらかの粒度の喪失を伴って <_:title-2/> レベル3に変換することが可能です。もしくは最小限の人的介入によるいくらかの追加マークアップによってレベル4に変換することが可能です。（レベル3がTEI Titeがこのレベルのエンコーディングで使用を許しているのと同じほど多くの要素を含まない理由は、ボーンデジタルドキュメントをエンコーディングするためであっても、レベル1かレベル2のテキストをアップグレードするためであっても、"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:191
 msgid "These <_:title-1/> are meant to complement the TEI Tite customization of P5. Whereas TEI Tite is meant for vendors who need exact specifications for encoding, these <_:title-2/> document how a large-scale encoding project, whether based in a library or not, might create conformant TEI documents out of vendor-generated or locally-created TEI documents. TEI Tite lacks header metadata and elements for encoding textual structures of possible interest to libraries; however, once Tite documents are transformed to a TEI-conformant encoding used by an institution, these <_:title-3/> can serve as a point of reference for developing the TEI header and applying richer markup as reflected in Level 4 or 5 of these <_:title-4/>."
-msgstr ""
-"この <_:title-1/> は P5 の TEI Tite カスタマイゼーションを補完することを意図しています。一方 TEI Tite "
-"は、エンコーディングのための厳密な仕様を必要とするベンダーのためのものです。大規模エンコーディングプロジェクトをいかに行うかについてのこの <_:"
-"title-2/> 文書は、図書館に基盤を置いているかどうかにかかわらず、ベンダーによって作られたもしくはローカルに作られた TEI 文書に関係ない "
-"TEI 準拠文書を作るかもしれない。TEI Tite "
-"は図書館へのありえる興味のテキスト構造のエンコーディングのためのヘッダーメタデータと要素を欠いている。しかしながら、いったん Tite "
-"文書がある機関によって使われる TEI 準拠エンコーディングに変換されたら、この <_:title-3/> は TEI ヘッダーとこの <_:"
-"title-4/> のレベル4と5を反映したより豊かなマークアップの適用を開発するための参考となる観点として提供することができる。"
+msgstr "この <_:title-1/> は P5 の TEI Tite カスタマイゼーションを補完することを意図しています。一方 TEI Tite は、エンコーディングのための厳密な仕様を必要とするベンダーのためのものです。大規模エンコーディングプロジェクトをいかに行うかについてのこの <_:title-2/> 文書は、図書館に基盤を置いているかどうかにかかわらず、ベンダーによって作られたもしくはローカルに作られた TEI 文書に関係ない TEI 準拠文書を作るかもしれない。TEI Tite は図書館へのありえる興味のテキスト構造のエンコーディングのためのヘッダーメタデータと要素を欠いている。しかしながら、いったん Tite 文書がある機関によって使われる TEI 準拠エンコーディングに変換されたら、この <_:title-3/> は TEI ヘッダーとこの <_:title-4/> のレベル4と5を反映したより豊かなマークアップの適用を開発するための参考となる観点として提供することができる。"
 
 #. (itstool) path: p/ref
 #: bptl-driver.odd:207
@@ -513,8 +459,7 @@ msgstr ""
 
 #. (itstool) path: p/att
 #. (itstool) path: head/att
-#: bptl-driver.odd:297 bptl-driver.odd:963 bptl-driver.odd:964
-#: bptl-driver.odd:985 bptl-driver.odd:1020
+#: bptl-driver.odd:297 bptl-driver.odd:963 bptl-driver.odd:964 bptl-driver.odd:985 bptl-driver.odd:1020
 msgid "style"
 msgstr ""
 
@@ -615,10 +560,7 @@ msgstr ""
 
 #. (itstool) path: p/gi
 #. (itstool) path: item/gi
-#: bptl-driver.odd:340 bptl-driver.odd:342 bptl-driver.odd:348
-#: bptl-driver.odd:785 bptl-driver.odd:788 bptl-driver.odd:795
-#: bptl-driver.odd:816 bptl-driver.odd:824 bptl-driver.odd:831
-#: bptl-driver.odd:833
+#: bptl-driver.odd:340 bptl-driver.odd:342 bptl-driver.odd:348 bptl-driver.odd:785 bptl-driver.odd:788 bptl-driver.odd:795 bptl-driver.odd:816 bptl-driver.odd:824 bptl-driver.odd:831 bptl-driver.odd:833
 msgid "pb"
 msgstr ""
 
@@ -629,8 +571,7 @@ msgstr ""
 
 #. (itstool) path: p/att
 #. (itstool) path: cell/att
-#: bptl-driver.odd:341 bptl-driver.odd:342 bptl-driver.odd:372
-#: bptl-driver.odd:394 bptl-driver.odd:416 bptl-driver.odd:439
+#: bptl-driver.odd:341 bptl-driver.odd:342 bptl-driver.odd:372 bptl-driver.odd:394 bptl-driver.odd:416 bptl-driver.odd:439
 msgid "force"
 msgstr ""
 
@@ -685,8 +626,7 @@ msgid "no"
 msgstr ""
 
 #. (itstool) path: cell/att
-#: bptl-driver.odd:375 bptl-driver.odd:397 bptl-driver.odd:420
-#: bptl-driver.odd:442
+#: bptl-driver.odd:375 bptl-driver.odd:397 bptl-driver.odd:420 bptl-driver.odd:442
 msgid "break"
 msgstr ""
 
@@ -871,8 +811,7 @@ msgid "Textual Divisions"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: bptl-driver.odd:498 bptl-driver.odd:867 bptl-driver.odd:1027
-#: bptl-driver.odd:1194
+#: bptl-driver.odd:498 bptl-driver.odd:867 bptl-driver.odd:1027 bptl-driver.odd:1194
 msgid "text"
 msgstr ""
 
@@ -939,8 +878,7 @@ msgstr ""
 #. (itstool) path: p/att
 #. (itstool) path: ref/att
 #. (itstool) path: head/att
-#: bptl-driver.odd:515 bptl-driver.odd:522 bptl-driver.odd:524
-#: bptl-driver.odd:881 bptl-driver.odd:883 bptl-driver.odd:885
+#: bptl-driver.odd:515 bptl-driver.odd:522 bptl-driver.odd:524 bptl-driver.odd:881 bptl-driver.odd:883 bptl-driver.odd:885
 msgid "type"
 msgstr ""
 
@@ -1391,8 +1329,7 @@ msgid "appendix"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: bptl-driver.odd:742 bptl-driver.odd:746 bptl-driver.odd:767
-#: bptl-driver.odd:777
+#: bptl-driver.odd:742 bptl-driver.odd:746 bptl-driver.odd:767 bptl-driver.odd:777
 msgid "Usually appears in back matter."
 msgstr ""
 
@@ -1494,14 +1431,12 @@ msgstr ""
 
 #. (itstool) path: ref/att
 #. (itstool) path: p/att
-#: bptl-driver.odd:811 bptl-driver.odd:815 bptl-driver.odd:822
-#: bptl-driver.odd:840 bptl-driver.odd:856
+#: bptl-driver.odd:811 bptl-driver.odd:815 bptl-driver.odd:822 bptl-driver.odd:840 bptl-driver.odd:856
 msgid "facs"
 msgstr ""
 
 #. (itstool) path: item/gi
-#: bptl-driver.odd:812 bptl-driver.odd:823 bptl-driver.odd:830
-#: bptl-driver.odd:833
+#: bptl-driver.odd:812 bptl-driver.odd:823 bptl-driver.odd:830 bptl-driver.odd:833
 msgid "surface"
 msgstr ""
 
@@ -1544,8 +1479,7 @@ msgstr ""
 #. (itstool) path: item/att
 #. (itstool) path: p/att
 #. (itstool) path: cell/att
-#: bptl-driver.odd:830 bptl-driver.odd:837 bptl-driver.odd:926
-#: bptl-driver.odd:1045
+#: bptl-driver.odd:830 bptl-driver.odd:837 bptl-driver.odd:926 bptl-driver.odd:1045
 msgid "xml:id"
 msgstr ""
 
@@ -1641,8 +1575,7 @@ msgstr ""
 
 #. (itstool) path: head/att
 #. (itstool) path: p/att
-#: bptl-driver.odd:908 bptl-driver.odd:909 bptl-driver.odd:949
-#: bptl-driver.odd:952
+#: bptl-driver.odd:908 bptl-driver.odd:909 bptl-driver.odd:949 bptl-driver.odd:952
 msgid "ref"
 msgstr ""
 
@@ -1775,9 +1708,7 @@ msgstr ""
 #. (itstool) path: head/att
 #. (itstool) path: p/att
 #. (itstool) path: p/gi
-#: bptl-driver.odd:963 bptl-driver.odd:965 bptl-driver.odd:992
-#: bptl-driver.odd:994 bptl-driver.odd:1005 bptl-driver.odd:1009
-#: bptl-driver.odd:1014 bptl-driver.odd:1020
+#: bptl-driver.odd:963 bptl-driver.odd:965 bptl-driver.odd:992 bptl-driver.odd:994 bptl-driver.odd:1005 bptl-driver.odd:1009 bptl-driver.odd:1014 bptl-driver.odd:1020
 msgid "rendition"
 msgstr ""
 
@@ -1876,8 +1807,7 @@ msgstr ""
 #. (itstool) path: head/att
 #. (itstool) path: p/att
 #. (itstool) path: cell/att
-#: bptl-driver.odd:1024 bptl-driver.odd:1032 bptl-driver.odd:1050
-#: bptl-driver.odd:1065
+#: bptl-driver.odd:1024 bptl-driver.odd:1032 bptl-driver.odd:1050 bptl-driver.odd:1065
 msgid "xml:lang"
 msgstr ""
 
@@ -1973,8 +1903,7 @@ msgid "The child elements of these top-level elements are described below."
 msgstr ""
 
 #. (itstool) path: div/head
-#: bptl-driver.odd:1074 bptl-driver.odd:1101 bptl-driver.odd:1112
-#: bptl-driver.odd:1123 bptl-driver.odd:1134
+#: bptl-driver.odd:1074 bptl-driver.odd:1101 bptl-driver.odd:1112 bptl-driver.odd:1123 bptl-driver.odd:1134
 msgid "ERROR"
 msgstr ""
 
@@ -2389,8 +2318,7 @@ msgid "TEI Text Encoding in Libraries: Guidelines for Best Practices"
 msgstr ""
 
 #. (itstool) path: p/title
-#: bptl-driver.odd:1334 bptl-driver.odd:1352 bptl-driver.odd:1358
-#: bptl-driver.odd:1362 bptl-driver.odd:1366 bptl-driver.odd:1401
+#: bptl-driver.odd:1334 bptl-driver.odd:1352 bptl-driver.odd:1358 bptl-driver.odd:1362 bptl-driver.odd:1366 bptl-driver.odd:1401
 msgid "TEI in Libraries Guidelines"
 msgstr ""
 
