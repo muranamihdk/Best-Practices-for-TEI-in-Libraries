@@ -1,0 +1,1053 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2019-04-15 05:07+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: titleStmt/title
+#: ./BestPractices/bptl-L1.odd:10
+msgid "TEI in Libraries level 1"
+msgstr ""
+
+#. (itstool) path: author/name
+#. (itstool) path: publicationStmt/authority
+#: ./BestPractices/bptl-L1.odd:12
+#: ./BestPractices/bptl-L1.odd:39
+msgid "TEI SIG on Libraries"
+msgstr ""
+
+#. (itstool) path: editor/name
+#. (itstool) path: editor/persName
+#: ./BestPractices/bptl-L1.odd:15
+#: ./BestPractices/bptl-L1.odd:569
+msgid "Kevin Hawkins"
+msgstr ""
+
+#. (itstool) path: editor/name
+#. (itstool) path: author/persName
+#: ./BestPractices/bptl-L1.odd:18
+#: ./BestPractices/bptl-L1.odd:471
+msgid "Michelle Dalmau"
+msgstr ""
+
+#. (itstool) path: editor/name
+#: ./BestPractices/bptl-L1.odd:21
+msgid "Elli Mylonas"
+msgstr ""
+
+#. (itstool) path: editor/name
+#. (itstool) id: bptl-L1.odd#sbauman.emt
+#: ./BestPractices/bptl-L1.odd:24
+#: ./BestPractices/bptl-L1.odd:27
+msgid "Syd Bauman"
+msgstr ""
+
+#. (itstool) path: p/date
+#: ./BestPractices/bptl-L1.odd:36
+msgid "Sat, 08 Sep 18"
+msgstr ""
+
+#. (itstool) path: editionStmt/p
+#: ./BestPractices/bptl-L1.odd:36
+msgid "Version 4.0.0 (<_:date-1/>)"
+msgstr ""
+
+#. (itstool) path: availability/ab
+#: ./BestPractices/bptl-L1.odd:41
+msgid "Copyleft 2009 DLF"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: ./BestPractices/bptl-L1.odd:43
+msgid "GNU Free Documentation License, Version 1.2"
+msgstr ""
+
+#. (itstool) path: p/name
+#: ./BestPractices/bptl-L1.odd:48
+msgid "COPYING.txt"
+msgstr ""
+
+#. (itstool) path: availability/p
+#: ./BestPractices/bptl-L1.odd:42
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the <_:ref-1/> or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the document entitled <_:name-2/>."
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: ./BestPractices/bptl-L1.odd:55
+msgid "TEI in Libraries: Guidelines for Best Practices"
+msgstr ""
+
+#. (itstool) path: bibl/author
+#: ./BestPractices/bptl-L1.odd:56
+msgid "TEI in Libraries SIG"
+msgstr ""
+
+#. (itstool) path: bibl/author
+#: ./BestPractices/bptl-L1.odd:57
+msgid "Digital Libraries Federation TEI task force"
+msgstr ""
+
+#. (itstool) path: sourceDesc/p
+#: ./BestPractices/bptl-L1.odd:52
+msgid "No source in the transcriptional sense, but this document is a re-implementation of <_:bibl-1/> written in MediaWiki syntax and converted into the TEI ODD language. This verssion started <_:date-2/>."
+msgstr ""
+
+#. (itstool) path: change/gi
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-L1.odd:67
+#: ./BestPractices/bptl-L1.odd:176
+#: ./BestPractices/bptl-L1.odd:179
+msgid "sourceDoc"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: ./BestPractices/bptl-L1.odd:66
+msgid "Beginning to address ticket #27: use <_:gi-1/> for encoding of OCR text. Also update base version of TEI from 3.1.0 to 3.3.0."
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-L1.odd:75
+#: ./BestPractices/bptl-L1.odd:524
+#: ./BestPractices/bptl-L1.odd:535
+msgid "div"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L1.odd:75
+msgid "wrap main content in a <_:gi-1/> so driver document can include the contents of this document as a division of its own"
+msgstr ""
+
+#. (itstool) path: item/att
+#: ./BestPractices/bptl-L1.odd:78
+msgid "include"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: ./BestPractices/bptl-L1.odd:78
+msgid "moduleRef"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L1.odd:78
+msgid "use <_:att-1/> on <_:gi-2/> where we only want certain elements"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: ./BestPractices/bptl-L1.odd:80
+msgid "specGrp"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: ./BestPractices/bptl-L1.odd:81
+msgid "TEI"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L1.odd:80
+msgid "link to only the <_:gi-1/> of interest in the header ODD (which is now a complete <_:gi-2/> document)"
+msgstr ""
+
+#. (itstool) path: item/code
+#: ./BestPractices/bptl-L1.odd:83
+msgid "tei"
+msgstr ""
+
+#. (itstool) path: item/att
+#: ./BestPractices/bptl-L1.odd:84
+msgid "context"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L1.odd:83
+msgid "Add <_:code-1/> prefix to element selectors in Schematron <_:att-2/>s"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: ./BestPractices/bptl-L1.odd:71
+msgid "Updated to match current wiki document and (partially) take advantage of new ODD features: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: ./BestPractices/bptl-L1.odd:87
+msgid "Begun, based on lib1.odd"
+msgstr ""
+
+#. (itstool) path: front/head
+#. (itstool) path: p/ref
+#: ./BestPractices/bptl-L1.odd:94
+#: ./BestPractices/bptl-L1.odd:99
+msgid "Best Practices for TEI in Libraries"
+msgstr ""
+
+#. (itstool) path: front/head
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L1.odd:95
+#: ./BestPractices/bptl-L1.odd:116
+msgid "Level 1: Fully Automated Conversion and Encoding"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L1.odd:97
+msgid "Setting"
+msgstr ""
+
+#. (itstool) path: p/name
+#: ./BestPractices/bptl-L1.odd:98
+msgid "level 1"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-L1.odd:98
+msgid "This is the <_:name-1/> portion of the <_:ref-2/>. This document is not intended to stand alone, but rather to be considered in concert with the entire TEI in Libraries recommendations."
+msgstr ""
+
+#. (itstool) path: divGen/head
+#: ./BestPractices/bptl-L1.odd:105
+msgid "Table of Contents"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L1.odd:118
+msgid "Reference"
+msgstr ""
+
+#. (itstool) path: item/ref
+#: ./BestPractices/bptl-L1.odd:121
+msgid "Chapter 11, Representation of Primary Sources"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L1.odd:126
+msgid "Purpose"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-L1.odd:127
+msgid "To create electronic text with the primary purpose of keyword searching and linking to page images. The primary advantage in using the TEI at this very strictly limited level of encoding is that a TEI header is attached to the text file."
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L1.odd:134
+msgid "Rationale"
+msgstr ""
+
+#. (itstool) path: p/title
+#: ./BestPractices/bptl-L1.odd:143
+msgid "Best Practices"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-L1.odd:135
+msgid "The text is subordinate to the page image, and is not intended to stand alone as an electronic text without accompanying page images. Level 1 texts are not intended to be adequate for textual analysis; they are more likely to be suited to the goals of a preservation unit or mass digitization initiative. These texts are meant to be a faithful representation of the appearance of the source document derived from OCR, providing the basis for subsequent encoding at Level 2 or higher of these <_:title-1/>."
+msgstr ""
+
+#. (itstool) path: list/head
+#: ./BestPractices/bptl-L1.odd:145
+msgid "Level 1 is most suitable for projects with the following characteristics:"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L1.odd:147
+msgid "A large volume of material is to be made available online quickly."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L1.odd:149
+msgid "A digital image of each page can be displayed to the user."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L1.odd:150
+msgid "No manual intervention will be performed in the text creation process."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L1.odd:152
+msgid "The material is of interest to a large community of users who wish to explore texts using keyword searching."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L1.odd:155
+msgid "Sophisticated search and display capabilities based on the structure of the text are not necessary."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L1.odd:157
+msgid "Extensibility is desired; that is, one desires to keep open the option for a higher level of encoding to be added at a later date."
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L1.odd:163
+msgid "Workflow"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-L1.odd:164
+msgid "Texts at Level 1 can be created and encoded by fully automated means. Page images are scanned and processed using OCR, but the text is generally left uncorrected (“dirty OCR”) and the XML is generated from the OCR output. If desired, such automated output can be enhanced by tagging individual page elements to indicate key textual features, such as a title page, front matter, or the start of a new chapter."
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L1.odd:173
+msgid "Element Recommendations for Level 1"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-L1.odd:178
+msgid "teiHeader"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-L1.odd:177
+msgid "[recommended] There should be only one element following the <_:gi-1/>, a single <_:gi-2/> containing a raw transcription of the text of the source document."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-L1.odd:183
+#: ./BestPractices/bptl-L1.odd:186
+#: ./BestPractices/bptl-L1.odd:194
+msgid "surface"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-L1.odd:184
+msgid "[recommended] Defines a written surface as a two-dimensional coordinate space. There should be one <_:gi-1/> for each encoded page, whether it is represented via a facsimile image file, a transcription, or, most likely, a textual representation obtained from OCR."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-L1.odd:192
+#: ./BestPractices/bptl-L1.odd:196
+#: ./BestPractices/bptl-L1.odd:197
+msgid "zone"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-L1.odd:194
+#: ./BestPractices/bptl-L1.odd:197
+#: ./BestPractices/bptl-L1.odd:200
+msgid "line"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-L1.odd:193
+msgid "[optional] A two-dimensional region. May be used to divide a <_:gi-1/> or <_:gi-2/> into two dimensional regions, e.g. a column, a dropped initial capital, or a word of interest. A <_:gi-3/> may itself be divided into <_:gi-4/>s or <_:gi-5/>s."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-L1.odd:201
+msgid "[recommended] Contains text appearing in a single physical line on the page."
+msgstr ""
+
+#. (itstool) path: p/ref
+#: ./BestPractices/bptl-L1.odd:206
+msgid "section 3.8, Linking Between Encoded Texts and Images of Source Documents"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-L1.odd:205
+msgid "See <_:ref-1/>."
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L1.odd:210
+msgid "Level 1 Examples"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L1.odd:212
+msgid "Level 1 Alger Hiss document"
+msgstr ""
+
+#. (itstool) path: TEI/teiHeader
+#: ./BestPractices/bptl-L1.odd:215
+#: ./BestPractices/bptl-L1.odd:316
+msgid "&lt;!-- header goes here --&gt;"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:221
+msgid "POINT VIII."
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:222
+msgid "BECAUSE OF UNLAWFUL SURVEILLANCE, PETITIONER'S"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:223
+msgid "CONVICTION SHOULD BE VACATED; ALTERNATIVELY,"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:224
+msgid "DISCOVERY AND A HEARING SHOULD BE ORDERED."
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:225
+msgid "The nature and extent of surveillance of Hiss, his"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:226
+msgid "family and associates was not known at the time of trial by"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:227
+msgid "the defense. Even now, with the release of some of the govern‐"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:228
+msgid "ment documents concerning FBI investigative techniques regarding"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:229
+msgid "Hiss, the full extent of surveillance -- wiretapping, mail open‐"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:230
+msgid "ings, mail covers, physical surveillance, and other intrusive"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:231
+msgid "techniques -- is still not 'clear. Nevertheless, it is apparent"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:232
+msgid "that information gathered through the exploitation of unlawful"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:233
+msgid "wiretaps and other illegal surveillance was used at trial and"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:234
+msgid "consequently the conviction must be reversed. Alternatively,"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:235
+msgid "further discovery and a hearing is essential to a fair deter‐"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:236
+msgid "mination regarding these issues."
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:237
+msgid "FBI surveillance of Hiss began in earnest in 1941 with"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:238
+msgid "the institution of a mail cover on his incoming correspondence"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:239
+msgid "at his home in connection with an FBI investigation of possible"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:240
+msgid "Hatch Act violations. CN Ex. 98A. Another mail cover was placed"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:243
+msgid "-113 -"
+msgstr ""
+
+#. (itstool) path: sourceDoc/surface
+#: ./BestPractices/bptl-L1.odd:219
+msgid "&lt;!-- uncorrected OCR for first page image begins here --&gt; <_:line-1/> <_:line-2/> <_:line-3/> <_:line-4/> <_:line-5/> <_:line-6/> <_:line-7/> <_:line-8/> <_:line-9/> <_:line-10/> <_:line-11/> <_:line-12/> <_:line-13/> <_:line-14/> <_:line-15/> <_:line-16/> <_:line-17/> <_:line-18/> <_:line-19/> <_:line-20/> <_:line-21/> <_:line-22/> <_:line-23/> <_:line-24/> <_:line-25/> &lt;!-- uncorrected OCR for first page image ends here --&gt;"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:250
+msgid "on the Hiss mail in 1945, and at the same time the FBI obtained"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:251
+msgid "toll call records from the Hiss residence Telephone for the"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:252
+msgid "years 1943 and 1944 as well. CN Ex. 99. In September, 1945,"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:253
+msgid "the FBI intercepted telegrams to Hiss as well. CN Ex. 100."
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:254
+msgid "In late November, 1945, FBI surveillance of the Hiss"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:255
+msgid "residence in Washington, D.C., escalated. For the third time,"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:256
+msgid "a mail cover was instituted beginning on November 28, 1945,"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:257
+msgid "which was continued at least until 1946. CN Ex. 101 at p. 70;"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:258
+msgid "CN Ex. 102. Continuous physical surveillance of Hiss was begun"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:259
+msgid "as well. CN Ex. 101 at p. 72. Although this twenty-four-hour"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:260
+msgid "surveillance was discontinued on December 14, 1945, physical"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:261
+msgid "surveillance was conducted frequently at various times until"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:262
+msgid "September, 1947. CN Ex. 102; CN Ex. 103."
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:263
+msgid "The most intrusive invasion of petitioner's rights"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:264
+msgid "68/ Also before 1947, a letter from Priscilla Hiss addressed"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:265
+msgid "to her son, Timothy Hobson, was intercepted and its contents"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:266
+msgid "read. CN Ex. 100A at p. 167. In approximately March, 1947,"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:267
+msgid "a letter from a Michael Greenberg addressed to petitioner re‐"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:268
+msgid "garding an application for employment with the United Nations"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:269
+msgid "was also intercepted, in a manner not revealed by the docu‐"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:270
+msgid "ments. CN Ex. 100B"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:273
+msgid "-114 -"
+msgstr ""
+
+#. (itstool) path: sourceDoc/surface
+#: ./BestPractices/bptl-L1.odd:248
+msgid "&lt;!-- uncorrected OCR for second page image begins here --&gt; <_:line-1/> <_:line-2/> <_:line-3/> <_:line-4/> <_:line-5/> <_:line-6/> <_:line-7/> <_:line-8/> <_:line-9/> <_:line-10/> <_:line-11/> <_:line-12/> <_:line-13/> <_:line-14/> <_:line-15/> <_:line-16/> <_:line-17/> <_:line-18/> <_:line-19/> <_:line-20/> <_:line-21/> <_:line-22/> <_:line-23/> <_:line-24/> <_:line-25/> <_:line-26/> <_:line-27/> &lt;!-- uncorrected OCR for second page image ends here --&gt;"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:281
+msgid "occurred from December 13, 1945 until the Hisses moved from"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:282
+msgid "Washington, D.C. to New York City on September 13, 1947. A"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:283
+msgid "\"technical surveillance,\" -- a wiretap -- was placed on the Hiss"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:284
+msgid "telephone at their residence on P Street-in Washington, D.C."
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:285
+msgid "The logs of this surveillance constitute twenty-nine volumes"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:286
+msgid "of FBI serials and are roughly 2,500 pages in length, in which"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:287
+msgid "an enormous amount of information concerning the Hisses' per‐"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:288
+msgid "sonal lives, relationships with friends and associates, and"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:289
+msgid "habits is recorded."
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:290
+msgid "The wiretap was installed following FBI Director Hoover's"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:291
+msgid "application to the Attorney General for authorization, although"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:292
+msgid "no written authorization appears in the documents released to"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:293
+msgid "Hiss. The purpose of the application was to gather information"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:294
+msgid "regarding Hiss' alleged contacts with Soviet espionage agents and"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:295
+msgid "communists in government service, general allegations which had"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:296
+msgid "been made by Elizabeth Bentley and Chambers."
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:297
+msgid "As one would expect, the interception of every telephone"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:298
+msgid "h9/ Hoover's initial request was answered by a note reques‐"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:299
+msgid "ting information on Hiss. CN Ex. 104. Additional information"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:300
+msgid "was furnished by letter dated November 30, 1945. CN Ex. 105."
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:303
+msgid "-115 -"
+msgstr ""
+
+#. (itstool) path: sourceDoc/surface
+#: ./BestPractices/bptl-L1.odd:279
+msgid "&lt;!-- uncorrected OCR for third page image begins here --&gt; <_:line-1/> <_:line-2/> <_:line-3/> <_:line-4/> <_:line-5/> <_:line-6/> <_:line-7/> <_:line-8/> <_:line-9/> <_:line-10/> <_:line-11/> <_:line-12/> <_:line-13/> <_:line-14/> <_:line-15/> <_:line-16/> <_:line-17/> <_:line-18/> <_:line-19/> <_:line-20/> <_:line-21/> <_:line-22/> <_:line-23/> <_:line-24/> <_:line-25/> &lt;!-- uncorrected OCR for third page image ends here --&gt;"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L1.odd:313
+msgid "Level 1 Text with OCR Coordinates"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:325
+msgid "POINT"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:326
+msgid "VIII"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:327
+msgid "."
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:332
+msgid "BECAUSE"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:333
+msgid "OF"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:334
+msgid "UNLAWFUL"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:335
+msgid "SURVEILLANCE,"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:336
+msgid "PETITIONER'S"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:341
+msgid "CONVICTION"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:342
+#: ./BestPractices/bptl-L1.odd:354
+msgid "SHOULD"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:343
+#: ./BestPractices/bptl-L1.odd:355
+msgid "BE"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:344
+msgid "VACATED?"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:345
+msgid "ALTERNATIVELY,"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:350
+msgid "DISCOVERY"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:351
+msgid "AND"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:352
+msgid "A"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:353
+msgid "HEARING"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:356
+msgid "ORDERED."
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:361
+msgid "The"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:362
+msgid "nature"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:363
+#: ./BestPractices/bptl-L1.odd:373
+msgid "and"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:364
+msgid "extent"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:365
+#: ./BestPractices/bptl-L1.odd:367
+#: ./BestPractices/bptl-L1.odd:381
+msgid "of"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:366
+msgid "surveillance"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:368
+msgid "Hiss,"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:369
+msgid "his"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:372
+msgid "family"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:374
+msgid "associates"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:375
+msgid "was"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:376
+msgid "not"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:377
+msgid "known"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:378
+msgid "at"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:379
+msgid "the"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:380
+msgid "time"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:382
+msgid "trial"
+msgstr ""
+
+#. (itstool) path: line/zone
+#: ./BestPractices/bptl-L1.odd:383
+msgid "by"
+msgstr ""
+
+#. (itstool) path: zone/zone
+#: ./BestPractices/bptl-L1.odd:359
+msgid "<_:line-1/> <_:line-2/> &lt;!-- encoded text continues --&gt;"
+msgstr ""
+
+#. (itstool) path: sourceDoc/surface
+#: ./BestPractices/bptl-L1.odd:320
+msgid "&lt;!-- uncorrected OCR for first page image begins here --&gt; <_:zone-1/>"
+msgstr ""
+
+#. (itstool) path: TEI/sourceDoc
+#: ./BestPractices/bptl-L1.odd:319
+msgid "<_:surface-1/> &lt;!-- encoded text continues --&gt;"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L1.odd:397
+msgid "Specification"
+msgstr ""
+
+#. (itstool) path: desc/gi
+#: ./BestPractices/bptl-L1.odd:413
+msgid "teiCorpus"
+msgstr ""
+
+#. (itstool) path: elementSpec/desc
+#: ./BestPractices/bptl-L1.odd:411
+msgid "contains a single TEI-in-Libraries level 1 document, comprising a TEI header and a text, either in isolation or as part of a <_:gi-1/> element."
+msgstr ""
+
+#. (itstool) path: p/tag
+#: ./BestPractices/bptl-L1.odd:426
+#: ./BestPractices/bptl-L1.odd:454
+msgid "TEI xmlns=\"http://www.tei-c.org/ns/1.0\""
+msgstr ""
+
+#. (itstool) path: exemplum/p
+#: ./BestPractices/bptl-L1.odd:423
+msgid "For technical reasons, the TEI namespace is not displayed in examples. However, a TEI namespace declaration is required. It is typically given once on the TEI root element, e.g. <_:tag-1/>."
+msgstr ""
+
+#. (itstool) path: titleStmt/title
+#: ./BestPractices/bptl-L1.odd:433
+msgid "A Short Level 1 Document"
+msgstr ""
+
+#. (itstool) path: publicationStmt/p
+#: ./BestPractices/bptl-L1.odd:436
+msgid "Only published as an example."
+msgstr ""
+
+#. (itstool) path: sourceDesc/p
+#: ./BestPractices/bptl-L1.odd:439
+msgid "Since this is an example, it doesn't really have a source"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L1.odd:445
+msgid "This is almost the shortest TEI document imaginable."
+msgstr ""
+
+#. (itstool) path: remarks/p
+#: ./BestPractices/bptl-L1.odd:452
+msgid "This element is required. The TEI namespace should be specified on this element, e.g. <_:tag-1/>."
+msgstr ""
+
+#. (itstool) path: desc/gi
+#: ./BestPractices/bptl-L1.odd:460
+#: ./BestPractices/bptl-L1.odd:561
+msgid "name"
+msgstr ""
+
+#. (itstool) path: desc/gi
+#: ./BestPractices/bptl-L1.odd:460
+#: ./BestPractices/bptl-L1.odd:561
+msgid "persName"
+msgstr ""
+
+#. (itstool) path: desc/gi
+#: ./BestPractices/bptl-L1.odd:461
+#: ./BestPractices/bptl-L1.odd:561
+msgid "orgName"
+msgstr ""
+
+#. (itstool) path: elementSpec/desc
+#: ./BestPractices/bptl-L1.odd:459
+msgid "in a bibliographic reference, contains the name (typically encoded as <_:gi-1/>, <_:gi-2/>, or <_:gi-3/>) of the author, personal or corporate, of a work; for example in the same form as that provided by a recognized bibliographic name authority."
+msgstr ""
+
+#. (itstool) path: author/orgName
+#: ./BestPractices/bptl-L1.odd:466
+msgid "British Broadcasting Corporation"
+msgstr ""
+
+#. (itstool) path: author/name
+#: ./BestPractices/bptl-L1.odd:476
+msgid "Matthew Gibson"
+msgstr ""
+
+#. (itstool) path: egXML/author
+#: ./BestPractices/bptl-L1.odd:481
+msgid "anonymous"
+msgstr ""
+
+#. (itstool) path: egXML/author
+#: ./BestPractices/bptl-L1.odd:486
+msgid "unknown"
+msgstr ""
+
+#. (itstool) path: elementSpec/desc
+#: ./BestPractices/bptl-L1.odd:491
+msgid "contains the entirety of a single unitary text, including any front or back matter."
+msgstr ""
+
+#. (itstool) path: div/ab
+#: ./BestPractices/bptl-L1.odd:506
+msgid "Nu scylun hergan hefaenricaes uard metudæs maecti end his modgidanc uerc uuldurfadur sue he uundra gihuaes eci dryctin or astelidæ he aerist scop aelda barnum heben til hrofe haleg scepen. tha middungeard moncynnæs uard eci dryctin æfter tiadæ firum foldu frea allmectig primo cantauit Cædmon istud carmen."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-L1.odd:523
+msgid "body"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-L1.odd:524
+#: ./BestPractices/bptl-L1.odd:555
+msgid "div1"
+msgstr ""
+
+#. (itstool) path: remarks/p
+#: ./BestPractices/bptl-L1.odd:523
+msgid "At level 1, the content of <_:gi-1/> must be a single <_:gi-2/> or <_:gi-3/> element."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-L1.odd:536
+#: ./BestPractices/bptl-L1.odd:556
+msgid "ab"
+msgstr ""
+
+#. (itstool) path: remarks/p
+#: ./BestPractices/bptl-L1.odd:535
+#: ./BestPractices/bptl-L1.odd:555
+msgid "At level 1, the content of <_:gi-1/> must be a single <_:gi-2/> element."
+msgstr ""
+
+#. (itstool) path: attDef/defaultVal
+#: ./BestPractices/bptl-L1.odd:551
+msgid "section"
+msgstr ""
+
+#. (itstool) path: elementSpec/desc
+#: ./BestPractices/bptl-L1.odd:560
+msgid "contains the name (typically encoded as <_:gi-1/>, <_:gi-2/>, or <_:gi-3/>) of an individual, institution, or organization acting as editor."
+msgstr ""
+

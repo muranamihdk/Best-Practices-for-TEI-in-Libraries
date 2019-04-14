@@ -1,0 +1,3454 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2019-04-15 05:07+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: titleStmt/title
+#: ./BestPractices/bptl-header.odd:12
+msgid "TEI in Libraries Headers"
+msgstr ""
+
+#. (itstool) path: author/name
+#. (itstool) path: publicationStmt/authority
+#: ./BestPractices/bptl-header.odd:14
+#: ./BestPractices/bptl-header.odd:41
+msgid "TEI SIG on Libraries"
+msgstr ""
+
+#. (itstool) path: editor/name
+#: ./BestPractices/bptl-header.odd:17
+msgid "Kevin Hawkins"
+msgstr ""
+
+#. (itstool) path: editor/name
+#: ./BestPractices/bptl-header.odd:20
+msgid "Michelle Dalmau"
+msgstr ""
+
+#. (itstool) path: editor/name
+#: ./BestPractices/bptl-header.odd:23
+msgid "Elli Mylonas"
+msgstr ""
+
+#. (itstool) path: editor/name
+#. (itstool) id: bptl-header.odd#sbauman.emt
+#: ./BestPractices/bptl-header.odd:26
+#: ./BestPractices/bptl-header.odd:29
+msgid "Syd Bauman"
+msgstr ""
+
+#. (itstool) path: p/date
+#: ./BestPractices/bptl-header.odd:38
+msgid "Sat, 08 Sep 18"
+msgstr ""
+
+#. (itstool) path: editionStmt/p
+#: ./BestPractices/bptl-header.odd:38
+msgid "Version 4.0.0 (<_:date-1/>)"
+msgstr ""
+
+#. (itstool) path: availability/ab
+#: ./BestPractices/bptl-header.odd:43
+msgid "Copyleft 2009 DLF"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: ./BestPractices/bptl-header.odd:45
+msgid "GNU Free Documentation License, Version 1.2"
+msgstr ""
+
+#. (itstool) path: p/name
+#: ./BestPractices/bptl-header.odd:50
+msgid "COPYING.txt"
+msgstr ""
+
+#. (itstool) path: availability/p
+#: ./BestPractices/bptl-header.odd:44
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the <_:ref-1/> or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the document entitled <_:name-2/>."
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: ./BestPractices/bptl-header.odd:57
+msgid "TEI in Libraries: Guidelines for Best Practices"
+msgstr ""
+
+#. (itstool) path: bibl/author
+#: ./BestPractices/bptl-header.odd:58
+msgid "TEI in Libraries SIG"
+msgstr ""
+
+#. (itstool) path: bibl/author
+#: ./BestPractices/bptl-header.odd:59
+msgid "Digital Libraries Federation TEI task force"
+msgstr ""
+
+#. (itstool) path: sourceDesc/p
+#: ./BestPractices/bptl-header.odd:54
+msgid "No source in the transcriptional sense, but this document is a re-implementation of <_:bibl-1/> written in MediaWiki syntax and converted into the TEI ODD language."
+msgstr ""
+
+#. (itstool) path: change/gi
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:68
+#: ./BestPractices/bptl-header.odd:1323
+msgid "relatedItem"
+msgstr ""
+
+#. (itstool) path: change/gi
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:69
+#: ./BestPractices/bptl-header.odd:716
+msgid "notesStmt"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: ./BestPractices/bptl-header.odd:67
+msgid "Per Elli &amp; Kevin on today's conference call, remove <_:gi-1/> from content model of <_:gi-2/>."
+msgstr ""
+
+#. (itstool) path: change/gi
+#. (itstool) path: cell/val
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:72
+#: ./BestPractices/bptl-header.odd:1593
+#: ./BestPractices/bptl-header.odd:1595
+msgid "sourceDoc"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: ./BestPractices/bptl-header.odd:71
+msgid "Beginning to address ticket #27: use <_:gi-1/> for encoding of OCR text. Also update base version of TEI from 3.1.0 to 3.3.0."
+msgstr ""
+
+#. (itstool) path: change/gi
+#: ./BestPractices/bptl-header.odd:77
+msgid "specGrp"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: ./BestPractices/bptl-header.odd:76
+msgid "Subsumed the <_:gi-1/> into a complete TEI document so that it can have its own metadata. I hope that the roma ODD processing software can correctly find it."
+msgstr ""
+
+#. (itstool) path: front/head
+#. (itstool) path: p/ref
+#. (itstool) path: p/title
+#. (itstool) path: valItem/gloss
+#: ./BestPractices/bptl-header.odd:85
+#: ./BestPractices/bptl-header.odd:88
+#: ./BestPractices/bptl-header.odd:1907
+#: ./BestPractices/bptl-header.odd:2186
+msgid "Best Practices for TEI in Libraries"
+msgstr ""
+
+#. (itstool) path: front/head
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-header.odd:86
+#: ./BestPractices/bptl-header.odd:97
+msgid "The TEI Header"
+msgstr ""
+
+#. (itstool) path: p/name
+#: ./BestPractices/bptl-header.odd:88
+msgid "TEI Header"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-header.odd:88
+msgid "This is the <_:name-1/> portion of the <_:ref-2/>. This document is not intended to stand alone, but rather to be considered in concert with the entire TEI in Libraries recommendations."
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-header.odd:99
+msgid "Reference"
+msgstr ""
+
+#. (itstool) path: item/ref
+#: ./BestPractices/bptl-header.odd:102
+msgid "Chapter 2, TEI Header, P5 Guidelines"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-header.odd:112
+msgid "Introduction"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: ./BestPractices/bptl-header.odd:119
+msgid "TEI Lite"
+msgstr ""
+
+#. (itstool) path: p/quote
+#: ./BestPractices/bptl-header.odd:120
+msgid "the electronic title page"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-header.odd:113
+msgid "The TEI header is a metadata record for an encoded text. It includes bibliographic information related to the electronic document and, if appropriate, the bibliographic data for the original analog source document from which the electronic edition was created. The TEI header often includes a description of the encoding decisions or practices used to create the electronic document. While <_:ref-1/> calls the header <_:quote-2/>, it actually more closely resembles a catalog record with additional data not routinely stored in MARC records."
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-header.odd:123
+msgid "As with any descriptive metadata, the metadata in the TEI header can serve multiple audiences. In the local context, a TEI header provides metadata about the TEI document, its source, and its provenance. The TEI header may be used to enable metadata exchange, to automatically create indexes (author lists, title lists) for a collection of TEI documents, and to aid in browsing heterogeneous TEI documents. TEI headers may also be used as a basis for other metadata records (such as MARC or Dublin Core), though generation of other formats may require human intervention because they often are more granular, or have different granularity, than TEI headers."
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-header.odd:137
+msgid "The TEI Header and MARC"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-header.odd:138
+msgid "While a TEI header is often perceived as similar to or at least related to a MARC bibliographic record, a TEI header does not typically have a one-to-one correspondence with a MARC record. For example, one MARC bibliographic record may be used to describe a collection of TEI documents with individual headers. Furthermore, while a MARC bibliographic record captures metadata about a bibliographic entity in a library’s collection, a TEI header records information both about an encoded text and about the source document for that encoded text."
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-header.odd:148
+msgid "Each institution and even each project may have a different approach to the way electronic texts are created in TEI and then represented in a larger public catalog through MARC bibliographic records. At one institution, the same unit (e.g., a cataloging department) may be responsible for creating both TEI headers and MARC bibliographic records, while at other institutions the work may be distributed among different units. Within the library domain, metadata or cataloging experts are usually required for at least review and standardization of both the TEI header and the MARC bibliographic record."
+msgstr ""
+
+#. (itstool) path: p/title
+#: ./BestPractices/bptl-header.odd:161
+#: ./BestPractices/bptl-header.odd:204
+#: ./BestPractices/bptl-header.odd:207
+#: ./BestPractices/bptl-header.odd:264
+#: ./BestPractices/bptl-header.odd:1392
+msgid "Best Practices"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-header.odd:159
+msgid "In order to allow automatic generation of TEI headers from MARC bibliographic records and MARC bibliographic records from TEI headers, according to these <_:title-1/>, some elements should contain content not typical for TEI practice but necessary due to a lack of granularity in the MARC format."
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-header.odd:166
+msgid "The TEI Header and METS"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: ./BestPractices/bptl-header.odd:168
+msgid "Metadata Encoding and Transmission Standard"
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:171
+#: ./BestPractices/bptl-header.odd:309
+#: ./BestPractices/bptl-header.odd:328
+msgid "teiHeader"
+msgstr ""
+
+#. (itstool) path: p/att
+#: ./BestPractices/bptl-header.odd:173
+msgid "MDTYPE"
+msgstr ""
+
+#. (itstool) path: p/val
+#: ./BestPractices/bptl-header.odd:173
+msgid "TEIHDR"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: ./BestPractices/bptl-header.odd:176
+msgid "sample METS record"
+msgstr ""
+
+#. (itstool) path: p/title
+#: ./BestPractices/bptl-header.odd:177
+msgid "The “Sure to Rise” Cookery Book"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-header.odd:167
+msgid "The <_:ref-1/> (METS) includes direct support for TEI Headers; that is, a complete <_:gi-2/> element can be included in a METS metadata record alongside MARC, MODS, and DC metadata. METS specifies an <_:att-3/> of <_:val-4/> to indicate a TEI Header. For an example of how this might be done, see this <_:ref-5/> for <_:title-6/>. We are unaware of any METS implementations which provide significant support for TEI headers out-of-the-box."
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-header.odd:183
+msgid "The TEI Header and FRBR"
+msgstr ""
+
+#. (itstool) path: choice/expan
+#: ./BestPractices/bptl-header.odd:184
+msgid "Functional Requirements for Bibliographic Records"
+msgstr ""
+
+#. (itstool) path: choice/abbr
+#. (itstool) path: p/title
+#: ./BestPractices/bptl-header.odd:185
+#: ./BestPractices/bptl-header.odd:199
+msgid "FRBR"
+msgstr ""
+
+#. (itstool) path: choice/expan
+#: ./BestPractices/bptl-header.odd:187
+msgid "the International Federation of Library Associations"
+msgstr ""
+
+#. (itstool) path: choice/abbr
+#: ./BestPractices/bptl-header.odd:188
+msgid "IFLA"
+msgstr ""
+
+#. (itstool) path: cit/quote
+#: ./BestPractices/bptl-header.odd:189
+msgid "for relating the data that are stored in bibliographic records to the needs of the users of those records"
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: ./BestPractices/bptl-header.odd:190
+msgid "Functional Requirements for Bibliographic Records: Final Report"
+msgstr ""
+
+#. (itstool) path: bibl/date
+#: ./BestPractices/bptl-header.odd:191
+msgid "February 2009"
+msgstr ""
+
+#. (itstool) path: bibl/citedRange
+#: ./BestPractices/bptl-header.odd:192
+msgid "p. 7"
+msgstr ""
+
+#. (itstool) path: cit/bibl
+#: ./BestPractices/bptl-header.odd:190
+msgid "(<_:title-1/>, <_:date-2/>, <_:citedRange-3/>, <_:ptr-4/>)"
+msgstr ""
+
+#. (itstool) path: p/term
+#: ./BestPractices/bptl-header.odd:193
+#: ./BestPractices/bptl-header.odd:204
+msgid "work"
+msgstr ""
+
+#. (itstool) path: p/term
+#: ./BestPractices/bptl-header.odd:194
+#: ./BestPractices/bptl-header.odd:205
+msgid "expression"
+msgstr ""
+
+#. (itstool) path: p/term
+#: ./BestPractices/bptl-header.odd:194
+#: ./BestPractices/bptl-header.odd:205
+msgid "manifestation"
+msgstr ""
+
+#. (itstool) path: p/term
+#: ./BestPractices/bptl-header.odd:194
+#: ./BestPractices/bptl-header.odd:205
+msgid "item"
+msgstr ""
+
+#. (itstool) path: p/term
+#: ./BestPractices/bptl-header.odd:196
+msgid "realized through"
+msgstr ""
+
+#. (itstool) path: p/term
+#: ./BestPractices/bptl-header.odd:197
+msgid "embodied in"
+msgstr ""
+
+#. (itstool) path: p/term
+#: ./BestPractices/bptl-header.odd:198
+msgid "exemplified by"
+msgstr ""
+
+#. (itstool) path: p/title
+#: ./BestPractices/bptl-header.odd:201
+msgid "FRBRoo"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-header.odd:184
+msgid "<_:title-1/><_:note-2/> is a conceptual model developed by <_:choice-3/><_:note-4/> <_:cit-5/>. It is best known for its model of four primary bibliographic entities: <_:term-6/>, <_:term-7/>, <_:term-8/>, and <_:term-9/>. The FRBR model also includes primary relationships between certain of these entities: a work may be <_:term-10/> one or more expressions, an expression may be <_:term-11/> one or more manifestations, and a manifestation may be <_:term-12/> one or more items. Since the publication of <_:title-13/> in 2008, the library metadata community has collaborated to develop more precise entity-relationship models relating to bibliographic metadata—notably <_:title-14/><_:note-15/> and BIBFRAME<_:note-16/>, each with different configurations of bibliographic entities than the four primary entities in FRBR."
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-header.odd:204
+msgid "It is important to note that these <_:title-1/>, like P5 as a whole, does not distinguish betwen <_:term-2/>, <_:term-3/>, <_:term-4/>, and <_:term-5/> according to their definitions in FRBR."
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:212
+#: ./BestPractices/bptl-header.odd:1354
+#: ./BestPractices/bptl-header.odd:1356
+msgid "listRelation"
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: cell/gi
+#. (itstool) path: item/gi
+#: ./BestPractices/bptl-header.odd:212
+#: ./BestPractices/bptl-header.odd:338
+#: ./BestPractices/bptl-header.odd:728
+#: ./BestPractices/bptl-header.odd:730
+#: ./BestPractices/bptl-header.odd:970
+#: ./BestPractices/bptl-header.odd:1328
+#: ./BestPractices/bptl-header.odd:1512
+#: ./BestPractices/bptl-header.odd:1901
+#: ./BestPractices/bptl-header.odd:1903
+msgid "sourceDesc"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-header.odd:206
+msgid "Due to sustained interest in the original FRBR model from within the TEI community, these <_:title-1/> describe how an encoder might identify bibliographic entities relating to a TEI document and express relationships between them. For example, a TEI document might contain the text of a particular edition of a rare book (a FRBR manifestation), and the header could reference all extant copies (FRBR items) of this book. These relationships and references to bibliographic entities are encoded using the <_:gi-2/> element, an optional child of <_:gi-3/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-header.odd:213
+msgid "The following example expresses all three FRBR relationships between instances of the four primary FRBR entities: <_:egXML-1/>"
+msgstr ""
+
+#. (itstool) path: bibl/author
+#: ./BestPractices/bptl-header.odd:232
+msgid "Renear, Allen"
+msgstr ""
+
+#. (itstool) path: bibl/author
+#: ./BestPractices/bptl-header.odd:233
+msgid "Christopher Phillippe"
+msgstr ""
+
+#. (itstool) path: bibl/author
+#: ./BestPractices/bptl-header.odd:234
+msgid "Pat Lawton"
+msgstr ""
+
+#. (itstool) path: bibl/author
+#: ./BestPractices/bptl-header.odd:235
+msgid "David Dubin"
+msgstr ""
+
+#. (itstool) path: bibl/date
+#: ./BestPractices/bptl-header.odd:236
+msgid "2003"
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: ./BestPractices/bptl-header.odd:237
+msgid "An XML document corresponds to which FRBR Group 1 entity?"
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: ./BestPractices/bptl-header.odd:238
+msgid "Proceedings of Extreme Markup Languages 2003"
+msgstr ""
+
+#. (itstool) path: note/bibl
+#: ./BestPractices/bptl-header.odd:231
+msgid "<_:author-1/>, <_:author-2/>, <_:author-3/>, and <_:author-4/>. <_:date-5/>. <_:title-6/>. <_:title-7/>. <_:ptr-8/>."
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-header.odd:227
+msgid "Note that a TEI document itself, like any other XML document, occupies an ambiguous territory between a FRBR expression and a FRBR manifestation.<_:note-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-header.odd:247
+msgid "The TEI Header and Other Metadata Schemas"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-header.odd:248
+msgid "Several other descriptive metadata schemas are prevalent within the library domain, including Dublin Core (DC), Dublin Core Qualified (DCQ), and the Metadata Object Description Schema (MODS). Each of these schemas contains elements that capture the same data as many of the elements in the TEI header. As with MARC, a variety of automated or manual workflows can be implemented to crosswalk metadata from one standard to another and provide for increased sharing of metadata about electronic texts in larger contexts. In particular, DC and MODS are common schemas used by the Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) and may be particularly valuable for sharing metadata across institutions."
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:265
+#: ./BestPractices/bptl-header.odd:631
+#: ./BestPractices/bptl-header.odd:1176
+#: ./BestPractices/bptl-header.odd:1178
+msgid "idno"
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: cell/att
+#: ./BestPractices/bptl-header.odd:266
+#: ./BestPractices/bptl-header.odd:474
+msgid "ref"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-header.odd:261
+msgid "Unfortunately, there is currently no mechanism for specifying that the content of an element should be drawn from an outside metadata source or that this outside metadata source should supplement the content of the element. In the absence of such mechanisms, users of these <_:title-1/> may use the <_:gi-2/> element to supply identifiers for outside metadata records and may supply identifiers for certain authority records using the <_:att-3/> attribute, allowed on certain elements."
+msgstr ""
+
+#. (itstool) path: p/gi
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:268
+#: ./BestPractices/bptl-header.odd:1800
+msgid "xenoData"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-header.odd:268
+msgid "The header's <_:gi-1/> element may be used to embed non-TEI metadata in a TEI document."
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-header.odd:272
+msgid "Determining Data Values for the TEI Header"
+msgstr ""
+
+#. (itstool) path: p/title
+#: ./BestPractices/bptl-header.odd:277
+msgid "International Standard Bibliographic Description"
+msgstr ""
+
+#. (itstool) path: p/title
+#: ./BestPractices/bptl-header.odd:278
+msgid "Resource Description and Access"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-header.odd:273
+msgid "Within the library domain, there are several authoritative publications on how to create bibliographic and descriptive metadata for objects. These are usually called “descriptive cataloging standards”; two prominent examples are the <_:title-1/> (ISBD) and <_:title-2/> (RDA), an implementation of ISBD that has replaced the Anglo-American Cataloguing Rules, Second Edition (AACR2) and other national cataloging codes. These standards are extensive and outline a set of rules that enforce consistency across a voluminous amount of metadata."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:291
+msgid "For an electronic document with a digitized title page and title page verso, the chief source of information is the information coded as the title page and title page verso."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:295
+msgid "If there is no digitized title page but the header creator knows the physical source document from which it was derived, the header creator should refer to that source document for metadata creation."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:299
+msgid "If no title page is present and there is no evidence from a source document, the header creator may assign a title and author, if appropriate, enclosing the information in square brackets."
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-header.odd:284
+msgid "It is recommended that metadata about the source document included in the header be taken from the catalog record for the source document. However, there may be cases when this information is incomplete or insufficient. The following sources of information are recommended in creating the TEI header: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-header.odd:307
+msgid "Element and Attribute Recommendations for the TEI Header"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-header.odd:308
+msgid "Below is documentation on use of elements and attributes within the <_:gi-1/> element. These recommendations apply to all levels of encoding. The mapping to MARC for cataloging the TEI document assumes that the header is created based on the encoded text, not the source document. Note that the terms “work” and “item” are not used in the narrow way that they are defined in RDA."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:318
+msgid "Element"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:319
+msgid "Description"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:320
+msgid "Equivalent in MARC when cataloging the TEI document according to RDA April 2017 update"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:321
+msgid "Equivalent in MARC for the source document (whether cataloged according to RDA or AACR2)"
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:326
+msgid "teiHeader xml:lang=\"___\""
+msgstr ""
+
+#. (itstool) path: cell/att
+#: ./BestPractices/bptl-header.odd:328
+#: ./BestPractices/bptl-header.odd:1694
+msgid "xml:lang"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:328
+msgid "[required] The <_:gi-1/> contains metadata about the TEI document. The <_:att-2/> attribute is recommended; it indicates the language used for the metadata describing the document."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:329
+msgid "040 $b"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:330
+#: ./BestPractices/bptl-header.odd:339
+#: ./BestPractices/bptl-header.odd:340
+#: ./BestPractices/bptl-header.odd:350
+#: ./BestPractices/bptl-header.odd:351
+#: ./BestPractices/bptl-header.odd:586
+#: ./BestPractices/bptl-header.odd:596
+#: ./BestPractices/bptl-header.odd:597
+#: ./BestPractices/bptl-header.odd:611
+#: ./BestPractices/bptl-header.odd:623
+#: ./BestPractices/bptl-header.odd:638
+#: ./BestPractices/bptl-header.odd:656
+#: ./BestPractices/bptl-header.odd:674
+#: ./BestPractices/bptl-header.odd:685
+#: ./BestPractices/bptl-header.odd:686
+#: ./BestPractices/bptl-header.odd:709
+#: ./BestPractices/bptl-header.odd:731
+#: ./BestPractices/bptl-header.odd:732
+#: ./BestPractices/bptl-header.odd:749
+#: ./BestPractices/bptl-header.odd:750
+#: ./BestPractices/bptl-header.odd:764
+#: ./BestPractices/bptl-header.odd:765
+#: ./BestPractices/bptl-header.odd:784
+#: ./BestPractices/bptl-header.odd:785
+#: ./BestPractices/bptl-header.odd:828
+#: ./BestPractices/bptl-header.odd:829
+#: ./BestPractices/bptl-header.odd:844
+#: ./BestPractices/bptl-header.odd:845
+#: ./BestPractices/bptl-header.odd:861
+#: ./BestPractices/bptl-header.odd:862
+#: ./BestPractices/bptl-header.odd:978
+#: ./BestPractices/bptl-header.odd:1005
+#: ./BestPractices/bptl-header.odd:1006
+#: ./BestPractices/bptl-header.odd:1225
+#: ./BestPractices/bptl-header.odd:1359
+#: ./BestPractices/bptl-header.odd:1360
+#: ./BestPractices/bptl-header.odd:1369
+#: ./BestPractices/bptl-header.odd:1370
+#: ./BestPractices/bptl-header.odd:1382
+#: ./BestPractices/bptl-header.odd:1411
+#: ./BestPractices/bptl-header.odd:1423
+#: ./BestPractices/bptl-header.odd:1424
+#: ./BestPractices/bptl-header.odd:1436
+#: ./BestPractices/bptl-header.odd:1437
+#: ./BestPractices/bptl-header.odd:1450
+#: ./BestPractices/bptl-header.odd:1451
+#: ./BestPractices/bptl-header.odd:1464
+#: ./BestPractices/bptl-header.odd:1465
+#: ./BestPractices/bptl-header.odd:1480
+#: ./BestPractices/bptl-header.odd:1481
+#: ./BestPractices/bptl-header.odd:1495
+#: ./BestPractices/bptl-header.odd:1496
+#: ./BestPractices/bptl-header.odd:1533
+#: ./BestPractices/bptl-header.odd:1543
+#: ./BestPractices/bptl-header.odd:1544
+#: ./BestPractices/bptl-header.odd:1561
+#: ./BestPractices/bptl-header.odd:1562
+#: ./BestPractices/bptl-header.odd:1599
+#: ./BestPractices/bptl-header.odd:1600
+#: ./BestPractices/bptl-header.odd:1643
+#: ./BestPractices/bptl-header.odd:1682
+#: ./BestPractices/bptl-header.odd:1683
+#: ./BestPractices/bptl-header.odd:1699
+#: ./BestPractices/bptl-header.odd:1700
+#: ./BestPractices/bptl-header.odd:1744
+#: ./BestPractices/bptl-header.odd:1745
+#: ./BestPractices/bptl-header.odd:1803
+#: ./BestPractices/bptl-header.odd:1804
+#: ./BestPractices/bptl-header.odd:1840
+#: ./BestPractices/bptl-header.odd:1841
+msgid "n/a"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:334
+#: ./BestPractices/bptl-header.odd:345
+#: ./BestPractices/bptl-header.odd:357
+#: ./BestPractices/bptl-header.odd:438
+#: ./BestPractices/bptl-header.odd:502
+#: ./BestPractices/bptl-header.odd:543
+#: ./BestPractices/bptl-header.odd:579
+#: ./BestPractices/bptl-header.odd:591
+#: ./BestPractices/bptl-header.odd:603
+#: ./BestPractices/bptl-header.odd:617
+#: ./BestPractices/bptl-header.odd:629
+#: ./BestPractices/bptl-header.odd:644
+#: ./BestPractices/bptl-header.odd:679
+#: ./BestPractices/bptl-header.odd:738
+#: ./BestPractices/bptl-header.odd:757
+#: ./BestPractices/bptl-header.odd:773
+#: ./BestPractices/bptl-header.odd:793
+#: ./BestPractices/bptl-header.odd:852
+#: ./BestPractices/bptl-header.odd:870
+#: ./BestPractices/bptl-header.odd:899
+#: ./BestPractices/bptl-header.odd:951
+#: ./BestPractices/bptl-header.odd:986
+#: ./BestPractices/bptl-header.odd:1000
+#: ./BestPractices/bptl-header.odd:1015
+#: ./BestPractices/bptl-header.odd:1043
+#: ./BestPractices/bptl-header.odd:1135
+#: ./BestPractices/bptl-header.odd:1158
+#: ./BestPractices/bptl-header.odd:1174
+#: ./BestPractices/bptl-header.odd:1232
+#: ./BestPractices/bptl-header.odd:1249
+#: ./BestPractices/bptl-header.odd:1274
+#: ./BestPractices/bptl-header.odd:1294
+#: ./BestPractices/bptl-header.odd:1364
+#: ./BestPractices/bptl-header.odd:1375
+#: ./BestPractices/bptl-header.odd:1387
+#: ./BestPractices/bptl-header.odd:1416
+#: ./BestPractices/bptl-header.odd:1430
+#: ./BestPractices/bptl-header.odd:1443
+#: ./BestPractices/bptl-header.odd:1457
+#: ./BestPractices/bptl-header.odd:1471
+#: ./BestPractices/bptl-header.odd:1487
+#: ./BestPractices/bptl-header.odd:1502
+#: ./BestPractices/bptl-header.odd:1538
+#: ./BestPractices/bptl-header.odd:1550
+#: ./BestPractices/bptl-header.odd:1634
+#: ./BestPractices/bptl-header.odd:1648
+#: ./BestPractices/bptl-header.odd:1662
+#: ./BestPractices/bptl-header.odd:1677
+#: ./BestPractices/bptl-header.odd:1688
+#: ./BestPractices/bptl-header.odd:1751
+msgid "├"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: item/gi
+#: ./BestPractices/bptl-header.odd:336
+#: ./BestPractices/bptl-header.odd:338
+#: ./BestPractices/bptl-header.odd:1513
+msgid "fileDesc"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:338
+msgid "[required] The <_:gi-1/> contains bibliographic metadata about the TEI document. One of its child elements, <_:gi-2/>, describes the source document from which the TEI document was created."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:344
+#: ./BestPractices/bptl-header.odd:355
+#: ./BestPractices/bptl-header.odd:356
+#: ./BestPractices/bptl-header.odd:436
+#: ./BestPractices/bptl-header.odd:437
+#: ./BestPractices/bptl-header.odd:500
+#: ./BestPractices/bptl-header.odd:501
+#: ./BestPractices/bptl-header.odd:541
+#: ./BestPractices/bptl-header.odd:542
+#: ./BestPractices/bptl-header.odd:578
+#: ./BestPractices/bptl-header.odd:590
+#: ./BestPractices/bptl-header.odd:601
+#: ./BestPractices/bptl-header.odd:602
+#: ./BestPractices/bptl-header.odd:615
+#: ./BestPractices/bptl-header.odd:616
+#: ./BestPractices/bptl-header.odd:627
+#: ./BestPractices/bptl-header.odd:628
+#: ./BestPractices/bptl-header.odd:642
+#: ./BestPractices/bptl-header.odd:643
+#: ./BestPractices/bptl-header.odd:660
+#: ./BestPractices/bptl-header.odd:661
+#: ./BestPractices/bptl-header.odd:678
+#: ./BestPractices/bptl-header.odd:690
+#: ./BestPractices/bptl-header.odd:691
+#: ./BestPractices/bptl-header.odd:713
+#: ./BestPractices/bptl-header.odd:725
+#: ./BestPractices/bptl-header.odd:736
+#: ./BestPractices/bptl-header.odd:754
+#: ./BestPractices/bptl-header.odd:769
+#: ./BestPractices/bptl-header.odd:772
+#: ./BestPractices/bptl-header.odd:789
+#: ./BestPractices/bptl-header.odd:792
+#: ./BestPractices/bptl-header.odd:833
+#: ./BestPractices/bptl-header.odd:836
+#: ./BestPractices/bptl-header.odd:849
+#: ./BestPractices/bptl-header.odd:866
+#: ./BestPractices/bptl-header.odd:869
+#: ./BestPractices/bptl-header.odd:895
+#: ./BestPractices/bptl-header.odd:898
+#: ./BestPractices/bptl-header.odd:947
+#: ./BestPractices/bptl-header.odd:950
+#: ./BestPractices/bptl-header.odd:982
+#: ./BestPractices/bptl-header.odd:985
+#: ./BestPractices/bptl-header.odd:996
+#: ./BestPractices/bptl-header.odd:999
+#: ./BestPractices/bptl-header.odd:1010
+#: ./BestPractices/bptl-header.odd:1013
+#: ./BestPractices/bptl-header.odd:1014
+#: ./BestPractices/bptl-header.odd:1038
+#: ./BestPractices/bptl-header.odd:1041
+#: ./BestPractices/bptl-header.odd:1042
+#: ./BestPractices/bptl-header.odd:1066
+#: ./BestPractices/bptl-header.odd:1069
+#: ./BestPractices/bptl-header.odd:1070
+#: ./BestPractices/bptl-header.odd:1131
+#: ./BestPractices/bptl-header.odd:1134
+#: ./BestPractices/bptl-header.odd:1154
+#: ./BestPractices/bptl-header.odd:1157
+#: ./BestPractices/bptl-header.odd:1170
+#: ./BestPractices/bptl-header.odd:1173
+#: ./BestPractices/bptl-header.odd:1214
+#: ./BestPractices/bptl-header.odd:1217
+#: ./BestPractices/bptl-header.odd:1229
+#: ./BestPractices/bptl-header.odd:1245
+#: ./BestPractices/bptl-header.odd:1248
+#: ./BestPractices/bptl-header.odd:1270
+#: ./BestPractices/bptl-header.odd:1273
+#: ./BestPractices/bptl-header.odd:1290
+#: ./BestPractices/bptl-header.odd:1293
+#: ./BestPractices/bptl-header.odd:1304
+#: ./BestPractices/bptl-header.odd:1307
+#: ./BestPractices/bptl-header.odd:1318
+#: ./BestPractices/bptl-header.odd:1350
+#: ./BestPractices/bptl-header.odd:1374
+#: ./BestPractices/bptl-header.odd:1386
+#: ./BestPractices/bptl-header.odd:1415
+#: ./BestPractices/bptl-header.odd:1428
+#: ./BestPractices/bptl-header.odd:1429
+#: ./BestPractices/bptl-header.odd:1441
+#: ./BestPractices/bptl-header.odd:1442
+#: ./BestPractices/bptl-header.odd:1455
+#: ./BestPractices/bptl-header.odd:1456
+#: ./BestPractices/bptl-header.odd:1469
+#: ./BestPractices/bptl-header.odd:1470
+#: ./BestPractices/bptl-header.odd:1485
+#: ./BestPractices/bptl-header.odd:1486
+#: ./BestPractices/bptl-header.odd:1500
+#: ./BestPractices/bptl-header.odd:1501
+#: ./BestPractices/bptl-header.odd:1537
+#: ./BestPractices/bptl-header.odd:1548
+#: ./BestPractices/bptl-header.odd:1549
+#: ./BestPractices/bptl-header.odd:1566
+#: ./BestPractices/bptl-header.odd:1567
+#: ./BestPractices/bptl-header.odd:1604
+#: ./BestPractices/bptl-header.odd:1633
+#: ./BestPractices/bptl-header.odd:1647
+#: ./BestPractices/bptl-header.odd:1661
+#: ./BestPractices/bptl-header.odd:1687
+#: ./BestPractices/bptl-header.odd:1704
+#: ./BestPractices/bptl-header.odd:1705
+#: ./BestPractices/bptl-header.odd:1738
+#: ./BestPractices/bptl-header.odd:1749
+#: ./BestPractices/bptl-header.odd:1766
+#: ./BestPractices/bptl-header.odd:1783
+#: ./BestPractices/bptl-header.odd:1798
+msgid "│"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:347
+msgid "titleStmt"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:349
+#: ./BestPractices/bptl-header.odd:1004
+msgid "[required]"
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:359
+msgid "title type=\"___\""
+msgstr ""
+
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-header.odd:362
+#: ./BestPractices/bptl-header.odd:798
+#: ./BestPractices/bptl-header.odd:904
+msgid "title"
+msgstr ""
+
+#. (itstool) path: cell/p
+#: ./BestPractices/bptl-header.odd:362
+msgid "[required] One or more <_:gi-1/> elements are required to give the title of the TEI document being created. It is suggested that titles be constructed based on the source document according to the descriptive cataloging standard used."
+msgstr ""
+
+#. (itstool) path: p/att
+#: ./BestPractices/bptl-header.odd:367
+#: ./BestPractices/bptl-header.odd:908
+#: ./BestPractices/bptl-header.odd:2475
+msgid "level"
+msgstr ""
+
+#. (itstool) path: cell/p
+#: ./BestPractices/bptl-header.odd:367
+msgid "Use of the <_:att-1/> attribute is not recommended since it does not apply to a TEI document in a collection."
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: cell/att
+#: ./BestPractices/bptl-header.odd:370
+#: ./BestPractices/bptl-header.odd:635
+#: ./BestPractices/bptl-header.odd:699
+#: ./BestPractices/bptl-header.odd:801
+#: ./BestPractices/bptl-header.odd:911
+#: ./BestPractices/bptl-header.odd:1186
+#: ./BestPractices/bptl-header.odd:1256
+msgid "type"
+msgstr ""
+
+#. (itstool) path: item/val
+#: ./BestPractices/bptl-header.odd:375
+#: ./BestPractices/bptl-header.odd:806
+msgid "main"
+msgstr ""
+
+#. (itstool) path: item/val
+#: ./BestPractices/bptl-header.odd:378
+#: ./BestPractices/bptl-header.odd:809
+msgid "sub"
+msgstr ""
+
+#. (itstool) path: item/val
+#: ./BestPractices/bptl-header.odd:381
+#: ./BestPractices/bptl-header.odd:812
+msgid "alt"
+msgstr ""
+
+#. (itstool) path: item/val
+#: ./BestPractices/bptl-header.odd:384
+#: ./BestPractices/bptl-header.odd:815
+msgid "short"
+msgstr ""
+
+#. (itstool) path: item/val
+#: ./BestPractices/bptl-header.odd:387
+#: ./BestPractices/bptl-header.odd:818
+msgid "desc"
+msgstr ""
+
+#. (itstool) path: item/val
+#: ./BestPractices/bptl-header.odd:390
+#: ./BestPractices/bptl-header.odd:821
+msgid "translated"
+msgstr ""
+
+#. (itstool) path: item/val
+#: ./BestPractices/bptl-header.odd:393
+#: ./BestPractices/bptl-header.odd:915
+msgid "marc245a"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:392
+#: ./BestPractices/bptl-header.odd:915
+msgid "<_:val-1/> (used for the title proper and alternative title according to the descriptive cataloging standard used)"
+msgstr ""
+
+#. (itstool) path: item/val
+#: ./BestPractices/bptl-header.odd:396
+#: ./BestPractices/bptl-header.odd:824
+#: ./BestPractices/bptl-header.odd:918
+msgid "filing"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:396
+#: ./BestPractices/bptl-header.odd:823
+#: ./BestPractices/bptl-header.odd:918
+msgid "<_:val-1/> (used for a version of the title with initial articles removed, to be used for sorting titles alphabetically but not for display)"
+msgstr ""
+
+#. (itstool) path: item/val
+#: ./BestPractices/bptl-header.odd:400
+#: ./BestPractices/bptl-header.odd:922
+msgid "marc245b"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:400
+msgid "<_:val-1/> (used for the remainder of the title information — parallel titles, titles subsequent to the first, and other title information — according to the descriptive cataloging standard used)"
+msgstr ""
+
+#. (itstool) path: item/val
+#: ./BestPractices/bptl-header.odd:405
+#: ./BestPractices/bptl-header.odd:930
+msgid "preferred"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:405
+#: ./BestPractices/bptl-header.odd:930
+msgid "<_:val-1/> (used for a preferred title according to the descriptive cataloging standard used)"
+msgstr ""
+
+#. (itstool) path: cell/p
+#: ./BestPractices/bptl-header.odd:370
+#: ./BestPractices/bptl-header.odd:801
+#: ./BestPractices/bptl-header.odd:911
+msgid "Use of the <_:att-1/> attribute is recommended. It should have one of the following values as suitable in local practice: <_:list-2/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:413
+#: ./BestPractices/bptl-header.odd:424
+msgid "130"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:414
+#: ./BestPractices/bptl-header.odd:425
+msgid "210"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:415
+#: ./BestPractices/bptl-header.odd:426
+#: ./BestPractices/bptl-header.odd:939
+msgid "240"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:416
+#: ./BestPractices/bptl-header.odd:427
+msgid "242"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:417
+#: ./BestPractices/bptl-header.odd:428
+#: ./BestPractices/bptl-header.odd:940
+msgid "245 $a,$b"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:418
+#: ./BestPractices/bptl-header.odd:429
+#: ./BestPractices/bptl-header.odd:941
+msgid "246"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:419
+#: ./BestPractices/bptl-header.odd:430
+msgid "247"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-header.odd:440
+#: ./BestPractices/bptl-header.odd:443
+#: ./BestPractices/bptl-header.odd:509
+#: ./BestPractices/bptl-header.odd:552
+#: ./BestPractices/bptl-header.odd:775
+#: ./BestPractices/bptl-header.odd:777
+#: ./BestPractices/bptl-header.odd:872
+#: ./BestPractices/bptl-header.odd:874
+msgid "author"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: p/gi
+#. (itstool) path: item/gi
+#: ./BestPractices/bptl-header.odd:447
+#: ./BestPractices/bptl-header.odd:474
+#: ./BestPractices/bptl-header.odd:514
+#: ./BestPractices/bptl-header.odd:558
+#: ./BestPractices/bptl-header.odd:559
+#: ./BestPractices/bptl-header.odd:781
+#: ./BestPractices/bptl-header.odd:880
+#: ./BestPractices/bptl-header.odd:963
+#: ./BestPractices/bptl-header.odd:964
+#: ./BestPractices/bptl-header.odd:973
+msgid "persName"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: p/gi
+#. (itstool) path: item/gi
+#: ./BestPractices/bptl-header.odd:447
+#: ./BestPractices/bptl-header.odd:474
+#: ./BestPractices/bptl-header.odd:514
+#: ./BestPractices/bptl-header.odd:558
+#: ./BestPractices/bptl-header.odd:559
+#: ./BestPractices/bptl-header.odd:781
+#: ./BestPractices/bptl-header.odd:880
+#: ./BestPractices/bptl-header.odd:963
+#: ./BestPractices/bptl-header.odd:965
+#: ./BestPractices/bptl-header.odd:973
+msgid "orgName"
+msgstr ""
+
+#. (itstool) path: item/eg
+#: ./BestPractices/bptl-header.odd:453
+msgid "&lt;author&gt;&lt;persName&gt;Shakespeare, William, 1564-1616&lt;/persName&gt;&lt;/author&gt;"
+msgstr ""
+
+#. (itstool) path: item/eg
+#: ./BestPractices/bptl-header.odd:456
+msgid "&lt;author&gt;&lt;orgName&gt;National Organization for Women&lt;/orgName&gt;&lt;/author&gt;"
+msgstr ""
+
+#. (itstool) path: item/eg
+#: ./BestPractices/bptl-header.odd:459
+msgid "&lt;author&gt;&lt;orgName&gt;Agreda (Family: Logroño, Spain)&lt;/orgName&gt;&lt;/author&gt;"
+msgstr ""
+
+#. (itstool) path: item/eg
+#: ./BestPractices/bptl-header.odd:462
+msgid "&lt;author&gt;&lt;persName&gt;X, Malcolm&lt;/persName&gt;&lt;/author&gt;"
+msgstr ""
+
+#. (itstool) path: item/eg
+#: ./BestPractices/bptl-header.odd:465
+msgid "&lt;author&gt;&lt;persName&gt;Thomas (Anglo-Norman poet)&lt;/persName&gt;&lt;/author&gt;"
+msgstr ""
+
+#. (itstool) path: item/eg
+#: ./BestPractices/bptl-header.odd:468
+msgid "&lt;author&gt;&lt;persName&gt;Catherine II, Empress of Russia&lt;/persName&gt;&lt;/author&gt;"
+msgstr ""
+
+#. (itstool) path: item/eg
+#: ./BestPractices/bptl-header.odd:471
+msgid "&lt;author&gt;&lt;persName&gt;Joannes, Actuarius, 13th/14th cent.&lt;/persName&gt;&lt;/author&gt;"
+msgstr ""
+
+#. (itstool) path: cell/ref
+#: ./BestPractices/bptl-header.odd:474
+msgid "section 4.2.5.6.2"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:442
+msgid "[recommended] One or more <_:gi-1/> elements (one name per element) are used to encode the names of entities primarily responsible for the content of the TEI document—usually, the author(s) of the source document. Use <_:gi-2/> or <_:gi-3/> when applicable. Whenever possible, establish or use the authorized form of the name from a name authority file. Examples: <_:list-4/> Optionally use the <_:att-5/> attribute on <_:gi-6/>gi&gt; and <_:gi-7/> to supply a URI for a record in an authority file (see <_:ref-8/>)."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:478
+#: ./BestPractices/bptl-header.odd:489
+#: ./BestPractices/bptl-header.odd:886
+msgid "100"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:479
+#: ./BestPractices/bptl-header.odd:490
+#: ./BestPractices/bptl-header.odd:887
+msgid "110"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:480
+#: ./BestPractices/bptl-header.odd:491
+msgid "111"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:481
+#: ./BestPractices/bptl-header.odd:492
+#: ./BestPractices/bptl-header.odd:525
+#: ./BestPractices/bptl-header.odd:533
+#: ./BestPractices/bptl-header.odd:565
+#: ./BestPractices/bptl-header.odd:571
+#: ./BestPractices/bptl-header.odd:888
+msgid "700"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:482
+#: ./BestPractices/bptl-header.odd:493
+#: ./BestPractices/bptl-header.odd:526
+#: ./BestPractices/bptl-header.odd:534
+#: ./BestPractices/bptl-header.odd:566
+#: ./BestPractices/bptl-header.odd:572
+#: ./BestPractices/bptl-header.odd:889
+msgid "710"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:483
+#: ./BestPractices/bptl-header.odd:494
+#: ./BestPractices/bptl-header.odd:527
+#: ./BestPractices/bptl-header.odd:535
+msgid "711"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:476
+msgid "<_:list-1/> For all, use the relation designator “author”."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-header.odd:504
+#: ./BestPractices/bptl-header.odd:507
+#: ./BestPractices/bptl-header.odd:553
+msgid "editor"
+msgstr ""
+
+#. (itstool) path: cell/p
+#: ./BestPractices/bptl-header.odd:507
+msgid "[recommended] If applicable, use one or more <_:gi-1/> elements (one name per element) to encode the names of entities besides those in <_:gi-2/> elements that acted as editors of the TEI document—usually, the editor(s) of the source document. If considered appropriate by the encoding project, the editor of the TEI document should be entered here. Use <_:gi-3/> or <_:gi-4/> when applicable. Whenever possible, establish or use the authorized form of the name from a name authority file."
+msgstr ""
+
+#. (itstool) path: p/att
+#: ./BestPractices/bptl-header.odd:520
+msgid "role"
+msgstr ""
+
+#. (itstool) path: cell/p
+#: ./BestPractices/bptl-header.odd:517
+msgid "Unlike in P5, do not use this element for translators, illustrators, compilers, or other roles not generally considered an editor. Therefore, do not use the <_:att-1/> attribute."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:523
+msgid "<_:list-1/> For all, use the relationship designator “editor”."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-header.odd:545
+#: ./BestPractices/bptl-header.odd:549
+#: ./BestPractices/bptl-header.odd:556
+#: ./BestPractices/bptl-header.odd:953
+#: ./BestPractices/bptl-header.odd:959
+#: ./BestPractices/bptl-header.odd:959
+#: ./BestPractices/bptl-header.odd:1829
+#: ./BestPractices/bptl-header.odd:1835
+msgid "respStmt"
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-header.odd:558
+#: ./BestPractices/bptl-header.odd:559
+#: ./BestPractices/bptl-header.odd:962
+#: ./BestPractices/bptl-header.odd:966
+#: ./BestPractices/bptl-header.odd:972
+msgid "resp"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:558
+#: ./BestPractices/bptl-header.odd:962
+msgid "one <_:gi-1/> followed by one or more of <_:gi-2/> or <_:gi-3/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:559
+#: ./BestPractices/bptl-header.odd:964
+msgid "one or more of <_:gi-1/> or <_:gi-2/> followed by one <_:gi-3/>"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:547
+msgid "[recommended] Record the names of other persons or organizations, one responsibility or party per <_:gi-1/>, that have responsibility for the intellectual or artistic content of the TEI document—often by transitivity from the source document—not covered by <_:gi-2/> and <_:gi-3/>. This includes translators, illustrators, compilers, proofreaders, encoders, and those who wrote a preface or introduction. Each <_:gi-4/> should contain either: <_:list-5/> Whenever possible, establish or use the authorized form of the name from a name authority file."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:581
+msgid "editionStmt"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: elementSpec/altIdent
+#. (itstool) path: desc/gi
+#. (itstool) path: report/gi
+#: ./BestPractices/bptl-header.odd:582
+#: ./BestPractices/bptl-header.odd:595
+#: ./BestPractices/bptl-header.odd:654
+#: ./BestPractices/bptl-header.odd:1378
+#: ./BestPractices/bptl-header.odd:1504
+#: ./BestPractices/bptl-header.odd:1506
+#: ./BestPractices/bptl-header.odd:1637
+#: ./BestPractices/bptl-header.odd:2075
+#: ./BestPractices/bptl-header.odd:2387
+#: ./BestPractices/bptl-header.odd:2389
+#: ./BestPractices/bptl-header.odd:2391
+msgid "p"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:584
+msgid "[recommended] Include a statement about the edition of the TEI document produced, not the source document."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:585
+#: ./BestPractices/bptl-header.odd:992
+msgid "250"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:593
+msgid "publicationStmt"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:595
+msgid "[required] Use the child elements below (rather than <_:gi-1/> for a prose description)."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-header.odd:605
+#: ./BestPractices/bptl-header.odd:621
+#: ./BestPractices/bptl-header.odd:1045
+#: ./BestPractices/bptl-header.odd:2258
+msgid "publisher"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:607
+msgid "[recommended] The publisher is the party responsible for making the file (the TEI document, not the source document) public."
+msgstr ""
+
+#. (itstool) path: row/cell
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:610
+#: ./BestPractices/bptl-header.odd:1060
+msgid "264_1 $b"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:619
+#: ./BestPractices/bptl-header.odd:621
+msgid "distributor"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:621
+msgid "[recommended] The distributor is the party from whom copies of the file (the TEI document, not the source document) can be obtained. Often the same as <_:gi-1/>, in which case no <_:gi-2/> should be given."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:622
+msgid "264_2 $b"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:633
+msgid "[recommended] Any unique identifier for the TEI document as determined by the publisher of the TEI document. Optionally use a <_:att-1/> attribute to indicate the type of identifier."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:637
+msgid "028 5_"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:646
+msgid "availability"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:650
+msgid "license"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:648
+msgid "[recommended] Provide a prose rights statement for the TEI document. If possible, provide a standard license, such as one from Creative Commons, using the <_:gi-1/> element. Otherwise, provide information on all applicable rights—rights in the original work, rights in page images of the source document, and rights in the encoded text—in a <_:gi-2/> element."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:655
+msgid "540"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:662
+#: ./BestPractices/bptl-header.odd:692
+#: ./BestPractices/bptl-header.odd:714
+#: ./BestPractices/bptl-header.odd:726
+#: ./BestPractices/bptl-header.odd:837
+#: ./BestPractices/bptl-header.odd:1071
+#: ./BestPractices/bptl-header.odd:1218
+#: ./BestPractices/bptl-header.odd:1308
+#: ./BestPractices/bptl-header.odd:1321
+#: ./BestPractices/bptl-header.odd:1352
+#: ./BestPractices/bptl-header.odd:1568
+#: ./BestPractices/bptl-header.odd:1605
+#: ./BestPractices/bptl-header.odd:1706
+#: ./BestPractices/bptl-header.odd:1739
+#: ./BestPractices/bptl-header.odd:1768
+#: ./BestPractices/bptl-header.odd:1786
+#: ./BestPractices/bptl-header.odd:1808
+msgid "└"
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:664
+msgid "date when=\"___\"/"
+msgstr ""
+
+#. (itstool) path: cell/att
+#. (itstool) path: p/att
+#: ./BestPractices/bptl-header.odd:667
+#: ./BestPractices/bptl-header.odd:1101
+#: ./BestPractices/bptl-header.odd:1823
+msgid "when"
+msgstr ""
+
+#. (itstool) path: cell/ref
+#. (itstool) path: p/ref
+#: ./BestPractices/bptl-header.odd:669
+#: ./BestPractices/bptl-header.odd:1824
+msgid "att.datable.w3c class"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-header.odd:671
+#: ./BestPractices/bptl-header.odd:1821
+msgid "date"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:666
+msgid "[recommended] Refers to the date of the first publication of this edition of the TEI document. The <_:att-1/> attribute (see <_:ref-2/>) is used instead of free content to aid machine processing. (In this context, the <_:gi-3/> element should have no content.)"
+msgstr ""
+
+#. (itstool) path: row/cell
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:673
+#: ./BestPractices/bptl-header.odd:1124
+msgid "264_1 $c"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:681
+msgid "seriesStmt"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:683
+msgid "[optional] This element contains information about the electronic series being created."
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:694
+msgid "title level=\"s\" type=\"___\""
+msgstr ""
+
+#. (itstool) path: cell/ref
+#: ./BestPractices/bptl-header.odd:701
+#: ./BestPractices/bptl-header.odd:1258
+msgid "the instructions for use of this element in P5"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:696
+msgid "[recommended] This element contains the title of the series. Whenever possible, establish or use the authorized form of the title from a name authority file. Use of the <_:att-1/> attribute is optional, but if it is used, it should follow <_:ref-2/>."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:705
+msgid "490"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:706
+msgid "8xx (optional)"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:717
+#: ./BestPractices/bptl-header.odd:719
+#: ./BestPractices/bptl-header.odd:1160
+msgid "note"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:719
+msgid "[optional] Use one <_:gi-1/> element for each note about the TEI document that does not have an appropriate location elsewhere in the header."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:720
+#: ./BestPractices/bptl-header.odd:721
+#: ./BestPractices/bptl-header.odd:1166
+msgid "5xx"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:730
+msgid "[required] Use one <_:gi-1/> per source document. Metadata for the source document may be automatically generated from a MARC record."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:740
+#: ./BestPractices/bptl-header.odd:742
+#: ./BestPractices/bptl-header.odd:1324
+#: ./BestPractices/bptl-header.odd:1328
+msgid "biblStruct"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:745
+#: ./BestPractices/bptl-header.odd:1609
+msgid "bibl"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:746
+msgid "biblFull"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:742
+msgid "[recommended] Use <_:gi-1/> with child elements arranged in the order below for ease of display according to ISBD. (This element is used instead of <_:gi-2/> to enforce structure, but <_:gi-3/> is not used because it requires more elements than are typically available in library metadata sources.)"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: valItem/gloss
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-header.odd:759
+#: ./BestPractices/bptl-header.odd:2443
+#: ./BestPractices/bptl-header.odd:2472
+msgid "analytic"
+msgstr ""
+
+#. (itstool) path: cell/term
+#: ./BestPractices/bptl-header.odd:763
+msgid "analytic item"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:761
+msgid "[recommended] Use this element and its children only if the object of encoding is part of a larger work—for example, an article in a journal issue, a chapter in a book, or a poem in a collection. Below the object of encoding that is part of a larger work is referred to as the <_:term-1/>."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:777
+msgid "[recommended] One or more <_:gi-1/> elements (one name per element) are used to encode the name for the personal author or corporate body responsible for the creation of the intellectual or artistic content of the analytic item. Use <_:gi-2/> or <_:gi-3/> when applicable. Whenever possible, establish or use the authorized form of the name from a name authority file."
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:795
+msgid "title level=\"a\" type=\"___\""
+msgstr ""
+
+#. (itstool) path: cell/p
+#: ./BestPractices/bptl-header.odd:798
+msgid "[recommended] At least one <_:gi-1/> element is required for the title of the analytic item. Transcribe the title according to the the descriptive cataloging standard used."
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:839
+#: ./BestPractices/bptl-header.odd:1220
+#: ./BestPractices/bptl-header.odd:1310
+msgid "ptr target=\"___\""
+msgstr ""
+
+#. (itstool) path: cell/att
+#: ./BestPractices/bptl-header.odd:842
+#: ./BestPractices/bptl-header.odd:1222
+#: ./BestPractices/bptl-header.odd:1312
+msgid "target"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:841
+msgid "[optional] In the value of <_:att-1/>, provide a URI for analytic item. For example, this could be link to a facsimile of the analytic item that is different from the TEI document."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:854
+msgid "monogr"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:856
+msgid "[required] Use this element to group together the elements describing the source document bibliographic item that is published as an independent item. The TEI definition of this element specifies that it is used even for works that might not otherwise be considered “monographs,” so, for example, bibliographic data about a journal title is included in this element."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:874
+msgid "[recommended] One or more <_:gi-1/> elements (one name per element) are used to encode the name for the personal author or corporate body responsible for the creation of the intellectual or artistic content of the source document bibliographic item, even if this creator is not the main entry in the catalog record. Use <_:gi-2/> or <_:gi-3/> when applicable. Whenever possible, establish or use the authorized form of the name from a name authority file."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:883
+msgid "534 $a = 1st author"
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:901
+msgid "title level=\"___\" type=\"___\""
+msgstr ""
+
+#. (itstool) path: cell/p
+#: ./BestPractices/bptl-header.odd:904
+msgid "[recommended] At least one <_:gi-1/> element is recommended for the title of the source document bibliographic item. Transcribe the title according to the descriptive cataloging standard used."
+msgstr ""
+
+#. (itstool) path: p/ref
+#. (itstool) path: cell/ref
+#: ./BestPractices/bptl-header.odd:910
+#: ./BestPractices/bptl-header.odd:1713
+msgid "as in P5"
+msgstr ""
+
+#. (itstool) path: cell/p
+#: ./BestPractices/bptl-header.odd:908
+msgid "Use of the <_:att-1/> attribute is optional. If used, it should be used <_:ref-2/>."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:922
+msgid "<_:val-1/> (used for the the remainder of the title information — parallel titles, titles subsequent to the first, and other title information — according to the descriptive cataloging standard used)"
+msgstr ""
+
+#. (itstool) path: item/val
+#: ./BestPractices/bptl-header.odd:927
+msgid "marc245c"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:927
+msgid "<_:val-1/> (used for the statement of responsibility according to the descriptive cataloging standard used)"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:936
+msgid "534 $t"
+msgstr ""
+
+#. (itstool) path: cell/p
+#: ./BestPractices/bptl-header.odd:956
+msgid "[recommended] Statement of responsibility on the source document bibliographic item, according to the descriptive cataloging standard used. Record one responsibility or party per <_:gi-1/>. Each <_:gi-2/> should contain either: <_:list-3/> Whenever possible, establish or use the form of the authorized name from a name authority file."
+msgstr ""
+
+#. (itstool) path: p/tag
+#: ./BestPractices/bptl-header.odd:974
+msgid "title type=\"marc245c\""
+msgstr ""
+
+#. (itstool) path: cell/p
+#: ./BestPractices/bptl-header.odd:970
+msgid "If generating the <_:gi-1/> from a MARC record, it will be difficult to split the content of the 245c field into <_:gi-2/> and <_:gi-3/> (or <_:gi-4/>) elements, so it is recommended to use <_:tag-5/> instead of this element."
+msgstr ""
+
+#. (itstool) path: row/cell
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:977
+#: ./BestPractices/bptl-header.odd:1381
+#: ./BestPractices/bptl-header.odd:1530
+#: ./BestPractices/bptl-header.odd:1642
+msgid "500"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:988
+msgid "edition"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:990
+msgid "[recommended] Edition statement (if present) according to the descriptive cataloging standard used."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:991
+msgid "534 $b"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1002
+msgid "imprint"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1017
+msgid "pubPlace"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1019
+msgid "[recommended] Place of publication from the source document bibliographic item according to the descriptive cataloging standard used. Optionally remove ISBD punctuation for separating areas of the bibliographic description (such as a colon) when deriving from a MARC record. However, use brackets to indicate supplied information according to the descriptive cataloging standard used, e.g. “[Toronto?]” or “[Place of publication not identified]”."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1028
+#: ./BestPractices/bptl-header.odd:1056
+msgid "534 $c"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1031
+msgid "260 $a"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1032
+msgid "264_1 $a"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1047
+msgid "[recommended] Name of publisher, distributor, etc. from the source document bibliographic item according to the descriptive cataloging standard used. Optionally remove ISBD punctuation for separating areas of the bibliographic description (such as a comma) when deriving from a MARC record. However, leave brackets that indicate supplied information according to the descriptive cataloging standard used, e.g. “[publisher not identified]”."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1059
+msgid "260 $b"
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1074
+msgid "date when=\"___\""
+msgstr ""
+
+#. (itstool) path: cell/emph
+#. (itstool) path: p/emph
+#: ./BestPractices/bptl-header.odd:1076
+#: ./BestPractices/bptl-header.odd:1080
+#: ./BestPractices/bptl-header.odd:1084
+#: ./BestPractices/bptl-header.odd:1088
+#: ./BestPractices/bptl-header.odd:1101
+#: ./BestPractices/bptl-header.odd:1103
+msgid "or"
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1078
+msgid "date notBefore=\"___\" notAfter=\"___\""
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1082
+msgid "date from=\"___\""
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1086
+msgid "date to=\"___\""
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1090
+msgid "date from=\"___\" to=\"___\""
+msgstr ""
+
+#. (itstool) path: cell/p
+#: ./BestPractices/bptl-header.odd:1093
+msgid "[recommended] Date of publication, distribution, etc. from the source document bibliographic item. The content of the element is the statement of this data according to the descriptive cataloging standard used."
+msgstr ""
+
+#. (itstool) path: p/emph
+#: ./BestPractices/bptl-header.odd:1101
+msgid "either"
+msgstr ""
+
+#. (itstool) path: p/att
+#: ./BestPractices/bptl-header.odd:1102
+msgid "notBefore"
+msgstr ""
+
+#. (itstool) path: p/att
+#: ./BestPractices/bptl-header.odd:1102
+msgid "notAfter"
+msgstr ""
+
+#. (itstool) path: p/att
+#: ./BestPractices/bptl-header.odd:1103
+msgid "from"
+msgstr ""
+
+#. (itstool) path: p/att
+#: ./BestPractices/bptl-header.odd:1104
+msgid "to"
+msgstr ""
+
+#. (itstool) path: cell/p
+#: ./BestPractices/bptl-header.odd:1097
+msgid "Since the content of the element according to the descriptive cataloging standard used is not easily processed by machine, when possible include the following attribute(s) with valid values: <_:emph-1/> <_:att-2/>, <_:emph-3/> both <_:att-4/> and <_:att-5/>, <_:emph-6/> one or both of <_:att-7/> and <_:att-8/>."
+msgstr ""
+
+#. (itstool) path: p/code
+#: ./BestPractices/bptl-header.odd:1108
+msgid "cert=\"low\""
+msgstr ""
+
+#. (itstool) path: cell/p
+#: ./BestPractices/bptl-header.odd:1105
+msgid "Descriptive cataloging standards may distinguish between a possible range of dates for publication (such as “[between 1860 and 1868?]”. In the case of uncertainty, use <_:code-1/>."
+msgstr ""
+
+#. (itstool) path: p/code
+#: ./BestPractices/bptl-header.odd:1113
+msgid "cert=\"unknown\""
+msgstr ""
+
+#. (itstool) path: cell/p
+#: ./BestPractices/bptl-header.odd:1109
+msgid "If the date is unknown (for example, recorded according to the descriptive cataloging standard used, e.g., “[date of publication not identified]\" or \"[date of distribution not identified]”, use <_:code-1/>."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1117
+msgid "534 $c (content of element)"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1118
+msgid "Dates fixed fields (value of attribute(s))"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1123
+msgid "260 $c"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1125
+msgid "264_2 $c"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1137
+#: ./BestPractices/bptl-header.odd:1144
+msgid "extent"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1139
+msgid "[recommended] Describes the extent of the source document bibliographic item. If the data is generated by hand, it should include a comprehensible statement of the size of the item, such as the number of pages or leaves. If generated from a catalog record, there should be two <_:gi-1/> elements: one for the extent of the item (e.g., number of pages) and other physical details, and a second one for the dimension(s). Both should be recorded according to descriptive cataloging standard used."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1149
+msgid "534 $e"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1150
+msgid "300"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1162
+msgid "[optional] Use for notes about the source document bibliographic item, given according to the descriptive cataloging standard used."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1165
+msgid "534 $n"
+msgstr ""
+
+#. (itstool) path: cell/title
+#: ./BestPractices/bptl-header.odd:1184
+msgid "Short Title Catalogue"
+msgstr ""
+
+#. (itstool) path: cell/title
+#: ./BestPractices/bptl-header.odd:1184
+msgid "Books in Maori"
+msgstr ""
+
+#. (itstool) path: item/val
+#: ./BestPractices/bptl-header.odd:1189
+msgid "LCCN"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1189
+msgid "<_:val-1/> (for a Library of Congress control number)"
+msgstr ""
+
+#. (itstool) path: item/val
+#: ./BestPractices/bptl-header.odd:1190
+msgid "LC_call_number"
+msgstr ""
+
+#. (itstool) path: item/ref
+#: ./BestPractices/bptl-header.odd:1192
+msgid "P5"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1191
+msgid "Those listed in <_:ref-1/>"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1178
+msgid "[optional] Use one or more <_:gi-1/> elements to give identifiers for the source document, text, or work of the bibliographic item, whether assigned by the holding library (such as a call number), the publisher of the original document (such as an ISBN), or a standard bibliography (such as an identifier from the <_:title-2/> or <_:title-3/>). Use the following values for the <_:att-4/> attribute if applicable, and create other values if appropriate: <_:list-5/>"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1195
+msgid "534 $z for ISBN"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1198
+msgid "010"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1199
+msgid "015"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1200
+msgid "016"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1201
+msgid "020"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1202
+msgid "024"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1203
+msgid "025"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1204
+msgid "027"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1205
+msgid "028"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1206
+msgid "035"
+msgstr ""
+
+#. (itstool) path: list/item
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1207
+#: ./BestPractices/bptl-header.odd:1761
+#: ./BestPractices/bptl-header.odd:1762
+msgid "050-099"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1196
+msgid "<_:list-1/> etc."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1222
+msgid "[optional] In the value of <_:att-1/>, provide a URI for the source document. For example, this could be link to a facsimile of the source document."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1224
+msgid "856 $u when 2nd indicator = 2 and $3 = “Source”"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: valItem/gloss
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-header.odd:1234
+#: ./BestPractices/bptl-header.odd:2459
+#: ./BestPractices/bptl-header.odd:2474
+msgid "series"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1236
+msgid "[recommended] If applicable, give information about the series to which the source document bibliographic item belongs, given according to the descriptive cataloging standard used."
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1251
+msgid "title level=\"s\""
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1253
+msgid "[recommended] Contains the title of the series. Whenever possible, establish or use the authorized form of the title from a name authority file. Use of the <_:att-1/> attribute is optional, but if it is used, it should follow <_:ref-2/>."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1260
+#: ./BestPractices/bptl-header.odd:1280
+msgid "534 $f"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1263
+#: ./BestPractices/bptl-header.odd:1283
+msgid "4xx"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1264
+#: ./BestPractices/bptl-header.odd:1284
+msgid "8xx"
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1276
+msgid "biblScope unit=\"volume\""
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1278
+msgid "[recommended] If applicable, use for volume numbering of the source document within the series."
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1296
+msgid "idno type=\"ISSN\""
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1298
+msgid "[recommended] If applicable, use for an ISSN for the series."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1312
+msgid "[optional] In the value of <_:att-1/>, provide a URI for a catalog record for the source document."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1326
+msgid "[recommended] If applicable, describe a work related to the source document, following the guidelines for the components of the <_:gi-1/> that is a child of <_:gi-2/>."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1331
+#: ./BestPractices/bptl-header.odd:1340
+msgid "700 $t"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1332
+#: ./BestPractices/bptl-header.odd:1341
+msgid "710 $t"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1333
+#: ./BestPractices/bptl-header.odd:1342
+msgid "711 $t"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1334
+#: ./BestPractices/bptl-header.odd:1343
+msgid "730"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1335
+#: ./BestPractices/bptl-header.odd:1344
+msgid "740"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1356
+msgid "relation"
+msgstr ""
+
+#. (itstool) path: cell/ref
+#: ./BestPractices/bptl-header.odd:1358
+msgid "section 4.1.5, The TEI Header and FRBR"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1356
+msgid "[optional] Use <_:gi-1/> with <_:gi-2/> child elements to express any FRBR entities and relationships relating to the TEI document (see <_:ref-3/>, above)."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1366
+msgid "encodingDesc"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1368
+#: ./BestPractices/bptl-header.odd:1542
+msgid "[recommended]"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1377
+msgid "projectDesc"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1380
+msgid "[optional] Include a description of the purpose for which the electronic file was encoded."
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1389
+msgid "schemaRef url=\"___\""
+msgstr ""
+
+#. (itstool) path: p/att
+#. (itstool) path: cell/att
+#: ./BestPractices/bptl-header.odd:1393
+#: ./BestPractices/bptl-header.odd:1669
+msgid "url"
+msgstr ""
+
+#. (itstool) path: item/val
+#: ./BestPractices/bptl-header.odd:1396
+msgid "bptl:L1-v4.0.0"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1396
+msgid "Level 1: <_:val-1/>"
+msgstr ""
+
+#. (itstool) path: item/val
+#: ./BestPractices/bptl-header.odd:1397
+msgid "bptl:L2-v4.0.0"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1397
+msgid "Level 2: <_:val-1/>"
+msgstr ""
+
+#. (itstool) path: item/val
+#: ./BestPractices/bptl-header.odd:1398
+msgid "bptl:L3-v4.0.0"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1398
+msgid "Level 3: <_:val-1/>"
+msgstr ""
+
+#. (itstool) path: item/val
+#: ./BestPractices/bptl-header.odd:1399
+msgid "bptl:L4-v4.0.0"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1399
+msgid "Level 4: <_:val-1/>"
+msgstr ""
+
+#. (itstool) path: item/val
+#: ./BestPractices/bptl-header.odd:1400
+msgid "bptl:L5-v4.0.0"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1400
+msgid "Level 5: <_:val-1/>"
+msgstr ""
+
+#. (itstool) path: cell/p
+#: ./BestPractices/bptl-header.odd:1392
+msgid "[recommended] Documents the encoding level according to these <_:title-1/>. Use the <_:att-2/> attribute for the value that indicates the encoding level: <_:list-3/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1406
+msgid "856 $z, which should include boilerplate text describing how the TEI document is presented to the user (as page images, text, or both)"
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1418
+msgid "editorialDecl"
+msgstr ""
+
+#. (itstool) path: cell/p
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1421
+#: ./BestPractices/bptl-header.odd:1681
+#: ./BestPractices/bptl-header.odd:1743
+msgid "[optional]"
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1432
+msgid "correction status=\"___\" method=\"___\""
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1434
+msgid "correction"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1434
+msgid "[optional] A <_:gi-1/> element may be used to describe what corrections, if any, have been made to the source text, and how they were made."
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1445
+msgid "hyphenation eol=\"___\""
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1447
+msgid "hyphenation"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1447
+msgid "[optional] A <_:gi-1/> element may be used to describe how both soft and hard hyphens have been recorded."
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1459
+msgid "normalization method=\"___\""
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1461
+msgid "normalization"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1461
+msgid "[optional] One or more <_:gi-1/> elements may be provided to explicitly declare the extent of normalization or regularization."
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1473
+msgid "punctuation marks=\"___\" placement=\"___\""
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1475
+#: ./BestPractices/bptl-header.odd:1491
+msgid "punctuation"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1475
+msgid "[optional] A <_:gi-1/> element may be provided to explicitly declare whether punctuation marks have been retained or replaced by markup, and if retained where they have been placed with respect intra-paragraph elements."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1489
+#: ./BestPractices/bptl-header.odd:1492
+msgid "quotation"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1494
+msgid "marks"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1491
+msgid "[optional] A specialization of the <_:gi-1/> element, the <_:gi-2/> element may be provided to explicitly declare whether quotation marks have been retained as content or not. Optionally use the <_:gi-3/> attribute."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1509
+msgid "notes about omissions of material found in the original work"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1511
+msgid "the format of the data in the header: Does the data in the <_:gi-1/> follow RDA rules? How about in the <_:gi-2/>? Is ISBD punctuation included?"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1515
+msgid "automated processes used to generate the markup or content"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1517
+msgid "external files or databases (such as those containing authority data) referenced in the TEI document"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1520
+msgid "whether line breaks, column breaks, page breaks, or a combination are encoded"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1522
+msgid "any other editorial decisions made during encoding"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1523
+msgid "an explanation of any tag URI schemes used in the TEI document"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1506
+msgid "[optional] Include up to one <_:gi-1/> element for each of the following in the order given, addressing in prose: <_:list-2/>"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1528
+msgid "008/18"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1529
+msgid "040 $e"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1540
+msgid "tagsDecl"
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1552
+msgid "rendition selector=\"___\" scheme=\"css\""
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: cell/att
+#: ./BestPractices/bptl-header.odd:1554
+#: ./BestPractices/bptl-header.odd:1560
+msgid "rendition"
+msgstr ""
+
+#. (itstool) path: cell/att
+#: ./BestPractices/bptl-header.odd:1556
+msgid "selector"
+msgstr ""
+
+#. (itstool) path: cell/att
+#: ./BestPractices/bptl-header.odd:1559
+#: ./BestPractices/bptl-header.odd:1626
+msgid "xml:id"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1554
+msgid "[recommended] Include one or more <_:gi-1/> elements to indicate the default renditions of various elements in the source document. Use the <_:att-2/> attribute to indicate to which elements this rendition should be applied. Alternatively, use an <_:att-3/> attribute and point to it from a <_:att-4/> attribute."
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1570
+msgid "namespace name=\"http://www.tei-c.org/ns/1.0\""
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: desc/gi
+#: ./BestPractices/bptl-header.odd:1571
+#: ./BestPractices/bptl-header.odd:1575
+#: ./BestPractices/bptl-header.odd:1589
+#: ./BestPractices/bptl-header.odd:1596
+#: ./BestPractices/bptl-header.odd:2350
+#: ./BestPractices/bptl-header.odd:2357
+#: ./BestPractices/bptl-header.odd:2365
+msgid "tagUsage"
+msgstr ""
+
+#. (itstool) path: item/eg
+#: ./BestPractices/bptl-header.odd:1580
+msgid "&lt;tagUsage gi=\"div1\"&gt;Numbered divs used.&lt;/tagUsage&gt;"
+msgstr ""
+
+#. (itstool) path: item/eg
+#: ./BestPractices/bptl-header.odd:1583
+msgid "&lt;tagUsage gi=\"div\"&gt;Unnumbered divs used.&lt;/tagUsage&gt;"
+msgstr ""
+
+#. (itstool) path: item/eg
+#: ./BestPractices/bptl-header.odd:1586
+msgid "&lt;tagUsage gi=\"sourceDoc\"&gt;Logical divisions not encoded.&lt;/tagUsage&gt;"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: desc/gi
+#: ./BestPractices/bptl-header.odd:1592
+#: ./BestPractices/bptl-header.odd:2348
+#: ./BestPractices/bptl-header.odd:2356
+#: ./BestPractices/bptl-header.odd:2362
+msgid "div"
+msgstr ""
+
+#. (itstool) path: cell/att
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-header.odd:1593
+#: ./BestPractices/bptl-header.odd:1820
+msgid "gi"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1597
+#: ./BestPractices/bptl-header.odd:1695
+msgid "text"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1573
+msgid "[recommended] This element should have one and only one child <_:gi-1/> element for describing the encoding of logical divisions, which should be one of the following: <_:list-2/> Note that the intent of the <_:gi-3/> is to explicitly express whether logical divisions and subdivisions are encoded using numbered or unnumbered <_:gi-4/> elements. Thus the third option (with <_:val-5/> as the value of <_:att-6/>) is only intended for use at level 1. At levels 2 and above <_:gi-7/> is optional, and the <_:gi-8/> should describe the divisions used within the required <_:gi-9/>."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1607
+#: ./BestPractices/bptl-header.odd:1758
+#: ./BestPractices/bptl-header.odd:1775
+msgid "classDecl"
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1608
+msgid "taxonomy xml:id=\"___\""
+msgstr ""
+
+#. (itstool) path: cell/att
+#: ./BestPractices/bptl-header.odd:1613
+#: ./BestPractices/bptl-header.odd:1626
+#: ./BestPractices/bptl-header.odd:1773
+msgid "scheme"
+msgstr ""
+
+#. (itstool) path: item/eg
+#: ./BestPractices/bptl-header.odd:1617
+msgid "&lt;taxonomy xml:id=\"LCC\"&gt;&lt;bibl&gt;Library of Congress Classification&lt;/bibl&gt;&lt;/taxonomy&gt;"
+msgstr ""
+
+#. (itstool) path: item/eg
+#: ./BestPractices/bptl-header.odd:1620
+msgid "&lt;taxonomy xml:id=\"LCSH\"&gt;&lt;bibl&gt;Library of Congress Subject Headings&lt;/bibl&gt;&lt;/taxonomy&gt;"
+msgstr ""
+
+#. (itstool) path: item/eg
+#: ./BestPractices/bptl-header.odd:1623
+msgid "&lt;taxonomy xml:id=\"AAT\"&gt;&lt;bibl&gt;Art &amp;amp; Architecture Theasaurus&lt;/bibl&gt;&lt;/taxonomy&gt;"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1611
+msgid "[optional] Use to document classification schemes and controlled vocabularies referenced by a <_:att-1/> attribute elsewhere in the header or body of the TEI document. For example: <_:list-2/> The <_:att-3/> attribute is required in order to provide an identifier to which <_:att-4/> attributes in elsewhere in the header refer."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1636
+msgid "samplingDecl"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1639
+msgid "[optional] Used to record a prose description of the rationale and methods used in selecting texts, or parts of text, for inclusion."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1650
+msgid "appInfo"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1651
+msgid "app"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1653
+msgid "[optional] Used by external processes to record information about themselves and the changes they have made to the file."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1664
+msgid "listPrefixDef"
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1665
+msgid "prefixDef ident=\"bptl\" matchPattern=\"L([1-5])-v(\\d+\\.\\d+\\.\\d+[aαβb]?)\" replacementPattern=\"http://www.tei-c.org/SIG/Libraries/teiinlibraries/$2/\""
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1670
+msgid "schemaRef"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: elementSpec/altIdent
+#: ./BestPractices/bptl-header.odd:1670
+#: ./BestPractices/bptl-header.odd:2181
+msgid "prefixDef"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1668
+msgid "[recommended] Defines the “bptl:” prefix used on the value of the <_:att-1/> attribute of the <_:gi-2/> element. Additional <_:gi-3/> elements may be specified if other private URI schemes are to be used."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1679
+msgid "profileDesc"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1690
+#: ./BestPractices/bptl-header.odd:1697
+msgid "langUsage"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1693
+#: ./BestPractices/bptl-header.odd:1710
+#: ./BestPractices/bptl-header.odd:1716
+msgid "language"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1692
+msgid "[optional] Use this element and child <_:gi-1/> elements to list languages used in the text. This supplements the <_:att-2/> attribute on the <_:gi-3/> (which is outside the header) in cases where more than one language is used in the text. It is not expected that the <_:gi-4/> element will contain any description of language usage."
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1708
+msgid "language ident=\"___\""
+msgstr ""
+
+#. (itstool) path: cell/att
+#: ./BestPractices/bptl-header.odd:1712
+#: ./BestPractices/bptl-header.odd:1718
+msgid "ident"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1710
+msgid "[optional] Use one or more <_:gi-1/> elements to indicate language(s) used in the source document. Use of the <_:att-2/> attribute is required <_:ref-3/>. Since the value of this attribute is usually sufficient to indicate the language, the <_:gi-4/> element should normally have no content. In the unusual case where <_:att-5/> is insufficient, provide additional information about the language as content of the element."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1723
+#: ./BestPractices/bptl-header.odd:1730
+msgid "008/35-37"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1724
+#: ./BestPractices/bptl-header.odd:1731
+msgid "041"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1725
+#: ./BestPractices/bptl-header.odd:1732
+msgid "546"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1741
+msgid "textClass"
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1753
+msgid "classCode scheme=\"___\""
+msgstr ""
+
+#. (itstool) path: cell/code
+#: ./BestPractices/bptl-header.odd:1759
+msgid "scheme=\"#LCC\""
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1755
+msgid "[optional] True classification numbers as opposed to call numbers may be entered here. The value of the scheme attribute corresponds to a classification scheme defined previously in <_:gi-1/>. <_:lb-2/>Example: <_:code-3/>"
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1770
+msgid "keywords scheme=\"___\""
+msgstr ""
+
+#. (itstool) path: cell/code
+#: ./BestPractices/bptl-header.odd:1776
+msgid "scheme=\"#LCSH\""
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1772
+msgid "[optional] Repeat this element as many times as there are keyword schemes. The value of the <_:att-1/> attribute is a URI for a controlled or uncontrolled vocabulary. The URI may be absolute to a version online or to one defined previously in <_:gi-2/>. <_:lb-3/>Example: <_:code-4/>"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1778
+#: ./BestPractices/bptl-header.odd:1779
+msgid "6xx 2nd indicator or 6xx $2 when 2nd indicator = 7"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1788
+msgid "term"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1792
+msgid "keywords"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1790
+msgid "[optional] Use for terms from controlled or uncontrolled vocabularies as defined according to the containing <_:gi-1/> element."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1793
+#: ./BestPractices/bptl-header.odd:1794
+msgid "6xx"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-header.odd:1802
+msgid "[optional] Use as a wrapper for embedded non-TEI metadata."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-header.odd:1810
+msgid "revisionDesc"
+msgstr ""
+
+#. (itstool) path: cell/tag
+#: ./BestPractices/bptl-header.odd:1811
+msgid "change when=\"YYYY-MM-DD\" who=\"[URI]\""
+msgstr ""
+
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-header.odd:1814
+#: ./BestPractices/bptl-header.odd:1818
+#: ./BestPractices/bptl-header.odd:1828
+msgid "change"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-header.odd:1820
+msgid "ptr"
+msgstr ""
+
+#. (itstool) path: cell/p
+#: ./BestPractices/bptl-header.odd:1814
+msgid "[optional] Create a <_:gi-1/> element to record each significant change to the TEI document, in reverse chronological order (i.e., most recent first). A prose description of the change is recorded as the content of each <_:gi-2/> element. This prose may contain lists for organization, and phrase-level markup (like <_:gi-3/>, <_:gi-4/>, or <_:gi-5/>), but not paragraphs."
+msgstr ""
+
+#. (itstool) path: cell/p
+#: ./BestPractices/bptl-header.odd:1822
+msgid "The date of the change should be recorded using the <_:att-1/> attribute (see <_:ref-2/>)."
+msgstr ""
+
+#. (itstool) path: p/att
+#: ./BestPractices/bptl-header.odd:1827
+msgid "who"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-header.odd:1829
+#: ./BestPractices/bptl-header.odd:1835
+msgid "person"
+msgstr ""
+
+#. (itstool) path: p/code
+#: ./BestPractices/bptl-header.odd:1837
+msgid "who=\"#Jane_Smith\""
+msgstr ""
+
+#. (itstool) path: cell/p
+#: ./BestPractices/bptl-header.odd:1826
+msgid "The person who is responsible for making the change should be indicated by the <_:att-1/> attribute of <_:gi-2/>. Its value is a URI that points to a <_:gi-3/> or <_:gi-4/> that encodes information about the responsible party. Note that this reference is a URI, not an IDREF, and thus is typically not checked by validation software. Small projects sometimes take advantage of this by putting information into the URI itself, and not having a <_:gi-5/> or <_:gi-6/> element. For example, the document might simply give <_:code-7/>, relying on human readers to understand this reference."
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-header.odd:1846
+msgid "Sample TEI Header"
+msgstr ""
+
+#. (itstool) path: titleStmt/title
+#. (itstool) path: monogr/title
+#: ./BestPractices/bptl-header.odd:1851
+#: ./BestPractices/bptl-header.odd:1874
+msgid "Lincoln and Seward."
+msgstr ""
+
+#. (itstool) path: author/persName
+#: ./BestPractices/bptl-header.odd:1853
+#: ./BestPractices/bptl-header.odd:1872
+msgid "Welles, Gideon, 1802-1878."
+msgstr ""
+
+#. (itstool) path: publicationStmt/publisher
+#: ./BestPractices/bptl-header.odd:1857
+msgid "University of Michigan, Digital Library Initiatives"
+msgstr ""
+
+#. (itstool) path: availability/p
+#: ./BestPractices/bptl-header.odd:1859
+msgid "These pages may be freely searched and displayed. Permission must be received for subsequent distribution in print or electronically. Please go to http://www.umdl.umich.edu/ for more information."
+msgstr ""
+
+#. (itstool) path: seriesStmt/title
+#: ./BestPractices/bptl-header.odd:1866
+msgid "Making of America"
+msgstr ""
+
+#. (itstool) path: monogr/title
+#: ./BestPractices/bptl-header.odd:1875
+msgid "Remarks upon the memorial address of Chas. Francis Adams, on the late William H. Seward, with incidents and comments illustrative of the measures and policy of the administration of Abraham Lincoln. And views as to the relative positions of the late President and secretary of state."
+msgstr ""
+
+#. (itstool) path: monogr/title
+#: ./BestPractices/bptl-header.odd:1879
+msgid "By Gideon Welles"
+msgstr ""
+
+#. (itstool) path: imprint/pubPlace
+#: ./BestPractices/bptl-header.odd:1881
+msgid "New York"
+msgstr ""
+
+#. (itstool) path: imprint/publisher
+#: ./BestPractices/bptl-header.odd:1882
+msgid "Sheldon &amp; company"
+msgstr ""
+
+#. (itstool) path: imprint/date
+#: ./BestPractices/bptl-header.odd:1883
+msgid "1874"
+msgstr ""
+
+#. (itstool) path: monogr/extent
+#: ./BestPractices/bptl-header.odd:1885
+msgid "viii, [7]-215 p"
+msgstr ""
+
+#. (itstool) path: monogr/extent
+#: ./BestPractices/bptl-header.odd:1886
+msgid "20 cm."
+msgstr ""
+
+#. (itstool) path: monogr/note
+#: ./BestPractices/bptl-header.odd:1887
+msgid "First published in condensed form in the Galaxy, v. 16, 1873, p. [518]-530, [687]-700, [793]-804."
+msgstr ""
+
+#. (itstool) path: monogr/idno
+#: ./BestPractices/bptl-header.odd:1889
+msgid "1-4255-1817-6"
+msgstr ""
+
+#. (itstool) path: monogr/idno
+#: ./BestPractices/bptl-header.odd:1890
+msgid "E456 .W44"
+msgstr ""
+
+#. (itstool) path: projectDesc/p
+#: ./BestPractices/bptl-header.odd:1897
+msgid "XML created for the Making of America collection."
+msgstr ""
+
+#. (itstool) path: editorialDecl/p
+#: ./BestPractices/bptl-header.odd:1901
+msgid "Data in the <_:gi-1/> of the header comes from a pre-AACR2 record. Other data follows AACR2 when applicable."
+msgstr ""
+
+#. (itstool) path: editorialDecl/p
+#: ./BestPractices/bptl-header.odd:1903
+msgid "The <_:gi-1/> was created by exporting from the catalog on 2008-06-15."
+msgstr ""
+
+#. (itstool) path: editorialDecl/p
+#: ./BestPractices/bptl-header.odd:1904
+msgid "This electronic text file was created by optical character recognition (OCR). No corrections have been made to the OCR-ed text and no editing has been done to the content of the original document. Encoding has been done using the recommendations for Level 1 of the <_:title-1/>."
+msgstr ""
+
+#. (itstool) path: editorialDecl/p
+#: ./BestPractices/bptl-header.odd:1908
+msgid "All hyphens and quotation marks have been retained."
+msgstr ""
+
+#. (itstool) path: namespace/tagUsage
+#. (itstool) path: desc/quote
+#: ./BestPractices/bptl-header.odd:1912
+#: ./BestPractices/bptl-header.odd:2365
+msgid "Logical divisions not encoded."
+msgstr ""
+
+#. (itstool) path: taxonomy/bibl
+#: ./BestPractices/bptl-header.odd:1917
+msgid "Library of Congress Classification"
+msgstr ""
+
+#. (itstool) path: taxonomy/bibl
+#: ./BestPractices/bptl-header.odd:1920
+msgid "Library of Congress Subject Headings"
+msgstr ""
+
+#. (itstool) path: textClass/classCode
+#: ./BestPractices/bptl-header.odd:1929
+msgid "E456"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1932
+msgid "Lincoln, Abraham, 1809-1865."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1933
+msgid "Seward, William Henry, 1801-1872."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-header.odd:1934
+msgid "Adams, Charles Francis, 1807-1886. Address of Charles Francis Adams ... on the life ... of William H. Seward."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: ./BestPractices/bptl-header.odd:1941
+msgid "Header generated from export of MARC record"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-header.odd:1948
+msgid "Specification"
+msgstr ""
+
+#. (itstool) path: rule/report
+#: ./BestPractices/bptl-header.odd:1963
+msgid "The &lt;extent&gt; element should not be used as a direct child of &lt;fileDesc&gt;, but rather only as a descendant of a bibliographic citation (e.g., of the source)."
+msgstr ""
+
+#. (itstool) path: rule/assert
+#: ./BestPractices/bptl-header.odd:1973
+msgid "When inside an &lt;imprint&gt;, a &lt;date&gt; element should have a machine-readable version of the date specified either on the @when attribute, or, in the case of not knowing the precise date, on the @notBefore and @notAfter attributes."
+msgstr ""
+
+#. (itstool) path: rule/assert
+#: ./BestPractices/bptl-header.odd:2003
+msgid "The use of the <_:name-1/>= attribute (found here on the &lt;<_:value-of-2/>&gt; element) is not recommended by the Best Practices for TEI in Libraries"
+msgstr ""
+
+#. (itstool) path: valItem/gloss
+#: ./BestPractices/bptl-header.odd:2056
+msgid "Best Practices for TEI in Libraries level 1, version 4.0.0"
+msgstr ""
+
+#. (itstool) path: valItem/gloss
+#: ./BestPractices/bptl-header.odd:2059
+msgid "Best Practices for TEI in Libraries level 2, version 4.0.0"
+msgstr ""
+
+#. (itstool) path: valItem/gloss
+#: ./BestPractices/bptl-header.odd:2062
+msgid "Best Practices for TEI in Libraries level 3, version 4.0.0"
+msgstr ""
+
+#. (itstool) path: valItem/gloss
+#: ./BestPractices/bptl-header.odd:2065
+msgid "Best Practices for TEI in Libraries level 4, version 4.0.0"
+msgstr ""
+
+#. (itstool) path: valItem/gloss
+#: ./BestPractices/bptl-header.odd:2068
+msgid "Best Practices for TEI in Libraries level 5, version 4.0.0"
+msgstr ""
+
+#. (itstool) path: p/name
+#: ./BestPractices/bptl-header.odd:2129
+msgid "Thutmose I"
+msgstr ""
+
+#. (itstool) path: editorialDecl/p
+#: ./BestPractices/bptl-header.odd:2128
+msgid "Metadata in the TEI header comes from an AACR2-conformant record, translated to TEI via the <_:name-1/> program."
+msgstr ""
+
+#. (itstool) path: p/name
+#: ./BestPractices/bptl-header.odd:2130
+msgid "c-n-rite"
+msgstr ""
+
+#. (itstool) path: p/name
+#: ./BestPractices/bptl-header.odd:2131
+msgid "cnr2tei.xslt"
+msgstr ""
+
+#. (itstool) path: editorialDecl/p
+#: ./BestPractices/bptl-header.odd:2130
+msgid "Content originally generated by <_:name-1/> OCR software, then the needed TEI encoding put in place with <_:name-2/>."
+msgstr ""
+
+#. (itstool) path: normalization/p
+#: ./BestPractices/bptl-header.odd:2134
+msgid "Spacing between words and the following punctuation mark has been removed. Spacing between words has generally been regularized to one space."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-header.odd:2142
+msgid "measure"
+msgstr ""
+
+#. (itstool) path: normalization/p
+#: ./BestPractices/bptl-header.odd:2140
+msgid "Distances expressed in imperial units in the source have been normalized to the metric system using the attributes of the <_:gi-1/> element."
+msgstr ""
+
+#. (itstool) path: hyphenation/p
+#: ./BestPractices/bptl-header.odd:2146
+msgid "All hyphens in source document encoded as U+2010."
+msgstr ""
+
+#. (itstool) path: valItem/gloss
+#: ./BestPractices/bptl-header.odd:2171
+msgid "U.S. Library of Congress call number"
+msgstr ""
+
+#. (itstool) path: valItem/gloss
+#: ./BestPractices/bptl-header.odd:2174
+msgid "Library of Congress control number"
+msgstr ""
+
+#. (itstool) path: desc/q
+#: ./BestPractices/bptl-header.odd:2194
+msgid "L1-v1.0.2a"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2193
+msgid "This regular expression matches BPTL version numbers like <_:q-1/>."
+msgstr ""
+
+#. (itstool) path: constraint/report
+#: ./BestPractices/bptl-header.odd:2236
+msgid "Use of specialized child elements of the publication statement (rather than paragraphs) is recommended whenever possible"
+msgstr ""
+
+#. (itstool) path: rule/assert
+#: ./BestPractices/bptl-header.odd:2245
+msgid "Dates inside the publication statement should have @when (and should not have content)"
+msgstr ""
+
+#. (itstool) path: rule/report
+#: ./BestPractices/bptl-header.odd:2249
+msgid "Dates inside the publication statement should not have content (and should have @when)"
+msgstr ""
+
+#. (itstool) path: remarks/p
+#: ./BestPractices/bptl-header.odd:2257
+msgid "For normally published items, the specialized children elements (e.g. <_:gi-1/>) should be used. Paragraphs are permitted as an alternative for unusual cases like unpublished works."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2268
+msgid "Cascading Stylesheet Language"
+msgstr ""
+
+#. (itstool) path: attDef/gloss
+#: ./BestPractices/bptl-header.odd:2298
+msgid "element name"
+msgstr ""
+
+#. (itstool) path: attDef/desc
+#: ./BestPractices/bptl-header.odd:2299
+msgid "the name (generic identifier) of the element indicated by the tag."
+msgstr ""
+
+#. (itstool) path: rule/report
+#: ./BestPractices/bptl-header.odd:2306
+msgid "A single TEI in Libraries document should not mix numbered and unnumbered divisions."
+msgstr ""
+
+#. (itstool) path: rule/assert
+#: ./BestPractices/bptl-header.odd:2311
+msgid "The use of divisions (i.e., whether numbered or unnumbered divisions are used) should be documented in a &lt;tagUsage&gt; element by \"Unnumbered divs used.\" or \"Numbered divs used.\" The &lt;tagUsage&gt; element must be the child of a &lt;namespace name=\"http://www.tei-c.org/ns/1.0\"&gt; element."
+msgstr ""
+
+#. (itstool) path: rule/assert
+#: ./BestPractices/bptl-header.odd:2318
+msgid "The fact that logical divisions are not encoded (and thus neither numbered nor unnumbered divisions are used) should be documented in a &lt;tagUsage&gt; element by \"Logical divisions not encoded.\" The &lt;tagUsage&gt; element must be the child of a &lt;namespace name=\"http://www.tei-c.org/ns/1.0\"&gt; element."
+msgstr ""
+
+#. (itstool) path: rule/assert
+#: ./BestPractices/bptl-header.odd:2330
+msgid "A document that uses un-numbered divisions should specify so by using &lt;tagUsage gi=\"div\"&gt;Unnumbered divs used.&lt;/tagUsage&gt;; a document that uses numbered divisions should specify so by using &lt;tagUsage gi=\"div1\"&gt;Numbered divs used.&lt;/tagUsage&gt;; a document that uses neither should specify so by using &lt;tagUsage gi=\"sourceDoc\"&gt;Logical divisions not encoded.&lt;/tagUsage&gt;."
+msgstr ""
+
+#. (itstool) path: valItem/gloss
+#: ./BestPractices/bptl-header.odd:2347
+msgid "divisions are un-numbered"
+msgstr ""
+
+#. (itstool) path: desc/gi
+#: ./BestPractices/bptl-header.odd:2349
+#: ./BestPractices/bptl-header.odd:2355
+#: ./BestPractices/bptl-header.odd:2363
+msgid "div1"
+msgstr ""
+
+#. (itstool) path: desc/gi
+#: ./BestPractices/bptl-header.odd:2349
+#: ./BestPractices/bptl-header.odd:2356
+msgid "div2"
+msgstr ""
+
+#. (itstool) path: desc/quote
+#: ./BestPractices/bptl-header.odd:2350
+msgid "Unnumbered divs used."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2348
+msgid "The document uses <_:gi-1/>, not <_:gi-2/>, <_:gi-3/>, etc. The content of this <_:gi-4/> should be <_:quote-5/>."
+msgstr ""
+
+#. (itstool) path: valItem/gloss
+#: ./BestPractices/bptl-header.odd:2354
+msgid "divisions are numbered"
+msgstr ""
+
+#. (itstool) path: desc/quote
+#: ./BestPractices/bptl-header.odd:2357
+msgid "Numbered divs used."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2355
+msgid "The document uses <_:gi-1/> (and perhaps <_:gi-2/>, etc.), not <_:gi-3/> elements. The content of this <_:gi-4/> should be <_:quote-5/>."
+msgstr ""
+
+#. (itstool) path: valItem/gloss
+#: ./BestPractices/bptl-header.odd:2361
+msgid "logical divisions not encoded"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2362
+msgid "The document uses neither <_:gi-1/> nor <_:gi-2/> elements, as the logical structure of the document is not encoded. The content of this <_:gi-3/> should be <_:quote-4/>."
+msgstr ""
+
+#. (itstool) path: desc/gi
+#. (itstool) path: report/gi
+#: ./BestPractices/bptl-header.odd:2387
+#: ./BestPractices/bptl-header.odd:2391
+#: ./BestPractices/bptl-header.odd:2391
+msgid "ab"
+msgstr ""
+
+#. (itstool) path: constraintSpec/desc
+#: ./BestPractices/bptl-header.odd:2387
+msgid "Although TEI allows both <_:gi-1/> and <_:gi-2/> in various places in the TEI header, these Best Practices recommend only <_:gi-3/>."
+msgstr ""
+
+#. (itstool) path: constraint/report
+#: ./BestPractices/bptl-header.odd:2391
+msgid "Use <_:gi-1/> instead of <_:gi-2/> in the TEI header. (There are <_:value-of-3/> <_:gi-4/> elements in this header.)"
+msgstr ""
+
+#. (itstool) path: attDef/desc
+#: ./BestPractices/bptl-header.odd:2408
+msgid "indicates the bibliographic level for a title, that is, whether it identifies an article, book, journal, series, or unpublished material."
+msgstr ""
+
+#. (itstool) path: rule/report
+#: ./BestPractices/bptl-header.odd:2414
+msgid "The @level attribute should not be specified on a &lt;title&gt; within the &lt;titleStmt&gt;."
+msgstr ""
+
+#. (itstool) path: rule/assert
+#: ./BestPractices/bptl-header.odd:2419
+msgid "When a child of &lt;seriesStmt&gt;, the level of a title should be specified as 's'."
+msgstr ""
+
+#. (itstool) path: rule/assert
+#: ./BestPractices/bptl-header.odd:2424
+msgid "When inside the series-level portion of a structured bibliographic citation, the level of a title should be specified as 's'."
+msgstr ""
+
+#. (itstool) path: rule/assert
+#: ./BestPractices/bptl-header.odd:2430
+msgid "When a child of &lt;analytic&gt;, the level of a title should be specified as 'a'."
+msgstr ""
+
+#. (itstool) path: rule/report
+#: ./BestPractices/bptl-header.odd:2435
+msgid "When a child of &lt;monogr&gt;, the level of a title should not be specified as 'a'."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2444
+msgid "analytic title (article, poem, or other item published as part of a larger item)"
+msgstr ""
+
+#. (itstool) path: valItem/gloss
+#: ./BestPractices/bptl-header.odd:2448
+msgid "monographic"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2449
+msgid "monographic title (book, collection, or other item published as a distinct item, including single volumes of multi-volume works)"
+msgstr ""
+
+#. (itstool) path: valItem/gloss
+#: ./BestPractices/bptl-header.odd:2455
+msgid "journal"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2456
+msgid "journal title"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2460
+msgid "series title"
+msgstr ""
+
+#. (itstool) path: valItem/gloss
+#: ./BestPractices/bptl-header.odd:2463
+msgid "unpublished"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2464
+msgid "title of unpublished material (including theses and dissertations unless published by a commercial press)"
+msgstr ""
+
+#. (itstool) path: p/foreign
+#: ./BestPractices/bptl-header.odd:2472
+msgid "ipso facto"
+msgstr ""
+
+#. (itstool) path: p/val
+#: ./BestPractices/bptl-header.odd:2473
+msgid "a"
+msgstr ""
+
+#. (itstool) path: p/val
+#: ./BestPractices/bptl-header.odd:2475
+msgid "s"
+msgstr ""
+
+#. (itstool) path: remarks/p
+#: ./BestPractices/bptl-header.odd:2470
+msgid "The level of a title is sometimes implied by its context: for example, a title appearing directly within an <_:gi-1/> element is <_:foreign-2/> of level <_:val-3/>, and one appearing within a <_:gi-4/> element of level <_:val-5/>. For this reason, the <_:att-6/> attribute is not required in contexts where its value can be unambiguously inferred. Where it is supplied in such contexts, its value should not contradict the value implied by its parent element."
+msgstr ""
+
+#. (itstool) path: rule/assert
+#: ./BestPractices/bptl-header.odd:2489
+msgid "Inside the title statment the @type of a &lt;title&gt; should be specified"
+msgstr ""
+
+#. (itstool) path: rule/assert
+#: ./BestPractices/bptl-header.odd:2493
+msgid "Inside a structured bibliographic citation of a mongraphic-level item, @type of a &lt;title&gt; should be specified"
+msgstr ""
+
+#. (itstool) path: rule/assert
+#: ./BestPractices/bptl-header.odd:2498
+msgid "Inside the analytic portion of a structured bibliographic citation, @type of a &lt;title&gt; should be specified"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2506
+msgid "main title"
+msgstr ""
+
+#. (itstool) path: valItem/gloss
+#: ./BestPractices/bptl-header.odd:2509
+msgid "subordinate"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2510
+msgid "subtitle, title of part"
+msgstr ""
+
+#. (itstool) path: valItem/gloss
+#: ./BestPractices/bptl-header.odd:2513
+msgid "alternate"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2514
+msgid "alternate title, often in another language, by which the work is also known"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2518
+msgid "abbreviated form of title"
+msgstr ""
+
+#. (itstool) path: valItem/gloss
+#: ./BestPractices/bptl-header.odd:2521
+msgid "descriptive"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2524
+msgid "a translation of a title"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2527
+msgid "used for the title proper and alternative title according to the national cataloging code"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2532
+msgid "used for the the remainder of the title information — parallel titles, titles subsequent to the first, and other title information — according to the national cataloging code)"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2538
+msgid "used for the statement of responsibility according to the national cataloging code"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2542
+msgid "used for a uniform title according to the national cataloging code"
+msgstr ""
+
+#. (itstool) path: classSpec/desc
+#: ./BestPractices/bptl-header.odd:2550
+msgid "provides a recommended set of values describing common text divisions which can be used to classify sections of text."
+msgstr ""
+
+#. (itstool) path: attDef/defaultVal
+#: ./BestPractices/bptl-header.odd:2556
+msgid "section"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2564
+msgid "A section of the front matter that does not carry a more specific designation. Usually appears in front matter."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2567
+#: ./BestPractices/bptl-header.odd:2570
+#: ./BestPractices/bptl-header.odd:2576
+msgid "Usually appears in front matter."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2573
+msgid "A dedication. Usually appears in front matter."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2579
+msgid "A table of contents. Usually appears in front matter."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2582
+msgid "A portrait or other image (usually of the author, usually full page) printed at the front of a document. Usually appears in front matter."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2585
+#: ./BestPractices/bptl-header.odd:2588
+#: ./BestPractices/bptl-header.odd:2591
+#: ./BestPractices/bptl-header.odd:2594
+msgid "Usually appears in back matter."
+msgstr ""
+
+#. (itstool) path: desc/desc
+#: ./BestPractices/bptl-header.odd:2597
+msgid "An alphabetical listing of the topics in a document, usually with accompanying page references"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2597
+msgid "<_:desc-1/> Usually appears in back matter."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2600
+msgid "A short inscription, typically at the end of a book or manuscript, containing the title, printer, date and place of printing, etc. Usually appears in back matter."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2603
+msgid "A major structural component of a long work, identified explicitly in the text as a \"book\".se"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2607
+msgid "A chapter, typically in a prose document."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2610
+msgid "A major component of a work, containing further subdivisions."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2613
+msgid "A generic section of a larger work."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2616
+msgid "A generic subdivision of a section."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2619
+msgid "A single printed volume in a multi-volume work."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2622
+msgid "A section containing endnotes for the document."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2625
+msgid "An advertisement for a printed work or other product."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2628
+msgid "A section describing corrections to be made to the document."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2631
+msgid "A statement indicating that the document's printing was officially authorized."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2635
+msgid "A formal indication (usually on the title page or in the front matter) that the document has received official license to be printed."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2639
+msgid "A dramatic text."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2642
+msgid "A portion of a drama other than a prologue, act, scene, or epilogue."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2645
+msgid "An act in a dramatic text."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2648
+msgid "A scene in a dramatic text."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2651
+msgid "A list of characters in a dramatic text."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2654
+msgid "A poem."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2657
+msgid "A group of two or more poems under a common heading."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2660
+msgid "A short passage at the start of a document or section giving a prose description of its contents."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2664
+msgid "An entry in a document that is organized as a log or diary with dated entries."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2668
+msgid "Any section of the back matter that does not carry a more specific designation; includes afterwords, epilogues, codas, etc."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2672
+msgid "A short quotation at the start of a document or section, often accompanied by an attribution."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2676
+msgid "An opening section of a literary work (typically drama or poetry)."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2679
+msgid "A short concluding section, usually of a dramatic or fictional work."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2682
+msgid "An embedded narrative."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2685
+msgid "A text intended to be nonfiction consisting primarily of prose."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2688
+msgid "A portion of a novel."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2691
+msgid "A formal calendar; a document or document section identifying itself as a calendar."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2694
+msgid "A short prose non-fiction document."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2697
+msgid "A timeline."
+msgstr ""
+
+#. (itstool) path: desc/soCalled
+#: ./BestPractices/bptl-header.odd:2700
+msgid "examination"
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2700
+msgid "A section that is identified explicitly as an <_:soCalled-1/> in a text that uses this as a main structural division."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2703
+msgid "Any document in epistolary form, i.e. addressed by a sender to a recipient."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2706
+msgid "A prayer."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2709
+msgid "A recipe in a cookbook."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2712
+msgid "A section described as a speech or public lecture, in a document that uses this as a main structural division."
+msgstr ""
+
+#. (itstool) path: valItem/desc
+#: ./BestPractices/bptl-header.odd:2715
+msgid "A short treatise in pamphlet form often on a religious subject."
+msgstr ""
+

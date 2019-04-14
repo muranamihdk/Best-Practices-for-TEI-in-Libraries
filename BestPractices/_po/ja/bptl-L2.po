@@ -1,0 +1,918 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2019-04-15 05:07+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: titleStmt/title
+#: ./BestPractices/bptl-L2.odd:10
+msgid "TEI in Libraries level 2"
+msgstr ""
+
+#. (itstool) path: author/name
+#. (itstool) path: publicationStmt/authority
+#: ./BestPractices/bptl-L2.odd:12
+#: ./BestPractices/bptl-L2.odd:36
+msgid "TEI SIG on Libraries"
+msgstr ""
+
+#. (itstool) path: editor/name
+#. (itstool) path: editor/persName
+#: ./BestPractices/bptl-L2.odd:15
+#: ./BestPractices/bptl-L2.odd:729
+msgid "Kevin Hawkins"
+msgstr ""
+
+#. (itstool) path: editor/name
+#. (itstool) path: author/persName
+#: ./BestPractices/bptl-L2.odd:18
+#: ./BestPractices/bptl-L2.odd:540
+msgid "Michelle Dalmau"
+msgstr ""
+
+#. (itstool) path: editor/name
+#: ./BestPractices/bptl-L2.odd:21
+msgid "Elli Mylonas"
+msgstr ""
+
+#. (itstool) path: editor/name
+#. (itstool) id: bptl-L2.odd#sbauman.emt
+#: ./BestPractices/bptl-L2.odd:24
+msgid "Syd Bauman"
+msgstr ""
+
+#. (itstool) path: p/date
+#: ./BestPractices/bptl-L2.odd:33
+msgid "Sat, 08 Sep 18"
+msgstr ""
+
+#. (itstool) path: editionStmt/p
+#: ./BestPractices/bptl-L2.odd:33
+msgid "Version 4.0.0 (<_:date-1/>)"
+msgstr ""
+
+#. (itstool) path: availability/ab
+#: ./BestPractices/bptl-L2.odd:38
+msgid "Copyleft 2009 DLF"
+msgstr ""
+
+#. (itstool) path: p/ref
+#: ./BestPractices/bptl-L2.odd:40
+msgid "GNU Free Documentation License, Version 1.2"
+msgstr ""
+
+#. (itstool) path: p/name
+#: ./BestPractices/bptl-L2.odd:45
+msgid "COPYING.txt"
+msgstr ""
+
+#. (itstool) path: availability/p
+#: ./BestPractices/bptl-L2.odd:39
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the <_:ref-1/> or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the document entitled <_:name-2/>."
+msgstr ""
+
+#. (itstool) path: bibl/title
+#: ./BestPractices/bptl-L2.odd:52
+msgid "TEI in Libraries: Guidelines for Best Practices"
+msgstr ""
+
+#. (itstool) path: bibl/author
+#: ./BestPractices/bptl-L2.odd:53
+msgid "TEI in Libraries SIG"
+msgstr ""
+
+#. (itstool) path: bibl/author
+#: ./BestPractices/bptl-L2.odd:54
+msgid "Digital Libraries Federation TEI task force"
+msgstr ""
+
+#. (itstool) path: sourceDesc/p
+#: ./BestPractices/bptl-L2.odd:49
+msgid "No source in the transcriptional sense, but this document is a re-implementation of <_:bibl-1/> written in MediaWiki syntax and converted into the TEI ODD language. This verssion started <_:date-2/>."
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: ./BestPractices/bptl-L2.odd:63
+msgid "Begun, based on level 1."
+msgstr ""
+
+#. (itstool) path: item/gi
+#. (itstool) path: cell/gi
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-L2.odd:70
+#: ./BestPractices/bptl-L2.odd:188
+#: ./BestPractices/bptl-L2.odd:192
+#: ./BestPractices/bptl-L2.odd:195
+#: ./BestPractices/bptl-L2.odd:196
+#: ./BestPractices/bptl-L2.odd:204
+#: ./BestPractices/bptl-L2.odd:516
+#: ./BestPractices/bptl-L2.odd:667
+#: ./BestPractices/bptl-L2.odd:684
+#: ./BestPractices/bptl-L2.odd:784
+msgid "div"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L2.odd:70
+msgid "wrap main content in a <_:gi-1/> so driver document can include the contents of this document as a division of its own"
+msgstr ""
+
+#. (itstool) path: item/att
+#: ./BestPractices/bptl-L2.odd:73
+msgid "include"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: ./BestPractices/bptl-L2.odd:73
+msgid "moduleRef"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L2.odd:73
+msgid "use <_:att-1/> on <_:gi-2/> where we only want certain elements"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: ./BestPractices/bptl-L2.odd:75
+msgid "specGrp"
+msgstr ""
+
+#. (itstool) path: item/gi
+#: ./BestPractices/bptl-L2.odd:76
+msgid "TEI"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L2.odd:75
+msgid "link to only the <_:gi-1/> of interest in the header ODD (which is now a complete <_:gi-2/> document)"
+msgstr ""
+
+#. (itstool) path: item/code
+#: ./BestPractices/bptl-L2.odd:78
+msgid "tei"
+msgstr ""
+
+#. (itstool) path: item/att
+#: ./BestPractices/bptl-L2.odd:79
+msgid "context"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L2.odd:78
+msgid "Add <_:code-1/> prefix to element selectors in Schematron <_:att-2/>s"
+msgstr ""
+
+#. (itstool) path: revisionDesc/change
+#: ./BestPractices/bptl-L2.odd:66
+msgid "Updated to match current wiki document and (partially) take advantage of new ODD features: <_:list-1/>"
+msgstr ""
+
+#. (itstool) path: front/head
+#. (itstool) path: p/ref
+#: ./BestPractices/bptl-L2.odd:86
+#: ./BestPractices/bptl-L2.odd:90
+msgid "Best Practices for TEI in Libraries"
+msgstr ""
+
+#. (itstool) path: front/head
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L2.odd:87
+#: ./BestPractices/bptl-L2.odd:103
+msgid "Level 2: Minimal Encoding"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L2.odd:89
+msgid "Setting"
+msgstr ""
+
+#. (itstool) path: p/name
+#: ./BestPractices/bptl-L2.odd:90
+msgid "level 2"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-L2.odd:90
+msgid "This is the <_:name-1/> portion of the <_:ref-2/>. This document is not intended to stand alone, but rather to be considered in concert with the entire TEI in Libraries recommendations."
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L2.odd:105
+msgid "Reference"
+msgstr ""
+
+#. (itstool) path: item/ref
+#: ./BestPractices/bptl-L2.odd:108
+msgid "Chapter 3, Elements Available in All TEI Documents"
+msgstr ""
+
+#. (itstool) path: item/ref
+#: ./BestPractices/bptl-L2.odd:111
+msgid "Chapter 4, Default Text Structure"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: ./BestPractices/bptl-L2.odd:114
+msgid "syntactically conformant"
+msgstr ""
+
+#. (itstool) path: p/name
+#: ./BestPractices/bptl-L2.odd:117
+msgid "TEI_all"
+msgstr ""
+
+#. (itstool) path: p/soCalled
+#: ./BestPractices/bptl-L2.odd:118
+msgid "TEI conformant"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-L2.odd:114
+msgid "Note that this is a <_:soCalled-1/> customization, in that documents that are valid against this scheme will also be valid against the <_:name-2/> schema. However, it is unclear whether or not it is truly <_:soCalled-3/>, as P5 does not make clear whether or not encoding of individual paragraphs is mandatory."
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L2.odd:122
+msgid "Purpose"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-L2.odd:123
+msgid "To create electronic text for full-text searching, linking to page images, and identifying simple structural hierarchy to improve navigation. (For example, you can generate a table of contents automatically from such encoding.)"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L2.odd:129
+msgid "Rationale"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-L2.odd:130
+msgid "The text is mainly subordinate to the page image, though navigational markers (textual divisions, headings) are captured. However, the text could stand alone as electronic text (without page images) if the accuracy of its contents is suitable to its intended use and it is not necessary to display low-level typographic or structural information. Use cases for Level 2 require a set of elements more granular than those of Level 1, including bibliographic or structural information below the monographic or volume level. One of the motivations for using Level 2 is to avoid expensive analysis of textual elements and/or the expense of accurate text conversion, e.g., double-keying or detailed proofreading of automatic OCR."
+msgstr ""
+
+#. (itstool) path: p/emph
+#: ./BestPractices/bptl-L2.odd:142
+msgid "not"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-L2.odd:142
+msgid "For the most part, though, Level 2 texts are <_:emph-1/> intended to be displayed separately from their page images. Level 2 encoding of sections and headings provides greater navigational possibilities than Level 1 encoding, and enables searching to be restricted within particular textual divisions (for example, searching for two phrases within the same chapter)."
+msgstr ""
+
+#. (itstool) path: list/head
+#: ./BestPractices/bptl-L2.odd:150
+msgid "Level 2 is most suitable for projects with the following characteristics:"
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L2.odd:151
+msgid "A large volume of material is to be made available online quickly."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L2.odd:153
+msgid "A digital image of each page is desired."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L2.odd:154
+msgid "The material is of interest to a large community of users who wish to read texts that allow keyword searching."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L2.odd:157
+msgid "Rudimentary search and display capabilities based on the large structures of the text are desired."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L2.odd:159
+msgid "Each text is checked to ensure that textual divisions and headers are properly identified."
+msgstr ""
+
+#. (itstool) path: list/item
+#: ./BestPractices/bptl-L2.odd:161
+msgid "Extensibility is desired; that is, one desires to keep open the option for a higher level of encoding to be added at a later date."
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L2.odd:167
+msgid "Workflow"
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-L2.odd:168
+msgid "Level 2 generally can be created and encoded by automated means. Pagination is identified as in Level 1, and metadata for the textual divisions is created, likely based on the page images. The textual division metadata might contain the page number on which the division begins and a transcription of that division's heading. This metadata is inserted into the OCR at the appropriate points, forming a valid XML document. Level 2 texts do not require any special knowledge or manual intervention below the section level."
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L2.odd:179
+msgid "Element Recommendations for Level 2"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: desc/gi
+#: ./BestPractices/bptl-L2.odd:183
+#: ./BestPractices/bptl-L2.odd:416
+#: ./BestPractices/bptl-L2.odd:417
+msgid "text"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-L2.odd:184
+msgid "[recommended] Used as a wrapper for the encoded transcription of the source document."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-L2.odd:187
+msgid "front"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-L2.odd:187
+msgid "back"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-L2.odd:187
+msgid "<_:gi-1/>, <_:gi-2/>"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-L2.odd:188
+#: ./BestPractices/bptl-L2.odd:192
+#: ./BestPractices/bptl-L2.odd:195
+#: ./BestPractices/bptl-L2.odd:196
+#: ./BestPractices/bptl-L2.odd:204
+#: ./BestPractices/bptl-L2.odd:516
+#: ./BestPractices/bptl-L2.odd:667
+#: ./BestPractices/bptl-L2.odd:713
+#: ./BestPractices/bptl-L2.odd:784
+msgid "div1"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-L2.odd:188
+msgid "[optional] Contains one or more <_:gi-1/> or <_:gi-2/>."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-L2.odd:191
+#: ./BestPractices/bptl-L2.odd:665
+msgid "body"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-L2.odd:192
+msgid "[recommended] Contains one or more <_:gi-1/> or <_:gi-2/>."
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-L2.odd:195
+msgid "<_:gi-1/> or <_:gi-2/>"
+msgstr ""
+
+#. (itstool) path: cell/att
+#: ./BestPractices/bptl-L2.odd:196
+#: ./BestPractices/bptl-L2.odd:196
+msgid "type"
+msgstr ""
+
+#. (itstool) path: cell/val
+#. (itstool) path: attDef/defaultVal
+#: ./BestPractices/bptl-L2.odd:196
+#: ./BestPractices/bptl-L2.odd:709
+msgid "section"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-L2.odd:196
+msgid "[recommended] One <_:gi-1/> or <_:gi-2/> is used per section of the text identified with division-level metadata. If no <_:att-3/> attribute is specified, a <_:att-4/> value of <_:val-5/> should be presumed."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-L2.odd:199
+#: ./BestPractices/bptl-L2.odd:666
+#: ./BestPractices/bptl-L2.odd:685
+#: ./BestPractices/bptl-L2.odd:714
+#: ./BestPractices/bptl-L2.odd:778
+#: ./BestPractices/bptl-L2.odd:781
+#: ./BestPractices/bptl-L2.odd:783
+msgid "head"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-L2.odd:200
+#: ./BestPractices/bptl-L2.odd:203
+#: ./BestPractices/bptl-L2.odd:204
+#: ./BestPractices/bptl-L2.odd:204
+#: ./BestPractices/bptl-L2.odd:515
+#: ./BestPractices/bptl-L2.odd:517
+#: ./BestPractices/bptl-L2.odd:518
+#: ./BestPractices/bptl-L2.odd:666
+#: ./BestPractices/bptl-L2.odd:686
+#: ./BestPractices/bptl-L2.odd:715
+msgid "ab"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-L2.odd:200
+msgid "[recommended] Use if headings are present. As in P5, this element must appear before the <_:gi-1/> for that division."
+msgstr ""
+
+#. (itstool) path: cell/soCalled
+#: ./BestPractices/bptl-L2.odd:204
+msgid "upgraded"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-L2.odd:204
+msgid "p"
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-L2.odd:204
+msgid "table"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-L2.odd:204
+msgid "[recommended] There should be only one child of the <_:gi-1/> (or <_:gi-2/>): a single <_:gi-3/> wrapping all of the OCR text. If the TEI document is ever <_:soCalled-4/> to Level 3 or higher, the <_:gi-5/> element will be replaced by structural elements like <_:gi-6/> and <_:gi-7/>."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-L2.odd:207
+#: ./BestPractices/bptl-L2.odd:686
+msgid "lb"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-L2.odd:208
+msgid "[optional] Indicates the beginning of a new line."
+msgstr ""
+
+#. (itstool) path: cell/gi
+#: ./BestPractices/bptl-L2.odd:211
+msgid "cb"
+msgstr ""
+
+#. (itstool) path: row/cell
+#: ./BestPractices/bptl-L2.odd:212
+msgid "[optional] indicates the beginning of a new column."
+msgstr ""
+
+#. (itstool) path: div/p
+#: ./BestPractices/bptl-L2.odd:180
+msgid "Optionally use the elements specified in Level 1. In addition, use the following: <_:table-1/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L2.odd:218
+msgid "Level 2 Examples"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L2.odd:220
+msgid "Level 2 Basic Structure"
+msgstr ""
+
+#. (itstool) path: TEI/teiHeader
+#: ./BestPractices/bptl-L2.odd:223
+#: ./BestPractices/bptl-L2.odd:290
+msgid "&lt;!-- header goes here --&gt;"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L2.odd:229
+msgid "[ OCR content of page 1 line 1 here ]"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L2.odd:230
+msgid "[ OCR content of page 1 line 2 here ]"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L2.odd:231
+msgid "[ OCR content of page 1 line 3 here ]"
+msgstr ""
+
+#. (itstool) path: sourceDoc/surface
+#: ./BestPractices/bptl-L2.odd:228
+#: ./BestPractices/bptl-L2.odd:234
+msgid "<_:line-1/> <_:line-2/> <_:line-3/> &lt;!-- ... --&gt;"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L2.odd:235
+msgid "[ OCR content of page 2 line 1 here ]"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L2.odd:236
+msgid "[ OCR content of page 2 line 2 here ]"
+msgstr ""
+
+#. (itstool) path: surface/line
+#: ./BestPractices/bptl-L2.odd:237
+msgid "[ OCR content of page 2 line 3 here ]"
+msgstr ""
+
+#. (itstool) path: TEI/sourceDoc
+#: ./BestPractices/bptl-L2.odd:226
+msgid "&lt;!-- entire &lt;sourceDoc&gt; is optional, but it might have, for example: --&gt; <_:surface-1/> <_:surface-2/> &lt;!-- ... --&gt;"
+msgstr ""
+
+#. (itstool) path: div/ab
+#: ./BestPractices/bptl-L2.odd:247
+msgid "[ entire title page here ]"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L2.odd:251
+msgid "[ heading of table of contents ]"
+msgstr ""
+
+#. (itstool) path: div/ab
+#: ./BestPractices/bptl-L2.odd:252
+msgid "[ entire table of contents here ]"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L2.odd:255
+msgid "[ heading of preface ]"
+msgstr ""
+
+#. (itstool) path: ab/gi
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-L2.odd:256
+#: ./BestPractices/bptl-L2.odd:265
+#: ./BestPractices/bptl-L2.odd:666
+#: ./BestPractices/bptl-L2.odd:686
+msgid "pb"
+msgstr ""
+
+#. (itstool) path: div/ab
+#: ./BestPractices/bptl-L2.odd:256
+msgid "[ entire preface, with interspersed <_:gi-1/> elements pointing to page images as needed, here ]"
+msgstr ""
+
+#. (itstool) path: text/front
+#: ./BestPractices/bptl-L2.odd:243
+msgid "&lt;!-- entire &lt;front&gt; is optional, but it might have, for example: --&gt; <_:div-1/> <_:div-2/> <_:div-3/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L2.odd:263
+msgid "[ heading of section 1 ]"
+msgstr ""
+
+#. (itstool) path: div/ab
+#: ./BestPractices/bptl-L2.odd:264
+msgid "[ entire contents of section 1 here, with interspersed <_:gi-1/> elements pointing to page images; in this example there are 26 more pages to section 1 ]"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L2.odd:272
+msgid "[ heading of section 2 subsection 1 ]"
+msgstr ""
+
+#. (itstool) path: div/ab
+#: ./BestPractices/bptl-L2.odd:273
+msgid "[ all the paragraphs of subsection one go here with page breaks inserted ]"
+msgstr ""
+
+#. (itstool) path: text/back
+#: ./BestPractices/bptl-L2.odd:278
+msgid "&lt;!-- optional: organized like &lt;front&gt;, with 1 or more &lt;div&gt; or &lt;div1&gt;, each with a single &lt;ab&gt; --&gt;"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L2.odd:287
+msgid "Level 2 Alger Hiss document"
+msgstr ""
+
+#. (itstool) path: div1/head
+#: ./BestPractices/bptl-L2.odd:298
+msgid "POINT VIII. BECAUSE OF UNLAWFUL SURVEILLANCE, PETITIONER'S <_:lb-1/>CONVICTION SHOULD BE VACATED; ALTERNATIVELY, DISCOVERY AND A HEARING <_:lb-2/>SHOULD BE ORDERED."
+msgstr ""
+
+#. (itstool) path: div1/ab
+#: ./BestPractices/bptl-L2.odd:301
+msgid "&lt;!-- uncorrected OCR for first page image begins here --&gt; POINT VIII. <_:lb-1/>BECAUSE OF UNLAWFUL SURVEILLANCE, PETITIONER'S <_:lb-2/>CONVICTION SHOULD BE VACATED; ALTERNATIVELY, <_:lb-3/>DISCOVERY AND A HEARING SHOULD BE ORDERED. <_:lb-4/>The nature and extent of surveillance of Hiss, his <_:lb-5/>family and associates was not known at the time of trial by <_:lb-6/>the defense. Even now, with the release of some of the govern‐ <_:lb-7/>ment documents concerning FBI investigative techniques regarding <_:lb-8/>Hiss, the full extent of surveillance -- wiretapping, mail open‐ <_:lb-9/>ings, mail covers, physical surveillance, and other intrusive <_:lb-10/>techniques -- is still not 'clear. Nevertheless, it is apparent <_:lb-11/>that information gathered through the exploitation of unlawful <_:lb-12/>wiretaps and other illegal surveillance was used at trial and <_:lb-13/>consequently the conviction must be reversed. Alternatively, <_:lb-14/>further discovery and a hearing is essential to a fair deter‐ <_:lb-15/>mination regarding these issues. <_:lb-16/>FBI surveillance of Hiss began in earnest in 1941 with <_:lb-17/>the institution of a mail cover on his incoming correspondence <_:lb-18/>at his home in connection with an FBI investigation of possible <_:lb-19/>Hatch Act violations. CN Ex. 98A. Another mail cover was placed <_:lb-20/>-113 - &lt;!-- uncorrected OCR for first page image ends here --&gt; <_:pb-21/> &lt;!-- uncorrected OCR for second page image begins here --&gt; <_:lb-22/>on the Hiss mail in 1945, and at the same time the FBI obtained <_:lb-23/>toll call records from the Hiss residence Telephone for the <_:lb-24/>years 1943 and 1944 as well. CN Ex. 99. In September, 1945, <_:lb-25/>the FBI intercepted telegrams to Hiss as well. CN Ex. 100. <_:lb-26/>In late November, 1945, FBI surveillance of the Hiss <_:lb-27/>residence in Washington, D.C., escalated. For the third time, <_:lb-28/>a mail cover was instituted beginning on November 28, 1945, <_:lb-29/>which was continued at least until 1946. CN Ex. 101 at p. 70; <_:lb-30/>CN Ex. 102. Continuous physical surveillance of Hiss was begun <_:lb-31/>as well. CN Ex. 101 at p. 72. Although this twenty-four-hour <_:lb-32/>surveillance was discontinued on December 14, 1945, physical <_:lb-33/>surveillance was conducted frequently at various times until <_:lb-34/>September, 1947. CN Ex. 102; CN Ex. 103. <_:lb-35/>The most intrusive invasion of petitioner's rights <_:lb-36/>68/ Also before 1947, a letter from Priscilla Hiss addressed <_:lb-37/>to her son, Timothy Hobson, was intercepted and its contents <_:lb-38/>read. CN Ex. 100A at p. 167. In approximately March, 1947, <_:lb-39/>a letter from a Michael Greenberg addressed to petitioner re‐ <_:lb-40/>garding an application for employment with the United Nations <_:lb-41/>was also intercepted, in a manner not revealed by the docu‐ <_:lb-42/>ments. CN Ex. 100B <_:lb-43/>-114 - &lt;!-- uncorrected OCR for second page image ends here --&gt; <_:pb-44/> &lt;!-- uncorrected OCR for third page image begins here --&gt; <_:lb-45/>occurred from December 13, 1945 until the Hisses moved from <_:lb-46/>Washington, D.C. to New York City on September 13, 1947. A <_:lb-47/>\"technical surveillance,\" -- a wiretap -- was placed on the Hiss <_:lb-48/>telephone at their residence on P Street-in Washington, D.C. <_:lb-49/>The logs of this surveillance constitute twenty-nine volumes <_:lb-50/>of FBI serials and are roughly 2,500 pages in length, in which <_:lb-51/>an enormous amount of information concerning the Hisses' per‐ <_:lb-52/>sonal lives, relationships with friends and associates, and <_:lb-53/>habits is recorded. <_:lb-54/>The wiretap was installed following FBI Director Hoover's <_:lb-55/>application to the Attorney General for authorization, although <_:lb-56/>no written authorization appears in the documents released to <_:lb-57/>Hiss. The purpose of the application was to gather information <_:lb-58/>regarding Hiss' alleged contacts with Soviet espionage agents and <_:lb-59/>communists in government service, general allegations which had <_:lb-60/>been made by Elizabeth Bentley and Chambers. <_:lb-61/>As one would expect, the interception of every telephone <_:lb-62/>h9/ Hoover's initial request was answered by a note reques‐ <_:lb-63/>ting information on Hiss. CN Ex. 104. Additional information <_:lb-64/>was furnished by letter dated November 30, 1945. CN Ex. 105. <_:lb-65/>-115 - &lt;!-- uncorrected OCR for third page image ends here --&gt;"
+msgstr ""
+
+#. (itstool) path: body/div1
+#: ./BestPractices/bptl-L2.odd:295
+msgid "<_:pb-1/> &lt;!-- content of head element was transcribed from page image --&gt; <_:head-2/> <_:ab-3/>"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L2.odd:397
+msgid "Specification"
+msgstr ""
+
+#. (itstool) path: elementSpec/gloss
+#: ./BestPractices/bptl-L2.odd:412
+msgid "TEI document"
+msgstr ""
+
+#. (itstool) path: desc/gi
+#: ./BestPractices/bptl-L2.odd:417
+msgid "facsimile"
+msgstr ""
+
+#. (itstool) path: desc/gi
+#: ./BestPractices/bptl-L2.odd:419
+msgid "sourceDoc"
+msgstr ""
+
+#. (itstool) path: desc/gi
+#: ./BestPractices/bptl-L2.odd:421
+msgid "teiCorpus"
+msgstr ""
+
+#. (itstool) path: elementSpec/desc
+#: ./BestPractices/bptl-L2.odd:413
+msgid "contains a single TEI-in-Libraries level 2 document, comprising a TEI header and a text, the latter represented as either a logical transcription (in <_:gi-1/>) or a transcription and page images (in <_:gi-2/> and <_:gi-3/> respectively), along with an optional typographic transcription (in <_:gi-4/>, typically automatically generated from OCR software), either in isolation or as part of a <_:gi-5/> element."
+msgstr ""
+
+#. (itstool) path: titleStmt/title
+#: ./BestPractices/bptl-L2.odd:445
+msgid "A Short Level 2 Document"
+msgstr ""
+
+#. (itstool) path: publicationStmt/p
+#: ./BestPractices/bptl-L2.odd:448
+msgid "Only published as an example."
+msgstr ""
+
+#. (itstool) path: sourceDesc/p
+#: ./BestPractices/bptl-L2.odd:451
+msgid "Since this is an example, it doesn't really have a source"
+msgstr ""
+
+#. (itstool) path: div/ab
+#: ./BestPractices/bptl-L2.odd:458
+msgid "This is about the shortest TEI document imaginable."
+msgstr ""
+
+#. (itstool) path: p/tag
+#: ./BestPractices/bptl-L2.odd:468
+msgid "TEI xmlns=\"http://www.tei-c.org/ns/1.0\""
+msgstr ""
+
+#. (itstool) path: remarks/p
+#: ./BestPractices/bptl-L2.odd:466
+msgid "This element is required. The TEI namespace should be specified on this element, e.g. <_:tag-1/>."
+msgstr ""
+
+#. (itstool) path: elementSpec/gloss
+#: ./BestPractices/bptl-L2.odd:473
+msgid "anonymous block"
+msgstr ""
+
+#. (itstool) path: desc/gi
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-L2.odd:475
+#: ./BestPractices/bptl-L2.odd:519
+msgid "teiHeader"
+msgstr ""
+
+#. (itstool) path: elementSpec/desc
+#: ./BestPractices/bptl-L2.odd:474
+msgid "contains the entire content of a division of the document; or, when used within the <_:gi-1/>, contains any arbitrary component-level unit of text, acting as an anonymous container for phrase or inter level elements analogous to, but without the semantic baggage of, a paragraph."
+msgstr ""
+
+#. (itstool) path: availability/ab
+#: ./BestPractices/bptl-L2.odd:494
+msgid "Copyleft 2009 Syd Bauman"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L2.odd:502
+msgid "Genesis"
+msgstr ""
+
+#. (itstool) path: div/ab
+#: ./BestPractices/bptl-L2.odd:503
+msgid "In the beginning God created the heaven and the earth. <_:lb-1/>And the earth was without form, and void; and darkness was upon <_:lb-2/>the face of the deep. And the spirit of God moved upon the face <_:lb-3/>of the waters. <_:lb-4/>And God said, Let there be light: and there was light."
+msgstr ""
+
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-L2.odd:516
+msgid "div2"
+msgstr ""
+
+#. (itstool) path: p/emph
+#: ./BestPractices/bptl-L2.odd:518
+msgid "may"
+msgstr ""
+
+#. (itstool) path: remarks/p
+#: ./BestPractices/bptl-L2.odd:513
+msgid "At level 2, entire sections of the document (be they parts, chapters, etc.) are each encoded as a single <_:gi-1/> — each division (whether <_:gi-2/>, <_:gi-3/>, <_:gi-4/>, etc.) should have one and only one <_:gi-5/> child. Further, <_:gi-6/> <_:emph-7/> be used in a variety of places within the <_:gi-8/>."
+msgstr ""
+
+#. (itstool) path: desc/gi
+#: ./BestPractices/bptl-L2.odd:524
+#: ./BestPractices/bptl-L2.odd:720
+msgid "name"
+msgstr ""
+
+#. (itstool) path: desc/gi
+#: ./BestPractices/bptl-L2.odd:524
+#: ./BestPractices/bptl-L2.odd:720
+msgid "persName"
+msgstr ""
+
+#. (itstool) path: desc/gi
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-L2.odd:525
+#: ./BestPractices/bptl-L2.odd:566
+#: ./BestPractices/bptl-L2.odd:720
+msgid "orgName"
+msgstr ""
+
+#. (itstool) path: elementSpec/desc
+#: ./BestPractices/bptl-L2.odd:523
+msgid "in a bibliographic reference, contains the name (typically encoded as <_:gi-1/>, <_:gi-2/>, or <_:gi-3/>) of the author, personal or corporate, of a work; for example in the same form as that provided by a recognized bibliographic name authority."
+msgstr ""
+
+#. (itstool) path: author/orgName
+#: ./BestPractices/bptl-L2.odd:535
+msgid "British Broadcasting Corporation"
+msgstr ""
+
+#. (itstool) path: author/name
+#: ./BestPractices/bptl-L2.odd:545
+msgid "Gibson, Matthew"
+msgstr ""
+
+#. (itstool) path: egXML/author
+#: ./BestPractices/bptl-L2.odd:550
+msgid "anonymous"
+msgstr ""
+
+#. (itstool) path: egXML/author
+#: ./BestPractices/bptl-L2.odd:555
+msgid "unknown"
+msgstr ""
+
+#. (itstool) path: p/att
+#: ./BestPractices/bptl-L2.odd:562
+msgid "ref"
+msgstr ""
+
+#. (itstool) path: remarks/p
+#: ./BestPractices/bptl-L2.odd:559
+msgid "Particularly where cataloguing is likely to be based on the content of the header, it is advisable to use a generally recognized name authority file to supply the content for this element. The attribute <_:att-1/> may also be used to reference canonical information about the author(s) intended from any appropriate authority, such as a library catalogue or online resource."
+msgstr ""
+
+#. (itstool) path: remarks/p
+#: ./BestPractices/bptl-L2.odd:566
+msgid "In the case of a broadcast, use an <_:gi-1/> inside this element for the name of the company or network responsible for making the broadcast."
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: ./BestPractices/bptl-L2.odd:571
+msgid "Unknown"
+msgstr ""
+
+#. (itstool) path: p/mentioned
+#: ./BestPractices/bptl-L2.odd:572
+msgid "Anonymous"
+msgstr ""
+
+#. (itstool) path: remarks/p
+#: ./BestPractices/bptl-L2.odd:569
+msgid "Where an author is unknown or unspecified, this element may contain text such as <_:mentioned-1/> or <_:mentioned-2/>."
+msgstr ""
+
+#. (itstool) path: div1/head
+#: ./BestPractices/bptl-L2.odd:590
+msgid "The Golden Dream or, the Ingenuous Confession"
+msgstr ""
+
+#. (itstool) path: div1/ab
+#: ./BestPractices/bptl-L2.odd:591
+msgid "To shew the Depravity of human Nature"
+msgstr ""
+
+#. (itstool) path: div1/head
+#: ./BestPractices/bptl-L2.odd:594
+msgid "A letter from the Printer, which he desires may be inserted"
+msgstr ""
+
+#. (itstool) path: div1/ab
+#: ./BestPractices/bptl-L2.odd:595
+msgid "Sir. <_:lb-1/>I have done with your Copy, so you may return it to the Vatican, if you please"
+msgstr ""
+
+#. (itstool) path: div1/head
+#: ./BestPractices/bptl-L2.odd:599
+msgid "The Books usually read by the Scholars of <_:lb-1/>Mrs Two-Shoes are these and are sold at Mr <_:lb-2/>Newbery's at the Bible and Sun in St Paul's <_:lb-3/>Church-yard."
+msgstr ""
+
+#. (itstool) path: div1/ab
+#: ./BestPractices/bptl-L2.odd:603
+msgid "The Christmas Box, Price 1d. <_:lb-1/>The History of Giles Gingerbread, 1d. <_:lb-2/>A Curious Collection of Travels, selected from the Writers of all Nations, <_:lb-3/>10 Vol, Pr. bound 1l."
+msgstr ""
+
+#. (itstool) path: div1/head
+#: ./BestPractices/bptl-L2.odd:610
+msgid "By the KING's Royal Patent, <_:lb-1/>Are sold by J. NEWBERY, at the <_:lb-2/>Bible and Sun in St. Paul's Church-Yard."
+msgstr ""
+
+#. (itstool) path: div1/ab
+#: ./BestPractices/bptl-L2.odd:613
+msgid "Dr. James's Powders for Fevers, the Small-Pox, Measles, Colds, &amp;c. <_:lb-1/>2s. 6d <_:lb-2/>Dr. Hooper's Female Pills, 1s."
+msgstr ""
+
+#. (itstool) path: body/head
+#: ./BestPractices/bptl-L2.odd:635
+msgid "LA FOREST <_:lb-1/>NVPTIALE,"
+msgstr ""
+
+#. (itstool) path: body/ab
+#: ./BestPractices/bptl-L2.odd:637
+msgid "Où e∫t repre∫entee vne varieté bigarree, <_:lb-1/>non mois e∫merveillable que plai∫an‐ <_:lb-2/>te, de diuers mariages, ∫elon qu’ils ∫ont <_:lb-3/>ob∫erueZ &amp; pratiqueZ par plu∫ieurs <_:lb-4/>peuples &amp; nations e∫tranges. Auec <_:lb-5/>la maniere de policier, regir, gouuer‐ <_:lb-6/>ner &amp; admini∫trer leur famille."
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L2.odd:645
+msgid "Les Romains. CHAPITRE I."
+msgstr ""
+
+#. (itstool) path: div/ab
+#: ./BestPractices/bptl-L2.odd:646
+msgid "Encores que ie ne <_:lb-1/>veuille me formali‐ <_:lb-2/>∫er contre le droict <_:lb-3/>Romain, neãtmoins <_:lb-4/>puis que le forma‐ <_:lb-5/>litez, qui e∫toient an‐ <_:lb-6/>ciennement gardees au nopces <_:lb-7/>Romaines, ∫ont maintenant mi∫es <_:lb-8/>hors d’v∫ages &amp; pratique, ie ne ∫e‐ <_:lb-9/>A <_:pb-10/>ray point de difficulté d’emprunter <_:lb-11/>des anciens autheurs ce qui appar‐ &lt;!-- ... --&gt;"
+msgstr ""
+
+#. (itstool) path: p/gi
+#: ./BestPractices/bptl-L2.odd:667
+#: ./BestPractices/bptl-L2.odd:687
+msgid "note"
+msgstr ""
+
+#. (itstool) path: remarks/p
+#: ./BestPractices/bptl-L2.odd:665
+msgid "At level 2, the content of <_:gi-1/> may contain only <_:gi-2/>, <_:gi-3/>, <_:gi-4/>, <_:gi-5/>, and either <_:gi-6/> or <_:gi-7/> elements."
+msgstr ""
+
+#. (itstool) path: remarks/p
+#: ./BestPractices/bptl-L2.odd:684
+msgid "At level 2, <_:gi-1/> may contain only an optional <_:gi-2/> followed by a required <_:gi-3/>; also <_:gi-4/>, <_:gi-5/>, and <_:gi-6/> elements may be interspersed anywhere as needed."
+msgstr ""
+
+#. (itstool) path: remarks/p
+#: ./BestPractices/bptl-L2.odd:713
+msgid "At level 2, <_:gi-1/> may contain only an optional <_:gi-2/> followed by a required <_:gi-3/>."
+msgstr ""
+
+#. (itstool) path: elementSpec/desc
+#: ./BestPractices/bptl-L2.odd:719
+msgid "contains the name (typically encoded as <_:gi-1/>, <_:gi-2/>, or <_:gi-3/>) of an individual, institution, or organization acting as editor."
+msgstr ""
+
+#. (itstool) path: elementSpec/desc
+#: ./BestPractices/bptl-L2.odd:739
+msgid "contains any prefatory matter (headers, title page, prefaces, dedications, etc.) found at the start of a document, before the main body."
+msgstr ""
+
+#. (itstool) path: div/ab
+#: ./BestPractices/bptl-L2.odd:755
+msgid "To our three selves"
+msgstr ""
+
+#. (itstool) path: div/head
+#: ./BestPractices/bptl-L2.odd:758
+msgid "Author's Note"
+msgstr ""
+
+#. (itstool) path: div/ab
+#: ./BestPractices/bptl-L2.odd:759
+msgid "All the characters in this book are purely <_:lb-1/>imaginary, and if the author has used names that <_:lb-2/>may suggest a reference to living persons she has <_:lb-3/>done so inadvertently. ..."
+msgstr ""
+
+#. (itstool) path: remarks/p
+#: ./BestPractices/bptl-L2.odd:778
+msgid "The <_:gi-1/> element is used for headings at all levels; software which treats (e.g.) chapter headings, section headings, and list titles differently must determine the proper processing of a <_:gi-2/> element based on its structural position."
+msgstr ""
+
+#. (itstool) path: remarks/p
+#: ./BestPractices/bptl-L2.odd:783
+msgid "A <_:gi-1/> occurring as the first element of a <_:gi-2/> or <_:gi-3/> is the title of that chapter or section."
+msgstr ""
+
