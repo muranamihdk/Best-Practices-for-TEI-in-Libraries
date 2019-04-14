@@ -57,22 +57,20 @@ do
 done
 
 # potファイルからpoファイルを生成（_po/ja 以下に）／poファイルがあるときは変更をマージ
+TARGET_DIR="${PREFIX_PATH}/${PO_DIR}/${TARGET_LANG}"
+if [ ! -d "$TARGET_DIR" ]
+then
+  mkdir -p "$TARGET_DIR"
+  echo Created: "$TARGET_DIR"
+fi
+
 for SOURCE in `find "./${PREFIX_PATH}/${POT_DIR}/" -type f -name "*.pot" -print`
 do
-  TARGET_DIR="${PREFIX_PATH}/${PO_DIR}/${TARGET_LANG}"
-
-  if [ ! -d "$TARGET_DIR" ]
-  then
-    mkdir -p "$TARGET_DIR"
-    echo Created: "$TARGET_DIR"
-  fi
-
   PO_FILE="$TARGET_DIR"/$(basename "$SOURCE" .pot).po
   if [ ! -f "$PO_FILE" ]
   then
     cp "$SOURCE" "$PO_FILE"
     echo Created: "$PO_FILE"
-    continue
   elif [ "$SOURCE" -nt "$PO_FILE" ]
   then
     msgmerge -U "$PO_FILE" "$SOURCE"
@@ -80,13 +78,19 @@ do
   fi
 done
 
-echo "git diff origin/localize_ja --name-only"
-git diff origin/localize_ja --name-only
 if [ $(git diff origin/localize_ja --name-only | wc -l) -ne 0 ]
 then
   echo
   git add .
-  git commit -m "update po files"
+  git commit -m "updated po files"
+  echo
+  echo "git push origin localize_ja"
+  git push origin localize_ja
+elif [ $(git status | grep "Untracked files" | wc -l) -ne 0 ]
+then
+  echo
+  git add .
+  git commit -m "created po files"
   echo
   echo "git push origin localize_ja"
   git push origin localize_ja
