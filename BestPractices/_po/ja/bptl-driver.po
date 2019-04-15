@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-04-14 17:56+0900\n"
+"PO-Revision-Date: 2019-04-16 00:05+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -143,7 +143,16 @@ msgid "Guidelines for Text Encoding and Interchange (P5)"
 msgstr ""
 
 #. (itstool) path: p/title
-#: bptl-driver.odd:87 bptl-driver.odd:92 bptl-driver.odd:141 bptl-driver.odd:146 bptl-driver.odd:151 bptl-driver.odd:158 bptl-driver.odd:162 bptl-driver.odd:176 bptl-driver.odd:182 bptl-driver.odd:183 bptl-driver.odd:191 bptl-driver.odd:194 bptl-driver.odd:201 bptl-driver.odd:203 bptl-driver.odd:205 bptl-driver.odd:216 bptl-driver.odd:219 bptl-driver.odd:221 bptl-driver.odd:251 bptl-driver.odd:864 bptl-driver.odd:952 bptl-driver.odd:1180 bptl-driver.odd:1206 bptl-driver.odd:1429 bptl-driver.odd:1456 bptl-driver.odd:1471 bptl-driver.odd:1481 bptl-driver.odd:1483 bptl-driver.odd:1488 bptl-driver.odd:1493
+#: bptl-driver.odd:87 bptl-driver.odd:92 bptl-driver.odd:141
+#: bptl-driver.odd:146 bptl-driver.odd:151 bptl-driver.odd:158
+#: bptl-driver.odd:162 bptl-driver.odd:176 bptl-driver.odd:182
+#: bptl-driver.odd:183 bptl-driver.odd:191 bptl-driver.odd:194
+#: bptl-driver.odd:201 bptl-driver.odd:203 bptl-driver.odd:205
+#: bptl-driver.odd:216 bptl-driver.odd:219 bptl-driver.odd:221
+#: bptl-driver.odd:251 bptl-driver.odd:864 bptl-driver.odd:952
+#: bptl-driver.odd:1180 bptl-driver.odd:1206 bptl-driver.odd:1429
+#: bptl-driver.odd:1456 bptl-driver.odd:1471 bptl-driver.odd:1481
+#: bptl-driver.odd:1483 bptl-driver.odd:1488 bptl-driver.odd:1493
 msgid "Best Practices"
 msgstr ""
 
@@ -163,12 +172,14 @@ msgid "Level"
 msgstr "レベル"
 
 #. (itstool) path: row/cell
-#: bptl-driver.odd:106 bptl-driver.odd:536 bptl-driver.odd:584 bptl-driver.odd:733 bptl-driver.odd:1041
+#: bptl-driver.odd:106 bptl-driver.odd:536 bptl-driver.odd:584
+#: bptl-driver.odd:733 bptl-driver.odd:1041
 msgid "Description"
 msgstr "説明"
 
 #. (itstool) path: cell/ref
-#: bptl-driver.odd:107 bptl-driver.odd:113 bptl-driver.odd:119 bptl-driver.odd:125 bptl-driver.odd:131
+#: bptl-driver.odd:107 bptl-driver.odd:113 bptl-driver.odd:119
+#: bptl-driver.odd:125 bptl-driver.odd:131
 msgid "Alger Hiss document"
 msgstr ""
 
@@ -193,7 +204,8 @@ msgid "The text is generated through OCR, is subordinate to the page image, and 
 msgstr "テキストはOCRによって生成。ページ画像が主で、テキストは付随的。電子テキストとしてページ画像なしに単独で使われることは想定してない。"
 
 #. (itstool) path: cell/ref
-#: bptl-driver.odd:114 bptl-driver.odd:120 bptl-driver.odd:126 bptl-driver.odd:132 bptl-driver.odd:138
+#: bptl-driver.odd:114 bptl-driver.odd:120 bptl-driver.odd:126
+#: bptl-driver.odd:132 bptl-driver.odd:138
 msgid "example"
 msgstr "例"
 
@@ -295,19 +307,17 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:151
 msgid "As guidelines rather than a specification, these <_:title-1/> use <_:mentioned-2/> or <_:mentioned-3/> instead of <_:mentioned-4/> to explain conformance to the practices described here; the only exception is a practice required by P5, indicated by <_:mentioned-5/>. Optional practices are indicated by <_:mentioned-6/> or <_:mentioned-7/>. However, to encourage conformance to these <_:title-8/>, the ODD files will generate schemas that <_:emph-9/> use of recommended elements (those indicated by <_:mentioned-10/> or <_:mentioned-11/>)."
-msgstr ""
-"仕様というよりガイドラインなので、この <_:title-1/> では、ここで詳述されているプラクティスへの準拠を説明するために、<_:mentioned-4/> ではなく <_:mentioned-2/> もしくは <_:mentioned-3/> を使用しています。唯一の例外は P5 によって必須とされるプラクティスで、これは <_:mentioned-5/> という言葉によって示されています。オプションのプラクティスは <_:mentioned-6/> もしくは <_:mentioned-7/> という言葉によって示されます。しかしこれら <_:title-8/> への準拠を奨励するために、ODD ファイルは、<_:mentioned-10/> や <_:mentioned-11/> という言葉で使用を奨励している要素の使用を <_:emph-9/>\n"
-"とするスキーマを生成します。"
+msgstr "仕様ではなくガイドラインなので、この <_:title-1/> では、ここで詳述されているプラクティスへの準拠を説明するために、<_:mentioned-4/> ではなく <_:mentioned-2/> もしくは <_:mentioned-3/> を使用しています。唯一の例外は P5 によって必須とされるプラクティスで、これは <_:mentioned-5/> という言葉によって示されています。オプションのプラクティスは <_:mentioned-6/> もしくは <_:mentioned-7/> という言葉によって示されます。しかしこれら <_:title-8/> への準拠を奨励するために、ODD ファイルは、<_:mentioned-10/> や <_:mentioned-11/> という言葉で使用を奨励している要素の使用を <_:emph-9/> とするスキーマを生成します。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:162
 msgid "These <_:title-1/> specify a recommended archival storage format. Local system needs may require transformation of documents in this archival format to another XML format (another TEI customization or another type of XML) for use by a local indexing or delivery software."
-msgstr "これらの <_:title-1/> はアーカイブに推奨されるストレージフォーマットを規定しています。ローカルシステムのニーズは、ローカルのインデックス作成や配信ソフトウェアで使用するために、このアーカイブフォーマットの文書から他のXMLフォーマット（他の TEIカスタマイゼーションや別のタイプのXMLなど）への変換を必要とするかもしれません。"
+msgstr "この <_:title-1/> はアーカイブに推奨されるストレージフォーマットを規定しています。ローカルシステムのニーズは、ローカルのインデックス作成や配信ソフトウェアで使用するために、このアーカイブフォーマットの文書を他のXMLフォーマット（他のカスタマイズされたTEIや別の種類のXML）への変換を必要とする場合があります。"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:169
 msgid "Relation to other TEI customizations"
-msgstr "他のTEIカスタマイゼーションとの関係"
+msgstr "他のTEIカスタマイズとの関係"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:171
@@ -317,7 +327,7 @@ msgstr ""
 #. (itstool) path: p/ref
 #: bptl-driver.odd:172 bptl-driver.odd:212
 msgid "customization"
-msgstr "カスタマイゼーション"
+msgstr "カスタマイズ"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:172
@@ -459,7 +469,8 @@ msgstr ""
 
 #. (itstool) path: p/att
 #. (itstool) path: head/att
-#: bptl-driver.odd:297 bptl-driver.odd:963 bptl-driver.odd:964 bptl-driver.odd:985 bptl-driver.odd:1020
+#: bptl-driver.odd:297 bptl-driver.odd:963 bptl-driver.odd:964
+#: bptl-driver.odd:985 bptl-driver.odd:1020
 msgid "style"
 msgstr ""
 
@@ -560,7 +571,10 @@ msgstr ""
 
 #. (itstool) path: p/gi
 #. (itstool) path: item/gi
-#: bptl-driver.odd:340 bptl-driver.odd:342 bptl-driver.odd:348 bptl-driver.odd:785 bptl-driver.odd:788 bptl-driver.odd:795 bptl-driver.odd:816 bptl-driver.odd:824 bptl-driver.odd:831 bptl-driver.odd:833
+#: bptl-driver.odd:340 bptl-driver.odd:342 bptl-driver.odd:348
+#: bptl-driver.odd:785 bptl-driver.odd:788 bptl-driver.odd:795
+#: bptl-driver.odd:816 bptl-driver.odd:824 bptl-driver.odd:831
+#: bptl-driver.odd:833
 msgid "pb"
 msgstr ""
 
@@ -571,7 +585,8 @@ msgstr ""
 
 #. (itstool) path: p/att
 #. (itstool) path: cell/att
-#: bptl-driver.odd:341 bptl-driver.odd:342 bptl-driver.odd:372 bptl-driver.odd:394 bptl-driver.odd:416 bptl-driver.odd:439
+#: bptl-driver.odd:341 bptl-driver.odd:342 bptl-driver.odd:372
+#: bptl-driver.odd:394 bptl-driver.odd:416 bptl-driver.odd:439
 msgid "force"
 msgstr ""
 
@@ -626,7 +641,8 @@ msgid "no"
 msgstr ""
 
 #. (itstool) path: cell/att
-#: bptl-driver.odd:375 bptl-driver.odd:397 bptl-driver.odd:420 bptl-driver.odd:442
+#: bptl-driver.odd:375 bptl-driver.odd:397 bptl-driver.odd:420
+#: bptl-driver.odd:442
 msgid "break"
 msgstr ""
 
@@ -811,7 +827,8 @@ msgid "Textual Divisions"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: bptl-driver.odd:498 bptl-driver.odd:867 bptl-driver.odd:1027 bptl-driver.odd:1194
+#: bptl-driver.odd:498 bptl-driver.odd:867 bptl-driver.odd:1027
+#: bptl-driver.odd:1194
 msgid "text"
 msgstr ""
 
@@ -878,7 +895,8 @@ msgstr ""
 #. (itstool) path: p/att
 #. (itstool) path: ref/att
 #. (itstool) path: head/att
-#: bptl-driver.odd:515 bptl-driver.odd:522 bptl-driver.odd:524 bptl-driver.odd:881 bptl-driver.odd:883 bptl-driver.odd:885
+#: bptl-driver.odd:515 bptl-driver.odd:522 bptl-driver.odd:524
+#: bptl-driver.odd:881 bptl-driver.odd:883 bptl-driver.odd:885
 msgid "type"
 msgstr ""
 
@@ -1329,7 +1347,8 @@ msgid "appendix"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: bptl-driver.odd:742 bptl-driver.odd:746 bptl-driver.odd:767 bptl-driver.odd:777
+#: bptl-driver.odd:742 bptl-driver.odd:746 bptl-driver.odd:767
+#: bptl-driver.odd:777
 msgid "Usually appears in back matter."
 msgstr ""
 
@@ -1431,12 +1450,14 @@ msgstr ""
 
 #. (itstool) path: ref/att
 #. (itstool) path: p/att
-#: bptl-driver.odd:811 bptl-driver.odd:815 bptl-driver.odd:822 bptl-driver.odd:840 bptl-driver.odd:856
+#: bptl-driver.odd:811 bptl-driver.odd:815 bptl-driver.odd:822
+#: bptl-driver.odd:840 bptl-driver.odd:856
 msgid "facs"
 msgstr ""
 
 #. (itstool) path: item/gi
-#: bptl-driver.odd:812 bptl-driver.odd:823 bptl-driver.odd:830 bptl-driver.odd:833
+#: bptl-driver.odd:812 bptl-driver.odd:823 bptl-driver.odd:830
+#: bptl-driver.odd:833
 msgid "surface"
 msgstr ""
 
@@ -1479,7 +1500,8 @@ msgstr ""
 #. (itstool) path: item/att
 #. (itstool) path: p/att
 #. (itstool) path: cell/att
-#: bptl-driver.odd:830 bptl-driver.odd:837 bptl-driver.odd:926 bptl-driver.odd:1045
+#: bptl-driver.odd:830 bptl-driver.odd:837 bptl-driver.odd:926
+#: bptl-driver.odd:1045
 msgid "xml:id"
 msgstr ""
 
@@ -1575,7 +1597,8 @@ msgstr ""
 
 #. (itstool) path: head/att
 #. (itstool) path: p/att
-#: bptl-driver.odd:908 bptl-driver.odd:909 bptl-driver.odd:949 bptl-driver.odd:952
+#: bptl-driver.odd:908 bptl-driver.odd:909 bptl-driver.odd:949
+#: bptl-driver.odd:952
 msgid "ref"
 msgstr ""
 
@@ -1708,7 +1731,9 @@ msgstr ""
 #. (itstool) path: head/att
 #. (itstool) path: p/att
 #. (itstool) path: p/gi
-#: bptl-driver.odd:963 bptl-driver.odd:965 bptl-driver.odd:992 bptl-driver.odd:994 bptl-driver.odd:1005 bptl-driver.odd:1009 bptl-driver.odd:1014 bptl-driver.odd:1020
+#: bptl-driver.odd:963 bptl-driver.odd:965 bptl-driver.odd:992
+#: bptl-driver.odd:994 bptl-driver.odd:1005 bptl-driver.odd:1009
+#: bptl-driver.odd:1014 bptl-driver.odd:1020
 msgid "rendition"
 msgstr ""
 
@@ -1807,7 +1832,8 @@ msgstr ""
 #. (itstool) path: head/att
 #. (itstool) path: p/att
 #. (itstool) path: cell/att
-#: bptl-driver.odd:1024 bptl-driver.odd:1032 bptl-driver.odd:1050 bptl-driver.odd:1065
+#: bptl-driver.odd:1024 bptl-driver.odd:1032 bptl-driver.odd:1050
+#: bptl-driver.odd:1065
 msgid "xml:lang"
 msgstr ""
 
@@ -1903,7 +1929,8 @@ msgid "The child elements of these top-level elements are described below."
 msgstr ""
 
 #. (itstool) path: div/head
-#: bptl-driver.odd:1074 bptl-driver.odd:1101 bptl-driver.odd:1112 bptl-driver.odd:1123 bptl-driver.odd:1134
+#: bptl-driver.odd:1074 bptl-driver.odd:1101 bptl-driver.odd:1112
+#: bptl-driver.odd:1123 bptl-driver.odd:1134
 msgid "ERROR"
 msgstr ""
 
@@ -2318,7 +2345,8 @@ msgid "TEI Text Encoding in Libraries: Guidelines for Best Practices"
 msgstr ""
 
 #. (itstool) path: p/title
-#: bptl-driver.odd:1334 bptl-driver.odd:1352 bptl-driver.odd:1358 bptl-driver.odd:1362 bptl-driver.odd:1366 bptl-driver.odd:1401
+#: bptl-driver.odd:1334 bptl-driver.odd:1352 bptl-driver.odd:1358
+#: bptl-driver.odd:1362 bptl-driver.odd:1366 bptl-driver.odd:1401
 msgid "TEI in Libraries Guidelines"
 msgstr ""
 
