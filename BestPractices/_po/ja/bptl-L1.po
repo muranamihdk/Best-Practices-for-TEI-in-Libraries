@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-10-20 13:43+0900\n"
+"PO-Revision-Date: 2019-10-21 07:05+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -185,7 +185,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: BestPractices/bptl-L1.odd:95 BestPractices/bptl-L1.odd:116
 msgid "Level 1: Fully Automated Conversion and Encoding"
-msgstr "レベル1: 完全に自動的な変換とエンコーディング"
+msgstr "レベル 1: 完全に自動化された変換とエンコード"
 
 #. (itstool) path: div/head
 #: BestPractices/bptl-L1.odd:97
