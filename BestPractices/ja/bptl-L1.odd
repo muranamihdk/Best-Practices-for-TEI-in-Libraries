@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns:s="http://purl.oclc.org/dsdl/schematron" 
-     xml:lang="en" version="3.1.0">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:s="http://purl.oclc.org/dsdl/schematron" xml:lang="en" version="3.1.0">
   <!-- The value of TEI/@version is the version number of P5 to which the ODDs conform. -->
   <teiHeader>
     <fileDesc>
@@ -55,8 +52,7 @@
           <title>TEI in Libraries: Guidelines for Best Practices</title>
           <author>TEI in Libraries SIG</author>
           <author>Digital Libraries Federation TEI task force</author>
-          <ptr
-              target="https://wiki.tei-c.org/index.php/TEI_in_Libraries:_Guidelines_for_Best_Practices"/>
+          <ptr target="https://wiki.tei-c.org/index.php/TEI_in_Libraries:_Guidelines_for_Best_Practices"/>
         </bibl>
         written in MediaWiki syntax and converted into the TEI ODD language. This
         verssion started <date when="2009-07-30"/>.</p>
@@ -95,8 +91,7 @@
       <head>Level 1: Fully Automated Conversion and Encoding</head>
       <div type="setting">
         <head>Setting</head>
-        <p>This is the <name>level 1</name> portion of the <ref
-        target="http://www.tei-c.org/wiki/index.php/TEI_in_Libraries:_Guidelines_for_Best_Practices#LEVEL_1:_Fully_Automated_Conversion_and_Encoding">Best
+        <p>This is the <name>level 1</name> portion of the <ref target="http://www.tei-c.org/wiki/index.php/TEI_in_Libraries:_Guidelines_for_Best_Practices#LEVEL_1:_Fully_Automated_Conversion_and_Encoding">Best
         Practices for TEI in Libraries</ref>. This document is not
         intended to stand alone, but rather to be considered in
         concert with the entire TEI in Libraries recommendations.</p>
@@ -202,8 +197,7 @@
               on the page.</cell>
             </row>
           </table>
-          <p>See <ref
-          target="#txtimglnk">section 3.8, Linking Between Encoded Texts and
+          <p>See <ref target="#txtimglnk">section 3.8, Linking Between Encoded Texts and
           Images of Source Documents</ref>.</p>
         </div>
         <div type="examples">
@@ -213,11 +207,11 @@
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <TEI xml:id="someid1">
               <teiHeader xml:lang="en">
-                &lt;!-- header goes here -->
+                &lt;!-- header goes here --&gt;
               </teiHeader>
               <sourceDoc xml:lang="en">
                 <surface n="113" facs="00000001.tif">
-                  &lt;!-- uncorrected OCR for first page image begins here -->
+                  &lt;!-- uncorrected OCR for first page image begins here --&gt;
                   <line>POINT VIII.</line>
                   <line>BECAUSE OF UNLAWFUL SURVEILLANCE, PETITIONER'S</line>
                   <line>CONVICTION SHOULD BE VACATED; ALTERNATIVELY,</line>
@@ -238,15 +232,15 @@
                   <line>the institution of a mail cover on his incoming correspondence</line>
                   <line>at his home in connection with an FBI investigation of possible</line>
                   <line>Hatch Act violations. CN Ex. 98A. Another mail cover was placed</line>
-                  <line></line>
-                  <line></line>
+                  <line/>
+                  <line/>
                   <line>-113 -</line>
-                  <line></line>
-                  <line></line>
-                  &lt;!-- uncorrected OCR for first page image ends here -->
+                  <line/>
+                  <line/>
+                  &lt;!-- uncorrected OCR for first page image ends here --&gt;
                 </surface>
                 <surface n="114" facs="00000002.tif">
-                  &lt;!-- uncorrected OCR for second page image begins here -->
+                  &lt;!-- uncorrected OCR for second page image begins here --&gt;
                   <line>on the Hiss mail in 1945, and at the same time the FBI obtained</line>
                   <line>toll call records from the Hiss residence Telephone for the</line>
                   <line>years 1943 and 1944 as well. CN Ex. 99. In September, 1945,</line>
@@ -268,16 +262,16 @@
                   <line>garding an application for employment with the United Nations</line>
                   <line>was also intercepted, in a manner not revealed by the docu‐</line>
                   <line>ments. CN Ex. 100B</line>
-                  <line></line>
-                  <line></line>
+                  <line/>
+                  <line/>
                   <line>-114 -</line>
-                  <line></line>
-                  <line></line>
-                  <line></line>
-                  &lt;!-- uncorrected OCR for second page image ends here -->
+                  <line/>
+                  <line/>
+                  <line/>
+                  &lt;!-- uncorrected OCR for second page image ends here --&gt;
                 </surface>
                 <surface n="115" facs="00000003.tif">
-                  &lt;!-- uncorrected OCR for third page image begins here -->
+                  &lt;!-- uncorrected OCR for third page image begins here --&gt;
                   <line>occurred from December 13, 1945 until the Hisses moved from</line>
                   <line>Washington, D.C. to New York City on September 13, 1947. A</line>
                   <line>"technical surveillance," -- a wiretap -- was placed on the Hiss</line>
@@ -298,12 +292,12 @@
                   <line>h9/       Hoover's initial request was answered by a note reques‐</line>
                   <line>ting information on Hiss. CN Ex. 104. Additional information</line>
                   <line>was furnished by letter dated November 30, 1945. CN Ex. 105.</line>
-                  <line></line>
-                  <line></line>
+                  <line/>
+                  <line/>
                   <line>-115 -</line>
-                  <line></line>
-                  <line></line>
-                  &lt;!-- uncorrected OCR for third page image ends here -->
+                  <line/>
+                  <line/>
+                  &lt;!-- uncorrected OCR for third page image ends here --&gt;
                 </surface>
               </sourceDoc>      
             </TEI>
@@ -314,11 +308,11 @@
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <TEI xml:id="someid1a">
               <teiHeader xml:lang="en">
-                &lt;!-- header goes here -->
+                &lt;!-- header goes here --&gt;
               </teiHeader>
               <sourceDoc xml:lang="en">
                 <surface n="113" facs="00000001.tif" ulx="0" uly="0" lrx="2550" lry="3300">
-                  &lt;!-- uncorrected OCR for first page image begins here -->
+                  &lt;!-- uncorrected OCR for first page image begins here --&gt;
                   <zone type="print_space" ulx="407" uly="40" lrx="2525" lry="3219">
                     <zone type="text_block" ulx="1255" uly="386" lrx="1605" lry="426">
                       <line type="text_line" ulx="1256" uly="387" lrx="1604" lry="425">
@@ -382,11 +376,11 @@
                         <zone type="word" ulx="2066" uly="925" lrx="2219" lry="961">trial</zone>
                         <zone type="word" ulx="2253" uly="926" lrx="2318" lry="971">by</zone>
                       </line>
-                      &lt;!-- encoded text continues -->
+                      &lt;!-- encoded text continues --&gt;
                     </zone>
                   </zone>
                 </surface>
-                &lt;!-- encoded text continues -->
+                &lt;!-- encoded text continues --&gt;
               </sourceDoc>
             </TEI>
           </egXML>
@@ -450,8 +444,7 @@
               </exemplum>
               <remarks>
                 <p>This element is required. The TEI namespace should
-                be specified on this element, e.g. <tag
-                type="start">TEI
+                be specified on this element, e.g. <tag type="start">TEI
                 xmlns="http://www.tei-c.org/ns/1.0"</tag>.</p>
               </remarks>
             </elementSpec>

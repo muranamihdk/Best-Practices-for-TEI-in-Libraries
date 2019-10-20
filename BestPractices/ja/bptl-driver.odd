@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title>図書館における TEI 活用のためのベストプラクティス</title>
-        <title type="sub">TEI 採用の XML による大規模デジタル化と自動化ワークフロー、および相互運用性促進のためのガイド</title>
+        <title type="sub">TEIを使ったXMLによる大量デジタル化と自動的ワークフロー、および相互運用性促進のためのガイド</title>
         <author>
           <name type="organization">TEI SIG on Libraries</name>
         </author>
@@ -77,7 +77,7 @@
       Best Encoding Practices</title> という名前だった文書の第4版です。<ref target="http://www.tei-c.org/">Text Encoding Initiative</ref> の <ref target="http://www.tei-c.org/Guidelines/P5/">Guidelines for Text
       Encoding and Interchange (P5)</ref> に準拠するために改定され続けてきました。これらの <title>Best Practices</title> は、元々は大規模な、図書館で行われるデジタル化プロジェクトで使うために作られたものですが、全体としてデジタル化とエンコーディングへのアプローチ方法として役立ちます。</p>
       <p>図書館による多くの異なったテキストデジタル化プロジェクトがあり、様々な目的を果たしています。このことを念頭に置き、<title>Best Practices</title> は可能なかぎり包括的であることを意図して、5段階のエンコーディングレベルを規定しています。これらのレベルは、完全に自動化されたテキスト生成とエンコーディングから、専門家によるその分野の知識と分析と編集を必要とするものまで、広範囲の実践を意図したものです。これらのエンコーディングレベルは厳密に累積的というわけではありません。高次のレベルはより多くの要素を低次のレベルに加えることにより、その上に構築される傾向にありますが、高次のレベルは低次のレベルの完全な上位互換というわけではありません。それというのも、低次レベルで使われていた要素のうち幾つかは、高次レベルでは使われていないからです。これは多くの場合、低次レベルにおける一般的な要素が、高次レベルにおいてより具体的な要素によって置き換えられることによります。</p>
-      <p>手短にいえば、エンコーディングレベルとは、以下のようなものである（ほぼ近い例を添付した）。<table rend="table">
+      <p>手短にいえば、エンコーディングレベルとは、以下のようなものです（ほぼ近い例を添付しました）。<table rend="table">
         <row role="label">
           <cell>レベル</cell>
           <cell>説明</cell>
@@ -116,51 +116,21 @@
         </row>
       </table></p>
       <p>人間にとっては、あるいは可能性としては機械読み取りであっても、文脈による推測は可能かもしれない。しかし処理の容易さのために、これらの <title>Best Practices</title> における要素と属性の使用では、明確であることを最優先にしている。これらの <title>Best Practices</title> に基づくエンコーディングにおいては、以下で言及する要素と属性だけを使用することを奨励する。それ以外のTEIの要素や属性の使用は奨励されない。以下で説明した以上の要素や属性の使用については、<ref target="http://www.tei-c.org/Guidelines/P5/">TEIガイドライン（P5）全文</ref> を手引きとして参照してもらいたい。</p>
-      <p>仕様というよりガイドラインなので、この <title>Best 
-      Practices</title> では、ここで詳述されているプラクティスへの準拠を説明するために、<mentioned>must</mentioned> ではなく <mentioned>should</mentioned> もしくは <mentioned>recommended</mentioned> を使用しています。唯一の例外は P5 によって必須とされるプラクティスで、これは <mentioned>required</mentioned> という言葉によって示されています。オプションのプラクティスは <mentioned>may</mentioned> もしくは <mentioned>optional</mentioned> という言葉によって示されます。しかしこれら <title>Best Practices</title> への準拠を奨励するために、ODD ファイルは、<mentioned>should</mentioned> や <mentioned>recommended</mentioned> という言葉で使用を奨励している要素の使用を <emph>require</emph>
-とするスキーマを生成します。</p>
-      <p>これらの <title>Best Practices</title> はアーカイブに奨励される貯蔵フォーマットを規定しています。Local system needs may require transformation of documents in this archival format to another XML format (another TEI customization or another type of XML) for use by a local indexing or delivery software.</p>
+      <p>仕様ではなくガイドラインなので、この <title>Best 
+      Practices</title> では、ここで詳述されているプラクティスへの準拠を説明するために、<mentioned>must</mentioned> ではなく <mentioned>should</mentioned> もしくは <mentioned>recommended</mentioned> を使用しています。唯一の例外は P5 によって必須とされるプラクティスで、これは <mentioned>required</mentioned> という言葉によって示されています。オプションのプラクティスは <mentioned>may</mentioned> もしくは <mentioned>optional</mentioned> という言葉によって示されます。しかしこれら <title>Best Practices</title> への準拠を奨励するために、ODD ファイルは、<mentioned>should</mentioned> や <mentioned>recommended</mentioned> という言葉で使用を奨励している要素の使用を <emph>require</emph> とするスキーマを生成します。</p>
+      <p>この <title>Best Practices</title> はアーカイブに推奨されるストレージフォーマットを規定しています。ローカルシステムのニーズは、ローカルのインデックス作成や配信ソフトウェアで使用するために、このアーカイブフォーマットの文書を他のXMLフォーマット（他のカスタマイズされたTEIや別の種類のXML）への変換を必要とする場合があります。</p>
     </div>
     <div type="==">
-      <head>Relation to other TEI customizations</head>
+      <head>他のTEIカスタマイズとの関係</head>
       <div type="===">
         <head>TEI Tite</head>
-      <p>The TEI Tite <ref target="http://www.tei-c.org/Guidelines/Customization/">customization</ref> of P5 was
-      developed as a subset of the TEI to be used as a vendor
-      specification for outsourced encoding of the type often
-      initiated by libraries, archives and other cultural heritage
-      organizations. These <title>Best Practices</title> were
-      created to support in-house encoding that adheres as closely as
-      possible to common TEI practice and library standards yet still
-      leaves room for variation in local practice.</p>
-      <p>If a library uses TEI Tite for outsourced encoding, it should
-      find that converting files from the TEI Tite format to a format
-      conforming to these <title>Best Practices</title> is not
-      difficult. TEI Tite files may be converted to <title>Best
-      Practices</title> Level 3 with some loss of granularity; or to
-      Level 4 with some additional markup with minimal human
-      intervention. (The reason Level 3 does not contain as many
-      elements as TEI Tite is to allow for use of this encoding level,
-      whether for encoding of born-digital source documents
-      or for upgrading Level 1 or Level 2 texts, with less human
-      intervention than would be required by TEI Tite.)</p>
-      <p>These <title>Best Practices</title> are meant to complement
-      the TEI Tite customization of P5. Whereas TEI
-      Tite is meant for vendors who need exact specifications for
-      encoding, these <title>Best Practices</title> document how a
-      large-scale encoding project, whether based in a library or not, might create
-      conformant TEI documents out of vendor-generated or
-      locally-created TEI documents. TEI Tite lacks header metadata
-      and elements for encoding textual structures of possible
-      interest to libraries; however, once Tite documents are
-      transformed to a TEI-conformant encoding used by an institution,
-      these <title>Best Practices</title> can serve as a point of
-      reference for developing the TEI header and applying richer
-      markup as reflected in Level 4 or 5 of these <title>Best
-      Practices</title>.</p>
-      <p>For a comparison of the TEI Tite schema to these <title>Best
-      Practices</title>, see <ref target="http://www.tei-c.org/release/doc/tei-p5-exemplars/html/tei_tite.doc.html#tei-in-lib-bpg">TEI
-      Tite's Appendix A</ref>.</p>
+      <p>P5のTEI Tite <ref target="http://www.tei-c.org/Guidelines/Customization/">カスタマイズ</ref> はしばしば図書館や文書館やその他の文化遺産組織によって先導されたタイプのアウトソースされたエンコーディングのためのベンダー仕様として使用されるべくTEIのサブセットとして開発されました。この <title>Best Practices</title> は共通的なTEIプラクティスを可能な限り厳密に遵守するインハウスエンコーディングをサポートするために作られ、そして図書館の標準ははまだ依然現場での実践においてはバリエーションの余地を残しています。</p>
+      <p>もしある図書館がアウトソースされたエンコーディングにTEI Titeを使用しているなら、ファイルをTEI Titeのフォーマットから、この <title>Best Practices</title> に適合するフォーマットに変換することは難しくないことに気付くべきです。TEI Titeファイルはいくらかの粒度の喪失を伴って <title>Best
+      Practices</title> レベル3に変換することが可能です。もしくは最小限の人的介入によるいくらかの追加マークアップによってレベル4に変換することが可能です。（レベル3がTEI Titeがこのレベルのエンコーディングで使用を許しているのと同じほど多くの要素を含まない理由は、ボーンデジタルドキュメントをエンコーディングするためであっても、レベル1かレベル2のテキストをアップグレードするためであっても、</p>
+      <p>この <title>Best Practices</title> は P5 の TEI Tite カスタマイゼーションを補完することを意図しています。一方 TEI Tite は、エンコーディングのための厳密な仕様を必要とするベンダーのためのものです。大規模エンコーディングプロジェクトをいかに行うかについてのこの <title>Best Practices</title> 文書は、図書館に基盤を置いているかどうかにかかわらず、ベンダーによって作られたもしくはローカルに作られた TEI 文書に関係ない TEI 準拠文書を作るかもしれない。TEI Tite は図書館へのありえる興味のテキスト構造のエンコーディングのためのヘッダーメタデータと要素を欠いている。しかしながら、いったん Tite 文書がある機関によって使われる TEI 準拠エンコーディングに変換されたら、この <title>Best Practices</title> は TEI ヘッダーとこの <title>Best
+      Practices</title> のレベル4と5を反映したより豊かなマークアップの適用を開発するための参考となる観点として提供することができる。</p>
+      <p>この <title>Best
+      Practices</title> と TEI Tite スキーマとの比較については、<ref target="http://www.tei-c.org/release/doc/tei-p5-exemplars/html/tei_tite.doc.html#tei-in-lib-bpg">TEI Tite の付録 A</ref> を参照してください。</p>
       </div>
       <div type="===">
         <head>TEI simplePrint</head>
@@ -180,9 +150,9 @@
       </div>
     </div>
     <div type="==">
-      <head>General Recommendations</head>
+      <head>一般的な推奨事項</head>
       <div type="===">
-        <head>Standards and Local Practice</head>
+        <head>標準および現場での実際</head>
         <p>The goal of the TEI is interchange, not interoperability.
         While seamless interoperability of texts created for different
         purposes is an elusive goal, use of a common markup vocabulary
@@ -197,7 +167,7 @@
         internal consistency in the local practice.</p>
       </div>
       <div type="===">
-        <head>Character Encoding</head>
+        <head>文字エンコーディング</head>
         <p>For the purpose of interchange, TEI documents should be saved 
         in UTF-8 format, without beginning with a byte-order mark (U+FEFF). 
         Furthermore, while TEI allows for capturing of glyph variants 
@@ -207,7 +177,7 @@
         facilitate interchange.</p>
       </div>
       <div type="===">
-        <head>Transcription</head>
+        <head>転写</head>
         <p>When reformatting to digital media using any level of
         encoding, the electronic text should begin with the
         transcription of the first word on the first leaf of the
@@ -232,7 +202,7 @@
         relevant portions of the TEI documents for the units in the
         correct order.</p>
         <div type="====">
-          <head>Punctuation</head>
+          <head>句読点</head>
           <p>While the TEI gives the option of removing from the 
           transcribed text punctuation marks, such as quotation marks or 
           end-of-life hyphones, that could be encoded using XML tags, it 
@@ -260,7 +230,7 @@
           </p>
         </div>
         <div type="====">
-          <head>Hyphenation</head>
+          <head>ハイフン</head>
           <p>Encoding of end-of-line, end-of-column, and end-of-page
           hyphenation varies considerably in the TEI community. Some
           capture all hyphens found on the printed page, while others
@@ -409,7 +379,7 @@
         </div>
       </div>
       <div type="===">
-        <head>Filenames</head>
+        <head>ファイル名</head>
         <p>A filename scheme that is internally consistent should be
         established for any encoding project.</p>
         <p>Consider the following best practices when
@@ -439,7 +409,7 @@
         </p>
       </div>
       <div type="===" xml:id="uris">
-        <head>URIs</head>
+        <head>URI</head>
         <p>A number of attributes take a <ref target="http://tools.ietf.org/html/rfc3986">URI</ref> (Uniform
         Resource Identifier) as their value. Note that in addition to
         the full form of reference defined by URI syntax, these
@@ -448,7 +418,7 @@
         <code>#foo</code>).</p>
       </div>
       <div type="===">
-        <head>Textual Divisions</head>
+        <head>テキスト区分</head>
         <p>At Levels 2 and higher, when <gi>text</gi> is used, an 
         encoding project should use only numbered divisions
         (i.e., <gi>div1</gi>, <gi>div2</gi>, etc.) or unnumbered
@@ -483,7 +453,7 @@
              attDef for the @type attribute, so that the values remain
              in sync -->
         <div type="====">
-          <head>Front Matter</head>
+          <head>前付け</head>
           <table rend="table">
             <row role="label">
               <cell>Attribute Value</cell>
@@ -531,7 +501,7 @@
           </table>
         </div>
         <div type="====">
-          <head>Body</head>
+          <head>本文</head>
           <table rend="table">
             <row role="label">
               <cell>Attribute Value</cell>
@@ -680,7 +650,7 @@
           </table>
         </div>
         <div type="=====">
-          <head>Back Matter</head>
+          <head>後付け</head>
           <table rend="table">
             <row role="label">
               <cell>Attribute Value</cell>
@@ -735,7 +705,7 @@
         
       </div>
       <div type="===">
-        <head>Page Breaks</head>
+        <head>改ページ</head>
         <p>Page breaks should be encoded using the <gi>pb</gi>
         element, with the value of the <att>n</att> attribute denoting
         the number of the page whose content <emph>follows</emph> this
@@ -756,7 +726,7 @@
         <gi>p</gi> in the <gi>editorialDecl</gi>.</p>
       </div>
       <div type="===" xml:id="txtimglnk">
-        <head>Linking Between Encoded Text and Images of Source Documents</head>
+        <head>エンコード済みテキストと原文画像間のリンク</head>
         <p>There are three recommended mechanisms for linking between
         the encoded text and facsimile page images of source
         documents. Projects may use any of the following methods:
@@ -808,7 +778,7 @@
         these two communities of practice.</p>
       </div>
       <div type="===">
-        <head>General Guidelines for Attribute Usage</head>
+        <head>属性の使用に関する一般的なガイドライン</head>
         <p>These <title>Best Practices</title> provide recommended usage of <ref target="#headertable">attributes
         as used in the TEI header</ref> and within the body of the TEI
         document (within the <gi>text</gi> element), as evidenced by
@@ -976,7 +946,7 @@
       </div>
     </div>
     <div type="==">
-      <head>Structure of a TEI Document</head>
+      <head>TEI文書の構造</head>
       <table rend="table">
         <row role="label">
           <cell cols="2">Element</cell>
@@ -1021,9 +991,9 @@
       <!-- END included ./bptl-header.odd#header-content  -->
 
       <div n="6">
-        <head>Encoding Levels</head>
+        <head>エンコードレベル</head>
           <div>
-            <head>Caveats About Examples</head>
+            <head>例に関する注意事項</head>
             <p>In the examples given in the description of each
             encoding level below, XML comments are illustrative, and
             are not meant to be included in encoded documents. Here is
@@ -1138,7 +1108,7 @@
       </div>
     </div>
     <div type="==">
-      <head>Acknowledgments</head>
+      <head>謝辞</head>
       <p>This document is the result of a group of individuals with a
       range of experience with TEI text encoding, which formed
       together under the TEI Special Interest Group on Libraries and
@@ -1222,7 +1192,7 @@
     </div>
     <!-- removed Appendix A: List of Recommended Attributes -->
       <div type="==">
-        <head>Appendix: History of This Document</head>
+        <head>付録: この文書の履歴</head>
         <p>This document was formerly known as <title>TEI Text
         Encoding in Libraries Guidelines for Best Encoding
         Practices</title>.</p>

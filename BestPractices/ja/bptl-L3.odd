@@ -1,8 +1,5 @@
-<?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns:s="http://purl.oclc.org/dsdl/schematron"
-     xml:lang="en" version="3.1.0">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:s="http://purl.oclc.org/dsdl/schematron" xml:lang="en" version="3.1.0">
   <!-- The value of TEI/@version is the version number of P5 to which the ODDs conform. -->
   <teiHeader>
     <fileDesc>
@@ -43,8 +40,7 @@
             of the <ref target="http://www.gnu.org/licenses/fdl-1.2.html">GNU Free Documentation
               License, Version 1.2</ref> or any later version published by the Free Software
             Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A
-            copy of the license is included in the document entitled <name type="file"
-              >COPYING.txt</name>.</p>
+            copy of the license is included in the document entitled <name type="file">COPYING.txt</name>.</p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -54,11 +50,9 @@
           <title>TEI in Libraries: Guidelines for Best Practices</title>
           <author>TEI in Libraries SIG</author>
           <author>Digital Libraries Federation TEI task force</author>
-          <ptr
-              target="https://wiki.tei-c.org/index.php/TEI_in_Libraries:_Guidelines_for_Best_Practices"/>
+          <ptr target="https://wiki.tei-c.org/index.php/TEI_in_Libraries:_Guidelines_for_Best_Practices"/>
         </bibl>
-        written in MediaWiki syntax and converted into the TEI ODD language. This verssion started <date
-            when="2009-10-05"/>.</p>
+        written in MediaWiki syntax and converted into the TEI ODD language. This verssion started <date when="2009-10-05"/>.</p>
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
@@ -87,9 +81,7 @@
       <head>Level 3: Simple Analysis</head>
       <div type="setting">
         <head>Setting</head>
-        <p>This is the <name>level 3</name> portion of the <ref
-            target="http://wiki.tei-c.org/index.php/Best_Practices_for_TEI_in_Libraries#LEVEL_3:_Simple_Analysis"
-            >Best Practices for TEI in Libraries</ref>. This document is not intended to stand
+        <p>This is the <name>level 3</name> portion of the <ref target="http://wiki.tei-c.org/index.php/Best_Practices_for_TEI_in_Libraries#LEVEL_3:_Simple_Analysis">Best Practices for TEI in Libraries</ref>. This document is not intended to stand
           alone, but rather to be considered in concert with the entire TEI in Libraries
           recommendations.</p>
       </div>
@@ -174,8 +166,7 @@
           document or from a print source, either through OCR or
           keyboarding; some human intervention is likely necessary. Level 3 texts can also be generated trivially by converting
           from outsourced double-keyboarded texts
-          conforming to <ref
-          target="http://www.tei-c.org/release/doc/tei-p5-exemplars/html/tei_tite.doc.html">TEI
+          conforming to <ref target="http://www.tei-c.org/release/doc/tei-p5-exemplars/html/tei_tite.doc.html">TEI
           Tite</ref>, though some granularity of encoding will be lost in the translation.</p>
         </div>
         <div type="elrecs">
@@ -262,7 +253,7 @@
               feature is present in the source document.</item>
               <label><gi>p</gi></label>
               <item>When a caption label is present and encoded 
-              using <gi>head></gi>, use <gi>p</gi> for a literal 
+              using <gi>head&gt;</gi>, use <gi>p</gi> for a literal 
               transcription of a caption (could be
               used in conjunction with the <gi>head</gi> tag if a
               caption label is present). Use when this feature is
@@ -309,8 +300,7 @@
             <head>Tables of Contents</head>
             <list>
               <item>
-                <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DS.html#DSFRONT"
-                     >Chapter 4.5, Front Matter</ref>
+                <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DS.html#DSFRONT">Chapter 4.5, Front Matter</ref>
               </item>
             </list>
             <p>You may wish not to include in your TEI document front matter such as a table of contents or a list of illustrations, especially if you plan to automatically generate these from the encoded text.  If you do, however, plan to manually encode such textual features, use a <gi>div</gi> (or <gi>div1</gi>) element with an appropriate <att>type</att> attribute (e.g., <tag>div type="contents"</tag>) to surround the encoding of the feature. Within this division, use the <gi>list</gi> element to mark up the table of contents, list of illustrations, etc. Each list item should have a <gi>ptr</gi> or <gi>ref</gi> element with a <att>target</att> attribute referencing an <att>xml:id</att> attribute on the <gi>pb</gi> or on the <gi>div</gi> (or <gi>div1</gi>) of the referenced page or section. Use <gi>ref</gi> if you wish to transcribe page numbers in the table of contents; use <gi>ptr</gi> if you do not.</p>
@@ -395,7 +385,7 @@
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
               <TEI xml:id="MBFG0236">
                 <teiHeader xml:lang="en">
-                  &lt;!-- header goes here -->
+                  &lt;!-- header goes here --&gt;
                 </teiHeader>
                 <text xml:lang="en">
                   <front>
@@ -427,7 +417,7 @@
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
               <TEI xml:id="VAA2383">
                 <teiHeader xml:lang="en">
-                  &lt;!-- header goes here -->
+                  &lt;!-- header goes here --&gt;
                 </teiHeader>
                 <text xml:lang="en">
                   <front>
@@ -464,12 +454,11 @@
           <div type="example">
             <head>Level 3 Table of Contents</head>
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
-              &lt;!--target attribute references page break identifier-->
+              &lt;!--target attribute references page break identifier--&gt;
               <div type="contents">
                 <head>CONTENTS</head>
                 <list type="simple">
-                  <item>I. A Boy and His Dog <ref target="#VAA2383_011" rend="text-align: right"
-                  >3</ref>
+                  <item>I. A Boy and His Dog <ref target="#VAA2383_011" rend="text-align: right">3</ref>
                   </item>
                   <item>II. Romance <ref target="#VAA2383_020" rend="text-align: right">12</ref>
                   </item>
@@ -477,8 +466,7 @@
                   </item>
                   <item>IV. Desperation <ref target="#VAA2383_038" rend="text-align: right">30</ref>
                   </item>
-                  <item>V. The Pageant of the Table Round <ref target="#VAA2383_046"
-                  rend="text-align: right">38</ref>
+                  <item>V. The Pageant of the Table Round <ref target="#VAA2383_046" rend="text-align: right">38</ref>
                   </item>
                 </list>
               </div>
@@ -496,7 +484,7 @@
                 <p>Penrod at that instant had a singular experiencean intellectual shock like a flash
                 of fire in the brain. Sitting in darkness, a great light flooded him with wild
                 brilliance. He gasped!</p>
-                &lt;!--Text removed from example-->
+                &lt;!--Text removed from example--&gt;
                 <p>"What you doin'?" asked Maurice for the third time, Sam Williams not having decided
                 upon a reply.</p>
                 <pb xml:id="VAA2383_127" n="119"/>
@@ -505,13 +493,13 @@
                 enjoyment that Sam's jaded thirst was instantly stimulated. He took the bottle
                 eagerly from Penrod.</p>
                 <p>"A-a-h!" exclaimed Penrod, smacking his lips. "That was a good un!"</p>
-                &lt;!--Text removed from example-->
+                &lt;!--Text removed from example--&gt;
                 <p>Penrod uttered some muffled words and then waved both armseither in response or as
                 an expression of his condition of mind; it may have been a gesture of despair. How
                 much intention there was in this actobviously so rash, considering the position he
                 occupiedit is impossible to say. Undeniably there must remain a suspicion of
                 deliberate purpose.</p>
-                &lt;!--Text removed from example-->
+                &lt;!--Text removed from example--&gt;
                 <pb xml:id="VAA2383_138" n="130"/>
                 <p>The damsel curtsied again and handed him the following communication, addressed to
                 herself: </p>
@@ -533,7 +521,7 @@
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
               <TEI xml:id="someid3">
                 <teiHeader xml:lang="en">
-                  &lt;!-- header goes here -->
+                  &lt;!-- header goes here --&gt;
                 </teiHeader>
                 <text xml:lang="en">
                   <body>
@@ -574,8 +562,7 @@
                       addressed to petitioner re­ garding an application for employment with the
                       United Nations was also intercepted, in a manner not revealed by the docu­
                       ments. CN Ex. 100B</note> CN Ex. 102; CN Ex. 103.</p>
-                      <p>The most intrusive invasion of petitioner's rights <pb n="115"
-                      facs="00000003.tif"/> occurred from December 13, 1945 until the Hisses moved
+                      <p>The most intrusive invasion of petitioner's rights <pb n="115" facs="00000003.tif"/> occurred from December 13, 1945 until the Hisses moved
                       from Washington, D.C. to New York City on September 13, 1947. A "technical
                       surveillance," -- a wiretap -- was placed on the Hiss telephone at their
                       residence on P Street-in Washington, D.C. The logs of this surveillance
@@ -584,8 +571,7 @@
                       sonal lives, relationships with friends and associates, and habits is
                       recorded.</p>
                       <p>The wiretap was installed following FBI Director Hoover's application to the
-                      Attorney General for authorization, <ptr target="n69">69</ptr><note place="bottom" 
-                      anchored="true" xml:id="n69"><label>69</label>Hoover's initial request was answered by a note reques­ ting
+                      Attorney General for authorization, <ptr target="n69">69</ptr><note place="bottom" anchored="true" xml:id="n69"><label>69</label>Hoover's initial request was answered by a note reques­ ting
                       information on Hiss. CN Ex. 104. Additional information was furnished by
                       letter dated November 30, 1945. CN Ex. 105.</note> although no written
                       authorization appears in the documents released to Hiss. The purpose of the
@@ -644,8 +630,7 @@
               <constraintSpec scheme="schematron" ident="no-rend-in-header">
                 <constraint>
                   <s:rule context="tei:TEI | tei:teiHeader | tei:teiHeader//*">
-                    <s:report test="@rend or @rendition or
-                                    @xml:space">The @rend, @rendition, and @xml:space
+                    <s:report test="@rend or @rendition or                                     @xml:space">The @rend, @rendition, and @xml:space
                     attributes are not permitted on the root TEI element
                     or within the teiHeader element</s:report>
                   </s:rule>
@@ -688,7 +673,7 @@
                           <head>The Bride</head>
                           <p>The year that Buttercup was born, the most beautiful woman <lb/>in the
                           world …</p>
-                          &lt;!-- rest of chapter 1 -->
+                          &lt;!-- rest of chapter 1 --&gt;
                         </div>
                         <div type="chapter" n="2">
                           <head>The Groom</head>
@@ -696,9 +681,9 @@
                             <p>This is my first major excision. Chapter One, The Bride, is almost
                             <lb/>in its entirety about the bride. …</p>
                           </note>
-                          &lt;!-- rest of chapter 2 -->
+                          &lt;!-- rest of chapter 2 --&gt;
                         </div>
-                        &lt;!-- rest of the book -->
+                        &lt;!-- rest of the book --&gt;
                       </body>
                     </text>
                   </TEI>
@@ -706,8 +691,7 @@
               </exemplum>
               <remarks>
                 <p>This element is required. The TEI namespace should
-                be specified on this element, e.g. <tag
-                type="start">TEI
+                be specified on this element, e.g. <tag type="start">TEI
                 xmlns="http://www.tei-c.org/ns/1.0"</tag>.</p>
               </remarks>
             </elementSpec>
@@ -810,37 +794,10 @@
             <elementSpec module="core" ident="bibl" mode="change">
               <constraintSpec scheme="schematron" ident="no-specialized-children">
                 <constraint>
-                  <s:report test="ancestor::tei:text and (
-                                    tei:author
-                                  | tei:biblScope
-                                  | tei:citedRange
-                                  | tei:distributor
-                                  | tei:edition
-                                  | tei:editor
-                                  | tei:idno
-                                  | tei:pubPlace
-                                  | tei:publisher
-                                  | tei:relatedItem
-                                  | tei:respStmt
-                                  | tei:series
-                                  | tei:title )
-                                  ">When used inside the transcribed text at level 3,
+                  <s:report test="ancestor::tei:text and (                                     tei:author                                   | tei:biblScope                                   | tei:citedRange                                   | tei:distributor                                   | tei:edition                                   | tei:editor                                   | tei:idno                                   | tei:pubPlace                                   | tei:publisher                                   | tei:relatedItem                                   | tei:respStmt                                   | tei:series                                   | tei:title )                                   ">When used inside the transcribed text at level 3,
                     the <gi>bibl</gi> element uses only generic
                     phrase-level markup like <gi>hi</gi>, not
-                    structured bibliographic markup like <s:value-of
-                    select="(  tei:author
-                             | tei:biblScope
-                             | tei:citedRange
-                             | tei:distributor
-                             | tei:edition
-                             | tei:editor
-                             | tei:idno
-                             | tei:pubPlace
-                             | tei:publisher
-                             | tei:relatedItem
-                             | tei:respStmt
-                             | tei:series
-                             | tei:title)[1]/local-name(.)"/>.</s:report>
+                    structured bibliographic markup like <s:value-of select="(  tei:author                              | tei:biblScope                              | tei:citedRange                              | tei:distributor                              | tei:edition                              | tei:editor                              | tei:idno                              | tei:pubPlace                              | tei:publisher                              | tei:relatedItem                              | tei:respStmt                              | tei:series                              | tei:title)[1]/local-name(.)"/>.</s:report>
                 </constraint>
               </constraintSpec>
               <remarks>
@@ -860,7 +817,7 @@
                 </alternate>
               </content>
               <exemplum>
-                <egXML xmlns="http://www.tei-c.org/ns/Examples"  xml:lang="fr">
+                <egXML xmlns="http://www.tei-c.org/ns/Examples" xml:lang="fr">
                   <body>
                     <head>LA FOREST NVPTIALE,</head>
                     <p>Où e∫t repre∫entee vne varieté bigarree, non mois e∫merveillable que plai∫an‐
@@ -873,7 +830,7 @@
                       puis que le forma‐ litez, qui e∫toient an‐ ciennement gardees au nopces
                       Romaines, ∫ont maintenant mi∫es hors d’v∫ages &amp; pratique, ie ne ∫e‐ A
                       <pb/> ray point de difficulté d’emprunter des anciens autheurs ce qui appar‐
-                      &lt;!-- ... -->
+                      &lt;!-- ... --&gt;
                       </p>
                     </div>
                   </body>

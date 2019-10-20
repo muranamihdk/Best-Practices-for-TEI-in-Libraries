@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns:s="http://purl.oclc.org/dsdl/schematron"
-     xmlns:rng="http://relaxng.org/ns/structure/1.0"
-     xml:lang="en"
-     version="3.1.0">
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:s="http://purl.oclc.org/dsdl/schematron" xmlns:rng="http://relaxng.org/ns/structure/1.0" xml:lang="en" version="3.1.0">
   <!-- The value of TEI/@version is the version number of P5 to which the ODDs conform. -->
   <teiHeader>
     <fileDesc>
@@ -57,8 +52,7 @@
           <title>TEI in Libraries: Guidelines for Best Practices</title>
           <author>TEI in Libraries SIG</author>
           <author>Digital Libraries Federation TEI task force</author>
-          <ptr
-              target="https://wiki.tei-c.org/index.php/TEI_in_Libraries:_Guidelines_for_Best_Practices"/>
+          <ptr target="https://wiki.tei-c.org/index.php/TEI_in_Libraries:_Guidelines_for_Best_Practices"/>
         </bibl>
         written in MediaWiki syntax and converted into the TEI ODD language.</p>
       </sourceDesc>
@@ -164,16 +158,14 @@
         </div>
         <div type="section">
           <head>The TEI Header and METS</head>
-          <p>The <ref
-          target="https://www.loc.gov/standards/mets/">Metadata
+          <p>The <ref target="https://www.loc.gov/standards/mets/">Metadata
           Encoding and Transmission Standard</ref> (METS) includes
           direct support for TEI Headers; that is, a complete
           <gi>teiHeader</gi> element can be included in a METS
           metadata record alongside MARC, MODS, and DC metadata. METS
           specifies an <att>MDTYPE</att> of <val>TEIHDR</val> to
           indicate a TEI Header. For an example of how this might be
-          done, see this <ref
-          target="./edmcook-original_mets_xmp.xml">sample METS
+          done, see this <ref target="./edmcook-original_mets_xmp.xml">sample METS
           record</ref> for <title>The “Sure to Rise” Cookery
           Book</title>. We are unaware of any METS implementations
           which provide significant support for TEI headers
@@ -182,9 +174,7 @@
         <div xml:id="frbr" type="section">
         <head>The TEI Header and FRBR</head>
         <p><title><choice><expan>Functional Requirements for Bibliographic
-                        Records</expan><abbr>FRBR</abbr></choice></title><note><ptr
-                target="https://www.ifla.org/publications/functional-requirements-for-bibliographic-records"
-                /></note> is a conceptual model developed by <choice><expan>the International
+                        Records</expan><abbr>FRBR</abbr></choice></title><note><ptr target="https://www.ifla.org/publications/functional-requirements-for-bibliographic-records"/></note> is a conceptual model developed by <choice><expan>the International
                     Federation of Library Associations</expan><abbr>IFLA</abbr></choice><note><ptr target="https://www.ifla.org/"/></note>
             <cit><quote>for relating the data that are stored in bibliographic records to the needs
                     of the users of those records</quote> <bibl>(<title>Functional Requirements for
@@ -213,15 +203,9 @@
         <p>The following example expresses all three FRBR relationships between instances of the
             four primary FRBR entities: <egXML xmlns="http://www.tei-c.org/ns/Examples">
                 <listRelation>
-                    <relation ref="http://purl.org/vocab/frbr/core#realization"
-                        active="http://d-nb.info/gnd/4128140-8"
-                        passive="http://d-nb.info/gnd/4217850-2"/>
-                    <relation ref="http://purl.org/vocab/frbr/core#embodiment"
-                        active="http://d-nb.info/gnd/4217850-2"
-                        passive="http://d-nb.info/1022142836"/>
-                    <relation ref="http://purl.org/vocab/frbr/core#exemplar"
-                        active="http://d-nb.info/1022142836"
-                        passive="http://lobid.org/items/HT017412936:DE-361:NA088.88-4442721#!"/>
+                    <relation ref="http://purl.org/vocab/frbr/core#realization" active="http://d-nb.info/gnd/4128140-8" passive="http://d-nb.info/gnd/4217850-2"/>
+                    <relation ref="http://purl.org/vocab/frbr/core#embodiment" active="http://d-nb.info/gnd/4217850-2" passive="http://d-nb.info/1022142836"/>
+                    <relation ref="http://purl.org/vocab/frbr/core#exemplar" active="http://d-nb.info/1022142836" passive="http://lobid.org/items/HT017412936:DE-361:NA088.88-4442721#!"/>
                 </listRelation>
             </egXML></p>
             <p>Note that a TEI document itself, like any other XML
@@ -236,9 +220,7 @@
             <date>2003</date>.
             <title level="a">An XML document corresponds to which FRBR Group 1 entity?</title>.
             <title level="m">Proceedings of Extreme Markup Languages 2003</title>.
-            <ptr
-            target="http://conferences.idealliance.org/extreme/html/2003/Lawton01/EML2003Lawton01.html"
-            />.
+            <ptr target="http://conferences.idealliance.org/extreme/html/2003/Lawton01/EML2003Lawton01.html"/>.
             </bibl>
             </note>
             </p>
@@ -456,7 +438,7 @@
                     <eg>&lt;author&gt;&lt;orgName&gt;National Organization for Women&lt;/orgName&gt;&lt;/author&gt;</eg>
                   </item>
                   <item>
-                    <eg>&lt;author>&lt;orgName>Agreda (Family: Logroño, Spain)&lt;/orgName>&lt;/author></eg>
+                    <eg>&lt;author&gt;&lt;orgName&gt;Agreda (Family: Logroño, Spain)&lt;/orgName&gt;&lt;/author&gt;</eg>
                   </item>
                   <item>
                     <eg>&lt;author&gt;&lt;persName&gt;X, Malcolm&lt;/persName&gt;&lt;/author&gt;</eg>
@@ -471,7 +453,7 @@
                     <eg>&lt;author&gt;&lt;persName&gt;Joannes, Actuarius, 13th/14th cent.&lt;/persName&gt;&lt;/author&gt;</eg>
                   </item>
                 </list>
-                      Optionally use the <att>ref</att> attribute on <gi>persName</gi>gi> and <gi>orgName</gi> to supply a URI for a record in an authority file (see <ref target="#name-tagging">section 4.2.5.6.2</ref>).
+                      Optionally use the <att>ref</att> attribute on <gi>persName</gi>gi&gt; and <gi>orgName</gi> to supply a URI for a record in an authority file (see <ref target="#name-tagging">section 4.2.5.6.2</ref>).
               </cell>
               <cell>
                 <list>
@@ -665,8 +647,7 @@
               </cell>
               <cell>[recommended] Refers to the date of the first publication of
               this edition of the TEI document. The <att>when</att>
-              attribute (see <ref
-              target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.datable.w3c.html">att.datable.w3c
+              attribute (see <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.datable.w3c.html">att.datable.w3c
               class</ref>) is used instead of free content to aid
               machine processing. (In this context, the <gi>date</gi>
               element should have no content.)</cell>
@@ -697,8 +678,7 @@
               possible, establish or use the authorized form of the
               title from a name authority file. Use of the
               <att>type</att> attribute is optional, but if it is
-              used, it should follow <ref
-              target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html">the
+              used, it should follow <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html">the
               instructions for use of this element in P5</ref>.</cell>
               <cell>
                 <list>
@@ -906,8 +886,7 @@
                 item. Transcribe the title according to the
                 descriptive cataloging standard used.</p>
                 <p>Use of the <att>level</att> attribute is optional.
-                If used, it should be used <ref
-                target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html">as in P5</ref>.</p>
+                If used, it should be used <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html">as in P5</ref>.</p>
                 <p>Use of the <att>type</att> attribute is
                 recommended. It should have one of the following
                 values as suitable in local practice:
@@ -1188,8 +1167,7 @@
               <list>
                 <item> <val>LCCN</val> (for a Library of Congress control number) </item>
                 <item> <val>LC_call_number</val> </item>
-                <item> Those listed in <ref
-                target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-idno.html">P5</ref></item>
+                <item> Those listed in <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-idno.html">P5</ref></item>
               </list>
               </cell>
               <cell>534 $z for ISBN</cell>
@@ -1254,8 +1232,7 @@
               possible, establish or use the authorized form of the
               title from a name authority file. Use of the
               <att>type</att> attribute is optional, but if it is
-              used, it should follow <ref
-              target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html">the
+              used, it should follow <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html">the
               instructions for use of this element in P5</ref>.</cell>
               <cell>534 $f</cell>
               <cell>
@@ -1354,8 +1331,7 @@
             <gi>listRelation</gi>
         </cell>
         <cell>[optional] Use <gi>listRelation</gi> with <gi>relation</gi> child elements to express any FRBR
-            entities and relationships relating to the TEI document (see <ref target="#frbr"
-                >section 4.1.5, The TEI Header and FRBR</ref>, above).</cell>
+            entities and relationships relating to the TEI document (see <ref target="#frbr">section 4.1.5, The TEI Header and FRBR</ref>, above).</cell>
         <cell>n/a</cell>
         <cell>n/a</cell>
     </row>
@@ -1709,8 +1685,7 @@
               </cell>
               <cell>[optional] Use one or more <gi>language</gi> elements to
               indicate language(s) used in the source document. Use of
-              the <att>ident</att> attribute is required <ref
-              target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-language.html">as
+              the <att>ident</att> attribute is required <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-language.html">as
               in P5</ref>. Since the value of
               this attribute is usually sufficient to indicate the
               language, the <gi>language</gi> element should normally
@@ -1820,8 +1795,7 @@
                 markup (like <gi>gi</gi>, <gi>ptr</gi>, or
                 <gi>date</gi>), but not paragraphs.</p>
                 <p>The date of the change should be recorded using the
-                <att>when</att> attribute (see <ref
-                target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.datable.w3c.html">att.datable.w3c
+                <att>when</att> attribute (see <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.datable.w3c.html">att.datable.w3c
                 class</ref>).</p>
                 <p>The person who is responsible for making the change
                 should be indicated by the <att>who</att> attribute of
@@ -1947,14 +1921,8 @@
         <div type="specification">
           <head>Specification</head>
           <specGrp xml:id="libHeadSpec" xml:lang="en">
-            <classSpec module="tei"
-                       ident="model.encodingDescPart"
-                       type="model"
-                       mode="delete"/>
-            <classSpec module="tei"
-                       ident="model.teiHeaderPart"
-                       type="model"
-                       mode="delete"/>
+            <classSpec module="tei" ident="model.encodingDescPart" type="model" mode="delete"/>
+            <classSpec module="tei" ident="model.teiHeaderPart" type="model" mode="delete"/>
             <!-- First, some constraints that we have no where else to put, as we make no -->
             <!-- other modifications to the relevant elements. -->
             <constraintSpec scheme="schematron" ident="no-extent-in-fileDesc">
@@ -1984,23 +1952,7 @@
               <constraint>
                 <s:ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
                 <s:rule context="tei:*/@*">
-                  <s:assert test="name(.) = ('anchored', 'baseForm',
-                  'baseTypes', 'calendar', 'cause', 'cert', 'class',
-                  'cols', 'copyOf', 'corresp', 'degree', 'dur',
-                  'dur-iso', 'ed', 'end', 'eol', 'evaluate',
-                  'exclude', 'facs', 'from', 'from-iso', 'full', 'gi',
-                  'given', 'group', 'hand', 'height', 'ident', 'key',
-                  'level', 'locus', 'marks', 'met', 'min', 'n',
-                  'name', 'next', 'notAfter', 'notBefore', 'org',
-                  'part', 'period', 'place', 'precision', 'prev',
-                  'quantity', 'reason', 'ref', 'rend', 'render',
-                  'rendition', 'resp', 'rhyme', 'role', 'rows', 'sex',
-                  'scale', 'scheme', 'scope', 'select', 'sort',
-                  'subtype', 'synch', 'target', 'targetEnd',
-                  'targets', 'targFunc', 'to', 'to-iso', 'type',
-                  'unit', 'uri', 'url', 'usage', 'version', 'when',
-                  'who', 'width', 'lrx', 'lry', 'ulx', 'uly',
-                  'xml:base', 'xml:id', 'xml:lang', 'xml:space')">The
+                  <s:assert test="name(.) = ('anchored', 'baseForm',                   'baseTypes', 'calendar', 'cause', 'cert', 'class',                   'cols', 'copyOf', 'corresp', 'degree', 'dur',                   'dur-iso', 'ed', 'end', 'eol', 'evaluate',                   'exclude', 'facs', 'from', 'from-iso', 'full', 'gi',                   'given', 'group', 'hand', 'height', 'ident', 'key',                   'level', 'locus', 'marks', 'met', 'min', 'n',                   'name', 'next', 'notAfter', 'notBefore', 'org',                   'part', 'period', 'place', 'precision', 'prev',                   'quantity', 'reason', 'ref', 'rend', 'render',                   'rendition', 'resp', 'rhyme', 'role', 'rows', 'sex',                   'scale', 'scheme', 'scope', 'select', 'sort',                   'subtype', 'synch', 'target', 'targetEnd',                   'targets', 'targFunc', 'to', 'to-iso', 'type',                   'unit', 'uri', 'url', 'usage', 'version', 'when',                   'who', 'width', 'lrx', 'lry', 'ulx', 'uly',                   'xml:base', 'xml:id', 'xml:lang', 'xml:space')">The
                   use of the <s:name/>= attribute (found here on the
                   &lt;<s:value-of select="local-name(..)"/>&gt;
                   element) is not recommended by the Best Practices
@@ -2031,8 +1983,7 @@
               </content>
             </elementSpec>
             <moduleRef key="tagdocs" include="att val gi tag"/>
-            <moduleRef key="header"
-                       include="appInfo application availability change classCode classDecl correction distributor edition editionStmt editorialDecl encodingDesc extent fileDesc hyphenation idno keywords langUsage language licence listPrefixDef namespace normalization notesStmt prefixDef profileDesc projectDesc publicationStmt punctuation quotation rendition revisionDesc samplingDecl schemaRef seriesStmt sourceDesc tagUsage tagsDecl taxonomy teiHeader textClass titleStmt"/>
+            <moduleRef key="header" include="appInfo application availability change classCode classDecl correction distributor edition editionStmt editorialDecl encodingDesc extent fileDesc hyphenation idno keywords langUsage language licence listPrefixDef namespace normalization notesStmt prefixDef profileDesc projectDesc publicationStmt punctuation quotation rendition revisionDesc samplingDecl schemaRef seriesStmt sourceDesc tagUsage tagsDecl taxonomy teiHeader textClass titleStmt"/>
             <elementSpec module="header" ident="change" mode="change">
               <!-- constraintSpec scheme="schematron"
                    ident="revChronOrder"> </constraintSpec -->
@@ -2077,24 +2028,10 @@
                 <valList type="closed">
                   <valItem ident="All hyphens in source document encoded as U+2010."/>
                   <valItem ident="All hyphens in source document encoded as U+002D."/>
-                  <valItem ident="Hyphens in source document
-                                  encoded as U+2010. Line-ending hyphens
-                                  differentiated with @break of immediately following
-                                  &lt;lb&gt; element."/>
-                  <valItem ident="Hyphens in source document
-                                  encoded as U+002D. Line-ending hyphens
-                                  differentiated with @break of immediately following
-                                  &lt;lb&gt; element."/>
-                  <valItem ident="Hyphens in source document encoded as
-                                  U+2010 inside a &lt;pc&gt;. Line-ending hyphens
-                                  differentiated with @force of the &lt;pc&gt; and
-                                  @break of immediately following &lt;lb&gt;
-                                  element."/>
-                  <valItem ident="Hyphens in source document encoded as
-                                  U+202D inside a &lt;pc&gt;. Line-ending hyphens
-                                  differentiated with @force of the &lt;pc&gt; and
-                                  @break of immediately following &lt;lb&gt;
-                                  element."/>
+                  <valItem ident="Hyphens in source document                                   encoded as U+2010. Line-ending hyphens                                   differentiated with @break of immediately following                                   &lt;lb&gt; element."/>
+                  <valItem ident="Hyphens in source document                                   encoded as U+002D. Line-ending hyphens                                   differentiated with @break of immediately following                                   &lt;lb&gt; element."/>
+                  <valItem ident="Hyphens in source document encoded as                                   U+2010 inside a &lt;pc&gt;. Line-ending hyphens                                   differentiated with @force of the &lt;pc&gt; and                                   @break of immediately following &lt;lb&gt;                                   element."/>
+                  <valItem ident="Hyphens in source document encoded as                                   U+202D inside a &lt;pc&gt;. Line-ending hyphens                                   differentiated with @force of the &lt;pc&gt; and                                   @break of immediately following &lt;lb&gt;                                   element."/>
                 </valList>
               </content>
             </elementSpec>
@@ -2114,12 +2051,12 @@
             <elementSpec module="header" ident="editorialDecl" mode="change">
               <content>
                 <sequence>
-                  <elementRef key="correction"    minOccurs="0" maxOccurs="1"/>
-                  <elementRef key="hyphenation"   minOccurs="0" maxOccurs="1"/>
+                  <elementRef key="correction" minOccurs="0" maxOccurs="1"/>
+                  <elementRef key="hyphenation" minOccurs="0" maxOccurs="1"/>
                   <elementRef key="normalization" minOccurs="0" maxOccurs="1"/>
-                  <elementRef key="punctuation"   minOccurs="0" maxOccurs="1"/>
-                  <elementRef key="quotation"     minOccurs="0" maxOccurs="1"/>
-                  <classRef key="model.pLike"     minOccurs="0" maxOccurs="7"/>
+                  <elementRef key="punctuation" minOccurs="0" maxOccurs="1"/>
+                  <elementRef key="quotation" minOccurs="0" maxOccurs="1"/>
+                  <classRef key="model.pLike" minOccurs="0" maxOccurs="7"/>
                 </sequence>
               </content>
               <exemplum xml:lang="en">
@@ -2152,13 +2089,13 @@
           <elementSpec module="header" ident="encodingDesc" mode="change">
             <content>
               <sequence>
-                <elementRef key="projectDesc"   minOccurs="0" maxOccurs="1"/>
-                <elementRef key="schemaRef"     minOccurs="0" maxOccurs="unbounded"/>
+                <elementRef key="projectDesc" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="schemaRef" minOccurs="0" maxOccurs="unbounded"/>
                 <elementRef key="editorialDecl" minOccurs="0" maxOccurs="1"/>
-                <elementRef key="tagsDecl"      minOccurs="1" maxOccurs="1"/>
-                <elementRef key="classDecl"     minOccurs="0" maxOccurs="1"/>
-                <elementRef key="samplingDecl"  minOccurs="0" maxOccurs="1"/>
-                <elementRef key="appInfo"       minOccurs="0" maxOccurs="unbounded"/>
+                <elementRef key="tagsDecl" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="classDecl" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="samplingDecl" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="appInfo" minOccurs="0" maxOccurs="unbounded"/>
                 <elementRef key="listPrefixDef" minOccurs="1" maxOccurs="unbounded"/>
               </sequence>
             </content>
@@ -2245,8 +2182,7 @@
                   <s:assert test="@when">Dates inside the
                   publication statement should have @when
                   (and should not have content)</s:assert>
-                  <s:report test="string-length(
-                                  normalize-space(.) ) &gt; 0">Dates
+                  <s:report test="string-length(                                   normalize-space(.) ) &gt; 0">Dates
                   inside the publication statement should
                   not have content (and should have
                   @when)</s:report>
@@ -2321,23 +2257,17 @@
                         a &lt;namespace name="http://www.tei-c.org/ns/1.0"&gt; element.</s:assert>
                     </s:rule>
                     <s:rule context="tei:tagUsage">
-                      <s:assert test="
-                                ( @gi eq 'div' and normalize-space(.) eq 'Unnumbered divs used.' and not( /tei:TEI/tei:text//tei:div1 ) )
-                                or
-                                ( @gi eq 'div1' and normalize-space(.) eq 'Numbered divs used.' and not( /tei:TEI/tei:text//tei:div ) )
-                                or
-                                ( @gi eq 'sourceDoc' and normalize-space(.) eq 'Logical divisions not encoded.' and not( /tei:TEI/tei:text//tei:div | /tei:TEI/tei:text//tei:div1 ) )
-                                ">
+                      <s:assert test="                                 ( @gi eq 'div' and normalize-space(.) eq 'Unnumbered divs used.' and not( /tei:TEI/tei:text//tei:div1 ) )                                 or                                 ( @gi eq 'div1' and normalize-space(.) eq 'Numbered divs used.' and not( /tei:TEI/tei:text//tei:div ) )                                 or                                 ( @gi eq 'sourceDoc' and normalize-space(.) eq 'Logical divisions not encoded.' and not( /tei:TEI/tei:text//tei:div | /tei:TEI/tei:text//tei:div1 ) )                                 ">
                       A document that uses un-numbered divisions
                       should specify so by using &lt;tagUsage
-                      gi="div">Unnumbered divs
-                      used.&lt;/tagUsage>; a document that uses
+                      gi="div"&gt;Unnumbered divs
+                      used.&lt;/tagUsage&gt;; a document that uses
                       numbered divisions should specify so by using
-                      &lt;tagUsage gi="div1">Numbered divs
-                      used.&lt;/tagUsage>; a document that uses
+                      &lt;tagUsage gi="div1"&gt;Numbered divs
+                      used.&lt;/tagUsage&gt;; a document that uses
                       neither should specify so by using &lt;tagUsage
-                      gi="sourceDoc">Logical divisions not
-                      encoded.&lt;/tagUsage>.
+                      gi="sourceDoc"&gt;Logical divisions not
+                      encoded.&lt;/tagUsage&gt;.
                       </s:assert>
                     </s:rule>
                   </constraint>
@@ -2377,9 +2307,9 @@
           <elementSpec module="header" ident="teiHeader" mode="change">
             <content>
               <sequence>
-                <elementRef key="fileDesc"     minOccurs="1" maxOccurs="1"/>
+                <elementRef key="fileDesc" minOccurs="1" maxOccurs="1"/>
                 <elementRef key="encodingDesc" minOccurs="1" maxOccurs="1"/>
-                <elementRef key="profileDesc"  minOccurs="0" maxOccurs="1"/>
+                <elementRef key="profileDesc" minOccurs="0" maxOccurs="1"/>
                 <elementRef key="revisionDesc" minOccurs="0" maxOccurs="1"/>
               </sequence>
             </content>
@@ -2725,8 +2655,7 @@
   </body>
 </text>
 </TEI>
-
-              <!-- also move this to the new <hyphen> element at next release
+<!-- also move this to the new <hyphen> element at next release
                    <constraintSpec scheme="schematron" ident="hyphen-match">
                    <constraint>
                    <s:rule context="tei:editorialDecl[@n='1' or @n='2']">
