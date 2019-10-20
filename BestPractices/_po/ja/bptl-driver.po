@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-04-16 00:05+0900\n"
+"PO-Revision-Date: 2019-10-20 09:45+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #. (itstool) path: titleStmt/title
 #. (itstool) path: p/title
@@ -370,12 +370,12 @@ msgstr ""
 #. (itstool) path: p/ref
 #: bptl-driver.odd:228 bptl-driver.odd:1190
 msgid "General Recommendations"
-msgstr ""
+msgstr "一般的な推奨事項"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:230
 msgid "Standards and Local Practice"
-msgstr ""
+msgstr "標準および現場での実際"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:231
@@ -390,7 +390,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:245
 msgid "Character Encoding"
-msgstr ""
+msgstr "文字エンコーディング"
 
 #. (itstool) path: p/ref
 #: bptl-driver.odd:249
@@ -405,7 +405,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:255
 msgid "Transcription"
-msgstr ""
+msgstr "転写"
 
 #. (itstool) path: p/gi
 #: bptl-driver.odd:263
@@ -435,7 +435,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:280
 msgid "Punctuation"
-msgstr ""
+msgstr "句読点"
 
 #. (itstool) path: said/mentioned
 #: bptl-driver.odd:289
@@ -492,7 +492,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:308
 msgid "Hyphenation"
-msgstr ""
+msgstr "ハイフン"
 
 #. (itstool) path: p/term
 #: bptl-driver.odd:316
@@ -749,7 +749,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:457
 msgid "Filenames"
-msgstr ""
+msgstr "ファイル名"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:458
@@ -799,7 +799,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:487
 msgid "URIs"
-msgstr ""
+msgstr "URI"
 
 #. (itstool) path: p/ref
 #: bptl-driver.odd:489
@@ -824,7 +824,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:497
 msgid "Textual Divisions"
-msgstr ""
+msgstr "テキスト区分"
 
 #. (itstool) path: p/gi
 #: bptl-driver.odd:498 bptl-driver.odd:867 bptl-driver.odd:1027
@@ -913,7 +913,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:532
 msgid "Front Matter"
-msgstr ""
+msgstr "前付け"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:535 bptl-driver.odd:583 bptl-driver.odd:732
@@ -1003,7 +1003,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:580
 msgid "Body"
-msgstr ""
+msgstr "本文"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:587
@@ -1329,7 +1329,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:729
 msgid "Back Matter"
-msgstr ""
+msgstr "後付け"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:736
@@ -1410,7 +1410,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:784
 msgid "Page Breaks"
-msgstr ""
+msgstr "改ページ"
 
 #. (itstool) path: p/att
 #. (itstool) path: head/att
@@ -1446,7 +1446,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:805
 msgid "Linking Between Encoded Text and Images of Source Documents"
-msgstr ""
+msgstr "エンコード済みテキストと原文画像間のリンク"
 
 #. (itstool) path: ref/att
 #. (itstool) path: p/att
@@ -1548,7 +1548,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:863
 msgid "General Guidelines for Attribute Usage"
-msgstr ""
+msgstr "属性の使用に関する一般的なガイドライン"
 
 #. (itstool) path: p/ref
 #: bptl-driver.odd:865
@@ -1856,7 +1856,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:1037
 msgid "Structure of a TEI Document"
-msgstr ""
+msgstr "TEI文書の構造"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1040
@@ -1942,12 +1942,12 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:1082
 msgid "Encoding Levels"
-msgstr ""
+msgstr "エンコードレベル"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:1084
 msgid "Caveats About Examples"
-msgstr ""
+msgstr "例に関する注意事項"
 
 #. (itstool) path: p/eg
 #: bptl-driver.odd:1089
@@ -2062,7 +2062,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:1200
 msgid "Acknowledgments"
-msgstr ""
+msgstr "謝辞"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:1201
@@ -2272,7 +2272,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:1284
 msgid "Appendix: History of This Document"
-msgstr ""
+msgstr "付録: この文書の履歴"
 
 #. (itstool) path: p/title
 #: bptl-driver.odd:1285
