@@ -88,7 +88,7 @@
   <text>
     <front>
       <head>Best Practices for TEI in Libraries</head>
-      <head>レベル1: 完全に自動的な変換とエンコーディング</head>
+      <head>レベル 1: 完全に自動化された変換とエンコード</head>
       <div type="setting">
         <head>Setting</head>
         <p>This is the <name>level 1</name> portion of the <ref target="http://www.tei-c.org/wiki/index.php/TEI_in_Libraries:_Guidelines_for_Best_Practices#LEVEL_1:_Fully_Automated_Conversion_and_Encoding">Best
@@ -108,7 +108,7 @@
            level 1, but have it be a <div> element so that it is valid
            in the driver. -->
       <div xml:id="level-1-content">
-        <head>レベル1: 完全に自動的な変換とエンコーディング</head>
+        <head>レベル 1: 完全に自動化された変換とエンコード</head>
         <div type="reference">
           <head>参考</head>
           <list>

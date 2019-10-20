@@ -286,7 +286,7 @@
           </p>
         </div>
         <div type="elrecs" xml:id="headertable">
-          <head>TEIヘッダーのために推奨される要素と属性</head>
+          <head>TEIヘッダーで推奨される要素と属性</head>
           <p>Below is documentation on use of elements and attributes
           within the <gi>teiHeader</gi> element. These recommendations
           apply to all levels of encoding. The mapping to MARC for
