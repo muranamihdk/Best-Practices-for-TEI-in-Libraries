@@ -77,7 +77,7 @@
   <text>
     <front>
       <head>Best Practices for TEI in Libraries</head>
-      <head>The TEI Header</head>
+      <head>TEIヘッダー</head>
       <div type="setting">
         <p>This is the <name>TEI Header</name> portion of the <ref target="http://www.tei-c.org/wiki/index.php/TEI_in_Libraries:_Guidelines_for_Best_Practices#LEVEL_1:_Fully_Automated_Conversion_and_Encoding">Best
         Practices for TEI in Libraries</ref>. This document is not
@@ -88,9 +88,9 @@
     </front>
     <body>
       <div xml:id="header-content">
-        <head>The TEI Header</head>
+        <head>TEIヘッダー</head>
         <div type="reference">
-          <head>Reference</head>
+          <head>参考</head>
           <list>
             <item>
               <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/HD.html">Chapter
@@ -103,7 +103,7 @@
                levels 1–4. -->
         </div>
         <div type="introduction">
-          <head>Introduction</head>
+          <head>はじめに</head>
           <p>The TEI header is a metadata record for an encoded text.
           It includes bibliographic information related to the
           electronic document and, if appropriate, the bibliographic
@@ -128,7 +128,7 @@
           headers.</p>
         </div>
         <div type="section">
-          <head>The TEI Header and MARC</head>
+          <head>TEIヘッダーとMARC</head>
           <p>While a TEI header is often perceived as similar to or at
           least related to a MARC bibliographic record, a TEI header
           does not typically have a one-to-one correspondence with a
@@ -157,7 +157,7 @@
           due to a lack of granularity in the MARC format.</p>
         </div>
         <div type="section">
-          <head>The TEI Header and METS</head>
+          <head>TEIヘッダーとMETS</head>
           <p>The <ref target="https://www.loc.gov/standards/mets/">Metadata
           Encoding and Transmission Standard</ref> (METS) includes
           direct support for TEI Headers; that is, a complete
@@ -172,7 +172,7 @@
           out-of-the-box.</p>
        </div>
         <div xml:id="frbr" type="section">
-        <head>The TEI Header and FRBR</head>
+        <head>TEIヘッダーとFRBR</head>
         <p><title><choice><expan>Functional Requirements for Bibliographic
                         Records</expan><abbr>FRBR</abbr></choice></title><note><ptr target="https://www.ifla.org/publications/functional-requirements-for-bibliographic-records"/></note> is a conceptual model developed by <choice><expan>the International
                     Federation of Library Associations</expan><abbr>IFLA</abbr></choice><note><ptr target="https://www.ifla.org/"/></note>
@@ -226,7 +226,7 @@
             </p>
         </div>
         <div type="section">
-          <head>The TEI Header and Other Metadata Schemas</head>
+          <head>TEIヘッダーとその他のメタデータスキーマ</head>
           <p>Several other descriptive metadata schemas are prevalent
           within the library domain, including Dublin Core (DC),
           Dublin Core Qualified (DCQ), and the Metadata Object
@@ -251,7 +251,7 @@
           TEI document.</p>
         </div>
         <div type="section">
-          <head>Determining Data Values for the TEI Header</head>
+          <head>TEIヘッダーのデータの値を決定する</head>
           <p>Within the library domain, there are several
           authoritative publications on how to create bibliographic
           and descriptive metadata for objects. These are usually
@@ -286,7 +286,7 @@
           </p>
         </div>
         <div type="elrecs" xml:id="headertable">
-          <head>Element and Attribute Recommendations for the TEI Header</head>
+          <head>TEIヘッダーのために推奨される要素と属性</head>
           <p>Below is documentation on use of elements and attributes
           within the <gi>teiHeader</gi> element. These recommendations
           apply to all levels of encoding. The mapping to MARC for
@@ -1817,7 +1817,7 @@
           </table>
         </div>
         <div type="example">
-          <head>Sample TEI Header</head>
+          <head>TEIヘッダーの例</head>
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <teiHeader xml:lang="en">
               <fileDesc>
@@ -1919,7 +1919,7 @@
         </div>
         <!-- ===================================================================== -->
         <div type="specification">
-          <head>Specification</head>
+          <head>仕様</head>
           <specGrp xml:id="libHeadSpec" xml:lang="en">
             <classSpec module="tei" ident="model.encodingDescPart" type="model" mode="delete"/>
             <classSpec module="tei" ident="model.teiHeaderPart" type="model" mode="delete"/>

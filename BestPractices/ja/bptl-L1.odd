@@ -88,7 +88,7 @@
   <text>
     <front>
       <head>Best Practices for TEI in Libraries</head>
-      <head>Level 1: Fully Automated Conversion and Encoding</head>
+      <head>レベル1: 完全に自動的な変換とエンコーディング</head>
       <div type="setting">
         <head>Setting</head>
         <p>This is the <name>level 1</name> portion of the <ref target="http://www.tei-c.org/wiki/index.php/TEI_in_Libraries:_Guidelines_for_Best_Practices#LEVEL_1:_Fully_Automated_Conversion_and_Encoding">Best
@@ -108,9 +108,9 @@
            level 1, but have it be a <div> element so that it is valid
            in the driver. -->
       <div xml:id="level-1-content">
-        <head>Level 1: Fully Automated Conversion and Encoding</head>
+        <head>レベル1: 完全に自動的な変換とエンコーディング</head>
         <div type="reference">
-          <head>Reference</head>
+          <head>参考</head>
           <list>
             <item>
               <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html">Chapter 11, Representation of Primary Sources</ref>
@@ -118,7 +118,7 @@
           </list>
         </div>
         <div type="purpose">
-          <head>Purpose</head>
+          <head>目的</head>
           <p>To create electronic text with the primary purpose of
           keyword searching and linking to page images. The primary
           advantage in using the TEI at this very strictly limited
@@ -126,7 +126,7 @@
           text file.</p>
         </div>
         <div type="rationale">
-          <head>Rationale</head>
+          <head>基本原則</head>
           <p>The text is subordinate to the page image, and is not
           intended to stand alone as an electronic text without accompanying page
           images. Level 1 texts are not intended to be adequate for
@@ -155,7 +155,7 @@
           </list>
         </div>
         <div type="workflow">
-          <head>Workflow</head>
+          <head>作業工程</head>
           <p>Texts at Level 1 can be created and encoded by fully
           automated means. Page images are scanned and processed using
           OCR, but the text is generally left uncorrected (“dirty OCR”) 
@@ -165,7 +165,7 @@
           front matter, or the start of a new chapter.</p>
         </div>
         <div type="elrecs">
-          <head>Element Recommendations for Level 1</head>
+          <head>レベル1で推奨される属性</head>
           <table rend="table">
             <row>
               <cell><gi>sourceDoc</gi></cell>
@@ -201,7 +201,7 @@
           Images of Source Documents</ref>.</p>
         </div>
         <div type="examples">
-             <head>Level 1 Examples</head>
+             <head>レベル1の例</head>
         <div type="example" xml:id="L1AHex">
           <head>Level 1 Alger Hiss document</head>
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -388,7 +388,7 @@
         </div>
         <!-- ********************************************* -->
         <div type="specification">
-          <head>Specification</head>
+          <head>仕様</head>
           <schemaSpec ident="bptl-L1" docLang="en" xml:lang="en" prefix="L1_" source="tei:3.3.0">
             <!-- The @source on <elementSpec>, above, is the version
                  number against which our ODD files are built. -->

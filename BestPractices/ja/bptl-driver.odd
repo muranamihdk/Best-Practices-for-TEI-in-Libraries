@@ -152,7 +152,7 @@
     <div type="==">
       <head>一般的な推奨事項</head>
       <div type="===">
-        <head>標準および現場での実際</head>
+        <head>標準と現場での実際</head>
         <p>The goal of the TEI is interchange, not interoperability.
         While seamless interoperability of texts created for different
         purposes is an elusive goal, use of a common markup vocabulary
@@ -418,7 +418,7 @@
         <code>#foo</code>).</p>
       </div>
       <div type="===">
-        <head>テキスト区分</head>
+        <head>テキストの区分け</head>
         <p>At Levels 2 and higher, when <gi>text</gi> is used, an 
         encoding project should use only numbered divisions
         (i.e., <gi>div1</gi>, <gi>div2</gi>, etc.) or unnumbered
@@ -993,7 +993,7 @@
       <div n="6">
         <head>エンコードレベル</head>
           <div>
-            <head>例に関する注意事項</head>
+            <head>例についての注意事項</head>
             <p>In the examples given in the description of each
             encoding level below, XML comments are illustrative, and
             are not meant to be included in encoded documents. Here is
