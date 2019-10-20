@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-10-20 09:45+0900\n"
+"PO-Revision-Date: 2019-10-20 13:31+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -375,7 +375,7 @@ msgstr "一般的な推奨事項"
 #. (itstool) path: div/head
 #: bptl-driver.odd:230
 msgid "Standards and Local Practice"
-msgstr "標準および現場での実際"
+msgstr "標準と現場での実際"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:231
@@ -824,7 +824,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:497
 msgid "Textual Divisions"
-msgstr "テキスト区分"
+msgstr "テキストの区分け"
 
 #. (itstool) path: p/gi
 #: bptl-driver.odd:498 bptl-driver.odd:867 bptl-driver.odd:1027
@@ -1947,7 +1947,7 @@ msgstr "エンコードレベル"
 #. (itstool) path: div/head
 #: bptl-driver.odd:1084
 msgid "Caveats About Examples"
-msgstr "例に関する注意事項"
+msgstr "例についての注意事項"
 
 #. (itstool) path: p/eg
 #: bptl-driver.odd:1089
