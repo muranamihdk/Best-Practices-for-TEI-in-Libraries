@@ -78,7 +78,7 @@
   <text>
     <front>
       <head>Best Practices for TEI in Libraries</head>
-      <head>Level 3: Simple Analysis</head>
+      <head>レベル 3: 簡単な分析</head>
       <div type="setting">
         <head>Setting</head>
         <p>This is the <name>level 3</name> portion of the <ref target="http://wiki.tei-c.org/index.php/Best_Practices_for_TEI_in_Libraries#LEVEL_3:_Simple_Analysis">Best Practices for TEI in Libraries</ref>. This document is not intended to stand
@@ -93,9 +93,9 @@
       <!-- driver document can XInclude to suck in a <div> for all of the body of level 3,-->
       <!-- but have it be a <div> element so that it is valid in the driver.-->
       <div xml:id="level-3-content">
-        <head>Level 3: Simple Analysis</head>
+        <head>レベル 3: 簡単な分析</head>
         <div type="reference">
-          <head>Reference</head>
+          <head>参考</head>
           <list>
             <item>
               <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DS.html">Chapter 4,
@@ -118,13 +118,13 @@
           section 23.3</ref>.</p>
         </div>
         <div type="purpose">
-          <head>Purpose</head>
+          <head>目的</head>
           <p>To create a stand-alone electronic text and identify
           hierarchy (logical structure) and typography without content
           analysis being of primary importance.</p>
         </div>
         <div type="rationale">
-          <head>Rationale</head>
+          <head>基本原則</head>
           <p>Encoding at this level provides the foundation for
           upgrading to higher levels of encoding. Level 3 generally
           requires some human editing, but the features to be encoded
@@ -160,7 +160,7 @@
           </list>
         </div>
         <div type="workflow">
-          <head>Workflow</head>
+          <head>作業工程</head>
           <p>Level 3 texts can be created by semi-automated conversion from an
           electronic source such as an HTML file or word-processor
           document or from a print source, either through OCR or
@@ -170,7 +170,7 @@
           Tite</ref>, though some granularity of encoding will be lost in the translation.</p>
         </div>
         <div type="elrecs">
-          <head>Element Recommendations for Level 3</head>
+          <head>レベル 3 で推奨される属性</head>
              <p>Use all elements specified in Level 2 <emph>except <gi>ab</gi> as defined for that level</emph>, plus the
           following:
           <table rend="table">
@@ -379,7 +379,7 @@
           </div>
         </div>
         <div type="examples">
-          <head>Level 3 Examples</head>
+          <head>レベル 3 の例</head>
           <div type="example">
             <head>Level 3 Basic Structure: Prose</head>
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -588,7 +588,7 @@
         </div>
         <!-- ********************************************* -->
         <div type="specification">
-          <head>Specification</head>
+          <head>仕様</head>
           <schemaSpec ident="bptl-L3" docLang="en" xml:lang="en" prefix="L3_" source="tei:3.3.0">
             <!-- The @source on <elementSpec>, above, is the version
                  number against which our ODD files are built. -->

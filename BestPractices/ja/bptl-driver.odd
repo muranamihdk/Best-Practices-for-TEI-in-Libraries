@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title>図書館におけるTEIのベストプラクティス</title>
-        <title type="sub">TEIを使ったXMLによる大量デジタル化と自動的ワークフロー、および相互運用性促進のためのガイド</title>
+        <title type="sub">TEIを使ったXMLによる大規模デジタル化と自動工程、および相互運用性促進のためのガイド</title>
         <author>
           <name type="organization">TEI SIG on Libraries</name>
         </author>
@@ -1051,7 +1051,7 @@
           <!-- END included ./bptl-L4.odd#header-content  -->
 
         <div xml:id="level-5-content" type="==">
-          <head>Level 5: Scholarly Encoding Projects</head>
+          <head>レベル 5: 学術的エンコードプロジェクト</head>
           <p>Level 5 texts are those that require substantial human
           intervention by encoders with subject knowledge. These texts
           might include encodings of semantic, linguistic, prosodic,
@@ -1061,21 +1061,21 @@
           manuscript descriptions; translations; or other textual
           apparatus.</p>
           <div type="====">
-            <head>Reference</head>
+            <head>参考</head>
             <list>
               <item><ref target="http://www.tei-c.org/Guidelines/P5">Complete P5 Guidelines</ref></item>
               <item><ref target="http://www.tei-c.org/release/doc/tei-p5-exemplars/html/tei_simplePrint.doc.html">TEI simplePrint</ref></item>
             </list>
           </div>
           <div type="====">
-            <head>Purpose</head>
+            <head>目的</head>
             <p>To create deeply analytical encoded texts that might be
             appropriate for specific research purposes, as part of a
             scholarly publishing project, or for other encoding
             practices in library-based text encoding.</p>
           </div>
           <div type="====">
-            <head>Rationale</head>
+            <head>基本原則</head>
             <p>A significant number of library-based projects engage
             in high-level analytical text encoding as part of their
             efforts in digitization, scholarly editing, academic
@@ -1087,7 +1087,7 @@
             library.</p>
           </div>
           <div type="====">
-            <head>Element Recommendations and Examples</head>
+            <head>推奨される要素と例</head>
             <p>Because of the vast range of possibilities for Level 5
             encoding, these <title>Best Practices</title> have chosen
             to provide neither a list of recommended elements nor any

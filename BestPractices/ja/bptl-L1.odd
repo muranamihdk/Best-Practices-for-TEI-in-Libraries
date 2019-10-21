@@ -165,7 +165,7 @@
           front matter, or the start of a new chapter.</p>
         </div>
         <div type="elrecs">
-          <head>レベル1で推奨される属性</head>
+          <head>レベル 1 で推奨される属性</head>
           <table rend="table">
             <row>
               <cell><gi>sourceDoc</gi></cell>
@@ -201,7 +201,7 @@
           Images of Source Documents</ref>.</p>
         </div>
         <div type="examples">
-             <head>レベル1の例</head>
+             <head>レベル 1 の例</head>
         <div type="example" xml:id="L1AHex">
           <head>Level 1 Alger Hiss document</head>
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
