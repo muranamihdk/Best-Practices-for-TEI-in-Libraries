@@ -169,3 +169,6 @@ git add index.html
 git commit -m "update Japanese translations"
 git push origin master
 cd -
+
+git status
+
