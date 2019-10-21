@@ -4,6 +4,7 @@ echo
 
 # ------------------------------------------------------------------
 
+echo ""; echo "--------- update PO file ---------"
 if [ $(git diff origin/localize_ja --name-only | wc -l) -ne 0 ]
 then
   echo
@@ -38,6 +39,7 @@ do
   fi
 done
 
+echo ""; echo "--------- generate MO file from PO file ---------"
 # poファイルからmoファイルを生成（_mo 以下に）
 TARGET_DIR="${PREFIX_PATH}/${MO_DIR}"
 if [ ! -d "$TARGET_DIR" ]
@@ -62,6 +64,7 @@ do
   fi
 done
 
+echo ""; echo "--------- generate ODD file from MO file ---------"
 # moファイルからoddファイルを生成（ja 以下に）
 TARGET_DIR="${PREFIX_PATH}/${TARGET_LANG}"
 if [ ! -d "$TARGET_DIR" ]
@@ -158,6 +161,7 @@ ${XSLDIR}/bin/teitohtml --odd --localsource=${P5SRC} ${TMPTMP}
 # OxGarage の Web API を利用して ODD ファイルから HTML ファイルを生成
 curl -s -F upload=@${TMPTMP}.tmpodd -o index.html https://oxgarage.tei-c.org/ege-webservice/Conversions/ODD%3Atext%3Axml/ODDC%3Atext%3Axml/TEI%3Atext%3Axml/xhtml%3Aapplication%3Axhtml%2Bxml/
 
+echo ""; echo "--------- upload HTML to public repository ---------"
 # HTML ファイルを日本語訳公開用リポジトリに移動した後、公開用 GitHub リポジトリにアップロード
 mv index.html /home/venus/tei/Best-Practices-for-TEI-in-Libraries-ja/
 cd /home/venus/tei/Best-Practices-for-TEI-in-Libraries-ja/
