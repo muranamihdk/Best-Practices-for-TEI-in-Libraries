@@ -156,7 +156,7 @@ ${XSLDIR}/bin/teitohtml --odd --localsource=${P5SRC} ${TMPTMP}
 #curl -s -F upload=@/tmp/32099.xml.tmpodd -o index.html https://oxgarage.tei-c.org/ege-webservice/Conversions/ODD%3Atext%3Axml/ODDC%3Atext%3Axml/oddhtml%3Aapplication%3Axhtml%2Bxml/
 
 # OxGarage の Web API を利用して ODD ファイルから HTML ファイルを生成
-curl -s -F upload=@${TMPTMP}.tmpodd -o index.html https://oxgarage.tei-c.org/ege-webservice/Conversions/ODD%3Atext%3Axml/ODDC%3Atext%3Axml/oddhtml%3Aapplication%3Axhtml%2Bxml/
+curl -s -F upload=@${TMPTMP}.tmpodd -o index.html https://oxgarage.tei-c.org/ege-webservice/Conversions/ODD%3Atext%3Axml/ODDC%3Atext%3Axml/TEI%3Atext%3Axml/xhtml%3Aapplication%3Axhtml%2Bxml/
 
 # HTML ファイルを日本語訳公開用リポジトリに移動した後、公開用 GitHub リポジトリにアップロード
 mv index.html /home/venus/tei/Best-Practices-for-TEI-in-Libraries-ja/
