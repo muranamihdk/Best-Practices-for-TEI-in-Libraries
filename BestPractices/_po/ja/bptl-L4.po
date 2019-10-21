@@ -1,113 +1,111 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2019-10-21 18:02+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #. (itstool) path: titleStmt/title
-#: ./BestPractices/bptl-L4.odd:10
+#: BestPractices/bptl-L4.odd:10
 msgid "TEI in Libraries level 4"
 msgstr ""
 
 #. (itstool) path: author/name
 #. (itstool) path: publicationStmt/authority
-#: ./BestPractices/bptl-L4.odd:12
-#: ./BestPractices/bptl-L4.odd:39
+#: BestPractices/bptl-L4.odd:12 BestPractices/bptl-L4.odd:39
 msgid "TEI SIG on Libraries"
 msgstr ""
 
 #. (itstool) path: editor/name
 #. (itstool) path: editor/persName
-#: ./BestPractices/bptl-L4.odd:15
-#: ./BestPractices/bptl-L4.odd:1274
+#: BestPractices/bptl-L4.odd:15 BestPractices/bptl-L4.odd:1274
 msgid "Kevin Hawkins"
 msgstr ""
 
 #. (itstool) path: editor/name
 #. (itstool) path: author/persName
-#: ./BestPractices/bptl-L4.odd:18
-#: ./BestPractices/bptl-L4.odd:1059
+#: BestPractices/bptl-L4.odd:18 BestPractices/bptl-L4.odd:1059
 msgid "Michelle Dalmau"
 msgstr ""
 
 #. (itstool) path: editor/name
-#: ./BestPractices/bptl-L4.odd:21
+#: BestPractices/bptl-L4.odd:21
 msgid "Elli Mylonas"
 msgstr ""
 
 #. (itstool) path: editor/name
 #. (itstool) id: bptl-L4.odd#sbauman.emt
-#: ./BestPractices/bptl-L4.odd:24
-#: ./BestPractices/bptl-L4.odd:27
+#: BestPractices/bptl-L4.odd:24 BestPractices/bptl-L4.odd:27
 msgid "Syd Bauman"
 msgstr ""
 
 #. (itstool) path: p/date
-#: ./BestPractices/bptl-L4.odd:36
+#: BestPractices/bptl-L4.odd:36
 msgid "Sat, 08 Sep 18"
 msgstr ""
 
 #. (itstool) path: editionStmt/p
-#: ./BestPractices/bptl-L4.odd:36
+#: BestPractices/bptl-L4.odd:36
 msgid "Version 4.0.0 (<_:date-1/>)"
 msgstr ""
 
 #. (itstool) path: availability/ab
-#: ./BestPractices/bptl-L4.odd:41
+#: BestPractices/bptl-L4.odd:41
 msgid "Copyleft 2009 DLF"
 msgstr ""
 
 #. (itstool) path: p/ref
-#: ./BestPractices/bptl-L4.odd:43
+#: BestPractices/bptl-L4.odd:43
 msgid "GNU Free Documentation License, Version 1.2"
 msgstr ""
 
 #. (itstool) path: p/name
-#: ./BestPractices/bptl-L4.odd:48
+#: BestPractices/bptl-L4.odd:48
 msgid "COPYING.txt"
 msgstr ""
 
 #. (itstool) path: availability/p
-#: ./BestPractices/bptl-L4.odd:42
+#: BestPractices/bptl-L4.odd:42
 msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the <_:ref-1/> or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the document entitled <_:name-2/>."
 msgstr ""
 
 #. (itstool) path: bibl/title
-#: ./BestPractices/bptl-L4.odd:55
+#: BestPractices/bptl-L4.odd:55
 msgid "TEI in Libraries: Guidelines for Best Practices"
 msgstr ""
 
 #. (itstool) path: bibl/author
-#: ./BestPractices/bptl-L4.odd:56
+#: BestPractices/bptl-L4.odd:56
 msgid "TEI in Libraries SIG"
 msgstr ""
 
 #. (itstool) path: bibl/author
-#: ./BestPractices/bptl-L4.odd:57
+#: BestPractices/bptl-L4.odd:57
 msgid "Digital Libraries Federation TEI task force"
 msgstr ""
 
 #. (itstool) path: sourceDesc/p
-#: ./BestPractices/bptl-L4.odd:52
+#: BestPractices/bptl-L4.odd:52
 msgid "No source in the transcriptional sense, but this document is a re-implementation of <_:bibl-1/> written in MediaWiki syntax and converted into the TEI ODD language. This verssion started <_:date-2/>."
 msgstr ""
 
 #. (itstool) path: change/gi
 #. (itstool) path: cell/gi
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:68
-#: ./BestPractices/bptl-L4.odd:282
-#: ./BestPractices/bptl-L4.odd:420
+#: BestPractices/bptl-L4.odd:68 BestPractices/bptl-L4.odd:282
+#: BestPractices/bptl-L4.odd:420
 msgid "distinct"
 msgstr ""
 
 #. (itstool) path: revisionDesc/change
-#: ./BestPractices/bptl-L4.odd:67
+#: BestPractices/bptl-L4.odd:67
 msgid "Addressed issue #15 by adding <_:gi-1/>"
 msgstr ""
 
@@ -115,1088 +113,1008 @@ msgstr ""
 #. (itstool) path: cell/gi
 #. (itstool) path: p/gi
 #. (itstool) path: report/gi
-#: ./BestPractices/bptl-L4.odd:74
-#: ./BestPractices/bptl-L4.odd:215
-#: ./BestPractices/bptl-L4.odd:1176
-#: ./BestPractices/bptl-L4.odd:1211
-#: ./BestPractices/bptl-L4.odd:1216
-#: ./BestPractices/bptl-L4.odd:1218
-#: ./BestPractices/bptl-L4.odd:1326
+#: BestPractices/bptl-L4.odd:74 BestPractices/bptl-L4.odd:215
+#: BestPractices/bptl-L4.odd:1176 BestPractices/bptl-L4.odd:1211
+#: BestPractices/bptl-L4.odd:1216 BestPractices/bptl-L4.odd:1218
+#: BestPractices/bptl-L4.odd:1326
 msgid "div"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:74
+#: BestPractices/bptl-L4.odd:74
 msgid "wrap main content in a <_:gi-1/> so driver document can include the contents of this document as a division of its own"
 msgstr ""
 
 #. (itstool) path: item/att
-#: ./BestPractices/bptl-L4.odd:77
+#: BestPractices/bptl-L4.odd:77
 msgid "include"
 msgstr ""
 
 #. (itstool) path: item/gi
-#: ./BestPractices/bptl-L4.odd:77
+#: BestPractices/bptl-L4.odd:77
 msgid "moduleRef"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:77
+#: BestPractices/bptl-L4.odd:77
 msgid "use <_:att-1/> on <_:gi-2/> where we only want certain elements"
 msgstr ""
 
 #. (itstool) path: item/gi
-#: ./BestPractices/bptl-L4.odd:79
+#: BestPractices/bptl-L4.odd:79
 msgid "specGrp"
 msgstr ""
 
 #. (itstool) path: item/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:80
-#: ./BestPractices/bptl-L4.odd:978
+#: BestPractices/bptl-L4.odd:80 BestPractices/bptl-L4.odd:978
 msgid "TEI"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:79
+#: BestPractices/bptl-L4.odd:79
 msgid "link to only the <_:gi-1/> of interest in the header ODD (which is now a complete <_:gi-2/> document)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:82
+#: BestPractices/bptl-L4.odd:82
 msgid "Take out some stuff that is now already in bptl-header.odd"
 msgstr ""
 
 #. (itstool) path: revisionDesc/change
-#: ./BestPractices/bptl-L4.odd:70
+#: BestPractices/bptl-L4.odd:70
 msgid "Updated to match current wiki document and (partially) take advantage of new ODD features: <_:list-1/>"
 msgstr ""
 
 #. (itstool) path: revisionDesc/change
-#: ./BestPractices/bptl-L4.odd:86
+#: BestPractices/bptl-L4.odd:86
 msgid "Begun, based on level 3."
 msgstr ""
 
 #. (itstool) path: front/head
 #. (itstool) path: p/ref
-#: ./BestPractices/bptl-L4.odd:93
-#: ./BestPractices/bptl-L4.odd:97
+#: BestPractices/bptl-L4.odd:93 BestPractices/bptl-L4.odd:97
 msgid "Best Practices for TEI in Libraries"
 msgstr ""
 
 #. (itstool) path: front/head
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:94
-#: ./BestPractices/bptl-L4.odd:110
+#: BestPractices/bptl-L4.odd:94 BestPractices/bptl-L4.odd:110
 msgid "Level 4: Basic Content Analysis"
-msgstr ""
+msgstr "レベル 4: 基本的な内容分析"
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:96
+#: BestPractices/bptl-L4.odd:96
 msgid "Setting"
 msgstr ""
 
 #. (itstool) path: p/name
-#: ./BestPractices/bptl-L4.odd:97
+#: BestPractices/bptl-L4.odd:97
 msgid "level 4"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:97
+#: BestPractices/bptl-L4.odd:97
 msgid "This is the <_:name-1/> portion of the <_:ref-2/>. This document is not intended to stand alone, but rather to be considered in concert with the entire TEI in Libraries recommendations."
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:112
+#: BestPractices/bptl-L4.odd:112
 msgid "Reference"
-msgstr ""
+msgstr "参考"
 
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:114
+#: BestPractices/bptl-L4.odd:114
 msgid "Chapter 3.3 Highlighting and Quotation, P5 Guidelines"
 msgstr ""
 
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:115
+#: BestPractices/bptl-L4.odd:115
 msgid "Chapter 3.4 Simple Editorial Changes, P5 Guidelines"
 msgstr ""
 
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:116
+#: BestPractices/bptl-L4.odd:116
 msgid "Chapter 3.5 Names, Numbers, Dates, Abbreviations, and Addresses, P5 Guidelines"
 msgstr ""
 
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:117
+#: BestPractices/bptl-L4.odd:117
 msgid "Chapter 3.12.1 Core Tags for Verse, P5 Guidelines"
 msgstr ""
 
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:118
+#: BestPractices/bptl-L4.odd:118
 msgid "Chapter 3.12.2 Core Tags for Drama, P5 Guidelines"
 msgstr ""
 
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:119
+#: BestPractices/bptl-L4.odd:119
 msgid "Chapter 4, Default Text Structure, P5 Guidelines"
 msgstr ""
 
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:120
+#: BestPractices/bptl-L4.odd:120
 msgid "Chapter 6, Verse, P5 Guidelines"
 msgstr ""
 
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:121
+#: BestPractices/bptl-L4.odd:121
 msgid "Chapter 7.1.4 Performance Texts: castLists and castItems, P5 Guidelines"
 msgstr ""
 
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:122
+#: BestPractices/bptl-L4.odd:122
 msgid "Chapter 7.2.1 Performance Texts: Major Structural Divisions, P5 Guidelines"
 msgstr ""
 
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:123
+#: BestPractices/bptl-L4.odd:123
 msgid "Chapter 7.2.2 Performance Texts: Speeches and Speakers, P5 Guidelines"
 msgstr ""
 
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:124
+#: BestPractices/bptl-L4.odd:124
 msgid "Chapter 7.2.3 Performance Texts: Stage Directions, P5 Guidelines"
 msgstr ""
 
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:125
+#: BestPractices/bptl-L4.odd:125
 msgid "Chapter 13, Names, Dates, People, and Places, P5 Guidelines"
 msgstr ""
 
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:126
+#: BestPractices/bptl-L4.odd:126
 msgid "Chapter 14, Tables, Formulæ, and Graphics, P5 Guidelines"
 msgstr ""
 
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:127
+#: BestPractices/bptl-L4.odd:127
 msgid "Chapter 14.3 Specific Elements for Graphic Images, P5 Guidelines"
 msgstr ""
 
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:128
+#: BestPractices/bptl-L4.odd:128
 msgid "Chapter 16, Linking, Segmentation, and Alignment, P5 Guidelines"
 msgstr ""
 
 #. (itstool) path: p/soCalled
-#: ./BestPractices/bptl-L4.odd:130
+#: BestPractices/bptl-L4.odd:130
 msgid "TEI conformant"
 msgstr ""
 
 #. (itstool) path: p/ref
-#: ./BestPractices/bptl-L4.odd:131
+#: BestPractices/bptl-L4.odd:131
 msgid "section 23.3 of P5"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:130
+#: BestPractices/bptl-L4.odd:130
 msgid "Note that this is intended to be a <_:soCalled-1/> customization, per <_:ref-2/>."
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:135
+#: BestPractices/bptl-L4.odd:135
 msgid "Purpose"
-msgstr ""
+msgstr "目的"
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:136
+#: BestPractices/bptl-L4.odd:136
 msgid "To create text that can stand alone as electronic text, identifies hierarchy and typography, specifies the function of textual and structural elements, and describes the nature of the content and not merely its appearance. However, this level is not meant to encode or identify all structural, semantic, or bibliographic features of the text."
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:144
+#: BestPractices/bptl-L4.odd:144
 msgid "Rationale"
-msgstr ""
+msgstr "基本原則"
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:147
+#: BestPractices/bptl-L4.odd:147
 msgid "flexibility of display and delivery"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:148
+#: BestPractices/bptl-L4.odd:148
 msgid "sophisticated searching within specified textual and structural elements"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:149
+#: BestPractices/bptl-L4.odd:149
 msgid "combining the broadest range of uses and audiences"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:145
+#: BestPractices/bptl-L4.odd:145
 msgid "Greater description of function and content at this level of encoding allows for: <_:list-1/> Level 4 texts contain elements and attributes that describe content, not just appearance, of the text. Texts encoded at Level 4 are able to stand alone without page images in order for them to be read by students, scholars, and general readers, and the encoding of content allows these texts to work effectively with screen readers and other applications that rely on the structure of a text, not just its appearance."
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:159
+#: BestPractices/bptl-L4.odd:159
 msgid "Finally, functionally accurate encoding in Level 4 texts allows them to be searched or displayed in sophisticated ways. For example, perhaps a searcher could limit their search in a dramatic text to stage directions or in a verse text to only first lines. Alternatively, in a political tract published by subscription, a search could be confined to names that appear in lists, thus limiting a search to names of people who subscribed to a particular volume. This ability to limit searches becomes more significant as textbases become larger, and thus is of great importance to the library community as it attempts to build into the initial design and implementation of textbases the features needed to enhance interoperability."
 msgstr ""
 
 #. (itstool) path: list/head
-#: ./BestPractices/bptl-L4.odd:172
+#: BestPractices/bptl-L4.odd:172
 msgid "Level 4 is most suitable for projects with the following characteristics:"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:174
+#: BestPractices/bptl-L4.odd:174
 msgid "Sophisticated search and retrieval capabilities are desired."
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:176
+#: BestPractices/bptl-L4.odd:176
 msgid "The texts will be used for textual analysis."
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:177
+#: BestPractices/bptl-L4.odd:177
 msgid "Extensibility is desired; that is, one desires to keep open the option for a higher level of encoding to be added by the scholarly community at a later date."
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:180
+#: BestPractices/bptl-L4.odd:180
 msgid "The users of the texts may have limited storage or display capabilities."
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:185
+#: BestPractices/bptl-L4.odd:185
 msgid "Workflow"
-msgstr ""
+msgstr "作業工程"
 
 #. (itstool) path: p/ref
-#: ./BestPractices/bptl-L4.odd:188
+#: BestPractices/bptl-L4.odd:188
 msgid "TEI Tite"
 msgstr ""
 
 #. (itstool) path: p/ref
-#: ./BestPractices/bptl-L4.odd:194
+#: BestPractices/bptl-L4.odd:194
 msgid "Appendix A of TEI Tite"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:186
+#: BestPractices/bptl-L4.odd:186
 msgid "Text is generated by keyboarding (likely outsourced double keyboarding from page images using <_:ref-1/>) or possibly by correcting OCR text using software that identifies spelling mistakes or consults a log from the OCR software to find regions of uncertainty in the OCR text. If converting from TEI Tite, minimal additional markup should be added, as discussed in <_:ref-2/>."
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:198
+#: BestPractices/bptl-L4.odd:198
 msgid "Element Recommendations for Level 4"
-msgstr ""
+msgstr "レベル 4 で推奨される属性"
 
 #. (itstool) path: emph/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:200
-#: ./BestPractices/bptl-L4.odd:834
+#: BestPractices/bptl-L4.odd:200 BestPractices/bptl-L4.odd:834
 msgid "ab"
 msgstr ""
 
 #. (itstool) path: p/emph
-#: ./BestPractices/bptl-L4.odd:200
+#: BestPractices/bptl-L4.odd:200
 msgid "except <_:gi-1/> as defined for Level 2,"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:199
+#: BestPractices/bptl-L4.odd:199
 msgid "Use all elements specified in Levels 2 and 3 <_:emph-1/> plus elements in the following table. Note that some of these elements are defined in Level 3 as well, but their use in Level 4 is more strict."
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: ref/gi
-#: ./BestPractices/bptl-L4.odd:205
-#: ./BestPractices/bptl-L4.odd:499
-#: ./BestPractices/bptl-L4.odd:505
+#: BestPractices/bptl-L4.odd:205 BestPractices/bptl-L4.odd:499
+#: BestPractices/bptl-L4.odd:505
 msgid "titlePage"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:205
+#: BestPractices/bptl-L4.odd:205
 msgid "<_:gi-1/> and appropriate child elements"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:206
+#: BestPractices/bptl-L4.odd:206
 msgid "[recommended]"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: ref/gi
-#: ./BestPractices/bptl-L4.odd:209
-#: ./BestPractices/bptl-L4.odd:371
+#: BestPractices/bptl-L4.odd:209 BestPractices/bptl-L4.odd:371
 msgid "group"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:210
+#: BestPractices/bptl-L4.odd:210
 msgid "[recommended] Use to encode a collection of independent texts that are regarded as a single group for processing or other purposes."
 msgstr ""
 
 #. (itstool) path: cell/emph
-#: ./BestPractices/bptl-L4.odd:215
+#: BestPractices/bptl-L4.odd:215
 msgid "or"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:215
-#: ./BestPractices/bptl-L4.odd:1176
+#: BestPractices/bptl-L4.odd:215 BestPractices/bptl-L4.odd:1176
 msgid "div1"
 msgstr ""
 
 #. (itstool) path: cell/gi
-#: ./BestPractices/bptl-L4.odd:215
+#: BestPractices/bptl-L4.odd:215
 msgid "div2"
 msgstr ""
 
 #. (itstool) path: cell/gi
-#: ./BestPractices/bptl-L4.odd:215
+#: BestPractices/bptl-L4.odd:215
 msgid "div3"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:215
+#: BestPractices/bptl-L4.odd:215
 msgid "<_:gi-1/> <_:emph-2/> <_:gi-3/>, <_:gi-4/>, <_:gi-5/>, etc."
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:216
+#: BestPractices/bptl-L4.odd:216
 msgid "[recommended] Use for encoding a hierarchy of textual divisions. Use as many levels of hierarchy as needed to represent the source document."
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:221
-#: ./BestPractices/bptl-L4.odd:598
-#: ./BestPractices/bptl-L4.odd:603
-#: ./BestPractices/bptl-L4.odd:605
+#: BestPractices/bptl-L4.odd:221 BestPractices/bptl-L4.odd:598
+#: BestPractices/bptl-L4.odd:603 BestPractices/bptl-L4.odd:605
 msgid "floatingText"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:222
+#: BestPractices/bptl-L4.odd:222
 msgid "[recommended] Use when a floating text is identified."
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: item/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:225
-#: ./BestPractices/bptl-L4.odd:511
-#: ./BestPractices/bptl-L4.odd:733
+#: BestPractices/bptl-L4.odd:225 BestPractices/bptl-L4.odd:511
+#: BestPractices/bptl-L4.odd:733
 msgid "list"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: item/gi
-#: ./BestPractices/bptl-L4.odd:225
-#: ./BestPractices/bptl-L4.odd:511
-#: ./BestPractices/bptl-L4.odd:756
+#: BestPractices/bptl-L4.odd:225 BestPractices/bptl-L4.odd:511
+#: BestPractices/bptl-L4.odd:756
 msgid "item"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:225
-#: ./BestPractices/bptl-L4.odd:251
+#: BestPractices/bptl-L4.odd:225 BestPractices/bptl-L4.odd:251
 msgid "<_:gi-1/> and <_:gi-2/>"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:226
+#: BestPractices/bptl-L4.odd:226
 msgid "[recommended] Use to indicate ordered and unordered list structures."
 msgstr ""
 
 #. (itstool) path: cell/gi
-#: ./BestPractices/bptl-L4.odd:229
+#: BestPractices/bptl-L4.odd:229
 msgid "table"
 msgstr ""
 
 #. (itstool) path: cell/gi
-#: ./BestPractices/bptl-L4.odd:229
+#: BestPractices/bptl-L4.odd:229
 msgid "row"
 msgstr ""
 
 #. (itstool) path: cell/gi
-#: ./BestPractices/bptl-L4.odd:229
+#: BestPractices/bptl-L4.odd:229
 msgid "cell"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:229
-#: ./BestPractices/bptl-L4.odd:322
+#: BestPractices/bptl-L4.odd:229 BestPractices/bptl-L4.odd:322
 msgid "<_:gi-1/>, <_:gi-2/>, and <_:gi-3/>"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:230
+#: BestPractices/bptl-L4.odd:230
 msgid "[recommended] Use to indicate table structures."
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:233
-#: ./BestPractices/bptl-L4.odd:428
+#: BestPractices/bptl-L4.odd:233 BestPractices/bptl-L4.odd:428
 msgid "hi"
 msgstr ""
 
 #. (itstool) path: cell/att
 #. (itstool) path: p/att
-#: ./BestPractices/bptl-L4.odd:235
-#: ./BestPractices/bptl-L4.odd:263
-#: ./BestPractices/bptl-L4.odd:801
+#: BestPractices/bptl-L4.odd:235 BestPractices/bptl-L4.odd:263
+#: BestPractices/bptl-L4.odd:801
 msgid "rend"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:234
+#: BestPractices/bptl-L4.odd:234
 msgid "[recommended] Use to indicate change in rendition when a more specific element is not being used; <_:att-1/> attribute is optional."
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: ref/gi
-#: ./BestPractices/bptl-L4.odd:239
-#: ./BestPractices/bptl-L4.odd:607
+#: BestPractices/bptl-L4.odd:239 BestPractices/bptl-L4.odd:607
 msgid "opener"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: ref/gi
-#: ./BestPractices/bptl-L4.odd:239
-#: ./BestPractices/bptl-L4.odd:608
+#: BestPractices/bptl-L4.odd:239 BestPractices/bptl-L4.odd:608
 msgid "dateline"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: ref/gi
-#: ./BestPractices/bptl-L4.odd:239
-#: ./BestPractices/bptl-L4.odd:609
+#: BestPractices/bptl-L4.odd:239 BestPractices/bptl-L4.odd:609
 msgid "salute"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: ref/gi
-#: ./BestPractices/bptl-L4.odd:240
-#: ./BestPractices/bptl-L4.odd:611
+#: BestPractices/bptl-L4.odd:240 BestPractices/bptl-L4.odd:611
 msgid "closer"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: ref/gi
-#: ./BestPractices/bptl-L4.odd:240
-#: ./BestPractices/bptl-L4.odd:610
+#: BestPractices/bptl-L4.odd:240 BestPractices/bptl-L4.odd:610
 msgid "signed"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: ref/gi
-#: ./BestPractices/bptl-L4.odd:241
-#: ./BestPractices/bptl-L4.odd:612
+#: BestPractices/bptl-L4.odd:241 BestPractices/bptl-L4.odd:612
 msgid "postscript"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:239
+#: BestPractices/bptl-L4.odd:239
 msgid "<_:gi-1/>, <_:gi-2/>, <_:gi-3/> <_:gi-4/>, <_:gi-5/>, <_:gi-6/>"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:242
+#: BestPractices/bptl-L4.odd:242
 msgid "[recommended] Use to indicate specific parts of letters."
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:245
-#: ./BestPractices/bptl-L4.odd:652
+#: BestPractices/bptl-L4.odd:245 BestPractices/bptl-L4.odd:652
 msgid "castList"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: p/gi
 #. (itstool) path: item/gi
-#: ./BestPractices/bptl-L4.odd:245
-#: ./BestPractices/bptl-L4.odd:653
-#: ./BestPractices/bptl-L4.odd:654
-#: ./BestPractices/bptl-L4.odd:692
+#: BestPractices/bptl-L4.odd:245 BestPractices/bptl-L4.odd:653
+#: BestPractices/bptl-L4.odd:654 BestPractices/bptl-L4.odd:692
 msgid "castItem"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: item/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:245
-#: ./BestPractices/bptl-L4.odd:251
-#: ./BestPractices/bptl-L4.odd:678
-#: ./BestPractices/bptl-L4.odd:680
-#: ./BestPractices/bptl-L4.odd:691
-#: ./BestPractices/bptl-L4.odd:750
-#: ./BestPractices/bptl-L4.odd:754
-#: ./BestPractices/bptl-L4.odd:755
+#: BestPractices/bptl-L4.odd:245 BestPractices/bptl-L4.odd:251
+#: BestPractices/bptl-L4.odd:678 BestPractices/bptl-L4.odd:680
+#: BestPractices/bptl-L4.odd:691 BestPractices/bptl-L4.odd:750
+#: BestPractices/bptl-L4.odd:754 BestPractices/bptl-L4.odd:755
 msgid "sp"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: item/gi
-#: ./BestPractices/bptl-L4.odd:246
-#: ./BestPractices/bptl-L4.odd:251
-#: ./BestPractices/bptl-L4.odd:679
-#: ./BestPractices/bptl-L4.odd:693
-#: ./BestPractices/bptl-L4.odd:753
+#: BestPractices/bptl-L4.odd:246 BestPractices/bptl-L4.odd:251
+#: BestPractices/bptl-L4.odd:679 BestPractices/bptl-L4.odd:693
+#: BestPractices/bptl-L4.odd:753
 msgid "speaker"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: item/gi
-#: ./BestPractices/bptl-L4.odd:246
-#: ./BestPractices/bptl-L4.odd:681
+#: BestPractices/bptl-L4.odd:246 BestPractices/bptl-L4.odd:681
 msgid "stage"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:245
-#: ./BestPractices/bptl-L4.odd:282
+#: BestPractices/bptl-L4.odd:245 BestPractices/bptl-L4.odd:282
 msgid "<_:gi-1/>, <_:gi-2/>, <_:gi-3/>, <_:gi-4/>, and <_:gi-5/>"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:247
+#: BestPractices/bptl-L4.odd:247
 msgid "[recommended] Use to encode different structures in performance texts (i.e. drama)."
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:252
+#: BestPractices/bptl-L4.odd:252
 msgid "[recommended] Use to encode oral history interviews."
 msgstr ""
 
 #. (itstool) path: cell/gi
-#: ./BestPractices/bptl-L4.odd:255
+#: BestPractices/bptl-L4.odd:255
 msgid "epigraph"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:256
+#: BestPractices/bptl-L4.odd:256
 msgid "[recommended] Use for encoding epigraphs found as front matter"
 msgstr ""
 
 #. (itstool) path: cell/tag
-#: ./BestPractices/bptl-L4.odd:260
+#: BestPractices/bptl-L4.odd:260
 msgid "quote rend=\"___\""
 msgstr ""
 
 #. (itstool) path: cell/att
 #. (itstool) path: p/att
-#: ./BestPractices/bptl-L4.odd:262
-#: ./BestPractices/bptl-L4.odd:801
-#: ./BestPractices/bptl-L4.odd:833
+#: BestPractices/bptl-L4.odd:262 BestPractices/bptl-L4.odd:801
+#: BestPractices/bptl-L4.odd:833
 msgid "style"
 msgstr ""
 
 #. (itstool) path: cell/att
 #. (itstool) path: p/att
-#: ./BestPractices/bptl-L4.odd:263
-#: ./BestPractices/bptl-L4.odd:801
+#: BestPractices/bptl-L4.odd:263 BestPractices/bptl-L4.odd:801
 msgid "rendition"
 msgstr ""
 
 #. (itstool) path: cell/tag
-#: ./BestPractices/bptl-L4.odd:264
+#: BestPractices/bptl-L4.odd:264
 msgid "style=\"padding-left: 0.5in;\""
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:261
+#: BestPractices/bptl-L4.odd:261
 msgid "[recommended] Use for encoding blockquotes that appear outside the flow of a paragraph. Use <_:att-1/>, <_:att-2/>, or <_:att-3/> to describe the appearance (such as <_:tag-4/>)"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: ref/gi
 #. (itstool) path: item/gi
-#: ./BestPractices/bptl-L4.odd:267
-#: ./BestPractices/bptl-L4.odd:372
-#: ./BestPractices/bptl-L4.odd:372
+#: BestPractices/bptl-L4.odd:267 BestPractices/bptl-L4.odd:372
 msgid "argument"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:268
+#: BestPractices/bptl-L4.odd:268
 msgid "[recommended] Use to encode a list of topics sometimes found at the start of a chapter or other textual division."
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: ref/gi
-#: ./BestPractices/bptl-L4.odd:273
-#: ./BestPractices/bptl-L4.odd:391
+#: BestPractices/bptl-L4.odd:273 BestPractices/bptl-L4.odd:391
 msgid "trailer"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:274
+#: BestPractices/bptl-L4.odd:274
 msgid "[recommended] Use to encode a closing title or footer at the end of a division."
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:278
-#: ./BestPractices/bptl-L4.odd:413
+#: BestPractices/bptl-L4.odd:278 BestPractices/bptl-L4.odd:413
 msgid "quote"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:278
-#: ./BestPractices/bptl-L4.odd:414
+#: BestPractices/bptl-L4.odd:278 BestPractices/bptl-L4.odd:414
 msgid "said"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:278
-#: ./BestPractices/bptl-L4.odd:415
+#: BestPractices/bptl-L4.odd:278 BestPractices/bptl-L4.odd:415
 msgid "mentioned"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:278
-#: ./BestPractices/bptl-L4.odd:416
+#: BestPractices/bptl-L4.odd:278 BestPractices/bptl-L4.odd:416
 msgid "soCalled"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:278
-#: ./BestPractices/bptl-L4.odd:308
+#: BestPractices/bptl-L4.odd:278 BestPractices/bptl-L4.odd:308
 msgid "<_:gi-1/>, <_:gi-2/>, <_:gi-3/>, and <_:gi-4/>"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:279
-#: ./BestPractices/bptl-L4.odd:283
+#: BestPractices/bptl-L4.odd:279 BestPractices/bptl-L4.odd:283
 msgid "[optional]"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:282
-#: ./BestPractices/bptl-L4.odd:421
+#: BestPractices/bptl-L4.odd:282 BestPractices/bptl-L4.odd:421
 msgid "emph"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:282
-#: ./BestPractices/bptl-L4.odd:422
+#: BestPractices/bptl-L4.odd:282 BestPractices/bptl-L4.odd:422
 msgid "foreign"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:282
-#: ./BestPractices/bptl-L4.odd:423
+#: BestPractices/bptl-L4.odd:282 BestPractices/bptl-L4.odd:423
 msgid "gloss"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:282
-#: ./BestPractices/bptl-L4.odd:424
+#: BestPractices/bptl-L4.odd:282 BestPractices/bptl-L4.odd:424
 msgid "term"
 msgstr ""
 
 #. (itstool) path: cell/tag
-#: ./BestPractices/bptl-L4.odd:286
+#: BestPractices/bptl-L4.odd:286
 msgid "title type=\"_\""
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: desc/gi
-#: ./BestPractices/bptl-L4.odd:287
-#: ./BestPractices/bptl-L4.odd:947
+#: BestPractices/bptl-L4.odd:287 BestPractices/bptl-L4.odd:947
 msgid "text"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:287
-#: ./BestPractices/bptl-L4.odd:739
+#: BestPractices/bptl-L4.odd:287 BestPractices/bptl-L4.odd:739
 msgid "teiHeader"
 msgstr ""
 
 #. (itstool) path: cell/att
 #. (itstool) path: p/att
 #. (itstool) path: report/att
-#: ./BestPractices/bptl-L4.odd:288
-#: ./BestPractices/bptl-L4.odd:528
-#: ./BestPractices/bptl-L4.odd:1211
+#: BestPractices/bptl-L4.odd:288 BestPractices/bptl-L4.odd:528
+#: BestPractices/bptl-L4.odd:1211
 msgid "type"
 msgstr ""
 
 #. (itstool) path: cell/ref
-#: ./BestPractices/bptl-L4.odd:290
+#: BestPractices/bptl-L4.odd:290
 msgid "as given in P5"
 msgstr ""
 
 #. (itstool) path: cell/val
-#: ./BestPractices/bptl-L4.odd:292
+#: BestPractices/bptl-L4.odd:292
 msgid "main"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:293
-#: ./BestPractices/bptl-L4.odd:294
-#: ./BestPractices/bptl-L4.odd:350
-#: ./BestPractices/bptl-L4.odd:425
+#: BestPractices/bptl-L4.odd:293 BestPractices/bptl-L4.odd:294
+#: BestPractices/bptl-L4.odd:350 BestPractices/bptl-L4.odd:425
 msgid "title"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:287
+#: BestPractices/bptl-L4.odd:287
 msgid "[optional] Use of this element within the <_:gi-1/> (not the <_:gi-2/>) is optional, especially when text is typographically distinct. Optionally use the <_:att-3/> attribute with a value <_:ref-4/> except for main titles. (The <_:val-5/> value should be used, when appropriate, for <_:gi-6/>s within a TEI header, but is not needed for <_:gi-7/>s elsewhere in a document.)"
 msgstr ""
 
 #. (itstool) path: cell/gi
-#: ./BestPractices/bptl-L4.odd:298
+#: BestPractices/bptl-L4.odd:298
 msgid "ptr"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: p/att
-#: ./BestPractices/bptl-L4.odd:298
-#: ./BestPractices/bptl-L4.odd:531
-#: ./BestPractices/bptl-L4.odd:541
-#: ./BestPractices/bptl-L4.odd:1076
+#: BestPractices/bptl-L4.odd:298 BestPractices/bptl-L4.odd:531
+#: BestPractices/bptl-L4.odd:541 BestPractices/bptl-L4.odd:1076
 msgid "ref"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:298
+#: BestPractices/bptl-L4.odd:298
 msgid "<_:gi-1/> or <_:gi-2/>"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:299
+#: BestPractices/bptl-L4.odd:299
 msgid "[optional] In addition to using to point to notes (as in Level 3), use for identifying cross-references within the text."
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:304
-#: ./BestPractices/bptl-L4.odd:431
+#: BestPractices/bptl-L4.odd:304 BestPractices/bptl-L4.odd:431
 msgid "sic"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:304
-#: ./BestPractices/bptl-L4.odd:432
+#: BestPractices/bptl-L4.odd:304 BestPractices/bptl-L4.odd:432
 msgid "corr"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:304
-#: ./BestPractices/bptl-L4.odd:433
+#: BestPractices/bptl-L4.odd:304 BestPractices/bptl-L4.odd:433
 msgid "choice"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:304
+#: BestPractices/bptl-L4.odd:304
 msgid "<_:gi-1/>, <_:gi-2/>, or <_:gi-3/>"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:305
+#: BestPractices/bptl-L4.odd:305
 msgid "[optional] Use to encode errors or typos."
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: ref/gi
-#: ./BestPractices/bptl-L4.odd:308
-#: ./BestPractices/bptl-L4.odd:465
+#: BestPractices/bptl-L4.odd:308 BestPractices/bptl-L4.odd:465
 msgid "add"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: ref/gi
-#: ./BestPractices/bptl-L4.odd:308
-#: ./BestPractices/bptl-L4.odd:465
+#: BestPractices/bptl-L4.odd:308 BestPractices/bptl-L4.odd:465
 msgid "del"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: ref/gi
 #. (itstool) path: item/gi
-#: ./BestPractices/bptl-L4.odd:308
-#: ./BestPractices/bptl-L4.odd:465
-#: ./BestPractices/bptl-L4.odd:465
+#: BestPractices/bptl-L4.odd:308 BestPractices/bptl-L4.odd:465
 msgid "gap"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: ref/gi
 #. (itstool) path: item/gi
-#: ./BestPractices/bptl-L4.odd:308
-#: ./BestPractices/bptl-L4.odd:465
-#: ./BestPractices/bptl-L4.odd:465
+#: BestPractices/bptl-L4.odd:308 BestPractices/bptl-L4.odd:465
 msgid "unclear"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:309
+#: BestPractices/bptl-L4.odd:309
 msgid "[optional] Use to encode material that is added, marked for deletion, or is illegible, invisible, or inaudible."
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: p/gi
 #. (itstool) path: desc/gi
-#: ./BestPractices/bptl-L4.odd:314
-#: ./BestPractices/bptl-L4.odd:318
-#: ./BestPractices/bptl-L4.odd:525
-#: ./BestPractices/bptl-L4.odd:740
-#: ./BestPractices/bptl-L4.odd:747
-#: ./BestPractices/bptl-L4.odd:1045
-#: ./BestPractices/bptl-L4.odd:1265
+#: BestPractices/bptl-L4.odd:314 BestPractices/bptl-L4.odd:318
+#: BestPractices/bptl-L4.odd:525 BestPractices/bptl-L4.odd:740
+#: BestPractices/bptl-L4.odd:747 BestPractices/bptl-L4.odd:1045
+#: BestPractices/bptl-L4.odd:1265
 msgid "persName"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:314
-#: ./BestPractices/bptl-L4.odd:526
+#: BestPractices/bptl-L4.odd:314 BestPractices/bptl-L4.odd:526
 msgid "placeName"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:315
-#: ./BestPractices/bptl-L4.odd:526
+#: BestPractices/bptl-L4.odd:315 BestPractices/bptl-L4.odd:526
 msgid "geogName"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: p/gi
 #. (itstool) path: desc/gi
-#: ./BestPractices/bptl-L4.odd:315
-#: ./BestPractices/bptl-L4.odd:526
-#: ./BestPractices/bptl-L4.odd:1046
-#: ./BestPractices/bptl-L4.odd:1265
+#: BestPractices/bptl-L4.odd:315 BestPractices/bptl-L4.odd:526
+#: BestPractices/bptl-L4.odd:1046 BestPractices/bptl-L4.odd:1265
 msgid "orgName"
 msgstr ""
 
 #. (itstool) path: cell/tag
-#: ./BestPractices/bptl-L4.odd:315
+#: BestPractices/bptl-L4.odd:315
 msgid "name type=\"___\""
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:314
+#: BestPractices/bptl-L4.odd:314
 msgid "<_:gi-1/>, <_:gi-2/>, <_:gi-3/>, <_:gi-4/>, and <_:tag-5/>"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:319
-#: ./BestPractices/bptl-L4.odd:336
-#: ./BestPractices/bptl-L4.odd:344
-#: ./BestPractices/bptl-L4.odd:532
-#: ./BestPractices/bptl-L4.odd:731
+#: BestPractices/bptl-L4.odd:319 BestPractices/bptl-L4.odd:336
+#: BestPractices/bptl-L4.odd:344 BestPractices/bptl-L4.odd:532
+#: BestPractices/bptl-L4.odd:731
 msgid "person"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:316
+#: BestPractices/bptl-L4.odd:316
 msgid "[optional] Use to encode personal, place, organizational, and other names used in a text. The <_:gi-1/> element is also used to indicate a personal name inside a <_:gi-2/> element (see below)."
 msgstr ""
 
 #. (itstool) path: cell/gi
-#: ./BestPractices/bptl-L4.odd:322
+#: BestPractices/bptl-L4.odd:322
 msgid "listName"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:322
-#: ./BestPractices/bptl-L4.odd:538
+#: BestPractices/bptl-L4.odd:322 BestPractices/bptl-L4.odd:538
 msgid "listPlace"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:323
-#: ./BestPractices/bptl-L4.odd:539
+#: BestPractices/bptl-L4.odd:323 BestPractices/bptl-L4.odd:539
 msgid "listOrg"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:324
+#: BestPractices/bptl-L4.odd:324
 msgid "[optional] Use in support of personal, place, and organizational names normalization and to capture additional information about the names. Should be captured in an external TEI file or database for easier maintenance of names."
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:331
-#: ./BestPractices/bptl-L4.odd:538
-#: ./BestPractices/bptl-L4.odd:730
+#: BestPractices/bptl-L4.odd:331 BestPractices/bptl-L4.odd:538
+#: BestPractices/bptl-L4.odd:730
 msgid "listPerson"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:332
+#: BestPractices/bptl-L4.odd:332
 msgid "[optional] Use in support of transcriptions of oral interviews."
 msgstr ""
 
 #. (itstool) path: cell/att
-#: ./BestPractices/bptl-L4.odd:338
+#: BestPractices/bptl-L4.odd:338
 msgid "role"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:337
+#: BestPractices/bptl-L4.odd:337
 msgid "[optional] Use in support of transcriptions of oral interviews. The use of the <_:att-1/> attribute is strongly recommended, particularly to differentiate interviewer(s) from interviewee(s)."
 msgstr ""
 
 #. (itstool) path: cell/gi
-#: ./BestPractices/bptl-L4.odd:343
+#: BestPractices/bptl-L4.odd:343
 msgid "birth"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:344
+#: BestPractices/bptl-L4.odd:344
 msgid "[optional] Use inside a <_:gi-1/> to indicate the date or place of birth of the person being documented."
 msgstr ""
 
 #. (itstool) path: cell/gi
-#: ./BestPractices/bptl-L4.odd:349
+#: BestPractices/bptl-L4.odd:349
 msgid "bibl"
 msgstr ""
 
 #. (itstool) path: cell/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:350
-#: ./BestPractices/bptl-L4.odd:739
+#: BestPractices/bptl-L4.odd:350 BestPractices/bptl-L4.odd:739
 msgid "author"
 msgstr ""
 
 #. (itstool) path: cell/gi
-#: ./BestPractices/bptl-L4.odd:350
+#: BestPractices/bptl-L4.odd:350
 msgid "editor"
 msgstr ""
 
 #. (itstool) path: cell/gi
-#: ./BestPractices/bptl-L4.odd:350
+#: BestPractices/bptl-L4.odd:350
 msgid "publisher"
 msgstr ""
 
 #. (itstool) path: cell/gi
-#: ./BestPractices/bptl-L4.odd:350
+#: BestPractices/bptl-L4.odd:350
 msgid "biblScope"
 msgstr ""
 
 #. (itstool) path: cell/gi
-#: ./BestPractices/bptl-L4.odd:350
+#: BestPractices/bptl-L4.odd:350
 msgid "date"
 msgstr ""
 
 #. (itstool) path: cell/att
-#: ./BestPractices/bptl-L4.odd:350
+#: BestPractices/bptl-L4.odd:350
 msgid "when"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:350
+#: BestPractices/bptl-L4.odd:350
 msgid "[optional] Contains a single bibliographic entry. Use of at least one <_:gi-1/> or <_:gi-2/> child element is recommended. Other valid child elements given in P5 may also be used to encode a bibliographic citation, such as <_:gi-3/>, <_:gi-4/> and, <_:gi-5/>. It is recommended that the <_:gi-6/> always appear with a <_:att-7/> attribute in order to provide a canonical form of the date."
 msgstr ""
 
 #. (itstool) path: cell/tag
 #. (itstool) path: p/tag
-#: ./BestPractices/bptl-L4.odd:353
-#: ./BestPractices/bptl-L4.odd:831
+#: BestPractices/bptl-L4.odd:353 BestPractices/bptl-L4.odd:831
 msgid "ab type=\"typography\""
 msgstr ""
 
 #. (itstool) path: row/cell
-#: ./BestPractices/bptl-L4.odd:354
+#: BestPractices/bptl-L4.odd:354
 msgid "[recommended] Use to mark typographical elements that indicate a structural break or boundary."
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:360
+#: BestPractices/bptl-L4.odd:360
 msgid "General Level 4 Recommendations and Examples"
-msgstr ""
+msgstr "一般的なレベル 4 の推奨事項と例"
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:361
+#: BestPractices/bptl-L4.odd:361
 msgid "As shown above, there are many optional elements at Level 4. While content for many of these elements can be identified within running prose based on changes in typography or use of quotation marks in the source document, they are not always so easily identified, or they may occur so often that identification of each instance is impractical. Use only those optional elements that are appropriate for your users' needs and your encoding budget."
 msgstr ""
 
 #. (itstool) path: list/head
-#: ./BestPractices/bptl-L4.odd:370
+#: BestPractices/bptl-L4.odd:370
 msgid "Below are notes on usage of specific elements:"
 msgstr ""
 
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:371
+#: BestPractices/bptl-L4.odd:371
 msgid "4.3.1 Grouped Texts"
 msgstr ""
 
 #. (itstool) path: item/quote
-#: ./BestPractices/bptl-L4.odd:371
+#: BestPractices/bptl-L4.odd:371
 msgid "The presence of common front matter referring to the whole collection, possibly in addition to front matter relating to each individual text, is a good indication that a given text might usefully be encoded in this way."
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:371
+#: BestPractices/bptl-L4.odd:371
 msgid "The use of <_:ref-1/> is recommended when you need to encode a body of distinct texts that are grouped together and are regarded as a unit. Most typical examples of such composite texts would be anthologies, collected works of an author, etc. Section <_:ref-2/> states, <_:quote-3/>"
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:376
+#: BestPractices/bptl-L4.odd:376
 msgid "CHAPTER I."
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:377
+#: BestPractices/bptl-L4.odd:377
 msgid "CHARLOTTE BROOKS."
 msgstr ""
 
 #. (itstool) path: argument/p
-#: ./BestPractices/bptl-L4.odd:379
+#: BestPractices/bptl-L4.odd:379
 msgid "Causes of immorality among colored people - Charlotte Brooks - She is sold South - Sunday work."
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:382
+#: BestPractices/bptl-L4.odd:382
 msgid "..."
 msgstr ""
 
 #. (itstool) path: bibl/author
-#: ./BestPractices/bptl-L4.odd:386
+#: BestPractices/bptl-L4.odd:386
 msgid "Albert, Octavia V. Rogers"
 msgstr ""
 
 #. (itstool) path: bibl/date
-#: ./BestPractices/bptl-L4.odd:386
+#: BestPractices/bptl-L4.odd:386
 msgid "1890"
 msgstr ""
 
 #. (itstool) path: bibl/title
-#: ./BestPractices/bptl-L4.odd:387
+#: BestPractices/bptl-L4.odd:387
 msgid "The House of Bondage, or, Charlotte Brooks and Other Slaves, Original and Life Like, As They Appeared in Their Old Plantation and City Slave Life; Together with Pen-Pictures of the Peculiar Institution, with Sights and Insights into Their New Relations as Freedmen, Freemen, and Citizens"
 msgstr ""
 
 #. (itstool) path: bibl/pubPlace
-#: ./BestPractices/bptl-L4.odd:388
+#: BestPractices/bptl-L4.odd:388
 msgid "New York"
 msgstr ""
 
 #. (itstool) path: bibl/publisher
-#: ./BestPractices/bptl-L4.odd:388
+#: BestPractices/bptl-L4.odd:388
 msgid "Hunt &amp; Eaton"
 msgstr ""
 
@@ -1205,1345 +1123,1318 @@ msgstr ""
 #. (itstool) id: bptl-L4.odd#BIB-TBSoS
 #. (itstool) id: bptl-L4.odd#BIB-ABLMWW
 #. (itstool) id: bptl-L4.odd#BIB-LCHoS
-#: ./BestPractices/bptl-L4.odd:385
-#: ./BestPractices/bptl-L4.odd:441
-#: ./BestPractices/bptl-L4.odd:640
-#: ./BestPractices/bptl-L4.odd:822
+#: BestPractices/bptl-L4.odd:385 BestPractices/bptl-L4.odd:441
+#: BestPractices/bptl-L4.odd:640 BestPractices/bptl-L4.odd:822
 msgid "<_:author-1/>. <_:date-2/>. <_:title-3/>. <_:pubPlace-4/>: <_:publisher-5/>."
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:372
+#: BestPractices/bptl-L4.odd:372
 msgid "Use <_:ref-1/> to encode a prefatory list or prose description of the topics usually discovered at the beginning of a chapter. The content within the <_:gi-2/> element can be presented as a list or as a paragraph: <_:egXML-3/> <_:note-4/>"
 msgstr ""
 
 #. (itstool) path: body/head
-#: ./BestPractices/bptl-L4.odd:394
+#: BestPractices/bptl-L4.odd:394
 msgid "[book title]"
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:396
-#: ./BestPractices/bptl-L4.odd:401
+#: BestPractices/bptl-L4.odd:396 BestPractices/bptl-L4.odd:401
 msgid "[chapter title]"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:397
-#: ./BestPractices/bptl-L4.odd:402
+#: BestPractices/bptl-L4.odd:397 BestPractices/bptl-L4.odd:402
 msgid "[text]"
 msgstr ""
 
 #. (itstool) path: div/trailer
-#: ./BestPractices/bptl-L4.odd:398
+#: BestPractices/bptl-L4.odd:398
 msgid "Here ends the Chapter 1."
 msgstr ""
 
 #. (itstool) path: div/trailer
-#: ./BestPractices/bptl-L4.odd:403
+#: BestPractices/bptl-L4.odd:403
 msgid "Here ends the Chapter 2."
 msgstr ""
 
 #. (itstool) path: body/trailer
-#: ./BestPractices/bptl-L4.odd:405
+#: BestPractices/bptl-L4.odd:405
 msgid "FINIS."
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:391
+#: BestPractices/bptl-L4.odd:391
 msgid "The <_:ref-1/> element is recommended to encode a heading- or title-like content at the end of a textual division: <_:egXML-2/>"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:411
+#: BestPractices/bptl-L4.odd:411
 msgid "to represent speech, thought, quotation, etc.: <_:list-1/>"
 msgstr ""
 
 #. (itstool) path: item/tag
-#: ./BestPractices/bptl-L4.odd:422
+#: BestPractices/bptl-L4.odd:422
 msgid "foreign xml:lang=\"fr\""
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:422
+#: BestPractices/bptl-L4.odd:422
 msgid "<_:ref-1/> (e.g. <_:tag-2/>)"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:418
+#: BestPractices/bptl-L4.odd:418
 msgid "to represent foreign words or phrases, linguistically emphatic or stressed words or phrases, words regarded as technical terms, etc.: <_:list-1/>"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:409
+#: BestPractices/bptl-L4.odd:409
 msgid "Typographically distinct text may be encoded using the following elements: <_:list-1/>"
 msgstr ""
 
 #. (itstool) path: item/tag
-#: ./BestPractices/bptl-L4.odd:428
+#: BestPractices/bptl-L4.odd:428
 msgid "hi rend=\"font-weight: bold\""
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:428
+#: BestPractices/bptl-L4.odd:428
 msgid "Any ambiguous typographically distinct text should be encoded as <_:ref-1/> (e.g. <_:tag-2/>). This element may also be used if the more specific elements above are not used."
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:431
+#: BestPractices/bptl-L4.odd:431
 msgid "the <_:ref-1/> element used alone is optional to indicate errors without correcting them"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:432
+#: BestPractices/bptl-L4.odd:432
 msgid "the <_:ref-1/> element used alone is optional to provide corrections without indicating the initial error"
 msgstr ""
 
 #. (itstool) path: choice/sic
-#: ./BestPractices/bptl-L4.odd:437
+#: BestPractices/bptl-L4.odd:437
 msgid "expresly"
 msgstr ""
 
 #. (itstool) path: choice/corr
-#: ./BestPractices/bptl-L4.odd:438
+#: BestPractices/bptl-L4.odd:438
 msgid "expressly"
 msgstr ""
 
 #. (itstool) path: egXML/p
-#: ./BestPractices/bptl-L4.odd:435
+#: BestPractices/bptl-L4.odd:435
 msgid "He has no Scruple about Fish; but won't touch a bit of Pork, it being <_:choice-1/> forbidden by their Law."
 msgstr ""
 
 #. (itstool) path: bibl/author
-#: ./BestPractices/bptl-L4.odd:442
+#: BestPractices/bptl-L4.odd:442
 msgid "Bluett, Thomas"
 msgstr ""
 
 #. (itstool) path: bibl/date
-#: ./BestPractices/bptl-L4.odd:442
+#: BestPractices/bptl-L4.odd:442
 msgid "1734"
 msgstr ""
 
 #. (itstool) path: bibl/title
-#: ./BestPractices/bptl-L4.odd:443
+#: BestPractices/bptl-L4.odd:443
 msgid "Some Memoirs of the Life of Job, the Son of Solomon, the High Priest of Boonda in Africa; Who was a Slave About Two Years in Maryland; and Afterwards Being Brought to England, was Set Free, and Sent to His Native Land in the Year 1734"
 msgstr ""
 
 #. (itstool) path: bibl/pubPlace
-#: ./BestPractices/bptl-L4.odd:445
-#: ./BestPractices/bptl-L4.odd:825
+#: BestPractices/bptl-L4.odd:445 BestPractices/bptl-L4.odd:825
 msgid "London"
 msgstr ""
 
 #. (itstool) path: bibl/publisher
-#: ./BestPractices/bptl-L4.odd:445
+#: BestPractices/bptl-L4.odd:445
 msgid "n.p."
 msgstr ""
 
 #. (itstool) path: choice/sic
-#: ./BestPractices/bptl-L4.odd:452
+#: BestPractices/bptl-L4.odd:452
 msgid "age,she"
 msgstr ""
 
 #. (itstool) path: choice/corr
-#: ./BestPractices/bptl-L4.odd:453
+#: BestPractices/bptl-L4.odd:453
 msgid "age, she"
 msgstr ""
 
 #. (itstool) path: egXML/p
-#: ./BestPractices/bptl-L4.odd:449
+#: BestPractices/bptl-L4.odd:449
 msgid "4. The art of writing she obtained by her own industry and curiosity, and in so short a time that in the year 1765, when she was not more than twelve years of <_:choice-1/> was capable of writing letters to her friends <_:pb-2/> on various subjects. She also wrote to several persons in high stations."
 msgstr ""
 
 #. (itstool) path: bibl/author
-#: ./BestPractices/bptl-L4.odd:459
+#: BestPractices/bptl-L4.odd:459
 msgid "Mott, Abigail"
 msgstr ""
 
 #. (itstool) path: bibl/date
-#: ./BestPractices/bptl-L4.odd:459
+#: BestPractices/bptl-L4.odd:459
 msgid "1826"
 msgstr ""
 
 #. (itstool) path: bibl/title
-#: ./BestPractices/bptl-L4.odd:460
+#: BestPractices/bptl-L4.odd:460
 msgid "Biographical Sketches and Interesting Anecdotes of Persons of Colour. To Which is Added, a Selection of Pieces in Poetry."
 msgstr ""
 
 #. (itstool) path: bibl/pubPlace
-#: ./BestPractices/bptl-L4.odd:461
+#: BestPractices/bptl-L4.odd:461
 msgid "New-York"
 msgstr ""
 
 #. (itstool) path: bibl/publisher
-#: ./BestPractices/bptl-L4.odd:461
+#: BestPractices/bptl-L4.odd:461
 msgid "M. Day"
 msgstr ""
 
 #. (itstool) path: note/bibl
 #. (itstool) id: bptl-L4.odd#BIB-AMBS
-#: ./BestPractices/bptl-L4.odd:458
+#: BestPractices/bptl-L4.odd:458
 msgid "<_:author-1/>. <_:date-2/>. <_:title-3/> <_:pubPlace-4/>: <_:publisher-5/>."
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:433
+#: BestPractices/bptl-L4.odd:433
 msgid "the <_:ref-1/> element allows both the apparent error and its editorial correction to be recorded, as in the following examples: <_:egXML-2/> <_:note-3/> or <_:egXML-4/> <_:note-5/>"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:429
+#: BestPractices/bptl-L4.odd:429
 msgid "Any of the following three methods may be used to encode errors or typos in original texts: <_:list-1/>"
 msgstr ""
 
 #. (itstool) path: p/del
-#: ./BestPractices/bptl-L4.odd:467
+#: BestPractices/bptl-L4.odd:467
 msgid "their manner"
 msgstr ""
 
 #. (itstool) path: p/add
-#: ./BestPractices/bptl-L4.odd:468
+#: BestPractices/bptl-L4.odd:468
 msgid "this way—i.e. the above"
 msgstr ""
 
 #. (itstool) path: p/del
-#: ./BestPractices/bptl-L4.odd:470
+#: BestPractices/bptl-L4.odd:470
 msgid "instead"
 msgstr ""
 
 #. (itstool) path: egXML/p
-#: ./BestPractices/bptl-L4.odd:467
+#: BestPractices/bptl-L4.odd:467
 msgid "But it is well authenticated by the observation of every one, that <_:del-1/> <_:add-2/> of writing influences the style of compos. of those who practise it considerably, when they grow up to years of manhood; for their productions, <_:del-3/> far from being terse, argumentative, convincing, are without head or tail &amp;amp; are generally an incongruous mass mixed up in the most disgusting manner, without divisions or heads &amp;amp; in short without a subject (so to speak)."
 msgstr ""
 
 #. (itstool) path: bibl/author
-#: ./BestPractices/bptl-L4.odd:476
+#: BestPractices/bptl-L4.odd:476
 msgid "Lacy, J.H."
 msgstr ""
 
 #. (itstool) path: bibl/date
-#: ./BestPractices/bptl-L4.odd:476
+#: BestPractices/bptl-L4.odd:476
 msgid "[1851]"
 msgstr ""
 
 #. (itstool) path: bibl/title
-#: ./BestPractices/bptl-L4.odd:477
+#: BestPractices/bptl-L4.odd:477
 msgid "Prejudice Against Composition Writing"
 msgstr ""
 
 #. (itstool) path: note/bibl
 #. (itstool) id: bptl-L4.odd#BIB-JHLCC
-#: ./BestPractices/bptl-L4.odd:475
+#: BestPractices/bptl-L4.odd:475
 msgid "<_:author-1/>. <_:date-2/>. <_:title-3/>"
 msgstr ""
 
 #. (itstool) path: egXML/p
-#: ./BestPractices/bptl-L4.odd:480
+#: BestPractices/bptl-L4.odd:480
 msgid "But I still hope for &amp;amp; trust in God and I believe he will animate our brave defenders with a superhuman power and we will yet drive from our soil the hated invaders whose tread <_:gap-1/> profanation, but this is an hour to try men's souls—Fort Donelson has been taken by the enemy. Frank was there and covered himself with honor but his bravery cost him a wound; he was wounded in the leg slightly—a flesh wound only, you must not be uneasy."
 msgstr ""
 
 #. (itstool) path: note/bibl
 #. (itstool) id: bptl-L4.odd#BIB-KFPC01
-#: ./BestPractices/bptl-L4.odd:487
+#: BestPractices/bptl-L4.odd:487
 msgid "Kimberly Family Personal Correspondence, 1862-1864. Transcript of the manuscript, UNC-Chapel Hill, Southern Historical Collection."
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:465
+#: BestPractices/bptl-L4.odd:465
 msgid "The elements <_:ref-1/>, <_:ref-2/>, <_:ref-3/>, <_:ref-4/> may be used to indicate instances when a text (i.e., a word or part of it, or a phrase or part of it) has been added or marked for deletion, or to indicate cases where transcription is difficult (<_:gi-5/>) or impossible (<_:gi-6/>) because the material is illegible, invisible, or inaudible (such as while transcribing oral history interviews): <_:egXML-7/> <_:note-8/> <_:egXML-9/> <_:note-10/>"
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:492
+#: BestPractices/bptl-L4.odd:492
 msgid "Level 4 Front and Back Matter"
 msgstr ""
 
 #. (itstool) path: list/label
-#: ./BestPractices/bptl-L4.odd:497
+#: BestPractices/bptl-L4.odd:497
 msgid "Titles pages (recto and verso)"
 msgstr ""
 
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:503
+#: BestPractices/bptl-L4.odd:503
 msgid "Section 4.6, \"Title Pages\", of P5"
 msgstr ""
 
 #. (itstool) path: item/tag
-#: ./BestPractices/bptl-L4.odd:506
+#: BestPractices/bptl-L4.odd:506
 msgid "pb n=\"verso\"/"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:498
+#: BestPractices/bptl-L4.odd:498
 msgid "The use of the <_:ref-1/> element with appropriate child elements describing the major features of most title pages is recommended. The child elements are listed in <_:ref-2/>. <_:ref-3/> should include the verso if present, divided by <_:tag-4/>."
 msgstr ""
 
 #. (itstool) path: list/label
-#: ./BestPractices/bptl-L4.odd:508
+#: BestPractices/bptl-L4.odd:508
 msgid "Tables of contents, errata, subscription lists, lists of other titles by the same author, and other such lists'"
 msgstr ""
 
 #. (itstool) path: item/tag
-#: ./BestPractices/bptl-L4.odd:512
+#: BestPractices/bptl-L4.odd:512
 msgid "ref target=\"____\""
 msgstr ""
 
 #. (itstool) path: item/att
-#: ./BestPractices/bptl-L4.odd:514
+#: BestPractices/bptl-L4.odd:514
 msgid "target"
 msgstr ""
 
 #. (itstool) path: item/att
 #. (itstool) path: p/att
-#: ./BestPractices/bptl-L4.odd:514
-#: ./BestPractices/bptl-L4.odd:540
-#: ./BestPractices/bptl-L4.odd:543
-#: ./BestPractices/bptl-L4.odd:655
-#: ./BestPractices/bptl-L4.odd:746
-#: ./BestPractices/bptl-L4.odd:758
+#: BestPractices/bptl-L4.odd:514 BestPractices/bptl-L4.odd:540
+#: BestPractices/bptl-L4.odd:543 BestPractices/bptl-L4.odd:655
+#: BestPractices/bptl-L4.odd:746 BestPractices/bptl-L4.odd:758
 msgid "xml:id"
 msgstr ""
 
 #. (itstool) path: item/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:515
-#: ./BestPractices/bptl-L4.odd:841
-#: ./BestPractices/bptl-L4.odd:1217
+#: BestPractices/bptl-L4.odd:515 BestPractices/bptl-L4.odd:841
+#: BestPractices/bptl-L4.odd:1217
 msgid "pb"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:511
+#: BestPractices/bptl-L4.odd:511
 msgid "These should be encoded using a <_:gi-1/> with <_:gi-2/>s. For an index, use <_:tag-3/> to mark up page numbers given in the index, with the value of <_:att-4/> referring to the <_:att-5/> attribute of the <_:gi-6/> of the referenced page."
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:493
+#: BestPractices/bptl-L4.odd:493
 msgid "Encode each section of front and back matter as their own textual division. Beyond what is described in the P5 Guidelines, note the following: <_:list-1/>"
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:521
+#: BestPractices/bptl-L4.odd:521
 msgid "Level 4 Name Tagging"
 msgstr ""
 
 #. (itstool) path: item/ref
-#: ./BestPractices/bptl-L4.odd:523
+#: BestPractices/bptl-L4.odd:523
 msgid "Chapter 13.1.1, Linking Names and Their Referents"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:528
+#: BestPractices/bptl-L4.odd:528
 msgid "name"
 msgstr ""
 
 #. (itstool) path: p/val
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:529
-#: ./BestPractices/bptl-L4.odd:533
+#: BestPractices/bptl-L4.odd:529 BestPractices/bptl-L4.odd:533
 msgid "event"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:525
+#: BestPractices/bptl-L4.odd:525
 msgid "Names should be encoded using <_:gi-1/>, <_:gi-2/>, <_:gi-3/>, and <_:gi-4/> elements. For names of entities other than persons, places, and organizations, use <_:gi-5/> with a <_:att-6/> attribute containing an appropriate value, such as <_:val-7/> for the name of an event."
 msgstr ""
 
 #. (itstool) path: p/ref
-#: ./BestPractices/bptl-L4.odd:532
+#: BestPractices/bptl-L4.odd:532
 msgid "section 3.9.3"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:533
+#: BestPractices/bptl-L4.odd:533
 msgid "place"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:533
+#: BestPractices/bptl-L4.odd:533
 msgid "org"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:539
+#: BestPractices/bptl-L4.odd:539
 msgid "listEvent"
 msgstr ""
 
 #. (itstool) path: p/att
-#: ./BestPractices/bptl-L4.odd:545
+#: BestPractices/bptl-L4.odd:545
 msgid "context.xml"
 msgstr ""
 
 #. (itstool) path: p/q
-#: ./BestPractices/bptl-L4.odd:545
+#: BestPractices/bptl-L4.odd:545
 msgid "contextual information"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:531
+#: BestPractices/bptl-L4.odd:531
 msgid "For all of these elements, use the <_:att-1/> attribute (see <_:ref-2/> above) to provide a reference to a <_:gi-3/>, <_:gi-4/>, <_:gi-5/>, <_:gi-6/>, or other element in an external file or database for managing name normalization and compilation of additional information such as biographical or geospatial information. An external TEI file may contain an entry for each name, grouped accordingly under <_:gi-7/>, <_:gi-8/>, <_:gi-9/>, or <_:gi-10/>, with each name uniquely identified with an <_:att-11/> attribute. In this case the value of the <_:att-12/> attribute in the main TEI document (the transcription of the source document) references the value of the <_:att-13/> attribute in the external file. (In the examples below, the external file is named <_:att-14/> for <_:q-15/> and is in the same directory as the source file, but it may be named anything and placed anywhere that can be referenced by a URI.)"
 msgstr ""
 
 #. (itstool) path: p/gi
 #. (itstool) path: item/gi
-#: ./BestPractices/bptl-L4.odd:551
-#: ./BestPractices/bptl-L4.odd:686
-#: ./BestPractices/bptl-L4.odd:1217
+#: BestPractices/bptl-L4.odd:551 BestPractices/bptl-L4.odd:686
+#: BestPractices/bptl-L4.odd:1217
 msgid "p"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:551
+#: BestPractices/bptl-L4.odd:551
 msgid "editorialDecl"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:554
+#: BestPractices/bptl-L4.odd:554
 msgid "classDecl"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:549
+#: BestPractices/bptl-L4.odd:549
 msgid "When referencing external files or databases by tag URI, it is strongly recommended to provide an explanation in a <_:gi-1/> element in the <_:gi-2/> section of the TEI header. When referencing a controlled vocabulary by relative URI, be sure to specify the controlled vocabulary in the <_:gi-3/> section of the TEI header."
 msgstr ""
 
 #. (itstool) path: p/placeName
-#: ./BestPractices/bptl-L4.odd:560
-#: ./BestPractices/bptl-L4.odd:569
+#: BestPractices/bptl-L4.odd:560 BestPractices/bptl-L4.odd:569
 msgid "Indianapolis"
 msgstr ""
 
 #. (itstool) path: p/placeName
-#: ./BestPractices/bptl-L4.odd:562
+#: BestPractices/bptl-L4.odd:562
 msgid "Germany"
 msgstr ""
 
 #. (itstool) path: p/placeName
-#: ./BestPractices/bptl-L4.odd:565
+#: BestPractices/bptl-L4.odd:565
 msgid "United States"
 msgstr ""
 
 #. (itstool) path: egXML/p
-#: ./BestPractices/bptl-L4.odd:559
+#: BestPractices/bptl-L4.odd:559
 msgid "The first Jews arrived in <_:placeName-1/> in the middle of the 19th century. Primarily immigrants from <_:placeName-2/> and other points in central Europe (though many had lived elsewhere in the <_:placeName-3/> before they arrived in the city), they were drawn from throughout the Midwest by the growth of commerce and rail lines in <_:placeName-4/>."
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:557
+#: BestPractices/bptl-L4.odd:557
 msgid "Place-name tagging example in main TEI document (the transcription of the source document): <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: p/persName
-#: ./BestPractices/bptl-L4.odd:578
+#: BestPractices/bptl-L4.odd:578
 msgid "Elvis J. Stahr"
 msgstr ""
 
 #. (itstool) path: p/persName
-#: ./BestPractices/bptl-L4.odd:581
+#: BestPractices/bptl-L4.odd:581
 msgid "W. Howard Mann"
 msgstr ""
 
 #. (itstool) path: p/orgName
-#: ./BestPractices/bptl-L4.odd:584
+#: BestPractices/bptl-L4.odd:584
 msgid "U.S. Supreme Court"
 msgstr ""
 
 #. (itstool) path: p/orgName
-#: ./BestPractices/bptl-L4.odd:587
+#: BestPractices/bptl-L4.odd:587
 msgid "Indiana Supreme Court Library"
 msgstr ""
 
 #. (itstool) path: egXML/p
-#: ./BestPractices/bptl-L4.odd:577
+#: BestPractices/bptl-L4.odd:577
 msgid "PRIZE LIBRARY GIFT-Indiana University President <_:persName-1/> (right), a former law dean and practicing attorney, reminisces with Professor of Law <_:persName-2/> as the two inspect some of the nearly 3,000 volumes of <_:orgName-3/> records recently transferred to I.U. from the <_:orgName-4/>. The collection, dating back to 1925, is one of the oldest and most complete sets in existence."
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:573
+#: BestPractices/bptl-L4.odd:573
 msgid "Personal and organizational name tagging example in main TEI document (the transcription of the source document): <_:egXML-1/>"
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:596
+#: BestPractices/bptl-L4.odd:596
 msgid "Level 4 Embedded Texts"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:597
+#: BestPractices/bptl-L4.odd:597
 msgid "If the embedded text is more than a short quotation, use <_:gi-1/> even if the instance is still only an excerpt of the embedded text."
 msgstr ""
 
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:603
-#: ./BestPractices/bptl-L4.odd:605
-#: ./BestPractices/bptl-L4.odd:1175
+#: BestPractices/bptl-L4.odd:603 BestPractices/bptl-L4.odd:605
+#: BestPractices/bptl-L4.odd:1175
 msgid "body"
 msgstr ""
 
 #. (itstool) path: p/tag
-#: ./BestPractices/bptl-L4.odd:603
+#: BestPractices/bptl-L4.odd:603
 msgid "div1 type=\"letter\""
 msgstr ""
 
 #. (itstool) path: p/tag
-#: ./BestPractices/bptl-L4.odd:605
+#: BestPractices/bptl-L4.odd:605
 msgid "div type=\"letter\""
 msgstr ""
 
 #. (itstool) path: egXML/p
-#: ./BestPractices/bptl-L4.odd:615
+#: BestPractices/bptl-L4.odd:615
 msgid "She opened and read as follows:"
 msgstr ""
 
 #. (itstool) path: opener/dateline
-#: ./BestPractices/bptl-L4.odd:620
+#: BestPractices/bptl-L4.odd:620
 msgid "AUGUSTA, March 4th, 18—"
 msgstr ""
 
 #. (itstool) path: salute/hi
-#: ./BestPractices/bptl-L4.odd:622
+#: BestPractices/bptl-L4.odd:622
 msgid "Mrs. A. Mitten:"
 msgstr ""
 
 #. (itstool) path: p/hi
-#: ./BestPractices/bptl-L4.odd:626
+#: BestPractices/bptl-L4.odd:626
 msgid "though ordered to continue it until forbid,"
 msgstr ""
 
 #. (itstool) path: div1/p
-#: ./BestPractices/bptl-L4.odd:625
+#: BestPractices/bptl-L4.odd:625
 msgid "\"Having recently understood that you have procured a private teacher, we have ventured to stop your advertisement, <_:hi-1/> under the impression that you have probably forgotten to have it stopped. If, however, we have been misinformed, we will promptly resume the publication of it. You will find our account below; which as we are much in want of funds, you will oblige us by settling as soon as convenient. Hoping your teacher is all that you could desire in one,"
 msgstr ""
 
 #. (itstool) path: closer/salute
-#: ./BestPractices/bptl-L4.odd:633
+#: BestPractices/bptl-L4.odd:633
 msgid "\"We remain, your ob't. serv'ts,"
 msgstr ""
 
 #. (itstool) path: closer/signed
-#: ./BestPractices/bptl-L4.odd:634
+#: BestPractices/bptl-L4.odd:634
 msgid "\"H—&amp;amp; B—&amp;#x201D;"
 msgstr ""
 
 #. (itstool) path: bibl/author
-#: ./BestPractices/bptl-L4.odd:641
+#: BestPractices/bptl-L4.odd:641
 msgid "Longstreet, Augustus B."
 msgstr ""
 
 #. (itstool) path: bibl/date
-#: ./BestPractices/bptl-L4.odd:641
+#: BestPractices/bptl-L4.odd:641
 msgid "1864"
 msgstr ""
 
 #. (itstool) path: bibl/title
-#: ./BestPractices/bptl-L4.odd:642
+#: BestPractices/bptl-L4.odd:642
 msgid "Master William Mitten: or, A Youth of Brilliant Talents, Who Was Ruined by Bad Luck"
 msgstr ""
 
 #. (itstool) path: bibl/pubPlace
-#: ./BestPractices/bptl-L4.odd:645
+#: BestPractices/bptl-L4.odd:645
 msgid "Macon, Ga."
 msgstr ""
 
 #. (itstool) path: bibl/publisher
-#: ./BestPractices/bptl-L4.odd:645
+#: BestPractices/bptl-L4.odd:645
 msgid "Burke, Boykin"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:600
+#: BestPractices/bptl-L4.odd:600
 msgid "Personal letters are a common example of an embedded text. While a collection of letters would use a textual division for each letter, if a letter is quoted as part of a larger text, use <_:gi-1/><_:gi-2/><_:tag-3/> (or <_:gi-4/><_:gi-5/><_:tag-6/> if using unnumbered textual divisions) with <_:ref-7/>, <_:ref-8/>, <_:ref-9/>, <_:ref-10/>, <_:ref-11/>, <_:ref-12/> included as appropriate. For example: <_:egXML-13/> <_:note-14/>"
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:650
+#: BestPractices/bptl-L4.odd:650
 msgid "Level 4 Drama"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:651
+#: BestPractices/bptl-L4.odd:651
 msgid "front"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:651
+#: BestPractices/bptl-L4.odd:651
 msgid "Within the front matter (<_:gi-1/>) of a performance text, cast lists should be encoded as <_:gi-2/>s, with each item in that list encoded as a <_:gi-3/>. If desired, each <_:gi-4/> may be uniquely identified with an <_:att-5/> attribute."
 msgstr ""
 
 #. (itstool) path: castList/head
-#: ./BestPractices/bptl-L4.odd:659
+#: BestPractices/bptl-L4.odd:659
 msgid "Dramatis Personae"
 msgstr ""
 
 #. (itstool) path: castList/castItem
 #. (itstool) id: bptl-L4.odd#kllear
-#: ./BestPractices/bptl-L4.odd:660
+#: BestPractices/bptl-L4.odd:660
 msgid "LEAR king of Britain"
 msgstr ""
 
 #. (itstool) path: castList/castItem
 #. (itstool) id: bptl-L4.odd#klfrance
-#: ./BestPractices/bptl-L4.odd:661
+#: BestPractices/bptl-L4.odd:661
 msgid "KING OF FRANCE"
 msgstr ""
 
 #. (itstool) path: castList/castItem
 #. (itstool) id: bptl-L4.odd#klburgundy
-#: ./BestPractices/bptl-L4.odd:662
+#: BestPractices/bptl-L4.odd:662
 msgid "DUKE OF BURGUNDY"
 msgstr ""
 
 #. (itstool) path: castList/castItem
 #. (itstool) id: bptl-L4.odd#klcornwall
-#: ./BestPractices/bptl-L4.odd:663
+#: BestPractices/bptl-L4.odd:663
 msgid "DUKE OF CORNWALL"
 msgstr ""
 
 #. (itstool) path: castList/castItem
 #. (itstool) id: bptl-L4.odd#klalbany
-#: ./BestPractices/bptl-L4.odd:664
+#: BestPractices/bptl-L4.odd:664
 msgid "DUKE OF ALBANY"
 msgstr ""
 
 #. (itstool) path: castList/castItem
 #. (itstool) id: bptl-L4.odd#klkent
-#: ./BestPractices/bptl-L4.odd:665
+#: BestPractices/bptl-L4.odd:665
 msgid "EARL OF KENT"
 msgstr ""
 
 #. (itstool) path: castList/castItem
 #. (itstool) id: bptl-L4.odd#klgloucester
-#: ./BestPractices/bptl-L4.odd:666
+#: BestPractices/bptl-L4.odd:666
 msgid "EARL OF GLOUCESTER"
 msgstr ""
 
 #. (itstool) path: castList/castItem
 #. (itstool) id: bptl-L4.odd#kledgar
-#: ./BestPractices/bptl-L4.odd:667
+#: BestPractices/bptl-L4.odd:667
 msgid "EDGAR son to Gloucester."
 msgstr ""
 
 #. (itstool) path: castList/castItem
 #. (itstool) id: bptl-L4.odd#kledmund
-#: ./BestPractices/bptl-L4.odd:668
+#: BestPractices/bptl-L4.odd:668
 msgid "EDMUND bastard son to Gloucester."
 msgstr ""
 
 #. (itstool) path: front/castList
-#: ./BestPractices/bptl-L4.odd:659
+#: BestPractices/bptl-L4.odd:659
 msgid "<_:head-1/> <_:castItem-2/> <_:castItem-3/> <_:castItem-4/> <_:castItem-5/> <_:castItem-6/> <_:castItem-7/> <_:castItem-8/> <_:castItem-9/> <_:castItem-10/> &lt;!-- ... --&gt;"
 msgstr ""
 
 #. (itstool) path: bibl/author
-#: ./BestPractices/bptl-L4.odd:674
+#: BestPractices/bptl-L4.odd:674
 msgid "Shakespeare"
 msgstr ""
 
 #. (itstool) path: bibl/title
-#: ./BestPractices/bptl-L4.odd:674
+#: BestPractices/bptl-L4.odd:674
 msgid "King Lear"
 msgstr ""
 
 #. (itstool) path: note/bibl
 #. (itstool) id: bptl-L4.odd#BIB-SKL
-#: ./BestPractices/bptl-L4.odd:673
+#: BestPractices/bptl-L4.odd:673
 msgid "<_:author-1/>. <_:title-2/>."
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:656
-#: ./BestPractices/bptl-L4.odd:803
+#: BestPractices/bptl-L4.odd:656 BestPractices/bptl-L4.odd:803
 msgid "For example, <_:egXML-1/> <_:note-2/>"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:678
+#: BestPractices/bptl-L4.odd:678
 msgid "speeches are encoded as <_:gi-1/> and speakers identified by the <_:gi-2/> element, which is a child of <_:gi-3/>."
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:681
+#: BestPractices/bptl-L4.odd:681
 msgid "Stage directions are encoded as <_:gi-1/> and enclose content describing scenery, stage directions, etc."
 msgstr ""
 
 #. (itstool) path: item/gi
-#: ./BestPractices/bptl-L4.odd:687
+#: BestPractices/bptl-L4.odd:687
 msgid "lb"
 msgstr ""
 
 #. (itstool) path: item/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:688
-#: ./BestPractices/bptl-L4.odd:800
-#: ./BestPractices/bptl-L4.odd:1327
+#: BestPractices/bptl-L4.odd:688 BestPractices/bptl-L4.odd:800
+#: BestPractices/bptl-L4.odd:1327
 msgid "lg"
 msgstr ""
 
 #. (itstool) path: item/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:689
-#: ./BestPractices/bptl-L4.odd:800
+#: BestPractices/bptl-L4.odd:689 BestPractices/bptl-L4.odd:800
 msgid "l"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:684
+#: BestPractices/bptl-L4.odd:684
 msgid "When encoding the actual speech content itself, utilize elements and attributes that correspond to the type of dramatic speech presented (e.g. <_:gi-1/> for prose speech with <_:gi-2/> to designate a new line in a particular edition of the text or <_:gi-3/> and <_:gi-4/> to describe dramatic verse structures)."
 msgstr ""
 
 #. (itstool) path: item/att
-#: ./BestPractices/bptl-L4.odd:691
-#: ./BestPractices/bptl-L4.odd:693
-#: ./BestPractices/bptl-L4.odd:755
+#: BestPractices/bptl-L4.odd:691 BestPractices/bptl-L4.odd:693
+#: BestPractices/bptl-L4.odd:755
 msgid "who"
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:697
+#: BestPractices/bptl-L4.odd:697
 msgid "Act 1"
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:699
+#: BestPractices/bptl-L4.odd:699
 msgid "Scene 1"
 msgstr ""
 
 #. (itstool) path: div/stage
-#: ./BestPractices/bptl-L4.odd:700
+#: BestPractices/bptl-L4.odd:700
 msgid "King Lear's palace."
 msgstr ""
 
 #. (itstool) path: div/stage
-#: ./BestPractices/bptl-L4.odd:701
+#: BestPractices/bptl-L4.odd:701
 msgid "Enter KENT, GLOUCESTER, and EDMUND"
 msgstr ""
 
 #. (itstool) path: sp/speaker
-#: ./BestPractices/bptl-L4.odd:703
-#: ./BestPractices/bptl-L4.odd:716
+#: BestPractices/bptl-L4.odd:703 BestPractices/bptl-L4.odd:716
 msgid "KENT"
 msgstr ""
 
 #. (itstool) path: sp/p
-#: ./BestPractices/bptl-L4.odd:704
+#: BestPractices/bptl-L4.odd:704
 msgid "I thought the king had more affected the Duke of<_:lb-1/> Albany than Cornwall."
 msgstr ""
 
 #. (itstool) path: sp/speaker
-#: ./BestPractices/bptl-L4.odd:708
+#: BestPractices/bptl-L4.odd:708
 msgid "GLOUCESTER"
 msgstr ""
 
 #. (itstool) path: sp/p
-#: ./BestPractices/bptl-L4.odd:709
+#: BestPractices/bptl-L4.odd:709
 msgid "It did always seem so to us: but now, in the<_:lb-1/> division of the kingdom, it appears not which of<_:lb-2/> the dukes he values most; for equalities are so<_:lb-3/> weighed, that curiosity in neither can make choice<_:lb-4/> of either's moiety."
 msgstr ""
 
 #. (itstool) path: sp/p
-#: ./BestPractices/bptl-L4.odd:717
+#: BestPractices/bptl-L4.odd:717
 msgid "Is not this your son, my lord?"
 msgstr ""
 
 #. (itstool) path: div/div
-#: ./BestPractices/bptl-L4.odd:698
+#: BestPractices/bptl-L4.odd:698
 msgid "<_:head-1/> <_:stage-2/> <_:stage-3/> <_:sp-4/> <_:sp-5/> <_:sp-6/> &lt;!-- ... --&gt;"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:690
+#: BestPractices/bptl-L4.odd:690
 msgid "If it is desired to tie the speaker(s) of a speech to a particular persona in the cast list, the <_:att-1/> attribute of <_:gi-2/> may be used to refer to the <_:gi-3/> of the speaker. When <_:att-4/> is used, <_:gi-5/> is optional. <_:egXML-6/>"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:676
+#: BestPractices/bptl-L4.odd:676
 msgid "Within the body of performative texts: <_:list-1/>"
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:728
+#: BestPractices/bptl-L4.odd:728
 msgid "Level 4 Transcription of Oral History"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:729
+#: BestPractices/bptl-L4.odd:729
 msgid "The list of participants in the transcription of an oral history may be encoded in the body of the TEI document using the structured <_:gi-1/> element containing <_:gi-2/> elements for each participant. Alternatively, the list of participants may be encoded as a free-form <_:gi-3/> in the body. The latter approach is especially useful when the list is included in the source document in an unstructured form."
 msgstr ""
 
 #. (itstool) path: ref/gi
-#: ./BestPractices/bptl-L4.odd:742
+#: BestPractices/bptl-L4.odd:742
 msgid "fileDesc"
 msgstr ""
 
 #. (itstool) path: ref/gi
-#: ./BestPractices/bptl-L4.odd:744
+#: BestPractices/bptl-L4.odd:744
 msgid "titleStmt"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:736
+#: BestPractices/bptl-L4.odd:736
 msgid "If an oral history document has no title of its own, the speakers in oral history interviews, i.e., interviewee(s) and interviewer(s), may also be identified in the <_:gi-1/> as a list of <_:gi-2/> elements (typically each with its own <_:gi-3/>) within <_:ref-4/> / <_:ref-5/>."
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:746
+#: BestPractices/bptl-L4.odd:746
 msgid "Regardless, use an <_:att-1/> on the <_:gi-2/> element to uniquely identify the individual participant."
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:753
+#: BestPractices/bptl-L4.odd:753
 msgid "within <_:gi-1/> elements, which are the first child of <_:gi-2/>, or"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:755
+#: BestPractices/bptl-L4.odd:755
 msgid "with a <_:att-1/> attribute on <_:gi-2/>, the value of which points to the the <_:gi-3/> for the given speaker in the list of interview participants (by its <_:att-4/>), or"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:759
+#: BestPractices/bptl-L4.odd:759
 msgid "both."
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:749
+#: BestPractices/bptl-L4.odd:749
 msgid "Questions and answers from interviewees and interviewers are encoded as <_:gi-1/>, with each speaker identified either: <_:list-2/>"
 msgstr ""
 
 #. (itstool) path: list/head
-#: ./BestPractices/bptl-L4.odd:764
+#: BestPractices/bptl-L4.odd:764
 msgid "Interview Participants"
 msgstr ""
 
 #. (itstool) path: item/persName
 #. (itstool) id: bptl-L4.odd#spk1
-#: ./BestPractices/bptl-L4.odd:766
+#: BestPractices/bptl-L4.odd:766
 msgid "WILLIAM C. FRIDAY"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:765
+#: BestPractices/bptl-L4.odd:765
 msgid "<_:persName-1/>, interviewee"
 msgstr ""
 
 #. (itstool) path: item/persName
 #. (itstool) id: bptl-L4.odd#spk2
-#: ./BestPractices/bptl-L4.odd:769
+#: BestPractices/bptl-L4.odd:769
 msgid "WILLIAM LINK"
 msgstr ""
 
 #. (itstool) path: list/item
-#: ./BestPractices/bptl-L4.odd:768
+#: BestPractices/bptl-L4.odd:768
 msgid "<_:persName-1/>, interviewer"
 msgstr ""
 
 #. (itstool) path: sp/speaker
-#: ./BestPractices/bptl-L4.odd:774
+#: BestPractices/bptl-L4.odd:774
 msgid "WILLIAM LINK:"
 msgstr ""
 
 #. (itstool) path: sp/p
-#: ./BestPractices/bptl-L4.odd:775
+#: BestPractices/bptl-L4.odd:775
 msgid "Last time we were talking about Frank Porter Graham. And I have a couple of questions about Graham, and I wonder if you could clear them up for me. You have mentioned that you had worked with him as a student at North Carolina State, had you met him before?"
 msgstr ""
 
 #. (itstool) path: sp/speaker
-#: ./BestPractices/bptl-L4.odd:780
+#: BestPractices/bptl-L4.odd:780
 msgid "WILLIAM C. FRIDAY:"
 msgstr ""
 
 #. (itstool) path: sp/p
-#: ./BestPractices/bptl-L4.odd:781
+#: BestPractices/bptl-L4.odd:781
 msgid "No. That budget hearing was the first that I knew of him, of course, but the first time that I ever encountered him. I was president of class at N.C. State, and that through me into this kind of public adventure. And so I went merrily on downtown and sat there in the budget hearing, along with the president of the student body, and some others."
 msgstr ""
 
 #. (itstool) path: div/egXML
-#: ./BestPractices/bptl-L4.odd:762
+#: BestPractices/bptl-L4.odd:762
 msgid "<_:list-1/> &lt;!-- ... --&gt; <_:sp-2/> <_:sp-3/>"
 msgstr ""
 
 #. (itstool) path: p/ref
-#: ./BestPractices/bptl-L4.odd:789
+#: BestPractices/bptl-L4.odd:789
 msgid "Oral Histories of the American South"
 msgstr ""
 
 #. (itstool) path: ref/gi
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:791
-#: ./BestPractices/bptl-L4.odd:835
+#: BestPractices/bptl-L4.odd:791 BestPractices/bptl-L4.odd:835
 msgid "milestone"
 msgstr ""
 
 #. (itstool) path: p/att
-#: ./BestPractices/bptl-L4.odd:792
+#: BestPractices/bptl-L4.odd:792
 msgid "timestamp"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:787
+#: BestPractices/bptl-L4.odd:787
 msgid "One way to synchronize audio and transcript has been introduced in <_:ref-1/>, using <_:ref-2/> with a <_:att-3/> attribute: <_:egXML-4/>"
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:799
+#: BestPractices/bptl-L4.odd:799
 msgid "Level 4 Verse"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:800
+#: BestPractices/bptl-L4.odd:800
 msgid "Use <_:gi-1/> and <_:gi-2/> as in Level 3. In addition, use the <_:att-3/>, <_:att-4/>, or <_:att-5/> attribute to indicate lines that are indented."
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:806
+#: BestPractices/bptl-L4.odd:806
 msgid "Fit the First: THE LANDING"
 msgstr ""
 
 #. (itstool) path: lg/l
-#: ./BestPractices/bptl-L4.odd:808
+#: BestPractices/bptl-L4.odd:808
 msgid "\"Just the place for a Snark!\" the Bellman cried,"
 msgstr ""
 
 #. (itstool) path: lg/l
-#: ./BestPractices/bptl-L4.odd:809
+#: BestPractices/bptl-L4.odd:809
 msgid "As he landed his crew with care;"
 msgstr ""
 
 #. (itstool) path: lg/l
-#: ./BestPractices/bptl-L4.odd:810
+#: BestPractices/bptl-L4.odd:810
 msgid "Supporting each man on the top of the tide"
 msgstr ""
 
 #. (itstool) path: lg/l
-#: ./BestPractices/bptl-L4.odd:811
+#: BestPractices/bptl-L4.odd:811
 msgid "By a finger entwined in his hair."
 msgstr ""
 
 #. (itstool) path: lg/l
-#: ./BestPractices/bptl-L4.odd:814
+#: BestPractices/bptl-L4.odd:814
 msgid "\"Just the place for a Snark! I have said it twice:"
 msgstr ""
 
 #. (itstool) path: lg/l
-#: ./BestPractices/bptl-L4.odd:815
+#: BestPractices/bptl-L4.odd:815
 msgid "That alone should encourage the crew."
 msgstr ""
 
 #. (itstool) path: lg/l
-#: ./BestPractices/bptl-L4.odd:816
+#: BestPractices/bptl-L4.odd:816
 msgid "Just the place for a Snark! I have said it thrice:"
 msgstr ""
 
 #. (itstool) path: lg/l
-#: ./BestPractices/bptl-L4.odd:817
+#: BestPractices/bptl-L4.odd:817
 msgid "What I tell you three times is true.\""
 msgstr ""
 
 #. (itstool) path: egXML/div
-#: ./BestPractices/bptl-L4.odd:805
+#: BestPractices/bptl-L4.odd:805
 msgid "<_:head-1/> <_:lg-2/> <_:lg-3/> &lt;!-- ... --&gt;"
 msgstr ""
 
 #. (itstool) path: bibl/author
-#: ./BestPractices/bptl-L4.odd:823
+#: BestPractices/bptl-L4.odd:823
 msgid "Carroll, Lewis"
 msgstr ""
 
 #. (itstool) path: bibl/date
-#: ./BestPractices/bptl-L4.odd:823
+#: BestPractices/bptl-L4.odd:823
 msgid "1876"
 msgstr ""
 
 #. (itstool) path: bibl/title
-#: ./BestPractices/bptl-L4.odd:824
+#: BestPractices/bptl-L4.odd:824
 msgid "The Hunting of the Snark"
 msgstr ""
 
 #. (itstool) path: bibl/publisher
-#: ./BestPractices/bptl-L4.odd:825
+#: BestPractices/bptl-L4.odd:825
 msgid "Macmillan &amp; Co."
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:830
+#: BestPractices/bptl-L4.odd:830
 msgid "Level 4 Typographic Separators"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:835
+#: BestPractices/bptl-L4.odd:835
 msgid "space"
 msgstr ""
 
 #. (itstool) path: egXML/ab
-#: ./BestPractices/bptl-L4.odd:838
+#: BestPractices/bptl-L4.odd:838
 msgid "*****"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:831
+#: BestPractices/bptl-L4.odd:831
 msgid "To mark typographic elements that indicate a structural break or boundary use <_:tag-1/>. The content of this element is the character(s) or device used to mark the division in the source document. The <_:att-2/> attribute may be used to indicate how the separator is rendered. As a content-bearing element, <_:gi-3/> is recommended over the empty elements <_:gi-4/> or <_:gi-5/>, as it can contain further markup and glyph information. For example: <_:egXML-6/>"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:841
+#: BestPractices/bptl-L4.odd:841
 msgid "Like <_:gi-1/> elements, these should always be placed within the lowest-level text division."
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:845
+#: BestPractices/bptl-L4.odd:845
 msgid "Level 4 Alger Hiss document"
 msgstr ""
 
 #. (itstool) path: TEI/teiHeader
-#: ./BestPractices/bptl-L4.odd:847
+#: BestPractices/bptl-L4.odd:847
 msgid "&lt;!-- header goes here --&gt;"
 msgstr ""
 
 #. (itstool) path: div1/head
-#: ./BestPractices/bptl-L4.odd:854
+#: BestPractices/bptl-L4.odd:854
 msgid "POINT VIII."
 msgstr ""
 
 #. (itstool) path: div1/head
-#: ./BestPractices/bptl-L4.odd:855
+#: BestPractices/bptl-L4.odd:855
 msgid "BECAUSE OF UNLAWFUL SURVEILLANCE, PETITIONER'S <_:lb-1/>CONVICTION SHOULD BE VACATED; ALTERNATIVELY, <_:lb-2/>DISCOVERY AND A HEARING SHOULD BE ORDERED."
 msgstr ""
 
 #. (itstool) path: div1/p
-#: ./BestPractices/bptl-L4.odd:858
+#: BestPractices/bptl-L4.odd:858
 msgid "The nature and extent of surveillance of Hiss, his <_:lb-1/>family and associates was not known at the time of trial by <_:lb-2/>the defense. Even now, with the release of some of the govern- <_:lb-3/>ment documents concerning FBI investigative techniques regarding <_:lb-4/>Hiss, the full extent of surveillance -- wiretapping, mail open- <_:lb-5/>ings, mail covers, physical surveillance, and other intrusive <_:lb-6/>techniques -- is still not 'clear. Nevertheless, it is apparent <_:lb-7/>that information gathered through the exploitation of unlawful <_:lb-8/>wiretaps and other illegal surveillance was used at trial and <_:lb-9/>consequently the conviction must be reversed. Alternatively, <_:lb-10/>further discovery and a hearing is essential to a fair deter- <_:lb-11/>mination regarding these issues."
 msgstr ""
 
 #. (itstool) path: div1/p
-#: ./BestPractices/bptl-L4.odd:870
+#: BestPractices/bptl-L4.odd:870
 msgid "FBI surveillance of Hiss began in earnest in 1941 with <_:lb-1/>the institution of a mail cover on his incoming correspondence <_:lb-2/>at his home in connection with an FBI investigation of possible <_:lb-3/>Hatch Act violations. CN Ex. 98A. Another mail cover was placed <_:pb-4/> on the Hiss mail in 1945, and at the same time the FBI obtained <_:lb-5/>toll call records from the Hiss residence Telephone for the <_:lb-6/>years 1943 and 1944 as well. CN Ex. 99. In September, 1945, <_:lb-7/>the FBI intercepted telegrams to Hiss as well. CN Ex. 100."
 msgstr ""
 
 #. (itstool) path: p/ptr
 #. (itstool) path: note/label
-#: ./BestPractices/bptl-L4.odd:887
-#: ./BestPractices/bptl-L4.odd:888
+#: BestPractices/bptl-L4.odd:887 BestPractices/bptl-L4.odd:888
 msgid "68"
 msgstr ""
 
 #. (itstool) path: p/note
 #. (itstool) id: bptl-L4.odd#N68
-#: ./BestPractices/bptl-L4.odd:888
+#: BestPractices/bptl-L4.odd:888
 msgid "<_:label-1/>Also before 1947, a letter from Priscilla Hiss addressed <_:lb-2/>to her son, Timothy Hobson, was intercepted and its contents <_:lb-3/>read. CN Ex. 100A at p. 167. In approximately March, 1947, <_:lb-4/>a letter from a Michael Greenberg addressed to petitioner re- <_:lb-5/>garding an application for employment with the United Nations <_:lb-6/>was also intercepted, in a manner not revealed by the docu- <_:lb-7/>ments. CN Ex. 100B"
 msgstr ""
 
 #. (itstool) path: div1/p
-#: ./BestPractices/bptl-L4.odd:879
+#: BestPractices/bptl-L4.odd:879
 msgid "In late November, 1945, FBI surveillance of the Hiss <_:lb-1/>residence in Washington, D.C., escalated. For the third time, <_:lb-2/>a mail cover was instituted beginning on November 28, 1945, <_:lb-3/>which was continued at least until 1946. CN Ex. 101 at p. 70; <_:lb-4/>CN Ex. 102. Continuous physical surveillance of Hiss was begun <_:lb-5/>as well. CN Ex. 101 at p. 72. Although this twenty-four-hour <_:lb-6/>surveillance was discontinued on December 14, 1945, physical <_:lb-7/>surveillance was conducted frequently at various times until <_:lb-8/>September, 1947.<_:ptr-9/><_:note-10/> CN Ex. 102; CN Ex. 103."
 msgstr ""
 
 #. (itstool) path: p/soCalled
-#: ./BestPractices/bptl-L4.odd:900
+#: BestPractices/bptl-L4.odd:900
 msgid "technical surveillance"
 msgstr ""
 
 #. (itstool) path: div1/p
-#: ./BestPractices/bptl-L4.odd:896
+#: BestPractices/bptl-L4.odd:896
 msgid "The most intrusive invasion of petitioner's rights <_:pb-1/> <_:lb-2/>occurred from December 13, 1945 until the Hisses moved from <_:lb-3/>Washington, D.C. to New York City on September 13, 1947. A <_:soCalled-4/>, -- a wiretap -- was placed on the Hiss <_:lb-5/>telephone at their residence on P Street-in Washington, D.C. <_:lb-6/>The logs of this surveillance constitute twenty-nine volumes <_:lb-7/>of FBI serials and are roughly 2,500 pages in length, in which <_:lb-8/>an enormous amount of information concerning the Hisses' per- <_:lb-9/>sonal lives, relationships with friends and associates, and <_:lb-10/>habits is recorded."
 msgstr ""
 
 #. (itstool) path: p/ptr
 #. (itstool) path: note/label
-#: ./BestPractices/bptl-L4.odd:909
-#: ./BestPractices/bptl-L4.odd:910
+#: BestPractices/bptl-L4.odd:909 BestPractices/bptl-L4.odd:910
 msgid "69"
 msgstr ""
 
 #. (itstool) path: p/note
 #. (itstool) id: bptl-L4.odd#N69
-#: ./BestPractices/bptl-L4.odd:909
+#: BestPractices/bptl-L4.odd:909
 msgid "<_:label-1/>Hoover's initial request was answered by a note reques- <_:lb-2/>ting information on Hiss. CN Ex. 104<_:sic-3/>. Additional information <_:lb-4/>was furnished by letter dated November 30, 1945. CN Ex. 105<_:sic-5/>."
 msgstr ""
 
 #. (itstool) path: div1/p
-#: ./BestPractices/bptl-L4.odd:907
+#: BestPractices/bptl-L4.odd:907
 msgid "The wiretap was installed following FBI Director Hoover's <_:lb-1/>application to the Attorney General for authorization, <_:ptr-2/><_:note-3/> <_:lb-4/>although no written authorization appears in the documents released to <_:lb-5/>Hiss. The purpose of the application was to gather information <_:lb-6/>regarding Hiss' alleged contacts with Soviet espionage agents and <_:lb-7/>communists in government service, general allegations which had <_:lb-8/>been made by Elizabeth Bentley and Chambers."
 msgstr ""
 
 #. (itstool) path: div1/p
-#: ./BestPractices/bptl-L4.odd:918
+#: BestPractices/bptl-L4.odd:918
 msgid "As one would expect, the interception of every telephone"
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:928
+#: BestPractices/bptl-L4.odd:928
 msgid "Specification"
-msgstr ""
+msgstr "仕様"
 
 #. (itstool) path: desc/gi
-#: ./BestPractices/bptl-L4.odd:948
+#: BestPractices/bptl-L4.odd:948
 msgid "facsimile"
 msgstr ""
 
 #. (itstool) path: desc/gi
-#: ./BestPractices/bptl-L4.odd:949
+#: BestPractices/bptl-L4.odd:949
 msgid "teiCorpus"
 msgstr ""
 
 #. (itstool) path: elementSpec/desc
-#: ./BestPractices/bptl-L4.odd:945
+#: BestPractices/bptl-L4.odd:945
 msgid "contains a single TEI-in-Libraries level 4 document, comprising a TEI header and a text, the latter represented as either a transcription (in <_:gi-1/>) or a transcription and page images (in <_:gi-2/>), either in isolation or as part of a <_:gi-3/> element."
 msgstr ""
 
 #. (itstool) path: rule/report
-#: ./BestPractices/bptl-L4.odd:969
+#: BestPractices/bptl-L4.odd:969
 msgid "The @rend, @rendition, and @xml:space attributes are not permitted on the root TEI element or within the teiHeader element"
 msgstr ""
 
 #. (itstool) path: p/tag
-#: ./BestPractices/bptl-L4.odd:979
-#: ./BestPractices/bptl-L4.odd:1039
+#: BestPractices/bptl-L4.odd:979 BestPractices/bptl-L4.odd:1039
 msgid "TEI xmlns=\"http://www.tei-c.org/ns/1.0\""
 msgstr ""
 
 #. (itstool) path: exemplum/p
-#: ./BestPractices/bptl-L4.odd:976
+#: BestPractices/bptl-L4.odd:976
 msgid "Note that for technical reasons the namespace is not shown in this example, but it should always be supplied on the root <_:gi-1/> element, e.g.: <_:tag-2/>."
 msgstr ""
 
 #. (itstool) path: titleStmt/title
-#: ./BestPractices/bptl-L4.odd:986
+#: BestPractices/bptl-L4.odd:986
 msgid "A Short Level 4 Document"
 msgstr ""
 
 #. (itstool) path: publicationStmt/p
-#: ./BestPractices/bptl-L4.odd:989
+#: BestPractices/bptl-L4.odd:989
 msgid "Only published as an example."
 msgstr ""
 
 #. (itstool) path: monogr/title
-#: ./BestPractices/bptl-L4.odd:994
+#: BestPractices/bptl-L4.odd:994
 msgid "The Princess Bride"
 msgstr ""
 
 #. (itstool) path: monogr/title
-#: ./BestPractices/bptl-L4.odd:995
+#: BestPractices/bptl-L4.odd:995
 msgid "S. Morgenstern’s Classic Tale of True Love and High Adventure"
 msgstr ""
 
 #. (itstool) path: imprint/publisher
-#: ./BestPractices/bptl-L4.odd:997
+#: BestPractices/bptl-L4.odd:997
 msgid "Harcourt Brace Jovanovich"
 msgstr ""
 
 #. (itstool) path: biblStruct/idno
-#: ./BestPractices/bptl-L4.odd:1001
+#: BestPractices/bptl-L4.odd:1001
 msgid "0-345-41826-3"
 msgstr ""
 
 #. (itstool) path: namespace/tagUsage
-#: ./BestPractices/bptl-L4.odd:1009
+#: BestPractices/bptl-L4.odd:1009
 msgid "Unnumbered divs used."
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:1017
+#: BestPractices/bptl-L4.odd:1017
 msgid "The Bride"
 msgstr ""
 
 #. (itstool) path: p/persName
-#: ./BestPractices/bptl-L4.odd:1018
+#: BestPractices/bptl-L4.odd:1018
 msgid "Buttercup"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:1018
+#: BestPractices/bptl-L4.odd:1018
 msgid "The year that <_:persName-1/> was born, the most beautiful woman <_:lb-2/>in the world …"
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:1023
+#: BestPractices/bptl-L4.odd:1023
 msgid "The Groom"
 msgstr ""
 
 #. (itstool) path: p/ref
-#: ./BestPractices/bptl-L4.odd:1025
+#: BestPractices/bptl-L4.odd:1025
 msgid "Chapter One, The Bride"
 msgstr ""
 
 #. (itstool) path: note/p
-#: ./BestPractices/bptl-L4.odd:1025
+#: BestPractices/bptl-L4.odd:1025
 msgid "This is my first major excision. <_:ref-1/>, is almost <_:lb-2/>in its entirety about the bride. …"
 msgstr ""
 
 #. (itstool) path: remarks/p
-#: ./BestPractices/bptl-L4.odd:1037
+#: BestPractices/bptl-L4.odd:1037
 msgid "This element is required. The TEI namespace should be specified on this element, e.g. <_:tag-1/>."
 msgstr ""
 
 #. (itstool) path: elementSpec/desc
-#: ./BestPractices/bptl-L4.odd:1044
+#: BestPractices/bptl-L4.odd:1044
 msgid "in a bibliographic reference, contains the name (typically encoded as <_:gi-1/> or <_:gi-2/>) of the author, personal or corporate, of a work; for example in the same form as that provided by a recognized bibliographic name authority."
 msgstr ""
 
 #. (itstool) path: author/orgName
-#: ./BestPractices/bptl-L4.odd:1054
+#: BestPractices/bptl-L4.odd:1054
 msgid "British Broadcasting Corporation"
 msgstr ""
 
 #. (itstool) path: egXML/author
 #. (itstool) path: p/mentioned
-#: ./BestPractices/bptl-L4.odd:1064
-#: ./BestPractices/bptl-L4.odd:1086
+#: BestPractices/bptl-L4.odd:1064 BestPractices/bptl-L4.odd:1086
 msgid "anonymous"
 msgstr ""
 
 #. (itstool) path: egXML/author
 #. (itstool) path: p/mentioned
-#: ./BestPractices/bptl-L4.odd:1069
-#: ./BestPractices/bptl-L4.odd:1085
+#: BestPractices/bptl-L4.odd:1069 BestPractices/bptl-L4.odd:1085
 msgid "unknown"
 msgstr ""
 
 #. (itstool) path: remarks/p
-#: ./BestPractices/bptl-L4.odd:1073
+#: BestPractices/bptl-L4.odd:1073
 msgid "Particularly where cataloguing is likely to be based on the content of the header, it is advisable to use a generally recognized name authority file to supply the content for this element. The attribute <_:att-1/> may also be used to reference canonical information about the author(s) intended from any appropriate authority, such as a library catalogue or online resource."
 msgstr ""
 
 #. (itstool) path: remarks/p
-#: ./BestPractices/bptl-L4.odd:1080
+#: BestPractices/bptl-L4.odd:1080
 msgid "In the case of a broadcast, use this element for the name of the company or network responsible for making the broadcast."
 msgstr ""
 
 #. (itstool) path: remarks/p
-#: ./BestPractices/bptl-L4.odd:1083
+#: BestPractices/bptl-L4.odd:1083
 msgid "Where an author is unknown or unspecified, this element may contain text such as <_:mentioned-1/> or <_:mentioned-2/>."
 msgstr ""
 
 #. (itstool) path: div1/head
-#: ./BestPractices/bptl-L4.odd:1100
+#: BestPractices/bptl-L4.odd:1100
 msgid "The Golden Dream or, the Ingenuous Confession"
 msgstr ""
 
 #. (itstool) path: div1/p
-#: ./BestPractices/bptl-L4.odd:1101
+#: BestPractices/bptl-L4.odd:1101
 msgid "To shew the Depravity of human Nature"
 msgstr ""
 
 #. (itstool) path: div1/head
-#: ./BestPractices/bptl-L4.odd:1104
+#: BestPractices/bptl-L4.odd:1104
 msgid "A letter from the Printer, which he desires may be inserted"
 msgstr ""
 
 #. (itstool) path: div1/p
-#: ./BestPractices/bptl-L4.odd:1105
+#: BestPractices/bptl-L4.odd:1105
 msgid "Sir. I have done with your Copy, so you may return it to the Vatican, if you please"
 msgstr ""
 
 #. (itstool) path: div1/head
-#: ./BestPractices/bptl-L4.odd:1109
+#: BestPractices/bptl-L4.odd:1109
 msgid "The Books usually read by the Scholars of Mrs Two-Shoes are these and are sold at Mr Newbery's at the Bible and Sun in St Paul's Church-yard."
 msgstr ""
 
 #. (itstool) path: div1/p
-#: ./BestPractices/bptl-L4.odd:1113
+#: BestPractices/bptl-L4.odd:1113
 msgid "The Christmas Box, Price 1d. The History of Giles Gingerbread, 1d. A Curious Collection of Travels, selected from the Writers of all Nations, 10 Vol, Pr. bound 1l."
 msgstr ""
 
 #. (itstool) path: div1/head
-#: ./BestPractices/bptl-L4.odd:1121
+#: BestPractices/bptl-L4.odd:1121
 msgid "By the KING's Royal Patent, Are sold by J. NEWBERY, at the Bible and Sun in St. Paul's Church-Yard."
 msgstr ""
 
 #. (itstool) path: div1/p
-#: ./BestPractices/bptl-L4.odd:1124
+#: BestPractices/bptl-L4.odd:1124
 msgid "Dr. James's Powders for Fevers, the Small-Pox, Measles, Colds, &amp;c. 2s. 6d Dr. Hooper's Female Pills, 1s."
 msgstr ""
 
 #. (itstool) path: body/head
-#: ./BestPractices/bptl-L4.odd:1144
+#: BestPractices/bptl-L4.odd:1144
 msgid "LA FOREST NVPTIALE,"
 msgstr ""
 
 #. (itstool) path: body/p
-#: ./BestPractices/bptl-L4.odd:1146
+#: BestPractices/bptl-L4.odd:1146
 msgid "Où e∫t repre∫entee vne varieté bigarree, non mois e∫merveillable que plai∫an‐ te, de diuers mariages, ∫elon qu’ils ∫ont ob∫erueZ &amp; pratiqueZ par plu∫ieurs peuples &amp; nations e∫tranges. Auec la maniere de policier, regir, gouuer‐ ner &amp; admini∫trer leur famille."
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:1154
+#: BestPractices/bptl-L4.odd:1154
 msgid "Les Romains. CHAPITRE I."
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:1155
+#: BestPractices/bptl-L4.odd:1155
 msgid "Encores que ie ne veuille me formali‐ ∫er contre le droict Romain, neãtmoins puis que le forma‐ litez, qui e∫toient an‐ ciennement gardees au nopces Romaines, ∫ont maintenant mi∫es hors d’v∫ages &amp; pratique, ie ne ∫e‐ A <_:pb-1/> ray point de difficulté d’emprunter des anciens autheurs ce qui appar‐ &lt;!-- ... --&gt;"
 msgstr ""
 
 #. (itstool) path: remarks/p
-#: ./BestPractices/bptl-L4.odd:1175
+#: BestPractices/bptl-L4.odd:1175
 msgid "At level 4, the content of <_:gi-1/> may contain only <_:gi-2/> or <_:gi-3/> elements."
 msgstr ""
 
 #. (itstool) path: constraint/report
-#: ./BestPractices/bptl-L4.odd:1210
+#: BestPractices/bptl-L4.odd:1210
 msgid "Use of the <_:att-1/> attribute of <_:gi-2/> is recommended"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:1217
-#: ./BestPractices/bptl-L4.odd:1320
-#: ./BestPractices/bptl-L4.odd:1323
-#: ./BestPractices/bptl-L4.odd:1325
+#: BestPractices/bptl-L4.odd:1217 BestPractices/bptl-L4.odd:1320
+#: BestPractices/bptl-L4.odd:1323 BestPractices/bptl-L4.odd:1325
 msgid "head"
 msgstr ""
 
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:1217
+#: BestPractices/bptl-L4.odd:1217
 msgid "note"
 msgstr ""
 
 #. (itstool) path: remarks/p
-#: ./BestPractices/bptl-L4.odd:1216
+#: BestPractices/bptl-L4.odd:1216
 msgid "At level 4, <_:gi-1/> may only contain <_:gi-2/>, <_:gi-3/>, <_:gi-4/>, <_:gi-5/>, and more <_:gi-6/> elements."
 msgstr ""
 
 #. (itstool) path: elementSpec/desc
-#: ./BestPractices/bptl-L4.odd:1264
+#: BestPractices/bptl-L4.odd:1264
 msgid "contains the name (typically encoded as <_:gi-1/> or <_:gi-2/>) of an individual, institution, or organization acting as editor."
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:1301
+#: BestPractices/bptl-L4.odd:1301
 msgid "To our three selves"
 msgstr ""
 
 #. (itstool) path: div/head
-#: ./BestPractices/bptl-L4.odd:1304
+#: BestPractices/bptl-L4.odd:1304
 msgid "Author's Note"
 msgstr ""
 
 #. (itstool) path: div/p
-#: ./BestPractices/bptl-L4.odd:1305
+#: BestPractices/bptl-L4.odd:1305
 msgid "All the characters in this book are purely imaginary, and if the author has used names that may suggest a reference to living persons she has done so inadvertently. ..."
 msgstr ""
 
 #. (itstool) path: elementSpec/gloss
-#: ./BestPractices/bptl-L4.odd:1315
+#: BestPractices/bptl-L4.odd:1315
 msgid "heading"
 msgstr ""
 
 #. (itstool) path: elementSpec/desc
-#: ./BestPractices/bptl-L4.odd:1316
+#: BestPractices/bptl-L4.odd:1316
 msgid "contains the heading of a division (for example the title of a section), line group, list, figure, table, argument, or group."
 msgstr ""
 
 #. (itstool) path: remarks/p
-#: ./BestPractices/bptl-L4.odd:1320
+#: BestPractices/bptl-L4.odd:1320
 msgid "The <_:gi-1/> element is used for headings at all levels; software which treats (e.g.) chapter headings, section headings, and list titles differently must determine the proper processing of a <_:gi-2/> element based on its structural position."
 msgstr ""
 
 #. (itstool) path: p/gi
-#: ./BestPractices/bptl-L4.odd:1326
+#: BestPractices/bptl-L4.odd:1326
 msgid "divN"
 msgstr ""
 
 #. (itstool) path: remarks/p
-#: ./BestPractices/bptl-L4.odd:1325
+#: BestPractices/bptl-L4.odd:1325
 msgid "A <_:gi-1/> occurring as the first element of a textual division (i.e., <_:gi-2/>, <_:gi-3/>, or <_:gi-4/>) is the title of that chapter or section."
 msgstr ""
-

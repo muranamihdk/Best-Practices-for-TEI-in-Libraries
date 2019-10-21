@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-10-21 07:02+0900\n"
+"PO-Revision-Date: 2019-10-21 18:06+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -21,7 +21,7 @@ msgstr "図書館におけるTEIのベストプラクティス"
 #. (itstool) path: titleStmt/title
 #: bptl-driver.odd:12
 msgid "A guide for mass digitization, automated workflows, and promotion of interoperability with XML using the TEI"
-msgstr "TEIを使ったXMLによる大量デジタル化と自動的ワークフロー、および相互運用性促進のためのガイド"
+msgstr "TEIを使ったXMLによる大規模デジタル化と自動工程、および相互運用性促進のためのガイド"
 
 #. (itstool) path: author/name
 #. (itstool) path: publicationStmt/authority
@@ -1997,7 +1997,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:1142
 msgid "Level 5: Scholarly Encoding Projects"
-msgstr ""
+msgstr "レベル 5: 学術的エンコードプロジェクト"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:1143
@@ -2007,7 +2007,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:1152
 msgid "Reference"
-msgstr ""
+msgstr "参考"
 
 #. (itstool) path: item/ref
 #: bptl-driver.odd:1154
@@ -2017,7 +2017,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:1159
 msgid "Purpose"
-msgstr ""
+msgstr "目的"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:1160
@@ -2027,7 +2027,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:1166
 msgid "Rationale"
-msgstr ""
+msgstr "基本原則"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:1167
@@ -2037,7 +2037,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:1178
 msgid "Element Recommendations and Examples"
-msgstr ""
+msgstr "推奨される要素と例"
 
 #. (itstool) path: p/ref
 #: bptl-driver.odd:1183
