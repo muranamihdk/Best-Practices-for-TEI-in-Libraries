@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-10-22 21:03+0900\n"
+"PO-Revision-Date: 2019-10-22 22:01+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -356,7 +356,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:212
 msgid "TEI simplePrint is a <_:ref-1/> of P5 designed to be an entry point for a wide variety of encoding projects, especially those dealing with Western European early modern printed material. An implicit aim of the creators of this customization, as with these <_:title-2/>, was to prescribe a single way to encode common features in source documents. The features to be encoded are more granular than those in Levels 1 through 4 of these <_:title-3/>; therefore, TEI simplePrint is discussed below with Level 5. Note that unlike these <_:title-4/>, TEI simplePrint specifies a processing model for each element, recommending how they should be displayed or otherwise processed."
-msgstr ""
+msgstr "TEI simplePrintはP5の<_:ref-1/>で、多種多様なエンコーディングプロジェクト、特に西ヨーロッパの初期近代印刷物を扱うプロジェクトのエントリーポイントとなることを目的としている。An implicit aim of the creators of this customization, as with these <_:title-2/>, was to prescribe a single way to encode common features in source documents. The features to be encoded are more granular than those in Levels 1 through 4 of these <_:title-3/>; therefore, TEI simplePrint is discussed below with Level 5. Note that unlike these <_:title-4/>, TEI simplePrint specifies a processing model for each element, recommending how they should be displayed or otherwise processed."
 
 #. (itstool) path: div/head
 #. (itstool) path: p/ref
