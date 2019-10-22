@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-10-21 18:06+0900\n"
+"PO-Revision-Date: 2019-10-22 21:03+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -31,28 +31,24 @@ msgstr "TEI SIG on Libraries"
 
 #. (itstool) path: editor/name
 #: bptl-driver.odd:18
-#, fuzzy
 msgid "Kevin Hawkins"
-msgstr "Kevin Hawkins"
+msgstr ""
 
 #. (itstool) path: editor/name
 #: bptl-driver.odd:21
-#, fuzzy
 msgid "Michelle Dalmau"
-msgstr "Michelle Dalmau"
+msgstr ""
 
 #. (itstool) path: editor/name
 #: bptl-driver.odd:24
-#, fuzzy
 msgid "Elli Mylonas"
-msgstr "Elli Mylonas"
+msgstr ""
 
 #. (itstool) path: editor/name
 #. (itstool) id: bptl-driver.odd#sbauman.emt
 #: bptl-driver.odd:27 bptl-driver.odd:30
-#, fuzzy
 msgid "Syd Bauman"
-msgstr "Syd Bauman"
+msgstr ""
 
 #. (itstool) path: sponsor/name
 #: bptl-driver.odd:33
@@ -66,21 +62,18 @@ msgstr "Sat, 08 Sep 18"
 
 #. (itstool) path: editionStmt/p
 #: bptl-driver.odd:42
-#, fuzzy
 msgid "Version 4.0.0 (<_:date-1/>)"
-msgstr "Version 4.0.0 (<_:date-1/>)"
+msgstr ""
 
 #. (itstool) path: availability/ab
 #: bptl-driver.odd:47
-#, fuzzy
 msgid "Copyleft 2009 DLF"
-msgstr "Copyleft 2009 DLF"
+msgstr ""
 
 #. (itstool) path: p/ref
 #: bptl-driver.odd:49
-#, fuzzy
 msgid "GNU Free Documentation License, Version 1.2"
-msgstr "GNU Free Documentation License, Version 1.2"
+msgstr ""
 
 #. (itstool) path: p/name
 #: bptl-driver.odd:54
@@ -337,7 +330,7 @@ msgstr "P5のTEI Tite <_:ref-1/> はしばしば図書館や文書館やその�
 #. (itstool) path: div/p
 #: bptl-driver.odd:180
 msgid "If a library uses TEI Tite for outsourced encoding, it should find that converting files from the TEI Tite format to a format conforming to these <_:title-1/> is not difficult. TEI Tite files may be converted to <_:title-2/> Level 3 with some loss of granularity; or to Level 4 with some additional markup with minimal human intervention. (The reason Level 3 does not contain as many elements as TEI Tite is to allow for use of this encoding level, whether for encoding of born-digital source documents or for upgrading Level 1 or Level 2 texts, with less human intervention than would be required by TEI Tite.)"
-msgstr "もしある図書館がアウトソースされたエンコーディングにTEI Titeを使用しているなら、ファイルをTEI Titeのフォーマットから、この <_:title-1/> に適合するフォーマットに変換することは難しくないことに気付くべきである。TEI Titeファイルはいくらかの粒度の喪失を伴って <_:title-2/> レベル3に変換することが可能である。もしくは最小限の人的介入によるいくらかの追加マークアップによってレベル4に変換することが可能である。（レベル3がTEI Titeがこのレベルのエンコーディングで使用を許しているのと同じほど多くの要素を含まない理由は、ボーンデジタルドキュメントをエンコーディングするためであっても、レベル1かレベル2のテキストをアップグレードするためであっても、"
+msgstr "もしある図書館がアウトソースされたエンコーディングにTEI Titeを使用しているなら、ファイルをTEI Titeのフォーマットから、この <_:title-1/> に適合するフォーマットに変換することは難しくないことに気付くべきである。TEI Titeファイルはいくらかの粒度の喪失を伴って <_:title-2/> レベル3に変換することが可能である。もしくは最小限の人的介入によるいくらかの追加マークアップによってレベル4に変換することが可能である。（レベル3がTEI Titeがこのレベルのエンコーディングで使用を許しているのと同じほど多くの要素を含まない理由は、ボーンデジタルドキュメントをエンコーディングするためであっても、レベル1かレベル2のテキストをアップグレードするためであっても、TEI Titeで必要になるよりも人手を介在させることなくこのエンコーディングレベルを使用できるようにするためである。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:191
@@ -357,9 +350,8 @@ msgstr "この <_:title-1/> と TEI Tite スキーマとの比較については
 #. (itstool) path: div/head
 #. (itstool) path: item/ref
 #: bptl-driver.odd:211 bptl-driver.odd:1155
-#, fuzzy
 msgid "TEI simplePrint"
-msgstr "TEI simplePrint"
+msgstr ""
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:212
