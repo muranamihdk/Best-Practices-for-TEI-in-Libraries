@@ -938,35 +938,35 @@
       <head>TEI文書の構造</head>
       <table rend="table">
         <row role="label">
-          <cell cols="2">Element</cell>
+          <cell cols="2">要素</cell>
           <cell>説明</cell>
         </row>
         <row>
           <cell cols="2"><tag>TEI xml:id="___" xmlns="http://www.tei-c.org/ns/1.0"</tag></cell>
-          <cell>The root element of a TEI document. Use of the <att>xml:id</att> attribute is recommended, giving the same unique identifier for the TEI document as in <code>teiHeader/fileDesc/publicationStmt/idno</code>.</cell>
+          <cell>TEI ドキュメントのルート要素。<code>teiHeader/fileDesc/publicationStmt/idno</code> におけるのと同様のユニーク識別子をTEI文書に与えるために、<att>xml:id</att> 属性を使用することが推奨される。</cell>
         </row>
         <row>
           <cell>├</cell>
           <cell><tag>teiHeader xml:lang="___"</tag></cell>
-          <cell>[required] Contains metadata about the TEI document. The <att>xml:lang</att> is recommended; it indicates the language used for the metadata describing the document.</cell>
+          <cell>[必須] TEIドキュメントに関するメタデータを含む。<att>xml:lang</att> の使用が推奨される。これはドキュメントのメタデータに使用される言語を示す。</cell>
         </row>
         <row>
           <cell>├</cell>
           <cell><gi>sourceDoc</gi></cell>
-          <cell>[recommended at Level 1, optional at Levels 2–5] Contains a direct, generally machine-generated, transcription of document pages without further logical or structural information.</cell>
+          <cell>[レベル 1 では推奨、レベル 2 〜 5 では省略可能] 一般に機械により生成されたそのままの、それ以上の論理的あるいは構造的な情報を含まない、文書の各ページの転写を含む。</cell>
         </row>
         <row>
           <cell>├</cell>
           <cell><gi>facsimile</gi></cell>
-          <cell>[optional] Defines sets of images that correspond with the text. Should only be used if page images are included and if this particular mechanism for linking page images is chosen. See <ref target="#txtimglnk">section 3.8, Linking Between Encoded Text and Images of Source Documents</ref>.</cell>
+          <cell>[省略可能] テキストに対応する画像セットを定義する。各ページの画像を含み、かつページ画像をリンクするために特定の方法が選択された場合のみ使用するべきである。「_:ref-1/&gt;」を参照のこと。</cell>
         </row>
         <row>
           <cell>└</cell>
           <cell><tag>text xml:lang="___"</tag></cell>
-          <cell>[recommended at Levels 2–5] Contains the encoded transcription of the source document. The <att>xml:lang</att> attribute is recommended; it indicates the primary language of the source document.</cell>
+          <cell>[レベル 2 〜 5 では推奨] ソース文書の符号化された転写を含む。<att>xml:lang</att> 属性の使用が推奨される。これはソース文書で優先的に使用されている言語を示す。</cell>
         </row>
       </table>
-      <p>The child elements of these top-level elements are described below.</p>
+      <p>これら最上位要素の子要素は以下で説明する。</p>
 
       <!-- START included ./bptl-header.odd#header-content  -->
       <xi:include href="./bptl-header.odd" xpointer="element(header-content)">
