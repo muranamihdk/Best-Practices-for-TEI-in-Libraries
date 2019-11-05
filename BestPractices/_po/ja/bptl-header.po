@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-11-06 06:52+0900\n"
+"PO-Revision-Date: 2019-11-06 08:17+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -167,7 +167,7 @@ msgstr "参考"
 #. (itstool) path: item/ref
 #: BestPractices/bptl-header.odd:102
 msgid "Chapter 2, TEI Header, P5 Guidelines"
-msgstr ""
+msgstr "P5ガイドラインの第2章「TEI ヘッダー」"
 
 #. (itstool) path: div/head
 #: BestPractices/bptl-header.odd:112

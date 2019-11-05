@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-11-06 08:07+0900\n"
+"PO-Revision-Date: 2019-11-06 08:15+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -1898,7 +1898,7 @@ msgstr "セクション 3.8「エンコード済みテキストと原文画像�
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1060
 msgid "[optional] Defines sets of images that correspond with the text. Should only be used if page images are included and if this particular mechanism for linking page images is chosen. See <_:ref-1/>."
-msgstr "[省略可能] テキストに対応する画像セットを定義する。各ページの画像を含み、かつページ画像をリンクするために特定の方法が選択された場合のみ使用するべきである。<_:ref-1/>を参照のこと。"
+msgstr "[省略可能] テキストに対応する画像セットを定義する。各ページの画像を含む場合、かつページ画像をリンクするために特定の方法が選択された場合のみ使用するべきである。<_:ref-1/>を参照のこと。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1063
@@ -1913,12 +1913,12 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1065
 msgid "[recommended at Levels 2–5] Contains the encoded transcription of the source document. The <_:att-1/> attribute is recommended; it indicates the primary language of the source document."
-msgstr "[レベル 2 〜 5 では推奨] ソース文書の符号化された転写を含む。<_:att-1/> 属性の使用が推奨される。これはソース文書で優先的に使用されている言語を示す。"
+msgstr "[レベル 2 〜 5 では推奨] ソース文書の符号化された転写を含む。<_:att-1/> 属性の使用が推奨される。これはソースとなる文書で優先的に使用されている言語を示す。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:1068
 msgid "The child elements of these top-level elements are described below."
-msgstr "これら最上位要素の子要素は以下で説明する。"
+msgstr "これらは最上位要素である。これらの子要素については以下で説明する。"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:1074 bptl-driver.odd:1101 bptl-driver.odd:1112
