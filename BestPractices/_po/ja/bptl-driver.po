@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-11-06 07:59+0900\n"
+"PO-Revision-Date: 2019-11-06 08:02+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -1868,7 +1868,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1045
 msgid "The root element of a TEI document. Use of the <_:att-1/> attribute is recommended, giving the same unique identifier for the TEI document as in <_:code-2/>."
-msgstr "TEI ドキュメントのルート要素。<_:code-2/> におけるのと同様のユニーク識別子をTEI文書に与えるために、<_:att-1/> 属性を使用することが推奨される。"
+msgstr "TEI ドキュメントのルート要素。<_:code-2/> におけるのと同様のユニーク識別子をTEI文書に与えるために、<_:att-1/> 属性の使用が推奨される。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1048 bptl-driver.odd:1053 bptl-driver.odd:1058
@@ -1898,7 +1898,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1060
 msgid "[optional] Defines sets of images that correspond with the text. Should only be used if page images are included and if this particular mechanism for linking page images is chosen. See <_:ref-1/>."
-msgstr "[省略可能] テキストに対応する画像セットを定義する。各ページの画像を含み、かつページ画像をリンクするために特定の方法が選択された場合のみ使用するべきである。「_:ref-1/>」を参照のこと。"
+msgstr "[省略可能] テキストに対応する画像セットを定義する。各ページの画像を含み、かつページ画像をリンクするために特定の方法が選択された場合のみ使用するべきである。<_:ref-1/>を参照のこと。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1063
