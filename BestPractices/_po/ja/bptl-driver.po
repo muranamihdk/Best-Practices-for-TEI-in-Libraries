@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-11-06 08:02+0900\n"
+"PO-Revision-Date: 2019-11-06 08:07+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -1438,7 +1438,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:805
 msgid "Linking Between Encoded Text and Images of Source Documents"
-msgstr "エンコード済みテキストと原文画像のリンク"
+msgstr "エンコード済みテキストと原文画像間のリンク"
 
 #. (itstool) path: ref/att
 #. (itstool) path: p/att
@@ -1893,7 +1893,7 @@ msgstr "[レベル 1 では推奨、レベル 2 〜 5 では省略可能] 一般
 #. (itstool) path: cell/ref
 #: bptl-driver.odd:1060
 msgid "section 3.8, Linking Between Encoded Text and Images of Source Documents"
-msgstr ""
+msgstr "セクション 3.8「エンコード済みテキストと原文画像間のリンク」"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1060
