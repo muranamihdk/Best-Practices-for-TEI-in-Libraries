@@ -943,7 +943,7 @@
         </row>
         <row>
           <cell cols="2"><tag>TEI xml:id="___" xmlns="http://www.tei-c.org/ns/1.0"</tag></cell>
-          <cell>TEI ドキュメントのルート要素。<code>teiHeader/fileDesc/publicationStmt/idno</code> におけるのと同様のユニーク識別子をTEI文書に与えるために、<att>xml:id</att> 属性を使用することが推奨される。</cell>
+          <cell>TEI ドキュメントのルート要素。<code>teiHeader/fileDesc/publicationStmt/idno</code> におけるのと同様のユニーク識別子をTEI文書に与えるために、<att>xml:id</att> 属性の使用が推奨される。</cell>
         </row>
         <row>
           <cell>├</cell>
@@ -958,7 +958,7 @@
         <row>
           <cell>├</cell>
           <cell><gi>facsimile</gi></cell>
-          <cell>[省略可能] テキストに対応する画像セットを定義する。各ページの画像を含み、かつページ画像をリンクするために特定の方法が選択された場合のみ使用するべきである。「_:ref-1/&gt;」を参照のこと。</cell>
+          <cell>[省略可能] テキストに対応する画像セットを定義する。各ページの画像を含み、かつページ画像をリンクするために特定の方法が選択された場合のみ使用するべきである。<ref target="#txtimglnk">section 3.8, Linking Between Encoded Text and Images of Source Documents</ref>を参照のこと。</cell>
         </row>
         <row>
           <cell>└</cell>
