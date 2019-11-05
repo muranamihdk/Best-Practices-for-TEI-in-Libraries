@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-10-22 22:01+0900\n"
+"PO-Revision-Date: 2019-11-06 07:59+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -1853,7 +1853,7 @@ msgstr "TEI文書の構造"
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1040
 msgid "Element"
-msgstr ""
+msgstr "要素"
 
 #. (itstool) path: cell/tag
 #: bptl-driver.odd:1044
@@ -1868,7 +1868,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1045
 msgid "The root element of a TEI document. Use of the <_:att-1/> attribute is recommended, giving the same unique identifier for the TEI document as in <_:code-2/>."
-msgstr ""
+msgstr "TEI ドキュメントのルート要素。<_:code-2/> におけるのと同様のユニーク識別子をTEI文書に与えるために、<_:att-1/> 属性を使用することが推奨される。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1048 bptl-driver.odd:1053 bptl-driver.odd:1058
@@ -1883,12 +1883,12 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1050
 msgid "[required] Contains metadata about the TEI document. The <_:att-1/> is recommended; it indicates the language used for the metadata describing the document."
-msgstr ""
+msgstr "[必須] TEIドキュメントに関するメタデータを含む。<_:att-1/> の使用が推奨される。これはドキュメントのメタデータに使用される言語を示す。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1055
 msgid "[recommended at Level 1, optional at Levels 2–5] Contains a direct, generally machine-generated, transcription of document pages without further logical or structural information."
-msgstr ""
+msgstr "[レベル 1 では推奨、レベル 2 〜 5 では省略可能] 一般に機械により生成されたそのままの、それ以上の論理的あるいは構造的な情報を含まない、文書の各ページの転写を含む。"
 
 #. (itstool) path: cell/ref
 #: bptl-driver.odd:1060
@@ -1898,7 +1898,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1060
 msgid "[optional] Defines sets of images that correspond with the text. Should only be used if page images are included and if this particular mechanism for linking page images is chosen. See <_:ref-1/>."
-msgstr ""
+msgstr "[省略可能] テキストに対応する画像セットを定義する。各ページの画像を含み、かつページ画像をリンクするために特定の方法が選択された場合のみ使用するべきである。「_:ref-1/>」を参照のこと。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1063
@@ -1913,12 +1913,12 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1065
 msgid "[recommended at Levels 2–5] Contains the encoded transcription of the source document. The <_:att-1/> attribute is recommended; it indicates the primary language of the source document."
-msgstr ""
+msgstr "[レベル 2 〜 5 では推奨] ソース文書の符号化された転写を含む。<_:att-1/> 属性の使用が推奨される。これはソース文書で優先的に使用されている言語を示す。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:1068
 msgid "The child elements of these top-level elements are described below."
-msgstr ""
+msgstr "これら最上位要素の子要素は以下で説明する。"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:1074 bptl-driver.odd:1101 bptl-driver.odd:1112
