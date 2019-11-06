@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-11-06 08:15+0900\n"
+"PO-Revision-Date: 2019-11-06 15:05+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -179,7 +179,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:107
 msgid "Example of encoding of <_:ref-1/>"
-msgstr "<_:ref-1/> でのエンコーディング例"
+msgstr "<_:ref-1/> での符号化例"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:108
@@ -250,17 +250,17 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:102
 msgid "In brief, the encoding levels (with approximate examples) are as follows: <_:table-1/>"
-msgstr "手短にいえば、エンコーディングレベルとは、以下のようなものである（ほぼ近い例を添付した）。<_:table-1/>"
+msgstr "手短にいえば、符号化レベルとは、以下のようなものである（ほぼ近い例を添付した）。<_:table-1/>"
 
 #. (itstool) path: p/ref
 #: bptl-driver.odd:148
 msgid "full TEI Guidelines (P5)"
-msgstr "TEIガイドライン（P5）全文"
+msgstr "TEIガイドライン (P5) 全文"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:141
 msgid "In these <_:title-1/>, use of elements and attributes tends toward explicitness for ease of processing even though a human or possibly machine reader might be able to make inferences based on context. Only those elements and attributes mentioned below are recommended for use in encoding based on these <_:title-2/>; use of other TEI elements and attributes is not recommended. Consult the <_:ref-3/> for guidance on use of elements and attributes beyond what is described below."
-msgstr "人間にとっては、あるいは可能性としては機械読み取りであっても、文脈による推測は可能かもしれない。しかし処理の容易さのために、これらの <_:title-1/> における要素と属性の使用では、明確であることを最優先にしている。これらの <_:title-2/> に基づくエンコーディングにおいては、以下で言及する要素と属性だけを使用することを奨励する。それ以外のTEIの要素や属性の使用は奨励されない。以下で説明した以上の要素や属性の使用については、<_:ref-3/> を手引きとして参照してもらいたい。"
+msgstr "人間にとっては、あるいは可能性としては機械読み取りであっても、文脈による推測は可能かもしれない。しかし処理の容易さのために、これらの <_:title-1/> における要素と属性の使用では、明確であることを最優先にしている。これらの <_:title-2/> に基づく符号化においては、以下で言及する要素と属性だけを使用することを奨励する。それ以外のTEIの要素や属性の使用は奨励されない。以下で説明した以上の要素や属性の使用については、<_:ref-3/> を手引きとして参照してもらいたい。"
 
 #. (itstool) path: p/mentioned
 #: bptl-driver.odd:152 bptl-driver.odd:160
@@ -325,17 +325,17 @@ msgstr "カスタマイズ"
 #. (itstool) path: div/p
 #: bptl-driver.odd:172
 msgid "The TEI Tite <_:ref-1/> of P5 was developed as a subset of the TEI to be used as a vendor specification for outsourced encoding of the type often initiated by libraries, archives and other cultural heritage organizations. These <_:title-2/> were created to support in-house encoding that adheres as closely as possible to common TEI practice and library standards yet still leaves room for variation in local practice."
-msgstr "P5のTEI Tite <_:ref-1/> はしばしば図書館や文書館やその他の文化遺産組織によって先導されたタイプのアウトソースされたエンコーディングのためのベンダー仕様として使用されるべくTEIのサブセットとして開発された。この <_:title-2/> は共通的なTEIプラクティスを可能な限り厳密に遵守するインハウスエンコーディングをサポートするために作られ、そして図書館の標準ははまだ依然現場での実践においてはバリエーションの余地を残している。"
+msgstr "P5のTEI Tite <_:ref-1/> はしばしば図書館や文書館やその他の文化遺産組織によって先導されたタイプのアウトソースされた符号化のためのベンダー仕様として使用されるべくTEIのサブセットとして開発された。この <_:title-2/> は共通的なTEIプラクティスを可能な限り厳密に遵守する内製符号化をサポートするために作られ、そして図書館の標準ははまだ依然現場での実践においてはバリエーションの余地を残している。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:180
 msgid "If a library uses TEI Tite for outsourced encoding, it should find that converting files from the TEI Tite format to a format conforming to these <_:title-1/> is not difficult. TEI Tite files may be converted to <_:title-2/> Level 3 with some loss of granularity; or to Level 4 with some additional markup with minimal human intervention. (The reason Level 3 does not contain as many elements as TEI Tite is to allow for use of this encoding level, whether for encoding of born-digital source documents or for upgrading Level 1 or Level 2 texts, with less human intervention than would be required by TEI Tite.)"
-msgstr "もしある図書館がアウトソースされたエンコーディングにTEI Titeを使用しているなら、ファイルをTEI Titeのフォーマットから、この <_:title-1/> に適合するフォーマットに変換することは難しくないことに気付くべきである。TEI Titeファイルはいくらかの粒度の喪失を伴って <_:title-2/> レベル3に変換することが可能である。もしくは最小限の人的介入によるいくらかの追加マークアップによってレベル4に変換することが可能である。（レベル3がTEI Titeがこのレベルのエンコーディングで使用を許しているのと同じほど多くの要素を含まない理由は、ボーンデジタルドキュメントをエンコーディングするためであっても、レベル1かレベル2のテキストをアップグレードするためであっても、TEI Titeで必要になるよりも人手を介在させることなくこのエンコーディングレベルを使用できるようにするためである。"
+msgstr "もしある図書館がアウトソースされた符号化にTEI Titeを使用しているなら、ファイルをTEI Titeのフォーマットから、この <_:title-1/> に適合するフォーマットに変換することは難しくないことに気付くべきである。TEI Titeファイルはいくらかの粒度の喪失を伴って <_:title-2/> レベル3に変換することが可能である。もしくは最小限の人的介入によるいくらかの追加マークアップによってレベル4に変換することが可能である。（レベル3がTEI Titeがこのレベルの符号化で使用を許しているのと同じほど多くの要素を含まない理由は、ボーンデジタルドキュメントをエンコーディングするためであっても、レベル1かレベル2のテキストをアップグレードするためであっても、TEI Titeで必要になるよりも人手を介在させることなくこの符号化レベルを使用できるようにするためである。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:191
 msgid "These <_:title-1/> are meant to complement the TEI Tite customization of P5. Whereas TEI Tite is meant for vendors who need exact specifications for encoding, these <_:title-2/> document how a large-scale encoding project, whether based in a library or not, might create conformant TEI documents out of vendor-generated or locally-created TEI documents. TEI Tite lacks header metadata and elements for encoding textual structures of possible interest to libraries; however, once Tite documents are transformed to a TEI-conformant encoding used by an institution, these <_:title-3/> can serve as a point of reference for developing the TEI header and applying richer markup as reflected in Level 4 or 5 of these <_:title-4/>."
-msgstr "この <_:title-1/> は P5 の TEI Tite カスタマイゼーションを補完することを意図している。一方 TEI Tite は、エンコーディングのための厳密な仕様を必要とするベンダーのためのものである。大規模エンコーディングプロジェクトをいかに行うかについてのこの <_:title-2/> 文書は、図書館に基盤を置いているかどうかにかかわらず、ベンダーによって作られたもしくはローカルに作られた TEI 文書に関係ない TEI 準拠文書を作るかもしれない。TEI Tite は図書館へのありえる興味のテキスト構造のエンコーディングのためのヘッダーメタデータと要素を欠いている。しかしながら、いったん Tite 文書がある機関によって使われる TEI 準拠エンコーディングに変換されたら、この <_:title-3/> は TEI ヘッダーとこの <_:title-4/> のレベル4と5を反映したより豊かなマークアップの適用を開発するための参考となる観点として提供することができる。"
+msgstr "この <_:title-1/> は P5 の TEI Tite カスタマイゼーションを補完することを意図している。一方 TEI Tite は、符号化のための厳密な仕様を必要とするベンダーのためのものである。大規模符号化プロジェクトをいかに行うかについてのこの <_:title-2/> 文書は、図書館に基盤を置いているかどうかにかかわらず、ベンダーによって作られたもしくはローカルに作られた TEI 文書に関係ない TEI 準拠文書を作るかもしれない。TEI Tite は図書館へのありえる興味のテキスト構造の符号化のためのヘッダーメタデータと要素を欠いている。しかしながら、いったん Tite 文書がある機関によって使われる TEI 準拠符号化に変換されたら、この <_:title-3/> は TEI ヘッダーとこの <_:title-4/> のレベル4と5を反映したより豊かなマークアップの適用を開発するための参考となる観点として提供することができる。"
 
 #. (itstool) path: p/ref
 #: bptl-driver.odd:207
@@ -356,7 +356,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:212
 msgid "TEI simplePrint is a <_:ref-1/> of P5 designed to be an entry point for a wide variety of encoding projects, especially those dealing with Western European early modern printed material. An implicit aim of the creators of this customization, as with these <_:title-2/>, was to prescribe a single way to encode common features in source documents. The features to be encoded are more granular than those in Levels 1 through 4 of these <_:title-3/>; therefore, TEI simplePrint is discussed below with Level 5. Note that unlike these <_:title-4/>, TEI simplePrint specifies a processing model for each element, recommending how they should be displayed or otherwise processed."
-msgstr "TEI simplePrintはP5の<_:ref-1/>で、多種多様なエンコーディングプロジェクト、特に西ヨーロッパの初期近代印刷物を扱うプロジェクトのエントリーポイントとなることを目的としている。An implicit aim of the creators of this customization, as with these <_:title-2/>, was to prescribe a single way to encode common features in source documents. The features to be encoded are more granular than those in Levels 1 through 4 of these <_:title-3/>; therefore, TEI simplePrint is discussed below with Level 5. Note that unlike these <_:title-4/>, TEI simplePrint specifies a processing model for each element, recommending how they should be displayed or otherwise processed."
+msgstr "TEI simplePrintはP5の<_:ref-1/>で、多種多様な符号化プロジェクト、特に西ヨーロッパの初期近代印刷物を扱うプロジェクトのエントリーポイントとなることを目的としている。An implicit aim of the creators of this customization, as with these <_:title-2/>, was to prescribe a single way to encode common features in source documents. The features to be encoded are more granular than those in Levels 1 through 4 of these <_:title-3/>; therefore, TEI simplePrint is discussed below with Level 5. Note that unlike these <_:title-4/>, TEI simplePrint specifies a processing model for each element, recommending how they should be displayed or otherwise processed."
 
 #. (itstool) path: div/head
 #. (itstool) path: p/ref
@@ -910,7 +910,7 @@ msgstr "前付け"
 #. (itstool) path: row/cell
 #: bptl-driver.odd:535 bptl-driver.odd:583 bptl-driver.odd:732
 msgid "Attribute Value"
-msgstr ""
+msgstr "属性値"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:539
@@ -1438,7 +1438,7 @@ msgstr ""
 #. (itstool) path: div/head
 #: bptl-driver.odd:805
 msgid "Linking Between Encoded Text and Images of Source Documents"
-msgstr "エンコード済みテキストと原文画像間のリンク"
+msgstr "符号化済みテキストと原文画像間のリンク"
 
 #. (itstool) path: ref/att
 #. (itstool) path: p/att
@@ -1893,7 +1893,7 @@ msgstr "[レベル 1 では推奨、レベル 2 〜 5 では省略可能] 一般
 #. (itstool) path: cell/ref
 #: bptl-driver.odd:1060
 msgid "section 3.8, Linking Between Encoded Text and Images of Source Documents"
-msgstr "セクション 3.8「エンコード済みテキストと原文画像間のリンク」"
+msgstr "セクション 3.8「符号化済みテキストと原文画像間のリンク」"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1060
