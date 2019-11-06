@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-11-06 15:39+0900\n"
+"PO-Revision-Date: 2019-11-06 15:57+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -21,7 +21,7 @@ msgstr "図書館におけるTEIのベストプラクティス"
 #. (itstool) path: titleStmt/title
 #: bptl-driver.odd:12
 msgid "A guide for mass digitization, automated workflows, and promotion of interoperability with XML using the TEI"
-msgstr "TEIを使ったXMLによる大規模デジタル化と自動工程、および相互運用性促進のためのガイド"
+msgstr "TEIを使ったXMLによる大規模デジタル化と自動化工程、および相互運用性促進のためのガイド"
 
 #. (itstool) path: author/name
 #. (itstool) path: publicationStmt/authority
@@ -152,7 +152,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:82
 msgid "This document is the fourth major revision of a document formerly known as <_:title-1/>, which has been updated to comply with the <_:ref-2/>’s <_:ref-3/>. These <_:title-4/> were originally created for use in large, library-based digitization projects but are useful as a way of approaching digitization and encoding as a whole."
-msgstr "この文書は以前は <_:title-1/> という名前だった文書の第4版である。<_:ref-2/> の <_:ref-3/> に準拠するために改定を続けてきた。これらの <_:title-4/> は、元々は大規模な、図書館で行われるデジタル化プロジェクトで使うために作られたものだが、全体としてデジタル化と符号化へのアプローチ方法として役立つ。"
+msgstr "この文書は以前は <_:title-1/> という名前だった文書の第4版である。<_:ref-2/> の <_:ref-3/> に準拠するために改定を続けてきた。これらの <_:title-4/> は、元々は大規模な、図書館で行われるデジタル化プロジェクトで使うために作られたものだが、全体としてデジタル化と符号化へのアプローチ方法として有益である。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:90
