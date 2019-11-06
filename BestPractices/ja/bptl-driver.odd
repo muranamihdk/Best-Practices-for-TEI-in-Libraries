@@ -77,11 +77,11 @@
       Best Encoding Practices</title> という名前だった文書の第4版である。<ref target="http://www.tei-c.org/">Text Encoding Initiative</ref> の <ref target="http://www.tei-c.org/Guidelines/P5/">Guidelines for Text
       Encoding and Interchange (P5)</ref> に準拠するために改定を続けてきた。これらの <title>Best Practices</title> は、元々は大規模な、図書館で行われるデジタル化プロジェクトで使うために作られたものだが、全体としてデジタル化とエンコーディングへのアプローチ方法として役立つ。</p>
       <p>図書館による多くの異なったテキストデジタル化プロジェクトがあり、様々な目的を果たしている。このことを念頭に置き、<title>Best Practices</title> は可能なかぎり包括的であることを意図して、5段階のエンコーディングレベルを規定している。これらのレベルは、完全に自動化されたテキスト生成とエンコーディングから、専門家によるその分野の知識と分析と編集を必要とするものまで、広範囲の実践を意図したものである。これらのエンコーディングレベルは厳密に累積的というわけではない。高次のレベルはより多くの要素を低次のレベルに加えることにより、その上に構築される傾向にあるが、高次のレベルは低次のレベルの完全な上位互換というわけではない。それというのも、低次レベルで使われていた要素のうち幾つかは、高次レベルでは使われていないからである。これは多くの場合、低次レベルにおける一般的な要素が、高次レベルにおいてより具体的な要素によって置き換えられることによる。</p>
-      <p>手短にいえば、エンコーディングレベルとは、以下のようなものである（ほぼ近い例を添付した）。<table rend="table">
+      <p>手短にいえば、符号化レベルとは、以下のようなものである（ほぼ近い例を添付した）。<table rend="table">
         <row role="label">
           <cell>レベル</cell>
           <cell>説明</cell>
-          <cell><ref target="http://hdl.handle.net/2027/spo.hiss1111.0127.005">Alger Hiss document</ref> でのエンコーディング例</cell>
+          <cell><ref target="http://hdl.handle.net/2027/spo.hiss1111.0127.005">Alger Hiss document</ref> での符号化例</cell>
           <cell>例を表示する</cell>
         </row>
         <row>
@@ -115,7 +115,7 @@
           <cell><ref target="http://webapp1.dlib.indiana.edu/newton/mss/dipl/ALCH00006/">例</ref></cell>
         </row>
       </table></p>
-      <p>人間にとっては、あるいは可能性としては機械読み取りであっても、文脈による推測は可能かもしれない。しかし処理の容易さのために、これらの <title>Best Practices</title> における要素と属性の使用では、明確であることを最優先にしている。これらの <title>Best Practices</title> に基づくエンコーディングにおいては、以下で言及する要素と属性だけを使用することを奨励する。それ以外のTEIの要素や属性の使用は奨励されない。以下で説明した以上の要素や属性の使用については、<ref target="http://www.tei-c.org/Guidelines/P5/">TEIガイドライン（P5）全文</ref> を手引きとして参照してもらいたい。</p>
+      <p>人間にとっては、あるいは可能性としては機械読み取りであっても、文脈による推測は可能かもしれない。しかし処理の容易さのために、これらの <title>Best Practices</title> における要素と属性の使用では、明確であることを最優先にしている。これらの <title>Best Practices</title> に基づく符号化においては、以下で言及する要素と属性だけを使用することを奨励する。それ以外のTEIの要素や属性の使用は奨励されない。以下で説明した以上の要素や属性の使用については、<ref target="http://www.tei-c.org/Guidelines/P5/">TEIガイドライン (P5) 全文</ref> を手引きとして参照してもらいたい。</p>
       <p>仕様ではなくガイドラインなので、この <title>Best 
       Practices</title> では、ここで詳述されているプラクティスへの準拠を説明するために、<mentioned>must</mentioned> ではなく <mentioned>should</mentioned> もしくは <mentioned>recommended</mentioned> を使用している。唯一の例外は P5 によって必須とされるプラクティスで、これは <mentioned>required</mentioned> という言葉によって示されている。オプションのプラクティスは <mentioned>may</mentioned> もしくは <mentioned>optional</mentioned> という言葉によって示される。しかしこれら <title>Best Practices</title> への準拠を奨励するために、ODD ファイルは、<mentioned>should</mentioned> や <mentioned>recommended</mentioned> という言葉で使用を奨励している要素の使用を <emph>require</emph> とするスキーマを生成する。</p>
       <p>この <title>Best Practices</title> はアーカイブに推奨されるストレージフォーマットを規定している。ローカルシステムのニーズは、ローカルのインデックス作成や配信ソフトウェアで使用するために、このアーカイブフォーマットの文書を他のXMLフォーマット（他のカスタマイズされたTEIや別の種類のXML）への変換を必要とする場合がある。</p>
@@ -124,17 +124,17 @@
       <head>他のTEIカスタマイズとの関係</head>
       <div type="===">
         <head>TEI Tite</head>
-      <p>P5のTEI Tite <ref target="http://www.tei-c.org/Guidelines/Customization/">カスタマイズ</ref> はしばしば図書館や文書館やその他の文化遺産組織によって先導されたタイプのアウトソースされたエンコーディングのためのベンダー仕様として使用されるべくTEIのサブセットとして開発された。この <title>Best Practices</title> は共通的なTEIプラクティスを可能な限り厳密に遵守するインハウスエンコーディングをサポートするために作られ、そして図書館の標準ははまだ依然現場での実践においてはバリエーションの余地を残している。</p>
-      <p>もしある図書館がアウトソースされたエンコーディングにTEI Titeを使用しているなら、ファイルをTEI Titeのフォーマットから、この <title>Best Practices</title> に適合するフォーマットに変換することは難しくないことに気付くべきである。TEI Titeファイルはいくらかの粒度の喪失を伴って <title>Best
-      Practices</title> レベル3に変換することが可能である。もしくは最小限の人的介入によるいくらかの追加マークアップによってレベル4に変換することが可能である。（レベル3がTEI Titeがこのレベルのエンコーディングで使用を許しているのと同じほど多くの要素を含まない理由は、ボーンデジタルドキュメントをエンコーディングするためであっても、レベル1かレベル2のテキストをアップグレードするためであっても、TEI Titeで必要になるよりも人手を介在させることなくこのエンコーディングレベルを使用できるようにするためである。</p>
-      <p>この <title>Best Practices</title> は P5 の TEI Tite カスタマイゼーションを補完することを意図している。一方 TEI Tite は、エンコーディングのための厳密な仕様を必要とするベンダーのためのものである。大規模エンコーディングプロジェクトをいかに行うかについてのこの <title>Best Practices</title> 文書は、図書館に基盤を置いているかどうかにかかわらず、ベンダーによって作られたもしくはローカルに作られた TEI 文書に関係ない TEI 準拠文書を作るかもしれない。TEI Tite は図書館へのありえる興味のテキスト構造のエンコーディングのためのヘッダーメタデータと要素を欠いている。しかしながら、いったん Tite 文書がある機関によって使われる TEI 準拠エンコーディングに変換されたら、この <title>Best Practices</title> は TEI ヘッダーとこの <title>Best
+      <p>P5のTEI Tite <ref target="http://www.tei-c.org/Guidelines/Customization/">カスタマイズ</ref> はしばしば図書館や文書館やその他の文化遺産組織によって先導されたタイプのアウトソースされた符号化のためのベンダー仕様として使用されるべくTEIのサブセットとして開発された。この <title>Best Practices</title> は共通的なTEIプラクティスを可能な限り厳密に遵守する内製符号化をサポートするために作られ、そして図書館の標準ははまだ依然現場での実践においてはバリエーションの余地を残している。</p>
+      <p>もしある図書館がアウトソースされた符号化にTEI Titeを使用しているなら、ファイルをTEI Titeのフォーマットから、この <title>Best Practices</title> に適合するフォーマットに変換することは難しくないことに気付くべきである。TEI Titeファイルはいくらかの粒度の喪失を伴って <title>Best
+      Practices</title> レベル3に変換することが可能である。もしくは最小限の人的介入によるいくらかの追加マークアップによってレベル4に変換することが可能である。（レベル3がTEI Titeがこのレベルの符号化で使用を許しているのと同じほど多くの要素を含まない理由は、ボーンデジタルドキュメントをエンコーディングするためであっても、レベル1かレベル2のテキストをアップグレードするためであっても、TEI Titeで必要になるよりも人手を介在させることなくこの符号化レベルを使用できるようにするためである。</p>
+      <p>この <title>Best Practices</title> は P5 の TEI Tite カスタマイゼーションを補完することを意図している。一方 TEI Tite は、符号化のための厳密な仕様を必要とするベンダーのためのものである。大規模符号化プロジェクトをいかに行うかについてのこの <title>Best Practices</title> 文書は、図書館に基盤を置いているかどうかにかかわらず、ベンダーによって作られたもしくはローカルに作られた TEI 文書に関係ない TEI 準拠文書を作るかもしれない。TEI Tite は図書館へのありえる興味のテキスト構造の符号化のためのヘッダーメタデータと要素を欠いている。しかしながら、いったん Tite 文書がある機関によって使われる TEI 準拠符号化に変換されたら、この <title>Best Practices</title> は TEI ヘッダーとこの <title>Best
       Practices</title> のレベル4と5を反映したより豊かなマークアップの適用を開発するための参考となる観点として提供することができる。</p>
       <p>この <title>Best
       Practices</title> と TEI Tite スキーマとの比較については、<ref target="http://www.tei-c.org/release/doc/tei-p5-exemplars/html/tei_tite.doc.html#tei-in-lib-bpg">TEI Tite の付録 A</ref> を参照していただきたい。</p>
       </div>
       <div type="===">
         <head>TEI simplePrint</head>
-        <p>TEI simplePrintはP5の<ref target="http://www.tei-c.org/Guidelines/Customization/">カスタマイズ</ref>で、多種多様なエンコーディングプロジェクト、特に西ヨーロッパの初期近代印刷物を扱うプロジェクトのエントリーポイントとなることを目的としている。An implicit aim of the creators of this customization, as with these <title>Best Practices</title>, was to prescribe a single way to encode common features in source documents. The features to be encoded are more granular than those in Levels 1 through 4 of these <title>Best 
+        <p>TEI simplePrintはP5の<ref target="http://www.tei-c.org/Guidelines/Customization/">カスタマイズ</ref>で、多種多様な符号化プロジェクト、特に西ヨーロッパの初期近代印刷物を扱うプロジェクトのエントリーポイントとなることを目的としている。An implicit aim of the creators of this customization, as with these <title>Best Practices</title>, was to prescribe a single way to encode common features in source documents. The features to be encoded are more granular than those in Levels 1 through 4 of these <title>Best 
         Practices</title>; therefore, TEI simplePrint is discussed below with Level 5. Note that unlike these <title>Best Practices</title>, TEI simplePrint specifies a processing model for each element, recommending how they should be displayed or otherwise processed.</p>
       </div>
     </div>
@@ -445,7 +445,7 @@
           <head>前付け</head>
           <table rend="table">
             <row role="label">
-              <cell>Attribute Value</cell>
+              <cell>属性値</cell>
               <cell>説明</cell>
             </row>
             <row>
@@ -493,7 +493,7 @@
           <head>本文</head>
           <table rend="table">
             <row role="label">
-              <cell>Attribute Value</cell>
+              <cell>属性値</cell>
               <cell>説明</cell>
             </row>
             <row>
@@ -642,7 +642,7 @@
           <head>後付け</head>
           <table rend="table">
             <row role="label">
-              <cell>Attribute Value</cell>
+              <cell>属性値</cell>
               <cell>説明</cell>
             </row>
             <row>
@@ -715,7 +715,7 @@
         <gi>p</gi> in the <gi>editorialDecl</gi>.</p>
       </div>
       <div type="===" xml:id="txtimglnk">
-        <head>エンコード済みテキストと原文画像間のリンク</head>
+        <head>符号化済みテキストと原文画像間のリンク</head>
         <p>There are three recommended mechanisms for linking between
         the encoded text and facsimile page images of source
         documents. Projects may use any of the following methods:
@@ -958,7 +958,7 @@
         <row>
           <cell>├</cell>
           <cell><gi>facsimile</gi></cell>
-          <cell>[省略可能] テキストに対応する画像セットを定義する。各ページの画像を含む場合、かつページ画像をリンクするために特定の方法が選択された場合のみ使用するべきである。<ref target="#txtimglnk">セクション 3.8「エンコード済みテキストと原文画像間のリンク」</ref>を参照のこと。</cell>
+          <cell>[省略可能] テキストに対応する画像セットを定義する。各ページの画像を含む場合、かつページ画像をリンクするために特定の方法が選択された場合のみ使用するべきである。<ref target="#txtimglnk">セクション 3.8「符号化済みテキストと原文画像間のリンク」</ref>を参照のこと。</cell>
         </row>
         <row>
           <cell>└</cell>
