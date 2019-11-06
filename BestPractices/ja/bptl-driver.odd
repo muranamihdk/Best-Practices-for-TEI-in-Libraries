@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title>図書館におけるTEIのベストプラクティス</title>
-        <title type="sub">TEIを使ったXMLによる大規模デジタル化と自動工程、および相互運用性促進のためのガイド</title>
+        <title type="sub">TEIを使ったXMLによる大規模デジタル化と自動化工程、および相互運用性促進のためのガイド</title>
         <author>
           <name type="organization">TEI SIG on Libraries</name>
         </author>
@@ -75,7 +75,7 @@
       <head>はじめに</head>
       <p>この文書は以前は <title>TEI Text Encoding in Libraries: Guidelines for
       Best Encoding Practices</title> という名前だった文書の第4版である。<ref target="http://www.tei-c.org/">Text Encoding Initiative</ref> の <ref target="http://www.tei-c.org/Guidelines/P5/">Guidelines for Text
-      Encoding and Interchange (P5)</ref> に準拠するために改定を続けてきた。これらの <title>Best Practices</title> は、元々は大規模な、図書館で行われるデジタル化プロジェクトで使うために作られたものだが、全体としてデジタル化と符号化へのアプローチ方法として役立つ。</p>
+      Encoding and Interchange (P5)</ref> に準拠するために改定を続けてきた。これらの <title>Best Practices</title> は、元々は大規模な、図書館で行われるデジタル化プロジェクトで使うために作られたものだが、全体としてデジタル化と符号化へのアプローチ方法として有益である。</p>
       <p>図書館による多くの異なったテキストデジタル化プロジェクトがあり、様々な目的を果たしている。このことを念頭に置き、<title>Best Practices</title> は可能なかぎり包括的であることを意図して、5段階の符号化レベルを規定している。これらのレベルは、完全に自動化されたテキスト生成と符号化から、専門家によるその分野の知識と分析と編集を必要とするものまで、広範囲の実践を意図したものである。これらの符号化レベルは厳密に累積的というわけではない。高次のレベルはより多くの要素を低次のレベルに加えることにより、その上に構築される傾向にあるが、高次のレベルは低次のレベルの完全な上位互換というわけではない。それというのも、低次レベルで使われていた要素のうち幾つかは、高次レベルでは使われていないからである。これは多くの場合、低次レベルにおける一般的な要素が、高次レベルにおいてより具体的な要素によって置き換えられることによる。</p>
       <p>手短にいえば、符号化レベルとは、以下のようなものである（ほぼ近い例を添付した）。<table rend="table">
         <row role="label">
