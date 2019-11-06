@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-11-06 15:05+0900\n"
+"PO-Revision-Date: 2019-11-06 15:39+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -152,12 +152,12 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:82
 msgid "This document is the fourth major revision of a document formerly known as <_:title-1/>, which has been updated to comply with the <_:ref-2/>’s <_:ref-3/>. These <_:title-4/> were originally created for use in large, library-based digitization projects but are useful as a way of approaching digitization and encoding as a whole."
-msgstr "この文書は以前は <_:title-1/> という名前だった文書の第4版である。<_:ref-2/> の <_:ref-3/> に準拠するために改定を続けてきた。これらの <_:title-4/> は、元々は大規模な、図書館で行われるデジタル化プロジェクトで使うために作られたものだが、全体としてデジタル化とエンコーディングへのアプローチ方法として役立つ。"
+msgstr "この文書は以前は <_:title-1/> という名前だった文書の第4版である。<_:ref-2/> の <_:ref-3/> に準拠するために改定を続けてきた。これらの <_:title-4/> は、元々は大規模な、図書館で行われるデジタル化プロジェクトで使うために作られたものだが、全体としてデジタル化と符号化へのアプローチ方法として役立つ。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:90
 msgid "There are many different library text digitization projects, serving a variety of purposes. With this in mind, these <_:title-1/> are meant to be as inclusive as possible by specifying five encoding levels. These levels are meant to allow for a range of practice, from wholly automated text creation and encoding, to encoding that requires expert content knowledge, analysis, and editing. The encoding levels are not strictly cumulative: while higher levels tend to build upon lower levels by including more elements, higher levels are not supersets because some elements used at lower levels are not used at higher levels—often because more specific elements replace generic elements."
-msgstr "図書館による多くの異なったテキストデジタル化プロジェクトがあり、様々な目的を果たしている。このことを念頭に置き、<_:title-1/> は可能なかぎり包括的であることを意図して、5段階のエンコーディングレベルを規定している。これらのレベルは、完全に自動化されたテキスト生成とエンコーディングから、専門家によるその分野の知識と分析と編集を必要とするものまで、広範囲の実践を意図したものである。これらのエンコーディングレベルは厳密に累積的というわけではない。高次のレベルはより多くの要素を低次のレベルに加えることにより、その上に構築される傾向にあるが、高次のレベルは低次のレベルの完全な上位互換というわけではない。それというのも、低次レベルで使われていた要素のうち幾つかは、高次レベルでは使われていないからである。これは多くの場合、低次レベルにおける一般的な要素が、高次レベルにおいてより具体的な要素によって置き換えられることによる。"
+msgstr "図書館による多くの異なったテキストデジタル化プロジェクトがあり、様々な目的を果たしている。このことを念頭に置き、<_:title-1/> は可能なかぎり包括的であることを意図して、5段階の符号化レベルを規定している。これらのレベルは、完全に自動化されたテキスト生成と符号化から、専門家によるその分野の知識と分析と編集を必要とするものまで、広範囲の実践を意図したものである。これらの符号化レベルは厳密に累積的というわけではない。高次のレベルはより多くの要素を低次のレベルに加えることにより、その上に構築される傾向にあるが、高次のレベルは低次のレベルの完全な上位互換というわけではない。それというのも、低次レベルで使われていた要素のうち幾つかは、高次レベルでは使われていないからである。これは多くの場合、低次レベルにおける一般的な要素が、高次レベルにおいてより具体的な要素によって置き換えられることによる。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:105
@@ -194,7 +194,7 @@ msgstr "レベル 1"
 #. (itstool) path: row/cell
 #: bptl-driver.odd:112
 msgid "The text is generated through OCR, is subordinate to the page image, and is not intended to stand alone as an electronic text (without page images)."
-msgstr "テキストはOCRによって生成。ページ画像が主で、テキストは付随的。電子テキストとしてページ画像なしに単独で使われることは想定してない。"
+msgstr "テキストはOCRによって生成。ページ画像が主で、テキストは付随的。ページ画像なしに電子テキスト単独で使われることは想定してない。"
 
 #. (itstool) path: cell/ref
 #: bptl-driver.odd:114 bptl-driver.odd:120 bptl-driver.odd:126
@@ -220,7 +220,7 @@ msgstr "レベル 3"
 #. (itstool) path: row/cell
 #: bptl-driver.odd:124
 msgid "The text is created by conversion, either by way of OCR or keyboarding. Some structural elements of the text are encoded. The text may be used with or without page images."
-msgstr "テキストはOCRか手入力のいずれかの方法による変換によって作られる。いくつかのテキストの構造要素がエンコードされる。テキストは単独で使われるかもしれないし、画像と一緒に使われるかもしれない。"
+msgstr "テキストはOCRか手入力のいずれかの方法による変換によって作られる。いくつかのテキストの構造要素が符号化される。テキストは単独で使われるかもしれないし、画像と一緒に使われるかもしれない。"
 
 #. (itstool) path: cell/ref
 #: bptl-driver.odd:129
@@ -240,7 +240,7 @@ msgstr "レベル 5"
 #. (itstool) path: row/cell
 #: bptl-driver.odd:136
 msgid "The text is generated either through corrected OCR or keyboarding and is able to stand alone without page images, as in Level 4. In addition, the text includes semantic, linguistic, prosodic, or other types of tagging created through substantial human intervention by encoders with subject knowledge."
-msgstr "テキストは訂正付きOCRか手入力のいずれかによって生成される。テキストはレベル4に於いてと同様、ページ画像なしに単独で利用することができる。加えてテキストは、主題知識を持ったエンコーダにより十分な人間の介在を経て作られた、意味論的・言語学的・韻律学的あるいはそれ以外のタイプのタグ付けを含む。"
+msgstr "テキストは訂正付きOCRか手入力のいずれかによって生成される。テキストはレベル4に於いてと同様、ページ画像なしに単独で利用することができる。加えてテキストは、主題知識を持った符号化従事者により十分な人間の介在を経て作られた、意味論的・言語学的・韻律学的あるいはそれ以外のタイプのタグ付けを含む。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:137
