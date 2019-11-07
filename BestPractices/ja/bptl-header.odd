@@ -297,7 +297,7 @@
               <cell cols="7">
                 <tag>teiHeader xml:lang="___"</tag>
               </cell>
-              <cell>[必須] <gi>teiHeader</gi> にはTEIドキュメントに関するメタデータが含まれている。<att>xml:lang</att> 属性の使用が推奨される。</cell>
+              <cell>[必須] <gi>teiHeader</gi> にはTEIドキュメントに関するメタデータを含む。<att>xml:lang</att> 属性の使用が推奨される。</cell>
               <cell>040 $b</cell>
               <cell>n/a</cell>
             </row>
@@ -307,7 +307,7 @@
               <cell cols="6">
                 <gi>fileDesc</gi>
               </cell>
-              <cell>[必須] <gi>fileDesc</gi> にはTEIドキュメントに関する書誌メタデータが含まれている。その子要素の 1 つである <gi>sourceDesc</gi> では、TEI ドキュメントの作成元となった文書に関する記述を行う。</cell>
+              <cell>[必須] <gi>fileDesc</gi> にはTEIドキュメントに関する書誌メタデータを含む。その子要素の 1 つである <gi>sourceDesc</gi> では、TEI ドキュメントの作成元となった文書に関する記述を行う。</cell>
               <cell>n/a</cell>
               <cell>n/a</cell>
             </row>
@@ -333,7 +333,42 @@
               <cell>
                 <p>[必須] 作成されるTEIドキュメントのタイトルを指定するために、1つ以上の <gi>title</gi> 要素が必須である。使用される記述的目録標準に従い、ソース文書に基づいてタイトルを作成することが推奨される。</p>
                 <p><att>level</att> 属性はコレクション内のTEIドキュメントには適用されないため、使用は推奨されない。</p>
-                <p><att>type</att> 属性の使用が推奨される。現場での実際に沿うように次のいずれかの値を指定すべきである。</p>
+                <p><att>type</att> 属性の使用が推奨される。現場での実際に沿うように次のいずれかの値を指定すべきである。 <list>
+                  <item>
+                    <val>main</val>
+                  </item>
+                  <item>
+                    <val>sub</val>
+                  </item>
+                  <item>
+                    <val>alt</val>
+                  </item>
+                  <item>
+                    <val>short</val>
+                  </item>
+                  <item>
+                    <val>desc</val>
+                  </item>
+                  <item>
+                    <val>translated</val>
+                  </item>
+                  <item>
+                    <val>marc245a</val> (used for the title proper and
+                    alternative title according to the descriptive
+                  cataloging standard used)</item>
+                  <item><val>filing</val> (used for a version of the
+                  title with initial articles removed, to be used for
+                  sorting titles alphabetically but not for
+                  display)</item>
+                  <item><val>marc245b</val> (used for the remainder of
+                  the title information — parallel titles, titles
+                  subsequent to the first, and other title information
+                  — according to the descriptive cataloging standard
+                  used)</item>
+                  <item><val>preferred</val> (used for a preferred
+                  title according to the descriptive cataloging
+                  standard used)</item>
+                </list></p>
               </cell>
               <cell>
                 <list>
@@ -723,7 +758,28 @@
                 <p>[recommended] At least one <gi>title</gi> element is required for
                 the title of the analytic item. Transcribe the title according to the the
                 descriptive cataloging standard used.</p>
-                <p><att>type</att> 属性の使用が推奨される。現場での実際に沿うように次のいずれかの値を指定すべきである。</p>
+                <p><att>type</att> 属性の使用が推奨される。現場での実際に沿うように次のいずれかの値を指定すべきである。 <list>
+                  <item>
+                    <val>main</val>
+                  </item>
+                  <item>
+                    <val>sub</val>
+                  </item>
+                  <item>
+                    <val>alt</val>
+                  </item>
+                  <item>
+                    <val>short</val>
+                  </item>
+                  <item>
+                    <val>desc</val>
+                  </item>
+                  <item>
+                    <val>translated</val>
+                  </item>
+                  <item>
+                  <val>filing</val> (used for a version of the title with initial articles removed, to be used for sorting titles alphabetically but not for display)</item>
+                </list></p>
               </cell>
               <cell>n/a</cell>
               <cell>n/a</cell>
@@ -807,7 +863,26 @@
                 descriptive cataloging standard used.</p>
                 <p>Use of the <att>level</att> attribute is optional.
                 If used, it should be used <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html">as in P5</ref>.</p>
-                <p><att>type</att> 属性の使用が推奨される。現場での実際に沿うように次のいずれかの値を指定すべきである。</p>
+                <p><att>type</att> 属性の使用が推奨される。現場での実際に沿うように次のいずれかの値を指定すべきである。 <list>
+                  <item><val>marc245a</val> (used for the title proper
+                  and alternative title according to the descriptive
+                  cataloging standard used)</item>
+                  <item><val>filing</val> (used for a version of the title
+                  with initial articles removed, to be used for
+                  sorting titles alphabetically but not for
+                  display)</item>
+                  <item><val>marc245b</val> (used for the the
+                  remainder of the title information — parallel
+                  titles, titles subsequent to the first, and other
+                  title information — according to the descriptive
+                  cataloging standard used)</item>
+                  <item><val>marc245c</val> (used for the statement of
+                  responsibility according to the descriptive
+                  cataloging standard used)</item>
+                  <item><val>preferred</val> (used for a preferred
+                  title according to the descriptive cataloging
+                  standard used)</item>
+                </list></p>
               </cell>
               <cell>534 $t</cell>
               <cell>
