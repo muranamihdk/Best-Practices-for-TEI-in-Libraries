@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-11-08 08:24+0900\n"
+"PO-Revision-Date: 2019-11-08 08:32+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -727,7 +727,7 @@ msgstr ""
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:362
 msgid "[required] One or more <_:gi-1/> elements are required to give the title of the TEI document being created. It is suggested that titles be constructed based on the source document according to the descriptive cataloging standard used."
-msgstr "[必須] 作成されるTEIドキュメントのタイトルを指定するために、1つ以上の <_:gi-1/> 要素が必須である。使用される記述的目録標準に従い、ソース文書に基づいてタイトルを作成することが推奨される。"
+msgstr "[必須] 作成されるTEIドキュメントのタイトルを指定するために、1つ以上の <_:gi-1/> 要素が必要である。使用される記述的目録の標準に従い、元となる文書に基づいてタイトルを作成することが推奨される。"
 
 #. (itstool) path: p/att
 #: BestPractices/bptl-header.odd:367 BestPractices/bptl-header.odd:908
