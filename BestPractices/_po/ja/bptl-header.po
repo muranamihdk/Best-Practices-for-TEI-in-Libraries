@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-11-08 08:17+0900\n"
+"PO-Revision-Date: 2019-11-08 08:24+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -559,7 +559,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:328
 msgid "[required] The <_:gi-1/> contains metadata about the TEI document. The <_:att-2/> attribute is recommended; it indicates the language used for the metadata describing the document."
-msgstr "[必須] <_:gi-1/> にはTEIドキュメントに関するメタデータが含まれている。<_:att-2/> 属性の使用が推奨される。"
+msgstr "[必須] <_:gi-1/> にはTEIドキュメントに関するメタデータを含む。<_:att-2/> 属性の使用が推奨される。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:329
@@ -644,7 +644,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:338
 msgid "[required] The <_:gi-1/> contains bibliographic metadata about the TEI document. One of its child elements, <_:gi-2/>, describes the source document from which the TEI document was created."
-msgstr "[必須] <_:gi-1/> にはTEIドキュメントに関する書誌メタデータが含まれている。その子要素の 1 つである <_:gi-2/> では、TEI ドキュメントの作成元となった文書に関する記述を行う。"
+msgstr "[必須] <_:gi-1/> にはTEIドキュメントに関する書誌メタデータを含む。その子要素の 1 つである <_:gi-2/> では、TEI ドキュメントの作成元となった文書に関する記述を行う。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:344 BestPractices/bptl-header.odd:355
@@ -825,7 +825,7 @@ msgstr ""
 #: BestPractices/bptl-header.odd:370 BestPractices/bptl-header.odd:801
 #: BestPractices/bptl-header.odd:911
 msgid "Use of the <_:att-1/> attribute is recommended. It should have one of the following values as suitable in local practice: <_:list-2/>"
-msgstr "<_:att-1/> 属性の使用が推奨される。現場での実際に沿うように次のいずれかの値を指定すべきである。"
+msgstr "<_:att-1/> 属性の使用が推奨される。現場での実際に沿うように次のいずれかの値を指定すべきである。 <_:list-2/>"
 
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:413 BestPractices/bptl-header.odd:424
