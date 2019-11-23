@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-11-06 15:57+0900\n"
+"PO-Revision-Date: 2019-11-23 19:24+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -356,7 +356,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:212
 msgid "TEI simplePrint is a <_:ref-1/> of P5 designed to be an entry point for a wide variety of encoding projects, especially those dealing with Western European early modern printed material. An implicit aim of the creators of this customization, as with these <_:title-2/>, was to prescribe a single way to encode common features in source documents. The features to be encoded are more granular than those in Levels 1 through 4 of these <_:title-3/>; therefore, TEI simplePrint is discussed below with Level 5. Note that unlike these <_:title-4/>, TEI simplePrint specifies a processing model for each element, recommending how they should be displayed or otherwise processed."
-msgstr "TEI simplePrintはP5の<_:ref-1/>で、多種多様な符号化プロジェクト、特に西ヨーロッパの初期近代印刷物を扱うプロジェクトのエントリーポイントとなることを目的としている。An implicit aim of the creators of this customization, as with these <_:title-2/>, was to prescribe a single way to encode common features in source documents. The features to be encoded are more granular than those in Levels 1 through 4 of these <_:title-3/>; therefore, TEI simplePrint is discussed below with Level 5. Note that unlike these <_:title-4/>, TEI simplePrint specifies a processing model for each element, recommending how they should be displayed or otherwise processed."
+msgstr "TEI simplePrintはP5の<_:ref-1/>で、多種多様な符号化プロジェクト、特に西ヨーロッパの初期近代印刷物を扱うプロジェクトのエントリーポイントとなることを目的としている。TEI simplePrintの作成者の暗黙的な目的は、この <_:title-2/> におけるのと同様に、ソースドキュメントにおいてよくある特徴を符号化するための、単一の方法を規定することであった。符号化されるべきこれらの特徴は、この <_:title-3/> におけるレベル 1 から 4 におけるそれよりも、より粒度が細かい。したがって、TEI simplePrintについてはこの後のレベル 5 とともに論じることとする。この <_:title-4/> と違って、TEI simplePrintは個々の要素について、どのように表示されるべきか、そうでない場合はどう処理されるべきかを推奨する処理モデルを規定していることに注意されたい。"
 
 #. (itstool) path: div/head
 #. (itstool) path: p/ref
@@ -372,12 +372,12 @@ msgstr "標準および現場での実際"
 #. (itstool) path: div/p
 #: bptl-driver.odd:231
 msgid "The goal of the TEI is interchange, not interoperability. While seamless interoperability of texts created for different purposes is an elusive goal, use of a common markup vocabulary and syntax greatly aids interchange. Nevertheless, keep in mind that others—even within your organization—may use your texts in the future for other uses than you intended in your encoding."
-msgstr ""
+msgstr "TEIの目標は交換であって相互運用性ではない。異なる目的のために作成されたテキストの円滑な相互運用性は難しい目標だが、マークアップに共通の語彙と構文を用いることは交換を大幅に助ける。ただし、将来的に他のユーザーが、それが自らの組織内のユーザーであっても、符号化において意図した以外の用途にテキストを使用する可能性があることには注意すべきである。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:238
 msgid "An encoding project should strive for internal consistency and for use of standards so that the data can be modified or enhanced in the future with ease. In cases where local practice deviates from standards, there should at least be internal consistency in the local practice."
-msgstr ""
+msgstr "符号化プロジェクトにおいては、将来データを容易に変更または拡張できるように、プロジェクトにおける一貫性と標準の使用に努めるべきである。現場での実際が標準から逸脱する場合は、少なくとも現場の運用においては一貫性を保つべきである。"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:245
@@ -392,7 +392,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:246
 msgid "For the purpose of interchange, TEI documents should be saved in UTF-8 format, without beginning with a byte-order mark (U+FEFF). Furthermore, while TEI allows for capturing of glyph variants not distinguished by Unicode (see <_:ref-1/>), the special elements for this purpose are not recommended in these <_:title-2/> in order to facilitate interchange."
-msgstr ""
+msgstr "交換のためにTEIドキュメントはBOM無しUTF-8形式で保存すべきである。さらに、TEIではUnicodeにおいて識別されない派生的な字形をキャプチャすることも許されているが (<_:ref-1/> を参照)、この目的のための要素は特殊であり、この <_:title-2/> においては交換を容易にするために、この特殊な要素の使用は推奨されない。"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:255
