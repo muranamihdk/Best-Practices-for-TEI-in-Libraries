@@ -134,36 +134,21 @@
       </div>
       <div type="===">
         <head>TEI simplePrint</head>
-        <p>TEI simplePrintはP5の<ref target="http://www.tei-c.org/Guidelines/Customization/">カスタマイズ</ref>で、多種多様な符号化プロジェクト、特に西ヨーロッパの初期近代印刷物を扱うプロジェクトのエントリーポイントとなることを目的としている。An implicit aim of the creators of this customization, as with these <title>Best Practices</title>, was to prescribe a single way to encode common features in source documents. The features to be encoded are more granular than those in Levels 1 through 4 of these <title>Best 
-        Practices</title>; therefore, TEI simplePrint is discussed below with Level 5. Note that unlike these <title>Best Practices</title>, TEI simplePrint specifies a processing model for each element, recommending how they should be displayed or otherwise processed.</p>
+        <p>TEI simplePrintはP5の<ref target="http://www.tei-c.org/Guidelines/Customization/">カスタマイズ</ref>で、多種多様な符号化プロジェクト、特に西ヨーロッパの初期近代印刷物を扱うプロジェクトのエントリーポイントとなることを目的としている。TEI simplePrintの作成者の暗黙的な目的は、この <title>Best Practices</title> におけるのと同様に、ソースドキュメントにおいてよくある特徴を符号化するための、単一の方法を規定することであった。符号化されるべきこれらの特徴は、この <title>Best 
+        Practices</title> におけるレベル 1 から 4 におけるそれよりも、より粒度が細かい。したがって、TEI simplePrintについてはこの後のレベル 5 とともに論じることとする。この <title>Best Practices</title> と違って、TEI simplePrintは個々の要素について、どのように表示されるべきか、そうでない場合はどう処理されるべきかを推奨する処理モデルを規定していることに注意されたい。</p>
       </div>
     </div>
     <div type="==">
       <head>一般的な推奨事項</head>
       <div type="===">
         <head>標準および現場での実際</head>
-        <p>The goal of the TEI is interchange, not interoperability.
-        While seamless interoperability of texts created for different
-        purposes is an elusive goal, use of a common markup vocabulary
-        and syntax greatly aids interchange. Nevertheless, keep in
-        mind that others—even within your organization—may use your
-        texts in the future for other uses than you intended in your
-        encoding.</p>
-        <p>An encoding project should strive for internal consistency
-        and for use of standards so that the data can be modified or
-        enhanced in the future with ease. In cases where local
-        practice deviates from standards, there should at least be
-        internal consistency in the local practice.</p>
+        <p>TEIの目標は交換であって相互運用性ではない。異なる目的のために作成されたテキストの円滑な相互運用性は難しい目標だが、マークアップに共通の語彙と構文を用いることは交換を大幅に助ける。ただし、将来的に他のユーザーが、それが自らの組織内のユーザーであっても、符号化において意図した以外の用途にテキストを使用する可能性があることには注意すべきである。</p>
+        <p>符号化プロジェクトにおいては、将来データを容易に変更または拡張できるように、プロジェクトにおける一貫性と標準の使用に努めるべきである。現場での実際が標準から逸脱する場合は、少なくとも現場の運用においては一貫性を保つべきである。</p>
       </div>
       <div type="===">
         <head>文字エンコーディング</head>
-        <p>For the purpose of interchange, TEI documents should be saved 
-        in UTF-8 format, without beginning with a byte-order mark (U+FEFF). 
-        Furthermore, while TEI allows for capturing of glyph variants 
-        not distinguished by Unicode (see <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/WD.html">
-        chapter 5 of P5</ref>), the special elements for this purpose are not 
-        recommended in these <title>Best Practices</title> in order to 
-        facilitate interchange.</p>
+        <p>交換のためにTEIドキュメントはBOM無しUTF-8形式で保存すべきである。さらに、TEIではUnicodeにおいて識別されない派生的な字形をキャプチャすることも許されているが (<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/WD.html">
+        chapter 5 of P5</ref> を参照)、この目的のための要素は特殊であり、この <title>Best Practices</title> においては交換を容易にするために、この特殊な要素の使用は推奨されない。</p>
       </div>
       <div type="===">
         <head>転写</head>
