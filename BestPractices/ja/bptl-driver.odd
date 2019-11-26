@@ -155,31 +155,12 @@
         <p>レベル3以上で複合的な文書 (雑誌やカンファレンスの論文集、詩集など) を符号化する場合は、それぞれの単位 (雑誌記事、カンファレンス論文、詩など) ごとに個別のTEIドキュメントを作成することにより、より細かいメタデータを各々のTEI ヘッダー内に作成することを検討してほしい。複合的な文書の構造 (それぞれの単位がどのように相互に関係しているか) を適切に表現するためには、さらなる手数が必要になるだろう。これを実現する一般的な方法は、複合文書のための別のTEIドキュメントを作成し、単位部分ごとに適切なTEIドキュメントを、XIncludeを使って正しい順序で含めることである。</p>
         <div type="====">
           <head>句読点</head>
-          <p>While the TEI gives the option of removing from the 
-          transcribed text punctuation marks, such as quotation marks or 
-          end-of-life hyphones, that could be encoded using XML tags, it 
-          is recommended to leave these as XML character data
-          in order to simplify rendering of the encoded text as it
-          appears in the source document. For example:
-          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <p>TEIでは、引用符や行末のハイフンなど、XMLタグを使用して符号化できる句読点や記号を、転記されたテキストからは削除するオプションも用意されているが、符号化テキストを元の文書と同じように表示することを容易にするために、これらはXML文字データとして残しておくことが推奨される。たとえば次の例。 <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <p>When she said <said>“Nobody uses the term
             <mentioned>‘electronic text’</mentioned> anymore”</said>
             he nearly passed out!</p>
-          </egXML>
-          Use the <gi>quotation</gi> element in the header to record 
-          whether quotation marks have been removed, and use the 
-          <gi>punctuation</gi> element in the header to record whether 
-          other punctuation has been removed.</p>
-          <p>When removing punctuation marks whose rendering in the
-          source document is worth preserving in the encoding, use the <att>style</att>
-          attribute on the appropriate element to describe the
-          punctuation marks that were removed. For example:
-          <egXML xmlns="http://www.tei-c.org/ns/Examples">
-            <p>When she said <said style="quotes: '“' '”'">Nobody uses the term 
-            <mentioned rend="quotes: '‘' '’'">electronic text</mentioned> anymore</said>
-            he nearly passed out!</p>
-          </egXML>
-          </p>
+          </egXML> ヘッダーの <gi>quotation</gi> 要素を使用して引用符が削除されたかどうかを記録し、同じくヘッダーの <gi>punctuation</gi> 要素を使用してその他の句読点が削除されたかどうかを記録する。</p>
+          <p>元の文書内での表示を符号化においても保持する価値がある句読点を削除する場合は、 <att>style</att> 属性をしかるべき要素で使用して、削除された句読点を記述する。たとえば次のように指定する。</p>
         </div>
         <div type="====">
           <head>ハイフン</head>
