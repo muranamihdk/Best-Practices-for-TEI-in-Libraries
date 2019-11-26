@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-11-26 21:58+0900\n"
+"PO-Revision-Date: 2019-11-26 22:03+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -479,7 +479,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:296
 msgid "When removing punctuation marks whose rendering in the source document is worth preserving in the encoding, use the <_:att-1/> attribute on the appropriate element to describe the punctuation marks that were removed. For example: <_:egXML-2/>"
-msgstr "元の文書内での表示を符号化においても保持する価値がある句読点を削除する場合は、 <_:att-1/> 属性をしかるべき要素で使用して、削除された句読点を記述する。たとえば次のように指定する。"
+msgstr "元の文書内での表示を符号化においても保持する価値がある句読点を削除する場合は、 <_:att-1/> 属性をしかるべき要素で使用して、削除された句読点を記述する。たとえば次のように指定する。 <_:egXML-2/>"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:308
