@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-11-26 21:56+0900\n"
+"PO-Revision-Date: 2019-11-26 21:58+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -457,7 +457,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:281
 msgid "While the TEI gives the option of removing from the transcribed text punctuation marks, such as quotation marks or end-of-life hyphones, that could be encoded using XML tags, it is recommended to leave these as XML character data in order to simplify rendering of the encoded text as it appears in the source document. For example: <_:egXML-1/> Use the <_:gi-2/> element in the header to record whether quotation marks have been removed, and use the <_:gi-3/> element in the header to record whether other punctuation has been removed."
-msgstr "TEIでは、引用符や行末のハイフンなど、XMLタグを使用して符号化できる句読点や記号を、転記されたテキストからは削除するオプションも用意されているが、符号化テキストを元の文書と同じように表示することを容易にするために、これらはXML文字データとして残しておくことが推奨される。たとえば次の例。 <_:egXML-1/> ヘッダーの <_:gi-2/> 要素を使用して引用符が削除されたかどうかを記録し、同じくヘッダーの <_:gi-3/> 要素を使用してその他の句読点が削除されたかどうかを記録する。"
+msgstr "TEIでは、引用符や行末のハイフンなど、XMLタグを使用して符号化できる句読点や記号を、転記されたテキストからは削除する選択も用意されているが、符号化テキストを元の文書と同じように表示することを容易にするために、これらはXML文字データとして残しておくことが推奨される。たとえば次の例。 <_:egXML-1/> ヘッダーの <_:gi-2/> 要素を使用して引用符が削除されたかどうかを記録し、同じくヘッダーの <_:gi-3/> 要素を使用してその他の句読点が削除されたかどうかを記録する。"
 
 #. (itstool) path: p/att
 #. (itstool) path: head/att
