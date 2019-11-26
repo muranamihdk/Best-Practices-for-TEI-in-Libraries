@@ -160,7 +160,11 @@
             <mentioned>‘electronic text’</mentioned> anymore”</said>
             he nearly passed out!</p>
           </egXML> ヘッダーの <gi>quotation</gi> 要素を使用して引用符が削除されたかどうかを記録し、同じくヘッダーの <gi>punctuation</gi> 要素を使用してその他の句読点が削除されたかどうかを記録する。</p>
-          <p>元の文書内での表示を符号化においても保持する価値がある句読点を削除する場合は、 <att>style</att> 属性をしかるべき要素で使用して、削除された句読点を記述する。たとえば次のように指定する。</p>
+          <p>元の文書内での表示を符号化においても保持する価値がある句読点を削除する場合は、 <att>style</att> 属性をしかるべき要素で使用して、削除された句読点を記述する。たとえば次のように指定する。 <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <p>When she said <said style="quotes: '“' '”'">Nobody uses the term 
+            <mentioned rend="quotes: '‘' '’'">electronic text</mentioned> anymore</said>
+            he nearly passed out!</p>
+          </egXML></p>
         </div>
         <div type="====">
           <head>ハイフン</head>
