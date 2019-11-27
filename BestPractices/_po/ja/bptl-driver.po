@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-11-27 23:37+0900\n"
+"PO-Revision-Date: 2019-11-27 23:39+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -499,7 +499,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:309
 msgid "Encoding of end-of-line, end-of-column, and end-of-page hyphenation varies considerably in the TEI community. Some capture all hyphens found on the printed page, while others remove those in the middle of words not normally hyphenated for easier implementation of full-text retrieval. If preserving hyphens, some will capture all hyphens using the same character, while others will distinguish hyphens that must be present in any case (often called <_:term-1/>) and those that are only present by virtue of being at the end of a line, column, or page (often called <_:term-2/>)."
-msgstr "行末や欄末、ページ末のハイフンをどう符号化するかについては、TEIコミュニティの内部でも大きな違いがある。印刷ページに見られるハイフンはすべて記録する人もあれば、全文検索の実装を簡単にするために、単語の途中に現れる、通常は存在しないハイフンは削除する人もいる。またハイフンを残す場合でも、すべてのハイフンを同じ文字を使用して記録する人もあれば、どんな場合でも必要なハイフン (<_:term-1/> と呼ばれる) と、行・欄・ページの末尾でのみ必要なハイフン (<_:term-2/> と呼ばれる) を区別する人もいる。"
+msgstr "行末や欄末、ページ末のハイフンをどう符号化するかについては、TEIコミュニティの内部でも大きな違いがある。印刷されたページで見ることのできるハイフンはすべて記録する人もあれば、全文検索の実装を簡単にするために、単語の途中に現れる、通常は存在しないハイフンは削除する人もいる。またハイフンを残す場合でも、すべてのハイフンを同じ文字を使用して記録する人もあれば、どんな場合でも必要なハイフン (<_:term-1/> と呼ばれる) と、行・欄・ページの末尾でのみ必要なハイフン (<_:term-2/> と呼ばれる) を区別する人もいる。"
 
 #. (itstool) path: p/emph
 #: bptl-driver.odd:321
