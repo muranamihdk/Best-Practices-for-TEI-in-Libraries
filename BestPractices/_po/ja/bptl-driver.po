@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-01 14:05+0900\n"
+"PO-Revision-Date: 2019-12-01 14:19+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -514,7 +514,7 @@ msgstr "ありうる"
 #. (itstool) path: p/name
 #: bptl-driver.odd:324
 msgid "non-breaking hyphen"
-msgstr "非中断ハイフン"
+msgstr "改行禁止ハイフン"
 
 #. (itstool) path: p/soCalled
 #: bptl-driver.odd:325
@@ -524,7 +524,7 @@ msgstr ""
 #. (itstool) path: p/gloss
 #: bptl-driver.odd:326
 msgid "to create again"
-msgstr "再創造"
+msgstr "再度作ること"
 
 #. (itstool) path: p/soCalled
 #: bptl-driver.odd:326
@@ -534,12 +534,12 @@ msgstr ""
 #. (itstool) path: p/gloss
 #: bptl-driver.odd:327
 msgid "relaxation"
-msgstr "リラクゼーション"
+msgstr "息抜き"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:320
 msgid "This issue is complicated by the fact that Unicode prescribes use of a soft hyphen not for a <_:emph-1/> but instead for a place where a hyphen <_:emph-2/>. Furthermore, it includes a <_:name-3/>, used in cases like <_:soCalled-4/> (meaning <_:gloss-5/>, as opposed to <_:soCalled-6/>, meaning <_:gloss-7/>), in addition to a regular hyphen, which would normally count as a word boundary. In short, Unicode is oriented toward electronic text that may be processed with a computer in various ways, not toward capturing source documents."
-msgstr "この問題を複雑にするのは、Unicodeがソフト・ハイフンの使用を、<_:emph-1/>のためではなく、ハイフンが<_:emph-2/>場所のためと規定しているという事実である。さらにその中には、通常は単語境界としての意味のある通常のハイフンに加えて、 <_:soCalled-4/>などの場合に使われる<_:name-3/>（<_:gloss-7/>を意味する<_:soCalled-6/>に対して、<_:gloss-5/>を意味する) なども含まれる。つまりUnicodeは、元の文書の写し取りではなく、種々の方法でコンピュータ処理される可能性のある電子テキストを指向しているということである。"
+msgstr "この問題を複雑にするのは、Unicodeがソフト・ハイフンの使用を、<_:emph-1/>のためではなく、ハイフンが<_:emph-2/>場所のためと規定しているという事実である。さらにその中には、通常は単語境界としての意味のある通常のハイフンに加えて、 <_:soCalled-4/> などの場合に使われる<_:name-3/>（<_:gloss-7/>を意味する <_:soCalled-6/> に対して、<_:gloss-5/>を意味する) なども含まれる。つまりUnicodeは、元の文書の写し取りではなく、種々の方法でコンピュータ処理される可能性のある電子テキストを指向しているということである。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:332
