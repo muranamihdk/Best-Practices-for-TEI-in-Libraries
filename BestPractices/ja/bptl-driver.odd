@@ -147,12 +147,12 @@
       </div>
       <div type="===">
         <head>文字エンコーディング</head>
-        <p>交換のためにTEIドキュメントはBOM無しUTF-8形式で保存すべきである。さらに、TEIではUnicodeにおいて識別されない派生的な字形をキャプチャすることも許されているが (<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/WD.html">P5ガイドライン第5章</ref> を参照)、この目的のための要素は特殊であり、この <title>Best Practices</title> においては交換を容易にするために、この特殊な要素の使用は推奨されない。</p>
+        <p>交換のためにTEIドキュメントはBOM無しUTF-8形式で保存すべきである。さらに、TEIではUnicodeで識別されない派生的な字形を写し取ることも許されているが (<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/WD.html">P5ガイドライン第5章</ref> を参照)、この目的のための特殊な要素の使用は、交換を容易にするために <title>Best Practices</title> では推奨されない。</p>
       </div>
       <div type="===">
         <head>転写</head>
-        <p>任意のレベルの符号化を使用して電子媒体に再フォーマットした時、電子テキストは元の作品の最初のページの最初の単語の転写から始待っていなければならない。レベル1から3の符号化を使用する場合は、出版社の広告や索引のようなテキストの特定の機能を転記し符号化することは、実用的でなかったり望ましくない場合がある。元の作品で見つかった体系的な素材の欠落は、TEI ヘッダーの <gi>samplingDecl</gi> に記載しなければならない。非体系的な省略は、 <gi>teiHeader</gi> の <gi>notesStmt</gi> で示さねばならない。レベル4以上では転写は完全に行われなければならない。</p>
-        <p>レベル3以上で複合的な文書 (雑誌やカンファレンスの論文集、詩集など) を符号化する場合は、それぞれの単位 (雑誌記事、カンファレンス論文、詩など) ごとに個別のTEIドキュメントを作成することにより、より細かいメタデータを各々のTEI ヘッダー内に作成することを検討してほしい。複合的な文書の構造 (それぞれの単位がどのように相互に関係しているか) を適切に表現するためには、さらなる手数が必要になるだろう。これを実現する一般的な方法は、複合文書のための別のTEIドキュメントを作成し、単位部分ごとに適切なTEIドキュメントを、XIncludeを使って正しい順序で含めることである。</p>
+        <p>任意のレベルの符号化を使用して電子媒体に再フォーマットした時、電子テキストは元の作品の最初のページの最初の単語の転写から始まっていなければならない。レベル1から3の符号化を使用する場合は、出版社の広告や索引のようなテキストの特定の機能を転記し符号化することは、実用的でなかったり望ましくない場合がある。元の作品で見つかった体系的な素材の欠落は、TEI ヘッダーの <gi>samplingDecl</gi> に記載しなければならない。非体系的な省略は、 <gi>teiHeader</gi> の <gi>notesStmt</gi> で示さねばならない。レベル4以上では転写は完全に行われなければならない。</p>
+        <p>レベル3以上で複合的な文書 (雑誌やカンファレンスの論文集、詩集など) を符号化する場合は、それぞれの単位 (雑誌記事、カンファレンス論文、詩など) ごとに個別のTEIドキュメントを作成することにより、より細かいメタデータを各々のTEI ヘッダー内に作成することを検討する。複合的な文書の構造 (それぞれの単位がどのように相互に関係しているか) を適切に表現するためには、さらなる手数が必要になるだろう。これを実現する一般的な方法は、複合文書のための別のTEIドキュメントを作成し、単位部分ごとに適切なTEIドキュメントを、XIncludeを使って正しい順序で含めることである。</p>
         <div type="====">
           <head>句読点</head>
           <p>TEIでは、引用符や行末のハイフンなど、XMLタグを使用して符号化できる句読点や記号を、転記されたテキストからは削除する選択も用意されているが、符号化テキストを元の文書と同じように表示することを容易にするために、これらはXML文字データとして残しておくことが推奨される。たとえば次の例。 <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -169,18 +169,7 @@
         <div type="====">
           <head>ハイフン</head>
           <p>行末や欄末、ページ末のハイフンをどう符号化するかについては、TEIコミュニティの内部でも大きな違いがある。印刷されたページで見ることのできるハイフンはすべて記録する人もあれば、全文検索の実装を簡単にするために、単語の途中に現れる、通常は存在しないハイフンは削除する人もいる。またハイフンを残す場合でも、すべてのハイフンを同じ文字を使用して記録する人もあれば、どんな場合でも必要なハイフン（「<term>ハード・ハイフン</term>」と呼ばれる）と、行・欄・ページの末尾でのみ現れるハイフン（「<term>ソフト・ハイフン</term>」と呼ばれる）を区別する人もいる。</p>
-          <p>This issue is complicated by the fact that Unicode
-          prescribes use of a soft hyphen not for a <emph>visible
-          hyphen that might have been absent</emph> but instead for a
-          place where a hyphen <emph>might occur</emph>. Furthermore,
-          it includes a <name>non-breaking hyphen</name>, used in
-          cases like <soCalled>re-creation</soCalled> (meaning
-          <gloss>to create again</gloss>, as opposed to <soCalled>recreation</soCalled>,
-          meaning <gloss>relaxation</gloss>), in addition to a regular
-          hyphen, which would normally count as a word boundary. In
-          short, Unicode is oriented toward electronic text that may
-          be processed with a computer in various ways, not toward
-          capturing source documents.</p>
+          <p>この問題を複雑にするのは、Unicodeがソフト・ハイフンの使用を、<emph>表示はされているが欠落する場合もあるハイフン</emph>のためではなく、ハイフンが<emph>ありうる</emph>場所のためと規定しているという事実である。さらにその中には、通常は単語境界としての意味のある通常のハイフンに加えて、 <soCalled>re-creation</soCalled>などの場合に使われる<name>非中断ハイフン</name>（<gloss>リラクゼーション</gloss>を意味する<soCalled>recreation</soCalled>に対して、<gloss>再創造</gloss>を意味する) なども含まれる。つまりUnicodeは、元の文書の写し取りではなく、種々の方法でコンピュータ処理される可能性のある電子テキストを指向しているということである。</p>
           <p>Since OCR software relies on dictionaries to determine
           the probability not simply of characters but of whole words,
           it is often able to capture hyphenation in different ways,
