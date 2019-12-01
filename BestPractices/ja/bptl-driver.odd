@@ -169,7 +169,7 @@
         <div type="====">
           <head>ハイフン</head>
           <p>行末や欄末、ページ末のハイフンをどう符号化するかについては、TEIコミュニティの内部でも大きな違いがある。印刷されたページで見ることのできるハイフンはすべて記録する人もあれば、全文検索の実装を簡単にするために、単語の途中に現れる、通常は存在しないハイフンは削除する人もいる。またハイフンを残す場合でも、すべてのハイフンを同じ文字を使用して記録する人もあれば、どんな場合でも必要なハイフン（「<term>ハード・ハイフン</term>」と呼ばれる）と、行・欄・ページの末尾でのみ現れるハイフン（「<term>ソフト・ハイフン</term>」と呼ばれる）を区別する人もいる。</p>
-          <p>この問題を複雑にするのは、Unicodeがソフト・ハイフンの使用を、<emph>表示はされているが欠落しうるハイフン</emph>のためではなく、ハイフンが<emph>置かれる可能性のある</emph>場所のため、と規定しているという事実である。さらにその中には、単語の境界として普通に使われる通常のハイフンに加えて、 <soCalled>re-creation</soCalled> などの場合に使われる<name>改行が禁止されたハイフン</name>（<gloss>息抜き</gloss>を意味する <soCalled>recreation</soCalled> に対して、<gloss>再度作ること</gloss>を意味する) なども含まれる。つまりUnicodeは、元の文書の写し取りではなく、種々の方法でコンピュータ処理される可能性のある電子テキストを指向しているということである。</p>
+          <p>この問題を複雑にするのは、Unicodeがソフト・ハイフンの使用を、<emph>表示はされているが欠落しうるハイフン</emph>のためではなく、ハイフンが<emph>生じうる可能性のある</emph>場所のため、と規定しているという事実である。さらにその中には、単語の境界として普通に使われる通常のハイフンに加えて、 <soCalled>re-creation</soCalled> などの場合に使われる<name>改行が禁止されたハイフン</name>（<gloss>息抜き</gloss>を意味する <soCalled>recreation</soCalled> に対して、<gloss>再度作ること</gloss>を意味する) なども含まれる。つまりUnicodeは、元の文書の写し取りではなく、種々の方法でコンピュータ処理される可能性のある電子テキストを指向しているということである。</p>
           <p>Since OCR software relies on dictionaries to determine
           the probability not simply of characters but of whole words,
           it is often able to capture hyphenation in different ways,
