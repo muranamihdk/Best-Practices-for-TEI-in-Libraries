@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-11-27 23:47+0900\n"
+"PO-Revision-Date: 2019-12-01 14:05+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -392,7 +392,7 @@ msgstr "P5ガイドライン第5章"
 #. (itstool) path: div/p
 #: bptl-driver.odd:246
 msgid "For the purpose of interchange, TEI documents should be saved in UTF-8 format, without beginning with a byte-order mark (U+FEFF). Furthermore, while TEI allows for capturing of glyph variants not distinguished by Unicode (see <_:ref-1/>), the special elements for this purpose are not recommended in these <_:title-2/> in order to facilitate interchange."
-msgstr "交換のためにTEIドキュメントはBOM無しUTF-8形式で保存すべきである。さらに、TEIではUnicodeにおいて識別されない派生的な字形をキャプチャすることも許されているが (<_:ref-1/> を参照)、この目的のための要素は特殊であり、この <_:title-2/> においては交換を容易にするために、この特殊な要素の使用は推奨されない。"
+msgstr "交換のためにTEIドキュメントはBOM無しUTF-8形式で保存すべきである。さらに、TEIではUnicodeで識別されない派生的な字形を写し取ることも許されているが (<_:ref-1/> を参照)、この目的のための特殊な要素の使用は、交換を容易にするために <_:title-2/> では推奨されない。"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:255
@@ -417,12 +417,12 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:256
 msgid "When reformatting to digital media using any level of encoding, the electronic text should begin with the transcription of the first word on the first leaf of the original work. When using levels 1 to 3 of encoding, it may be impractical or undesirable to transcribe and encode certain features of the text, such as publisher’s advertisements or indexes. Any systematic omissions of material found in the original work should be noted in the <_:gi-1/> in the TEI header. Non-systematic omissions should be indicated in the <_:gi-2/> of the <_:gi-3/>. At Level 4 and above, the transcription should be complete."
-msgstr "任意のレベルの符号化を使用して電子媒体に再フォーマットした時、電子テキストは元の作品の最初のページの最初の単語の転写から始待っていなければならない。レベル1から3の符号化を使用する場合は、出版社の広告や索引のようなテキストの特定の機能を転記し符号化することは、実用的でなかったり望ましくない場合がある。元の作品で見つかった体系的な素材の欠落は、TEI ヘッダーの <_:gi-1/> に記載しなければならない。非体系的な省略は、 <_:gi-3/> の <_:gi-2/> で示さねばならない。レベル4以上では転写は完全に行われなければならない。"
+msgstr "任意のレベルの符号化を使用して電子媒体に再フォーマットした時、電子テキストは元の作品の最初のページの最初の単語の転写から始まっていなければならない。レベル1から3の符号化を使用する場合は、出版社の広告や索引のようなテキストの特定の機能を転記し符号化することは、実用的でなかったり望ましくない場合がある。元の作品で見つかった体系的な素材の欠落は、TEI ヘッダーの <_:gi-1/> に記載しなければならない。非体系的な省略は、 <_:gi-3/> の <_:gi-2/> で示さねばならない。レベル4以上では転写は完全に行われなければならない。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:267
 msgid "When encoding composite documents (an issue of a journal, a volume of conference papers, a book of poems, etc.) at Level 3 and above, consider creating separate TEI documents for each unit (journal article, conference paper, poem, etc.) so that more granular metadata may be attached to each unit in its own TEI header. A further step will be necessary in order to ensure that the structure of the composite document—how the units relate to each other—is adequately represented. A common way to accomplish this is to create a separate TEI document for the composite document that uses XInclude to include the relevant portions of the TEI documents for the units in the correct order."
-msgstr "レベル3以上で複合的な文書 (雑誌やカンファレンスの論文集、詩集など) を符号化する場合は、それぞれの単位 (雑誌記事、カンファレンス論文、詩など) ごとに個別のTEIドキュメントを作成することにより、より細かいメタデータを各々のTEI ヘッダー内に作成することを検討してほしい。複合的な文書の構造 (それぞれの単位がどのように相互に関係しているか) を適切に表現するためには、さらなる手数が必要になるだろう。これを実現する一般的な方法は、複合文書のための別のTEIドキュメントを作成し、単位部分ごとに適切なTEIドキュメントを、XIncludeを使って正しい順序で含めることである。"
+msgstr "レベル3以上で複合的な文書 (雑誌やカンファレンスの論文集、詩集など) を符号化する場合は、それぞれの単位 (雑誌記事、カンファレンス論文、詩など) ごとに個別のTEIドキュメントを作成することにより、より細かいメタデータを各々のTEI ヘッダー内に作成することを検討する。複合的な文書の構造 (それぞれの単位がどのように相互に関係しているか) を適切に表現するためには、さらなる手数が必要になるだろう。これを実現する一般的な方法は、複合文書のための別のTEIドキュメントを作成し、単位部分ごとに適切なTEIドキュメントを、XIncludeを使って正しい順序で含めることである。"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:280
@@ -504,17 +504,17 @@ msgstr "行末や欄末、ページ末のハイフンをどう符号化するか
 #. (itstool) path: p/emph
 #: bptl-driver.odd:321
 msgid "visible hyphen that might have been absent"
-msgstr ""
+msgstr "表示はされているが欠落する場合もあるハイフン"
 
 #. (itstool) path: p/emph
 #: bptl-driver.odd:323
 msgid "might occur"
-msgstr ""
+msgstr "ありうる"
 
 #. (itstool) path: p/name
 #: bptl-driver.odd:324
 msgid "non-breaking hyphen"
-msgstr ""
+msgstr "非中断ハイフン"
 
 #. (itstool) path: p/soCalled
 #: bptl-driver.odd:325
@@ -524,7 +524,7 @@ msgstr ""
 #. (itstool) path: p/gloss
 #: bptl-driver.odd:326
 msgid "to create again"
-msgstr ""
+msgstr "再創造"
 
 #. (itstool) path: p/soCalled
 #: bptl-driver.odd:326
@@ -534,12 +534,12 @@ msgstr ""
 #. (itstool) path: p/gloss
 #: bptl-driver.odd:327
 msgid "relaxation"
-msgstr ""
+msgstr "リラクゼーション"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:320
 msgid "This issue is complicated by the fact that Unicode prescribes use of a soft hyphen not for a <_:emph-1/> but instead for a place where a hyphen <_:emph-2/>. Furthermore, it includes a <_:name-3/>, used in cases like <_:soCalled-4/> (meaning <_:gloss-5/>, as opposed to <_:soCalled-6/>, meaning <_:gloss-7/>), in addition to a regular hyphen, which would normally count as a word boundary. In short, Unicode is oriented toward electronic text that may be processed with a computer in various ways, not toward capturing source documents."
-msgstr ""
+msgstr "この問題を複雑にするのは、Unicodeがソフト・ハイフンの使用を、<_:emph-1/>のためではなく、ハイフンが<_:emph-2/>場所のためと規定しているという事実である。さらにその中には、通常は単語境界としての意味のある通常のハイフンに加えて、 <_:soCalled-4/>などの場合に使われる<_:name-3/>（<_:gloss-7/>を意味する<_:soCalled-6/>に対して、<_:gloss-5/>を意味する) なども含まれる。つまりUnicodeは、元の文書の写し取りではなく、種々の方法でコンピュータ処理される可能性のある電子テキストを指向しているということである。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:332
