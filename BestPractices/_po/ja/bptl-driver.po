@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-01 17:56+0900\n"
+"PO-Revision-Date: 2019-12-01 17:58+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -549,7 +549,7 @@ msgstr "OCRソフトウェアは、単に文字ではなく、単語全体の確
 #. (itstool) path: div/p
 #: bptl-driver.odd:336
 msgid "At Levels 1 and 2, do not attempt to disambiguate different uses of hyphens. Encode all hyphens appearing in the source document using character U+2010 (HYPHEN) if possible; alternatively, use the semantically ambiguous U+002D (HYPHEN-MINUS)."
-msgstr "レベル1とレベル2では、ハイフンのさまざまな使用方法を区別する努力はしない。可能であれば文字 U+2010（ハイフン）を使用して、ソース文書に含まれるすべてのハイフンを符号化する。あるいは意味的には曖昧な U+002D（ハイフン-マイナス）を使用する。"
+msgstr "レベル1とレベル2では、ハイフンのさまざまな使用方法を区別しようとする努力はしない。可能であれば文字 U+2010（ハイフン）を使用して、ソース文書に含まれるすべてのハイフンを符号化する。あるいは意味的には曖昧な U+002D（ハイフン-マイナス）を使用する。"
 
 #. (itstool) path: p/gi
 #: bptl-driver.odd:340 bptl-driver.odd:342
