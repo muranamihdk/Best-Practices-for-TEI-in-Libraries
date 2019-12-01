@@ -170,24 +170,10 @@
           <head>ハイフン</head>
           <p>行末や欄末、ページ末のハイフンをどう符号化するかについては、TEIコミュニティの内部でも大きな違いがある。印刷されたページで見ることのできるハイフンはすべて記録する人もあれば、全文検索の実装を簡単にするために、単語の途中に現れる、通常は存在しないハイフンは削除する人もいる。またハイフンを残す場合でも、すべてのハイフンを同じ文字を使用して記録する人もあれば、どんな場合でも必要なハイフン（「<term>ハード・ハイフン</term>」と呼ばれる）と、行・欄・ページの末尾でのみ現れるハイフン（「<term>ソフト・ハイフン</term>」と呼ばれる）を区別する人もいる。</p>
           <p>この問題を複雑にするのは、Unicodeがソフト・ハイフンの使用を、<emph>表示はされているが欠落しうるハイフン</emph>のためではなく、ハイフンが<emph>置かれる可能性のある</emph>場所のため、と規定しているという事実である。さらにその中には、単語の境界として普通に使われる通常のハイフンに加えて、 <soCalled>re-creation</soCalled> などの場合に使われる<name>改行が禁止されたハイフン</name>（<gloss>息抜き</gloss>を意味する <soCalled>recreation</soCalled> に対して、<gloss>再度作ること</gloss>を意味する) なども含まれる。つまりUnicodeは、ソースとなる文書の写し取りではなく、種々の方法でコンピュータ処理される可能性のある電子テキストを指向しているということである。</p>
-          <p>Since OCR software relies on dictionaries to determine
-          the probability not simply of characters but of whole words,
-          it is often able to capture hyphenation in different ways,
-          per the needs of a specific project.</p>
-          <p>At Levels 1 and 2, do not attempt to disambiguate
-          different uses of hyphens. Encode all hyphens appearing in
-          the source document using character U+2010 (HYPHEN) if possible;
-          alternatively, use the semantically ambiguous U+002D (HYPHEN-MINUS).</p>
-          <p>At Level 3, if <gi>lb</gi>, <gi>cb</gi> and <gi>pb</gi> are used, optionally distinguish uses of the hyphen
-          with <gi>pc</gi> and  <att>force</att>.
-            At Level 4, if <gi>lb</gi>, <gi>cb</gi> and <gi>pb</gi> are used, the use of <gi>pc</gi> and  <att>force</att> on these
-          elements is required when all original hyphenation and line breaks are being retained. This is important when 
-          encoding a text that may be republished in different formats causing line breaks and hyphenation to differ from the original.</p>
-          <p>Sample hyphenation markup follows, using the example of a word broken at the end of a line.
-         (If such hyphens occur at
-          a column or page break instead of a line break, use
-          <gi>cb</gi> or <gi>pb</gi> instead.)
-          <table rend="table">
+          <p>OCRソフトウェアは、単に文字ではなく、単語全体の確率を判断する辞書に依存しているので、プロジェクトごとのニーズに応じて、異なった方法でハイフンを写し取れることはよくある。</p>
+          <p>レベル 1 とレベル 2 では、ハイフンのさまざまな使用方法を区別する努力はしない。可能であれば文字 U+2010（ハイフン）を使用して、ソース文書に含まれるすべてのハイフンを符号化する。あるいは意味的には曖昧な U+002D（ハイフン-マイナス）を使用する。</p>
+          <p>レベル 3 では、 <gi>lb</gi> と <gi>cb</gi> と <gi>pb</gi> とを使用する場合は、<gi>pc</gi> および <att>force</att> を使って、ハイフンの使用方法を必要に応じ区別する。レベル 4 では、 <gi>lb</gi> と <gi>cb</gi> と <gi>pb</gi> とを使用する場合は、元のハイフンと改行をすべて保持するのであれば、これらの要素に対して <gi>pc</gi> と <att>force</att> を使用することは必須である。これが重要なのは、符号化したテキストをオリジナルとは異なるフォーマットで再発行する可能性がある場合、フォーマットの違いは改行やハイフンのオリジナルテキストからの異同の原因になるためである。</p>
+          <p>行末で改行された単語の例を使って、ハイフンのマークアップの例を次に示す。このようなハイフンが改行ではなく欄またはページの末尾で発生する場合は、代わりに <gi>cb</gi> または <gi>pb</gi> を使用する。<table rend="table">
             <row role="label">
               <cell>Colloquial name</cell>
               <cell>Appearance in source document</cell>
@@ -283,8 +269,7 @@
                 <att>break</att> is also inconclusive on whether the line break occurs in between words or inside a word.
               </cell>
             </row>
-          </table>
-          </p>
+          </table></p>
           <p>Do not confuse the following characters with hyphens:
           <list>
             <item>en dash (U+2013)</item>
