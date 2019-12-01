@@ -270,13 +270,11 @@
               </cell>
             </row>
           </table></p>
-          <p>Do not confuse the following characters with hyphens:
-          <list>
-            <item>en dash (U+2013)</item>
-            <item>em dash (U+2014)</item>
-            <item>minus sign (U+2212)</item>
-          </list>
-          </p>
+          <p>以下の文字をハイフンと混同してはならない。 <list>
+            <item>enダッシュ（U+2013）</item>
+            <item>emダッシュ（U+2014）</item>
+            <item>マイナス記号（U+2212）</item>
+          </list></p>
         </div>
       </div>
       <div type="===">
