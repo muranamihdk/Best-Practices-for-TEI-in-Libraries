@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-01 17:58+0900\n"
+"PO-Revision-Date: 2019-12-01 18:04+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -721,22 +721,22 @@ msgstr "行末で改行された単語の例を使って、ハイフンのマー
 #. (itstool) path: list/item
 #: bptl-driver.odd:449
 msgid "en dash (U+2013)"
-msgstr ""
+msgstr "enダッシュ（U+2013）"
 
 #. (itstool) path: list/item
 #: bptl-driver.odd:450
 msgid "em dash (U+2014)"
-msgstr ""
+msgstr "emダッシュ（U+2014）"
 
 #. (itstool) path: list/item
 #: bptl-driver.odd:451
 msgid "minus sign (U+2212)"
-msgstr ""
+msgstr "マイナス記号（U+2212）"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:447
 msgid "Do not confuse the following characters with hyphens: <_:list-1/>"
-msgstr ""
+msgstr "以下の文字をハイフンと混同してはならない。 <_:list-1/>"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:457
