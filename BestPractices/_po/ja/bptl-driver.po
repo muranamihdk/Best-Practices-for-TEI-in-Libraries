@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-01 14:40+0900\n"
+"PO-Revision-Date: 2019-12-01 14:41+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -509,7 +509,7 @@ msgstr "表示はされているが欠落しうるハイフン"
 #. (itstool) path: p/emph
 #: bptl-driver.odd:323
 msgid "might occur"
-msgstr "生じうる可能性のある"
+msgstr "置かれる可能性のある"
 
 #. (itstool) path: p/name
 #: bptl-driver.odd:324
