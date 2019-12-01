@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-01 17:51+0900\n"
+"PO-Revision-Date: 2019-12-01 17:55+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -585,7 +585,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:340
 msgid "At Level 3, if <_:gi-1/>, <_:gi-2/> and <_:gi-3/> are used, optionally distinguish uses of the hyphen with <_:gi-4/> and <_:att-5/>. At Level 4, if <_:gi-6/>, <_:gi-7/> and <_:gi-8/> are used, the use of <_:gi-9/> and <_:att-10/> on these elements is required when all original hyphenation and line breaks are being retained. This is important when encoding a text that may be republished in different formats causing line breaks and hyphenation to differ from the original."
-msgstr "レベル 3 では、 <_:gi-1/> と <_:gi-2/> と <_:gi-3/> とを使用する場合は、<_:gi-4/> および <_:att-5/> を使って、ハイフンの使用方法を必要に応じ区別する。レベル 4 では、 <_:gi-6/> と <_:gi-7/> と <_:gi-8/> とを使用する場合は、元のハイフンと改行をすべて保持するのであれば、これらの要素に対して <_:gi-9/> と <_:att-10/> を使用することは必須である。これが重要なのは、符号化したテキストをオリジナルとは異なるフォーマットで再発行する可能性がある場合、フォーマットの違いは改行やハイフンのオリジナルテキストからの異同の原因になるためである。"
+msgstr "レベル3では、 <_:gi-1/> と <_:gi-2/> と <_:gi-3/> とを使用する場合は、<_:gi-4/> および <_:att-5/> を使って、ハイフンの使用方法を必要に応じ区別する。レベル4では、 <_:gi-6/> と <_:gi-7/> と <_:gi-8/> とを使用する場合は、元のハイフンと改行をすべて保持するのであれば、これらの要素に対して <_:gi-9/> と <_:att-10/> を使用することは必須である。これが重要なのは、符号化したテキストをオリジナルとは異なるフォーマットで再発行する可能性がある場合、フォーマットの違いは改行やハイフンのオリジナルテキストからの異同の原因になるためである。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:351
