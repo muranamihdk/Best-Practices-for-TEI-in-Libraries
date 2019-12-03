@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-03 23:21+0900\n"
+"PO-Revision-Date: 2019-12-03 23:26+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -641,7 +641,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:371
 msgid "The use of <_:val-1/> as the value of <_:att-2/> indicates that the encoder considers \"run-on\" to be a single orthographic token, where the hyphen is not a word separator. The use of <_:val-3/> as the value of <_:att-4/> also indicates that the line break occurs inside an orthographic token (single word) which is broken across a line."
-msgstr "<_:att-2/> の値に <_:val-1/> を使用すると、\"run-on\" は綴り上ひとつのかたまりであり、ハイフンは語の境目を示すものでなはい、と符号化従事者が考えていることを示す。同様に <_:att-4/> の値に <_:val-3/> を使用すると、行をまたいで分割されたひとつの綴り上のかたまり（単一の単語）の中で改行が行われることを示す。"
+msgstr "<_:att-2/> の値に <_:val-1/> を使用すると、\"run-on\" は正書法上ひとつに綴るべきかたまりであり、ハイフンは語の境目を示すものでなはい、と符号化従事者が考えていることを示す。同様に <_:att-4/> の値に <_:val-3/> を使用すると、行をまたいで分割されたひとつの綴り上のかたまり（単一の単語）の中で改行が行われることを示す。"
 
 #. (itstool) path: cell/code
 #: bptl-driver.odd:389
@@ -661,7 +661,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:393
 msgid "The use of <_:val-1/> as the value of <_:att-2/> indicates that the encoder considers \"run-on\" to be two orthographic tokens, where the hyphen is also a word separator. The use of <_:val-3/> as the value of <_:att-4/> indicates that the line break occurs between two words."
-msgstr "<_:att-2/> の値に <_:val-1/> を使用すると、\"run-on\" は綴り上ふたつのかたまりであり、ハイフンも語の境目を示すもの、と符号化従事者が考えていることを示す。同様に <_:att-4/> の値に <_:val-3/> を使用すると、ふたつの単語の間で改行が行われることを示す。"
+msgstr "<_:att-2/> の値に <_:val-1/> を使用すると、\"run-on\" は正書法上ふたつのかたまりであり、ハイフンも語の境目を示すもの、と符号化従事者が考えていることを示す。同様に <_:att-4/> の値に <_:val-3/> を使用すると、ふたつの単語の間で改行が行われることを示す。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:401
@@ -681,7 +681,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:415
 msgid "As in the first example, the use of <_:val-1/> as the value of <_:att-2/> indicates that the encoder considers \"character\" to be a single orthographic token where the hyphen is only indicating that the word is broken across a line. The use of <_:val-3/> as the value of <_:att-4/> also indicates that the line break occurs inside an orthographic token (single word) which is broken across a line."
-msgstr "最初の例で示したように、<_:att-2/> の値に <_:val-1/> を使用すると、\"character\" は綴り上ひとつのかたまりであり、ハイフンは単にその語が行をまたいだために分割されていることを示しているだけだと、符号化従事者が考えていることを示す。同様に <_:att-4/> の値に <_:val-3/> を使用すると、行をまたいで分割されたひとつの綴り上のかたまり（単一の単語）の中で改行が行われることを示す。"
+msgstr "最初の例で示したように、<_:att-2/> の値に <_:val-1/> を使用すると、\"character\" は正書法上ひとつに綴るべきかたまりであり、ハイフンは単にその語が行をまたいだために分割されていることを示しているだけだと、符号化従事者が考えていることを示す。同様に <_:att-4/> の値に <_:val-3/> を使用すると、行をまたいで分割されたひとつの綴り上のかたまり（単一の単語）の中で改行が行われることを示す。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:424
@@ -711,7 +711,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:438
 msgid "The use of <_:val-1/> as the value of <_:att-2/> indicates that the encoder is not taking a position on whether \"mark-up\" is a single orthographic token or two words. The use of <_:val-3/> as the value of <_:att-4/> is also inconclusive on whether the line break occurs in between words or inside a word."
-msgstr "<_:att-2/> の値に <_:val-1/> を使用すると、\"mark-up\" は綴り上ひとつのかたまりなのか、それともふたつの単語なのかについて、符号化従事者が判断を下していないことを示す。同様に <_:att-4/> の値に <_:val-3/> を使用すると、改行がふたつの単語の間で行われているのか、それとも単一の単語の中で行われているのか、結論が出ていないことを示す。"
+msgstr "<_:att-2/> の値に <_:val-1/> を使用すると、\"mark-up\" は正書法上ひとつに綴るべきかたまりなのか、それともふたつの単語なのかについて、符号化従事者が判断を下していないことを示す。同様に <_:att-4/> の値に <_:val-3/> を使用すると、改行がふたつの単語の間で行われているのか、それとも単一の単語の中で行われているのか、結論が出ていないことを示す。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:345
