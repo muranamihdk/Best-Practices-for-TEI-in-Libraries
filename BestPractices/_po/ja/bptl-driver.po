@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-03 23:43+0900\n"
+"PO-Revision-Date: 2019-12-04 07:01+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -746,22 +746,22 @@ msgstr "ファイル名"
 #. (itstool) path: div/p
 #: bptl-driver.odd:458
 msgid "A filename scheme that is internally consistent should be established for any encoding project."
-msgstr ""
+msgstr "すべての符号化プロジェクトにおいて、プロジェクト内部での一貫したファイル名スキームを確立すべきである。"
 
 #. (itstool) path: list/item
 #: bptl-driver.odd:463
 msgid "Each filename should contain an identifier that uniquely specifies a single digital object within the parent collection (e.g., a parent collection of text, images and other related materials)"
-msgstr ""
+msgstr "それぞれのファイル名には、親コレクション（例えばテキストや画像、その他の関連資料の親コレクション）の中のひとつのデジタル物体を、一意に指定する識別子を含むべきである。"
 
 #. (itstool) path: list/item
 #: bptl-driver.odd:467
 msgid "Each filename should be fully specified. It should not just be a sequence number that is dependent on location within a directory structure for context"
-msgstr ""
+msgstr "それぞれのファイル名は、それ自身で完全に指定が可能なものにすべきである。文脈をディレクトリ構造内の位置に依存したただの連番であってはならない。"
 
 #. (itstool) path: list/item
 #: bptl-driver.odd:470
 msgid "Filenames should not include spaces"
-msgstr ""
+msgstr "ファイル名にはスペースを含んではならない。"
 
 #. (itstool) path: list/item
 #: bptl-driver.odd:471
