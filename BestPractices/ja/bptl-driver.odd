@@ -193,7 +193,7 @@
                   This is not a run&lt;pc force="weak"&gt;-&lt;/pc&gt;&lt;lb break="no"/&gt;on sentence.
                 </code>
               </cell>
-              <cell><att>force</att> の値に <val>weak</val> を使用すると、"run-on" は正書法上ひとつに綴るべきかたまりであり、ハイフンは語の境目を示すものでなはい、と符号化従事者が考えていることを示す。同様に <att>break</att> の値に <val>no</val> を使用すると、行をまたいで分割されたひとつの綴り上のかたまり（単一の単語）の中で改行が行われることを示す。</cell>
+              <cell><att>force</att> の値に <val>weak</val> を使用すると、"run-on" は正書法上ひとつに綴るべきかたまりであり、ハイフンは語の境目を示すものでなはい、と符号化従事者が考えていることを示す。同様に <att>break</att> の値に <val>no</val> を使用すると、行をまたぐことにより分割された正書法上ひとつのかたまり（単一の語）の中で、改行が行われていることを示す。</cell>
             </row>
             <row>
               <cell>ハード・ハイフン</cell>
@@ -208,7 +208,7 @@
                   This is not a run&lt;pc force="strong"&gt;-&lt;/pc&gt;&lt;lb break="yes"/&gt;on sentence.
                 </code>
               </cell>
-              <cell><att>force</att> の値に <val>strong</val> を使用すると、"run-on" は正書法上ふたつのかたまりであり、ハイフンも語の境目を示すもの、と符号化従事者が考えていることを示す。同様に <att>break</att> の値に <val>yes</val> を使用すると、ふたつの単語の間で改行が行われることを示す。</cell>
+              <cell><att>force</att> の値に <val>strong</val> を使用すると、"run-on" は正書法上ふたつのかたまりであり、ハイフンも語の境目を示すもの、と符号化従事者が考えていることを示す。同様に <att>break</att> の値に <val>yes</val> を使用すると、ふたつの単語の間で改行が行われていることを示す。</cell>
             </row>
             <row>
               <cell>ソフト・ハイフン</cell>
@@ -223,7 +223,7 @@
                   UTF-8 is a char&lt;pc force="strong"&gt;-&lt;/pc&gt;&lt;lb break="yes"/&gt;acter encoding for Unicode.
                 </code>
               </cell>
-              <cell>最初の例で示したように、<att>force</att> の値に <val>weak</val> を使用すると、"character" は正書法上ひとつに綴るべきかたまりであり、ハイフンは単にその語が行をまたいだために分割されていることを示しているだけだと、符号化従事者が考えていることを示す。同様に <att>break</att> の値に <val>no</val> を使用すると、行をまたいで分割されたひとつの綴り上のかたまり（単一の単語）の中で改行が行われることを示す。</cell>
+              <cell>最初の例で示したように、<att>force</att> の値に <val>weak</val> を使用すると、"character" は正書法上ひとつに綴るべきかたまりであり、ハイフンは単にその語が行をまたいだために分割されていることを示している、と符号化従事者が考えていることを示す。同様に <att>break</att> の値に <val>no</val> を使用すると、行をまたぐことにより分割された正書法上ひとつのかたまり（単一の語）の中で、改行が行われていることを示す。</cell>
             </row>
             <row>
               <cell>曖昧な事例</cell>
@@ -238,7 +238,7 @@
                   Some people say TEI is a mark&lt;pc force="inter"&gt;-&lt;/pc&gt;&lt;lb break="maybe"/&gt;up language.
                 </code>
               </cell>
-              <cell><att>force</att> の値に <val>inter</val> を使用すると、"mark-up" は正書法上ひとつに綴るべきかたまりなのか、それともふたつの単語なのかについて、符号化従事者が判断を下していないことを示す。同様に <att>break</att> の値に <val>maybe</val> を使用すると、改行がふたつの単語の間で行われているのか、それとも単一の単語の中で行われているのか、結論が出ていないことを示す。</cell>
+              <cell><att>force</att> の値に <val>inter</val> を使用すると、"mark-up" は正書法上ひとつに綴るべきかたまりなのか、それともふたつの単語なのかについて、符号化従事者が判断を下していないことを示す。同様に <att>break</att> の値に <val>maybe</val> を使用すると、改行がふたつの単語の間で行われているのか、それとも単一の単語の中で行われているのか、結論を出していないことを示す。</cell>
             </row>
           </table></p>
           <p>以下の文字をハイフンと混同してはならない。 <list>
