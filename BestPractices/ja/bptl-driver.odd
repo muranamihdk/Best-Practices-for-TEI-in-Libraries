@@ -175,15 +175,13 @@
           <p>レベル3では、 <gi>lb</gi> と <gi>cb</gi> と <gi>pb</gi> とを使用する場合は、<gi>pc</gi> および <att>force</att> を使って、ハイフンの使用方法を必要に応じ区別する。レベル4では、 <gi>lb</gi> と <gi>cb</gi> と <gi>pb</gi> とを使用する場合は、元のハイフンと改行をすべて保持するのであれば、これらの要素に対して <gi>pc</gi> と <att>force</att> を使用することは必須である。これが重要なのは、符号化したテキストをオリジナルとは異なるフォーマットで再発行する可能性がある場合、フォーマットの違いは改行やハイフンのオリジナルテキストからの異同の原因になるためである。</p>
           <p>行末で改行された単語の例を使って、ハイフンのマークアップの例を次に示す。このようなハイフンが改行ではなく欄またはページの末尾で発生する場合は、代わりに <gi>cb</gi> または <gi>pb</gi> を使用する。<table rend="table">
             <row role="label">
-              <cell>Colloquial name</cell>
-              <cell>Appearance in source document</cell>
-              <cell>Encoding</cell>
-              <cell>Note</cell>
+              <cell>俗名</cell>
+              <cell>元の文書における見た目</cell>
+              <cell>符号化</cell>
+              <cell>注記</cell>
             </row>
             <row>
-              <cell>
-                Hard hyphen
-              </cell>
+              <cell>ハード・ハイフン</cell>
               <cell>
                 <eg>
                   This is not a run-
@@ -195,17 +193,10 @@
                   This is not a run&lt;pc force="weak"&gt;-&lt;/pc&gt;&lt;lb break="no"/&gt;on sentence.
                 </code>
               </cell>
-              <cell>
-                The use of <val>weak</val> as the value of  <att>force</att> 
-                 indicates that the encoder considers "run-on" to be a single
-                orthographic token, where the hyphen is not a word separator. The use of <val>no</val> as the value of 
-                <att>break</att> also indicates that the line break occurs inside an orthographic token (single word) which is broken across a line.
-              </cell>
+              <cell><att>force</att> の値に <val>weak</val> を使用すると、"run-on" は綴り上ひとつのかたまりであり、ハイフンは語の境目を示すものでなはい、と符号化従事者が考えていることを示す。同様に <att>break</att> の値に <val>no</val> を使用すると、行をまたいで分割されたひとつの綴り上のかたまり（単一の単語）の中で改行が行われることを示す。</cell>
             </row>
             <row>
-              <cell>
-                Hard hyphen
-              </cell>
+              <cell>ハード・ハイフン</cell>
               <cell>
                 <eg>
                   This is not a run-
@@ -217,17 +208,10 @@
                   This is not a run&lt;pc force="strong"&gt;-&lt;/pc&gt;&lt;lb break="yes"/&gt;on sentence.
                 </code>
               </cell>
-              <cell>
-                The use of <val>strong</val> as the value of  <att>force</att> 
-                indicates that the encoder considers "run-on" to be two 
-                orthographic tokens, where the hyphen is also a word separator. The use of <val>yes</val> as the value of 
-                <att>break</att> indicates that the line break occurs between two words.
-              </cell>
+              <cell><att>force</att> の値に <val>strong</val> を使用すると、"run-on" は綴り上ふたつのかたまりであり、ハイフンも語の境目を示すもの、と符号化従事者が考えていることを示す。同様に <att>break</att> の値に <val>yes</val> を使用すると、ふたつの単語の間で改行が行われることを示す。</cell>
             </row>
             <row>
-              <cell>
-                Soft hyphen
-              </cell>
+              <cell>ソフト・ハイフン</cell>
               <cell>
                 <eg>
                   UTF-8 is a char-
@@ -239,18 +223,10 @@
                   UTF-8 is a char&lt;pc force="strong"&gt;-&lt;/pc&gt;&lt;lb break="yes"/&gt;acter encoding for Unicode.
                 </code>
               </cell>
-              <cell>
-                As in the first example, the use of <val>weak</val> as the value of  <att>force</att> 
-                indicates that the encoder considers "character" to be a single
-                orthographic token where the hyphen is only indicating that the word is broken across a line. The use of <val>no</val> as 
-                the value of 
-                <att>break</att> also indicates that the line break occurs inside an orthographic token (single word) which is broken across a line.
-              </cell>
+              <cell>最初の例で示したように、<att>force</att> の値に <val>weak</val> を使用すると、"character" は綴り上ひとつのかたまりであり、ハイフンは単にその語が行をまたいだために分割されていることを示しているだけだと、符号化従事者が考えていることを示す。同様に <att>break</att> の値に <val>no</val> を使用すると、行をまたいで分割されたひとつの綴り上のかたまり（単一の単語）の中で改行が行われることを示す。</cell>
             </row>
             <row>
-              <cell>
-                Unclear case
-              </cell>
+              <cell>曖昧な事例</cell>
               <cell>
                 <eg>
                   Some people say TEI is a mark-
@@ -262,12 +238,7 @@
                   Some people say TEI is a mark&lt;pc force="inter"&gt;-&lt;/pc&gt;&lt;lb break="maybe"/&gt;up language.
                 </code>
               </cell>
-              <cell>
-                The use of <val>inter</val> as the value of <att>force</att> 
-                indicates that the encoder is not taking a position on whether "mark-up" 
-                is a single orthographic token or two words. The use of <val>maybe</val> as the value of 
-                <att>break</att> is also inconclusive on whether the line break occurs in between words or inside a word.
-              </cell>
+              <cell><att>force</att> の値に <val>inter</val> を使用すると、"mark-up" は綴り上ひとつのかたまりなのか、それともふたつの単語なのかについて、符号化従事者が判断を下していないことを示す。同様に <att>break</att> の値に <val>maybe</val> を使用すると、改行がふたつの単語の間で行われているのか、それとも単一の単語の中で行われているのか、結論が出ていないことを示す。</cell>
             </row>
           </table></p>
           <p>以下の文字をハイフンと混同してはならない。 <list>
