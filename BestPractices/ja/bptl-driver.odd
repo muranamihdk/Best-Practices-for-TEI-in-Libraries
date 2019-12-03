@@ -250,8 +250,7 @@
       </div>
       <div type="===">
         <head>ファイル名</head>
-        <p>A filename scheme that is internally consistent should be
-        established for any encoding project.</p>
+        <p>すべての符号化プロジェクトにおいて、プロジェクト内部での一貫したファイル名スキームを確立すべきである。</p>
         <p>Consider the following best practices when
         determining the file name scheme for your project:
         <list>
