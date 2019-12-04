@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-04 07:01+0900\n"
+"PO-Revision-Date: 2019-12-04 20:59+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -746,7 +746,7 @@ msgstr "ファイル名"
 #. (itstool) path: div/p
 #: bptl-driver.odd:458
 msgid "A filename scheme that is internally consistent should be established for any encoding project."
-msgstr "すべての符号化プロジェクトにおいて、プロジェクト内部での一貫したファイル名スキームを確立すべきである。"
+msgstr "あらゆる符号化プロジェクトにおいて、ファイル名についてプロジェクト内部での一貫したスキームを確立する必要がある。"
 
 #. (itstool) path: list/item
 #: bptl-driver.odd:463
@@ -766,27 +766,27 @@ msgstr "ファイル名にはスペースを含んではならない。"
 #. (itstool) path: list/item
 #: bptl-driver.odd:471
 msgid "Filenames should follow predictable case constructions (e.g., all lowercase, camelCase, etc.)"
-msgstr ""
+msgstr "ファイル名での大文字・小文字の使い分けは、予測が可能な構成法にすべきである（例えばすべて小文字、キャメルケース、など）。"
 
 #. (itstool) path: list/item
 #: bptl-driver.odd:473
 msgid "The first character of the filename should be an ASCII letter ('a' through 'z' or 'A' through 'Z') to comply with current restrictions on identifiers by many programming and XML-based metadata languages"
-msgstr ""
+msgstr "ファイル名の最初の文字は、多くのプログラミング言語やXMLベースのメタデータ言語での、識別子に対する現在の制約に準拠するために、ASCII文字（'a' から 'z' および 'A' から 'Z'）でなければならない。"
 
 #. (itstool) path: item/term
 #: bptl-driver.odd:477
 msgid "base"
-msgstr ""
+msgstr "本体部分"
 
 #. (itstool) path: list/item
 #: bptl-driver.odd:477
 msgid "The <_:term-1/> filename may include only ASCII letters ('a' through 'z' and 'A' through 'Z'), ASCII digits ('0' through '9'), hyphens, underscores, and periods. Refrain from using other characters and limit period usage to only once (to separate base name from file extensions)."
-msgstr ""
+msgstr "<a_:term-1/>のファイル名には、ASCII文字（'a' から 'z' および 'A' から 'Z'）とASCII数字（0から9）、ハイフン、アンダースコア、およびピリオドのみを含めることができる。これ以外の文字の使用は控え、ピリオドの使用は1回のみに制限する（本体名とファイル拡張子を区切る時）。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:460
 msgid "Consider the following best practices when determining the file name scheme for your project: <_:list-1/>"
-msgstr ""
+msgstr "プロジェクトのファイル名スキームを決定する際には、以下のベストプラクティスを検討してもらいたい。<_:list-1/>"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:487
