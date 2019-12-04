@@ -268,18 +268,8 @@
         <head>テキストの区分け</head>
         <p>レベル2以上で <gi>text</gi> を使用する場合、符号化プロジェクトは番号付き区分（つまり <gi>div1</gi> や <gi>div2</gi> など）か、番号なし区分（つまり <gi>div</gi>）のいずれかのみを使用し、両方同時に使用することはしないようにすべきである。これは、TEI ドキュメント内（つまり <gi>front</gi> や <gi>body</gi> や <gi>back</gi> の中、あるいは <gi>group</gi> または <gi>floatingText</gi> の中に入れ子になっている場合でも）においてと、任意のコレクション内のTEIドキュメントにおいてと、その双方にわたって適用される。テキストの下位区分の番号付けは、下位区分内にネストされた <gi>floatingText</gi> 要素内で最初から（<gi>div1</gi> から）始まるため、ドキュメント中のネストされた番号付き区分を処理するソフトウェアは、この点を考慮する必要があることに注意してほしい。</p>
         <p>番号付き区分と番号なしの区分の選択は、ヘッダーの <gi>tagUsage</gi> 要素で文書化する必要がある。この後の「<ref target="#headertable">セクション 4.1.8, TEIヘッダーの要素と属性の推奨事項</ref>」を参照してほしい。</p>
-        <p>Whether numbered or unnumbered divisions are used, the
-        <att>type</att> attribute of the division element is not
-        recommended at Level 1 (because only one encoded division in
-        the text exists), is optional at Level 2 (because the
-        division-level metadata need not classify these divisions), is
-        recommended at Level 3 (for broad yet useful analysis of text
-        divisions), and is strongly recommended at Levels 4 and 5 (for
-        full analysis of the text structure). Recommended values for
-        the <att>type</att> attribute are listed below. Other values
-        may be used if these are not applicable. See <ref target="#type">section 3.9.1, on
-        the <att>type</att> attribute</ref>, below for a discussion of adding customized
-        values to the project ODD.</p>
+        <p>番号付き区分と番号なし区分のどちらを使用する場合でも、区分要素の <att>type</att> 属性はレベル1では推奨されない（テキスト内の符号化された区分は 1 つだけであるため）。レベル2では省略可能である（区分レベルのメタデータはこれらの区分では分類する必要がないため）。レベル3では推奨される（テキスト区分の多様かつ有用な分析のために）。レベル4と5では強く推奨される（テキスト構造の完全な分析のために）。<att>type</att> 属性の推奨値を以下に示す。これらが適当でない場合は、他の値を使用することができる。プロジェクトのODDにカスタマイズされた値を追加する方法については、この後の「<ref target="#type">section 3.9.1, on
+        the  attribute</ref>」を参照してもらいたい。</p>
         <!-- When changing values for the @type attribute on the <div>
              element, remember to make the parallel adjustments to the
              list that appears in the prose of the BPTL and to the
