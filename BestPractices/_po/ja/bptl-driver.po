@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-04 22:00+0900\n"
+"PO-Revision-Date: 2019-12-04 22:02+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -882,7 +882,7 @@ msgstr "セクション 4.1.8, TEIヘッダーの要素と属性の推奨事項"
 #. (itstool) path: div/p
 #: bptl-driver.odd:510
 msgid "The choice of numbered or unnumbered divisions should be documented with the <_:gi-1/> element in the header. See <_:ref-2/>, below."
-msgstr "番号付き区分と番号なしの区分の選択は、ヘッダーの <_:gi-1/> 要素で文書化する必要がある。この後の「<:ref-2/>」を参照してほしい。"
+msgstr "番号付き区分と番号なしの区分の選択は、ヘッダーの <_:gi-1/> 要素で文書化する必要がある。この後の「<_:ref-2/>」を参照してほしい。"
 
 #. (itstool) path: p/att
 #. (itstool) path: ref/att
