@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-04 22:40+0900\n"
+"PO-Revision-Date: 2019-12-04 22:47+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -900,7 +900,7 @@ msgstr "セクション 3.9.1, <_:att-1/> 属性について"
 #. (itstool) path: div/p
 #: bptl-driver.odd:514
 msgid "Whether numbered or unnumbered divisions are used, the <_:att-1/> attribute of the division element is not recommended at Level 1 (because only one encoded division in the text exists), is optional at Level 2 (because the division-level metadata need not classify these divisions), is recommended at Level 3 (for broad yet useful analysis of text divisions), and is strongly recommended at Levels 4 and 5 (for full analysis of the text structure). Recommended values for the <_:att-2/> attribute are listed below. Other values may be used if these are not applicable. See <_:ref-3/>, below for a discussion of adding customized values to the project ODD."
-msgstr "番号付き区分と番号なし区分のどちらを使用する場合でも、区分要素の <_:att-1/> 属性はレベル1では推奨されない（テキスト内の符号化された区分は 1 つだけであるため）。レベル2では省略可能である（区分レベルのメタデータはこれらの区分では分類する必要がないため）。レベル3では推奨される（テキスト区分の多様かつ有用な分析のために）。レベル4と5では強く推奨される（テキスト構造の完全な分析のために）。<_:att-2/> 属性の推奨値を以下に示す。これらが適当でない場合は、他の値を使用することができる。プロジェクトのODDにカスタマイズされた値を追加する方法については、この後の「<_:ref-3/>」を参照してもらいたい。"
+msgstr "番号付き区分と番号なし区分のどちらを使用する場合であっても、区分要素の <_:att-1/> 属性はレベル1では推奨されない（テキスト内の符号化された区分は 1 つだけであるため）。レベル2では省略可能である（区分レベルのメタデータはこれらの区分を分類する必要がないため）。レベル3では推奨される（テキスト区分の多様かつ有用な分析のため）。レベル4と5では強く推奨される（テキスト構造の完全な分析のため）。<_:att-2/> 属性で使用が推奨される値を以下に示す。この中に適当な値がない場合は、他の値を使用することができる。プロジェクトのODDにカスタマイズされた値を追加する方法については、この後の「<_:ref-3/>」を参照してもらいたい。"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:532
