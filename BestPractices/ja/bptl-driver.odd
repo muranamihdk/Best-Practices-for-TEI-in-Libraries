@@ -266,18 +266,7 @@
       </div>
       <div type="===">
         <head>テキストの区分け</head>
-        <p>At Levels 2 and higher, when <gi>text</gi> is used, an 
-        encoding project should use only numbered divisions
-        (i.e., <gi>div1</gi>, <gi>div2</gi>, etc.) or unnumbered
-        divisions (i.e., <gi>div</gi>) but not both. This applies both
-        within a TEI document (i.e., within <gi>front</gi>,
-        <gi>body</gi>, <gi>back</gi>, even if nested within
-        <gi>group</gi> or <gi>floatingText</gi>), and across TEI
-        documents in any given collection. Keep in mind that numbering
-        of textual subdivisions starts over (at <gi>div1</gi>) within
-        <gi>floatingText</gi> elements nested inside a subdivision, so any
-        software that expects to process nested numbered divisions
-        within a document will need to account for this.</p>
+        <p>レベル2以上で、 <gi>text</gi> を使用する場合、符号化プロジェクトは番号付き区分（つまり <gi>div1</gi> や <gi>div2</gi>など）もしくは番号なし区分（つまり <gi>div</gi>）のいずれかのみを使用し、両方同時に使用しないようにすべきである。これは、TEI ドキュメント内（つまり <gi>front</gi> や <gi>body</gi> や <gi>back</gi> の中、またもし <gi>group</gi> または <gi>floatingText</gi> の中に入れ子になっている場合でも）と、任意のコレクション内のTEIドキュメントの双方にわたって適用される。テキストの下位区分の番号付けは、下位区分内にネストされた <gi>floatingText</gi> 要素内で（<gi>div1</gi> で）最初から始まるため、ドキュメント中のネストされた番号付き区分を処理するソフトウェアは、この点を考慮する必要があることに注意してほしい。</p>
         <p>The choice of numbered or unnumbered divisions should be
         documented with the <gi>tagUsage</gi> element in the header.
         See <ref target="#headertable">section 4.1.8, Element and Attribute Recommendations
