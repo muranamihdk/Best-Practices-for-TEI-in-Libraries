@@ -267,12 +267,7 @@
       </div>
       <div type="===" xml:id="uris">
         <head>URI</head>
-        <p>A number of attributes take a <ref target="http://tools.ietf.org/html/rfc3986">URI</ref> (Uniform
-        Resource Identifier) as their value. Note that in addition to
-        the full form of reference defined by URI syntax, these
-        attributes can take a relative reference (e.g.,
-        <code>filename.ext</code>) or a fragment identifier (e.g.,
-        <code>#foo</code>).</p>
+        <p>多くの属性が、その値として<ref target="http://tools.ietf.org/html/rfc3986">URI</ref> (Uniform Resource Identifier) を取る。URI構文で定義された参照の完全な形式に加えて、これらの属性は相対参照（例: <code>filename.ext</code>）やフラグメント識別子（例: <code>#foo</code>）を取ることができることに注意されたい。</p>
       </div>
       <div type="===">
         <head>テキストの区分け</head>
