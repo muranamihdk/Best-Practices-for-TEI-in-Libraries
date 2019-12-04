@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-04 22:53+0900\n"
+"PO-Revision-Date: 2019-12-05 00:24+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -816,7 +816,7 @@ msgstr "多くの属性が、その値として<_:ref-1/> (Uniform Resource Iden
 #. (itstool) path: div/head
 #: bptl-driver.odd:497
 msgid "Textual Divisions"
-msgstr "テキストの区分け"
+msgstr "テキスト区分"
 
 #. (itstool) path: p/gi
 #: bptl-driver.odd:498 bptl-driver.odd:867 bptl-driver.odd:1027
@@ -920,7 +920,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:540 bptl-driver.odd:544 bptl-driver.odd:560
 msgid "Usually appears in front matter."
-msgstr ""
+msgstr "通常、前付けに置かれる。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:543
@@ -935,7 +935,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:548
 msgid "A table of contents. Usually appears in front matter."
-msgstr ""
+msgstr "目次。通常、前付けに置かれる。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:551
@@ -945,7 +945,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:552
 msgid "A dedication. Usually appears in front matter."
-msgstr ""
+msgstr "献辞。通常、前付けに置かれる。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:555
