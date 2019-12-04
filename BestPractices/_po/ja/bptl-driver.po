@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-04 21:38+0900\n"
+"PO-Revision-Date: 2019-12-04 22:00+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -867,7 +867,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:498
 msgid "At Levels 2 and higher, when <_:gi-1/> is used, an encoding project should use only numbered divisions (i.e., <_:gi-2/>, <_:gi-3/>, etc.) or unnumbered divisions (i.e., <_:gi-4/>) but not both. This applies both within a TEI document (i.e., within <_:gi-5/>, <_:gi-6/>, <_:gi-7/>, even if nested within <_:gi-8/> or <_:gi-9/>), and across TEI documents in any given collection. Keep in mind that numbering of textual subdivisions starts over (at <_:gi-10/>) within <_:gi-11/> elements nested inside a subdivision, so any software that expects to process nested numbered divisions within a document will need to account for this."
-msgstr "レベル2以上で、 <_:gi-1/> を使用する場合、符号化プロジェクトは番号付き区分（つまり <_:gi-2/> や <_:gi-3/>など）もしくは番号なし区分（つまり <_:gi-4/>）のいずれかのみを使用し、両方同時に使用しないようにすべきである。これは、TEI ドキュメント内（つまり <_:gi-5/> や <_:gi-6/> や <_:gi-7/> の中、またもし <_:gi-8/> または <_:gi-9/> の中に入れ子になっている場合でも）と、任意のコレクション内のTEIドキュメントの双方にわたって適用される。テキストの下位区分の番号付けは、下位区分内にネストされた <_:gi-11/> 要素内で（<_:gi-10/> で）最初から始まるため、ドキュメント中のネストされた番号付き区分を処理するソフトウェアは、この点を考慮する必要があることに注意してほしい。"
+msgstr "レベル2以上で <_:gi-1/> を使用する場合、符号化プロジェクトは番号付き区分（つまり <_:gi-2/> や <_:gi-3/> など）か、番号なし区分（つまり <_:gi-4/>）のいずれかのみを使用し、両方同時に使用することはしないようにすべきである。これは、TEI ドキュメント内（つまり <_:gi-5/> や <_:gi-6/> や <_:gi-7/> の中、あるいは <_:gi-8/> または <_:gi-9/> の中に入れ子になっている場合でも）においてと、任意のコレクション内のTEIドキュメントにおいてと、その双方にわたって適用される。テキストの下位区分の番号付けは、下位区分内にネストされた <_:gi-11/> 要素内で最初から（<_:gi-10/> から）始まるため、ドキュメント中のネストされた番号付き区分を処理するソフトウェアは、この点を考慮する必要があることに注意してほしい。"
 
 #. (itstool) path: p/gi
 #: bptl-driver.odd:511
@@ -877,12 +877,12 @@ msgstr ""
 #. (itstool) path: p/ref
 #: bptl-driver.odd:512
 msgid "section 4.1.8, Element and Attribute Recommendations for the TEI Header"
-msgstr ""
+msgstr "セクション 4.1.8, TEIヘッダーの要素と属性の推奨事項"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:510
 msgid "The choice of numbered or unnumbered divisions should be documented with the <_:gi-1/> element in the header. See <_:ref-2/>, below."
-msgstr ""
+msgstr "番号付き区分と番号なしの区分の選択は、ヘッダーの <_:gi-1/> 要素で文書化する必要がある。この後の「<:ref-2/>」を参照してほしい。"
 
 #. (itstool) path: p/att
 #. (itstool) path: ref/att
