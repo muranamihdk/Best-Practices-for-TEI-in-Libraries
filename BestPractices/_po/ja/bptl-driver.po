@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-04 21:05+0900\n"
+"PO-Revision-Date: 2019-12-04 21:08+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -781,7 +781,7 @@ msgstr "本体部分"
 #. (itstool) path: list/item
 #: bptl-driver.odd:477
 msgid "The <_:term-1/> filename may include only ASCII letters ('a' through 'z' and 'A' through 'Z'), ASCII digits ('0' through '9'), hyphens, underscores, and periods. Refrain from using other characters and limit period usage to only once (to separate base name from file extensions)."
-msgstr "<a_:term-1/>のファイル名には、ASCII文字（'a' から 'z' および 'A' から 'Z'）とASCII数字（0から9）、ハイフン、アンダースコア、およびピリオドのみを含めることができる。これ以外の文字の使用は控え、ピリオドの使用は1回のみに制限する（本体名とファイル拡張子を区切る時）。"
+msgstr "<_:term-1/>のファイル名には、ASCII文字（'a' から 'z' および 'A' から 'Z'）とASCII数字（0から9）、ハイフン、アンダースコア、およびピリオドのみを含めることができる。これ以外の文字の使用は控え、ピリオドの使用は1回のみに制限する（本体名とファイル拡張子を区切る時）。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:460
@@ -811,7 +811,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:488
 msgid "A number of attributes take a <_:ref-1/> (Uniform Resource Identifier) as their value. Note that in addition to the full form of reference defined by URI syntax, these attributes can take a relative reference (e.g., <_:code-2/>) or a fragment identifier (e.g., <_:code-3/>)."
-msgstr "多くの属性が、その値として<_:ref-1/> (Uniform Resource Identifier) を取る。URI構文で定義された参照の完全な形式に加えて、これらの属性は相対参照（例: <_:code-2/>）やフラグメント識別子（例: <_:code-3/>）を取ることができることに注意されたい。"
+msgstr "多くの属性が、その値として<_:ref-1/> (Uniform Resource Identifier) を取る。URI構文で定義された参照の完全な形式に加えて、これらの属性は相対参照（例: <_:code-2/>）やフラグメント識別子（例: <_:code-3/>）を取ることができることに注意してほしい。"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:497
