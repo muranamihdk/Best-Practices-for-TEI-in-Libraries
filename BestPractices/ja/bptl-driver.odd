@@ -257,17 +257,12 @@
           <item>ファイル名にはスペースを含んではならない。</item>
           <item>ファイル名での大文字・小文字の使い分けは、予測が可能な構成法にすべきである（例えばすべて小文字、キャメルケース、など）。</item>
           <item>ファイル名の最初の文字は、多くのプログラミング言語やXMLベースのメタデータ言語での、識別子に対する現在の制約に準拠するために、ASCII文字（'a' から 'z' および 'A' から 'Z'）でなければならない。</item>
-          <item>The <term>base</term> filename may include only ASCII
-          letters ('a' through 'z' and 'A' through 'Z'), ASCII digits
-          ('0' through '9'), hyphens, underscores, and periods.
-          Refrain from using other characters and limit period usage
-          to only once (to separate base name from file
-          extensions).</item>
+          <item><term>本体部分</term>のファイル名には、ASCII文字（'a' から 'z' および 'A' から 'Z'）とASCII数字（0から9）、ハイフン、アンダースコア、およびピリオドのみを含めることができる。これ以外の文字の使用は控え、ピリオドの使用は1回のみに制限する（本体名とファイル拡張子を区切る時）。</item>
         </list></p>
       </div>
       <div type="===" xml:id="uris">
         <head>URI</head>
-        <p>多くの属性が、その値として<ref target="http://tools.ietf.org/html/rfc3986">URI</ref> (Uniform Resource Identifier) を取る。URI構文で定義された参照の完全な形式に加えて、これらの属性は相対参照（例: <code>filename.ext</code>）やフラグメント識別子（例: <code>#foo</code>）を取ることができることに注意されたい。</p>
+        <p>多くの属性が、その値として<ref target="http://tools.ietf.org/html/rfc3986">URI</ref> (Uniform Resource Identifier) を取る。URI構文で定義された参照の完全な形式に加えて、これらの属性は相対参照（例: <code>filename.ext</code>）やフラグメント識別子（例: <code>#foo</code>）を取ることができることに注意してほしい。</p>
       </div>
       <div type="===">
         <head>テキストの区分け</head>
