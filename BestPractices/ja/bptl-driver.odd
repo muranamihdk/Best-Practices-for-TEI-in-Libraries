@@ -250,32 +250,20 @@
       </div>
       <div type="===">
         <head>ファイル名</head>
-        <p>すべての符号化プロジェクトにおいて、プロジェクト内部での一貫したファイル名スキームを確立すべきである。</p>
-        <p>Consider the following best practices when
-        determining the file name scheme for your project:
-        <list>
-          <item>Each filename should contain an identifier that
-          uniquely specifies a single digital object within the parent
-          collection (e.g., a parent collection of text, images and
-          other related materials)</item>
-          <item>Each filename should be fully specified. It should not
-          just be a sequence number that is dependent on location
-          within a directory structure for context</item>
-          <item>Filenames should not include spaces</item>
-          <item>Filenames should follow predictable case constructions
-          (e.g., all lowercase, camelCase, etc.)</item>
-          <item>The first character of the filename should be an ASCII
-          letter ('a' through 'z' or 'A' through 'Z') to comply with
-          current restrictions on identifiers by many programming and
-          XML-based metadata languages</item>
+        <p>あらゆる符号化プロジェクトにおいて、ファイル名についてプロジェクト内部での一貫したスキームを確立する必要がある。</p>
+        <p>プロジェクトのファイル名スキームを決定する際には、以下のベストプラクティスを検討してもらいたい。<list>
+          <item>それぞれのファイル名には、親コレクション（例えばテキストや画像、その他の関連資料の親コレクション）の中のひとつのデジタル物体を、一意に指定する識別子を含むべきである。</item>
+          <item>それぞれのファイル名は、それ自身で完全に指定が可能なものにすべきである。文脈をディレクトリ構造内の位置に依存したただの連番であってはならない。</item>
+          <item>ファイル名にはスペースを含んではならない。</item>
+          <item>ファイル名での大文字・小文字の使い分けは、予測が可能な構成法にすべきである（例えばすべて小文字、キャメルケース、など）。</item>
+          <item>ファイル名の最初の文字は、多くのプログラミング言語やXMLベースのメタデータ言語での、識別子に対する現在の制約に準拠するために、ASCII文字（'a' から 'z' および 'A' から 'Z'）でなければならない。</item>
           <item>The <term>base</term> filename may include only ASCII
           letters ('a' through 'z' and 'A' through 'Z'), ASCII digits
           ('0' through '9'), hyphens, underscores, and periods.
           Refrain from using other characters and limit period usage
           to only once (to separate base name from file
           extensions).</item>
-        </list>
-        </p>
+        </list></p>
       </div>
       <div type="===" xml:id="uris">
         <head>URI</head>
