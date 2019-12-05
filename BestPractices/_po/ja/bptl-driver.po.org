@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-06 00:38+0900\n"
+"PO-Revision-Date: 2019-12-05 00:24+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -918,19 +918,14 @@ msgid "abstract"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: bptl-driver.odd:540
+#: bptl-driver.odd:540 bptl-driver.odd:544 bptl-driver.odd:560
 msgid "Usually appears in front matter."
-msgstr "（要旨）通常、前付けに置かれる。"
+msgstr "通常、前付けに置かれる。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:543
 msgid "acknowledgement"
 msgstr ""
-
-#. (itstool) path: row/cell
-#: bptl-driver.odd:544
-msgid "Usually appears in front matter."
-msgstr "（謝辞）通常、前付けに置かれる。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:547
@@ -940,7 +935,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:548
 msgid "A table of contents. Usually appears in front matter."
-msgstr "（目次）通常、前付けに置かれる。"
+msgstr "目次。通常、前付けに置かれる。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:551
@@ -950,7 +945,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:552
 msgid "A dedication. Usually appears in front matter."
-msgstr "（献辞）通常、前付けに置かれる。"
+msgstr "献辞。通常、前付けに置かれる。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:555
@@ -966,11 +961,6 @@ msgstr ""
 #: bptl-driver.odd:559
 msgid "foreword"
 msgstr ""
-
-#. (itstool) path: row/cell
-#: bptl-driver.odd:560
-msgid "Usually appears in front matter."
-msgstr "（著者以外による序文）通常、前付けに置かれる。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:563
@@ -2586,4 +2576,3 @@ msgstr ""
 #: bptl-driver.odd:1492
 msgid "At its meeting in November 2015, the SIG decided to undertake a revision to these <_:title-1/>. A <_:ref-2/> met approximately monthly from early 2016 to 2018 to carry out this work, releasing version <_:ref-3/> in November 2017 and version 4.0.0 in September 2018."
 msgstr ""
-
