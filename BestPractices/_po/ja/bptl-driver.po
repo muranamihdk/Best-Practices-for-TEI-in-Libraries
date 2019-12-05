@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-06 00:38+0900\n"
+"PO-Revision-Date: 2019-12-06 01:34+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -918,7 +918,7 @@ msgid "abstract"
 msgstr ""
 
 #. (itstool) path: row/cell
-#: bptl-driver.odd:540
+#: bptl-driver.odd:540 bptl-driver.odd:544 bptl-driver.odd:560
 msgid "Usually appears in front matter."
 msgstr "（要旨）通常、前付けに置かれる。"
 
@@ -926,11 +926,6 @@ msgstr "（要旨）通常、前付けに置かれる。"
 #: bptl-driver.odd:543
 msgid "acknowledgement"
 msgstr ""
-
-#. (itstool) path: row/cell
-#: bptl-driver.odd:544
-msgid "Usually appears in front matter."
-msgstr "（謝辞）通常、前付けに置かれる。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:547
@@ -960,17 +955,12 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:556
 msgid "A statement indicating that the document's printing was officially authorized."
-msgstr ""
+msgstr "当該文書の印刷が正式に認可されたものであることを示す声明。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:559
 msgid "foreword"
 msgstr ""
-
-#. (itstool) path: row/cell
-#: bptl-driver.odd:560
-msgid "Usually appears in front matter."
-msgstr "（著者以外による序文）通常、前付けに置かれる。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:563
@@ -980,7 +970,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:564
 msgid "A portrait or other image (usually of the author, usually full page) printed at the front of a document. Usually appears in front matter."
-msgstr ""
+msgstr "（口絵）肖像やその他の画像（通常は著者の画像で、通常はページ全面の大きさ)。通常、前付けに置かれる。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:568
@@ -990,7 +980,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:569
 msgid "A formal indication (usually on the title page or in the front matter) that the document has received official license to be printed."
-msgstr ""
+msgstr "当該文書が印刷の正式な認可を受け取っていることを示す正式な表示（通常は扉ページまたは前付け）。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:573
@@ -1000,7 +990,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:574
 msgid "A section of the front matter that does not carry a more specific designation. Usually appears in front matter."
-msgstr ""
+msgstr "前付けのセクションでそれ以上の具体的な指定を伴わないもの。通常、前付けに置かれる。"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:580
@@ -2586,4 +2576,3 @@ msgstr ""
 #: bptl-driver.odd:1492
 msgid "At its meeting in November 2015, the SIG decided to undertake a revision to these <_:title-1/>. A <_:ref-2/> met approximately monthly from early 2016 to 2018 to carry out this work, releasing version <_:ref-3/> in November 2017 and version 4.0.0 in September 2018."
 msgstr ""
-
