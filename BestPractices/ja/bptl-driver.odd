@@ -284,42 +284,39 @@
             </row>
             <row>
               <cell>abstract</cell>
-              <cell>通常、前付けに置かれる。</cell>
+              <cell>（要旨）通常、前付けに置かれる。</cell>
             </row>
             <row>
               <cell>acknowledgement</cell>
-              <cell>通常、前付けに置かれる。</cell>
+              <cell>（要旨）通常、前付けに置かれる。</cell>
             </row>
             <row>
               <cell>contents</cell>
-              <cell>目次。通常、前付けに置かれる。</cell>
+              <cell>（目次）通常、前付けに置かれる。</cell>
             </row>
             <row>
               <cell>dedication</cell>
-              <cell>献辞。通常、前付けに置かれる。</cell>
+              <cell>（献辞）通常、前付けに置かれる。</cell>
             </row>
             <row>
               <cell>docAuthorization</cell>
-              <cell>A statement indicating that the document's printing was officially authorized.</cell>
+              <cell>当該文書の印刷が正式に認可されたものであることを示す声明。</cell>
             </row>
             <row>
               <cell>foreword</cell>
-              <cell>通常、前付けに置かれる。</cell>
+              <cell>（要旨）通常、前付けに置かれる。</cell>
             </row>
             <row>
               <cell>frontispiece</cell>
-              <cell>A portrait or other image (usually of the author, usually full page) printed at the
-              front of a document. Usually appears in front matter.</cell>
+              <cell>（口絵）肖像やその他の画像（通常は著者の画像で、通常はページ全面の大きさ)。通常、前付けに置かれる。</cell>
             </row>
             <row>
               <cell>imprimatur</cell>
-              <cell>A formal indication (usually on the title page or in the front matter) that the
-              document has received official license to be printed.</cell>
+              <cell>当該文書が印刷の正式な認可を受け取っていることを示す正式な表示（通常は扉ページまたは前付け）。</cell>
             </row>
             <row>
               <cell>preface</cell>
-              <cell>A section of the front matter that does not carry a more specific designation. Usually
-              appears in front matter.</cell>
+              <cell>前付けのセクションでそれ以上の具体的な指定を伴わないもの。通常、前付けに置かれる。</cell>
             </row>
           </table>
         </div>
