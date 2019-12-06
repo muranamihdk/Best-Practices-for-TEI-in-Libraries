@@ -329,56 +329,55 @@
             </row>
             <row>
               <cell>book</cell>
-              <cell>A major structural component of a long work,
-              identified explicitly in the text as a “book”</cell>
+              <cell>（本）長い作品の主要な構造コンポーネントで、テキスト内で「本」として明示的に識別されているもの</cell>
             </row>
             <row>
               <cell>chapter</cell>
-              <cell>A chapter, typically in a prose document.</cell>
+              <cell>（章）通常は散文の文書内で使われる。</cell>
             </row>
             <row>
               <cell>part</cell>
-              <cell>A major component of a work, containing further subdivisions.</cell>
+              <cell>（部、編）作品の主要なコンポーネントで、その中にさらに下位区分を含むもの。</cell>
             </row>
             <row>
               <cell>section</cell>
-              <cell>A generic section of a larger work.</cell>
+              <cell>（節）より大きな作品の中の一般的なセクション。</cell>
             </row>
             <row>
               <cell>subsection</cell>
-              <cell>A generic subdivision of a section.</cell>
+              <cell>（項）節の中の一般的な下位区分。</cell>
             </row>
             <row>
               <cell>volume</cell>
-              <cell>A single printed volume in a multi-volume work.</cell>
+              <cell>（巻）複数巻からなる作品の中の、印刷された1冊の巻。</cell>
             </row>
             <row>
               <cell>drama</cell>
-              <cell>A dramatic text.</cell>
+              <cell>（脚本、台本）劇形式のテキスト。</cell>
             </row>
             <row>
               <cell>dramaPart</cell>
-              <cell>A portion of a drama other than a prologue, act, scene, or epilogue.</cell>
+              <cell>劇の一部分で、序幕、幕、場、閉幕辞以外のもの。</cell>
             </row>
             <row>
               <cell>act</cell>
-              <cell>An act in a dramatic text.</cell>
+              <cell>（幕）劇形式のテキストの幕。</cell>
             </row>
             <row>
               <cell>scene</cell>
-              <cell>A scene in a dramatic text.</cell>
+              <cell>（場）劇形式のテキストの場。</cell>
             </row>
             <row>
               <cell>castlist</cell>
-              <cell>A list of characters in a dramatic text.</cell>
+              <cell>（配役）劇形式のテキストの登場人物一覧。</cell>
             </row>
             <row>
               <cell>poem</cell>
-              <cell>A poem.</cell>
+              <cell>（詩）</cell>
             </row>
             <row>
               <cell>poemGroup</cell>
-              <cell>A group of two or more poems under a common heading.</cell>
+              <cell>2つ以上の詩の集まりで、共通の見出しの下にあるもの。</cell>
             </row>
             <row>
               <cell>argument</cell>
@@ -402,12 +401,11 @@
             </row>
             <row>
               <cell>epilogue</cell>
-              <cell>A short concluding section, usually of a dramatic
-              or fictional work. </cell>
+              <cell>（閉幕辞、終章）</cell>
             </row>
             <row>
               <cell>prologue</cell>
-              <cell>An opening section of a literary work (typically drama or poetry).</cell>
+              <cell>（序幕・序詞）</cell>
             </row>
             <row>
               <cell>narrative</cell>
