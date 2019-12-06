@@ -373,11 +373,11 @@
             </row>
             <row>
               <cell>poem</cell>
-              <cell>（詩）</cell>
+              <cell>（詩）詩。</cell>
             </row>
             <row>
               <cell>poemGroup</cell>
-              <cell>2つ以上の詩の集まりで、共通の見出しの下にあるもの。</cell>
+              <cell>共通の見出しの下にある、2つ以上の詩の集まり。</cell>
             </row>
             <row>
               <cell>argument</cell>
@@ -405,7 +405,7 @@
             </row>
             <row>
               <cell>prologue</cell>
-              <cell>（序幕・序詞）</cell>
+              <cell>（序幕、序詞）</cell>
             </row>
             <row>
               <cell>narrative</cell>
