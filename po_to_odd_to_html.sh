@@ -179,8 +179,8 @@ cd /home/venus/tei/Best-Practices-for-TEI-in-Libraries-ja/
 git add index.html
 git commit -m "update Japanese translations"
 git push origin master
-cd -
 
 echo
+cd -
 git status
 
