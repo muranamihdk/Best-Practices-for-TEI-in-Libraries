@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-06 01:34+0900\n"
+"PO-Revision-Date: 2019-12-06 09:33+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -980,7 +980,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:569
 msgid "A formal indication (usually on the title page or in the front matter) that the document has received official license to be printed."
-msgstr "当該文書が印刷の正式な認可を受け取っていることを示す正式な表示（通常は扉ページまたは前付け）。"
+msgstr "（印刷許可）当該文書が印刷の正式な許可を受け取っていることを示す正式な表示（通常は扉ページまたは前付け）。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:573
@@ -990,7 +990,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:574
 msgid "A section of the front matter that does not carry a more specific designation. Usually appears in front matter."
-msgstr "前付けのセクションでそれ以上の具体的な指定を伴わないもの。通常、前付けに置かれる。"
+msgstr "（前書き）前付けにあるセクションであること以上の、具体的な指定を伴わないもの。通常、前付けに置かれる。"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:580
