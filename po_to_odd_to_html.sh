@@ -5,6 +5,7 @@ echo
 # ------------------------------------------------------------------
 
 echo ""; echo "--------- update PO file ---------"
+echo
 if [ $(git diff origin/localize_ja --name-only | wc -l) -ne 0 ]
 then
   echo
@@ -40,6 +41,7 @@ do
 done
 
 echo ""; echo "--------- generate MO file from PO file ---------"
+echo
 # poファイルからmoファイルを生成（_mo 以下に）
 TARGET_DIR="${PREFIX_PATH}/${MO_DIR}"
 if [ ! -d "$TARGET_DIR" ]
@@ -65,6 +67,7 @@ do
 done
 
 echo ""; echo "--------- generate ODD file from MO file ---------"
+echo
 # moファイルからoddファイルを生成（ja 以下に）
 TARGET_DIR="${PREFIX_PATH}/${TARGET_LANG}"
 if [ ! -d "$TARGET_DIR" ]
@@ -101,6 +104,7 @@ then
 fi
 
 # ------------------------------------------------------------------
+echo
 
 CMDNAME=`basename $0`
 help=""
@@ -149,6 +153,7 @@ elif which xmlstarlet ; then
 fi
 
 echo ""; echo "--------- generate HTML from main driver ---------"
+echo
 xmllint --xinclude ${SOURCEDIR}/bptl-driver.odd | ${STARLET} ed -N t=http://www.tei-c.org/ns/1.0 --delete "//t:schemaSpec" > ${TMPTMP}
 ${XSLDIR}/bin/teitohtml --odd --localsource=${P5SRC} ${TMPTMP}
 #mv ${TMPTMP}.html ${TARGETDIR}/bptl-driver.html
@@ -161,7 +166,13 @@ ${XSLDIR}/bin/teitohtml --odd --localsource=${P5SRC} ${TMPTMP}
 # OxGarage の Web API を利用して ODD ファイルから HTML ファイルを生成
 curl -s -F upload=@${TMPTMP}.tmpodd -o index.html https://oxgarage.tei-c.org/ege-webservice/Conversions/ODD%3Atext%3Axml/ODDC%3Atext%3Axml/TEI%3Atext%3Axml/xhtml%3Aapplication%3Axhtml%2Bxml/
 
+echo ""; echo "--------- patched HTML for Japanese edition ---------"
+echo
+# 生成されたHTML ファイルに日本語訳独自のパッチを当てる
+python3 patch.py
+
 echo ""; echo "--------- upload HTML to public repository ---------"
+echo
 # HTML ファイルを日本語訳公開用リポジトリに移動した後、公開用 GitHub リポジトリにアップロード
 mv index.html /home/venus/tei/Best-Practices-for-TEI-in-Libraries-ja/
 cd /home/venus/tei/Best-Practices-for-TEI-in-Libraries-ja/
@@ -170,5 +181,6 @@ git commit -m "update Japanese translations"
 git push origin master
 cd -
 
+echo
 git status
 
