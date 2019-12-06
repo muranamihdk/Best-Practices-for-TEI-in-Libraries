@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-06 09:33+0900\n"
+"PO-Revision-Date: 2019-12-06 10:52+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -1005,7 +1005,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:588
 msgid "A major structural component of a long work, identified explicitly in the text as a “book”"
-msgstr ""
+msgstr "（本）長い作品の主要な構造コンポーネントで、テキスト内で「本」として明示的に識別されているもの"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:592
@@ -1015,7 +1015,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:593
 msgid "A chapter, typically in a prose document."
-msgstr ""
+msgstr "（章）通常は散文の文書内で使われる。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:596
@@ -1025,7 +1025,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:597
 msgid "A major component of a work, containing further subdivisions."
-msgstr ""
+msgstr "（部、編）作品の主要なコンポーネントで、その中にさらに下位区分を含むもの。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:600
@@ -1035,7 +1035,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:601
 msgid "A generic section of a larger work."
-msgstr ""
+msgstr "（節）より大きな作品の中の一般的なセクション。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:604
@@ -1045,7 +1045,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:605
 msgid "A generic subdivision of a section."
-msgstr ""
+msgstr "（項）節の中の一般的な下位区分。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:608
@@ -1055,7 +1055,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:609
 msgid "A single printed volume in a multi-volume work."
-msgstr ""
+msgstr "（巻）複数巻からなる作品の中の、印刷された1冊の巻。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:612
@@ -1065,7 +1065,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:613
 msgid "A dramatic text."
-msgstr ""
+msgstr "（脚本、台本）劇形式のテキスト。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:616
@@ -1075,7 +1075,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:617
 msgid "A portion of a drama other than a prologue, act, scene, or epilogue."
-msgstr ""
+msgstr "劇の一部分で、序幕、幕、場、閉幕辞以外のもの。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:620
@@ -1085,7 +1085,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:621
 msgid "An act in a dramatic text."
-msgstr ""
+msgstr "（幕）劇形式のテキストの幕。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:624
@@ -1095,7 +1095,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:625
 msgid "A scene in a dramatic text."
-msgstr ""
+msgstr "（場）劇形式のテキストの場。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:628
@@ -1105,7 +1105,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:629
 msgid "A list of characters in a dramatic text."
-msgstr ""
+msgstr "（配役）劇形式のテキストの登場人物一覧。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:632
@@ -1115,7 +1115,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:633
 msgid "A poem."
-msgstr ""
+msgstr "（詩）"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:636
@@ -1125,7 +1125,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:637
 msgid "A group of two or more poems under a common heading."
-msgstr ""
+msgstr "2つ以上の詩の集まりで、共通の見出しの下にあるもの。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:640
@@ -1175,7 +1175,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:661
 msgid "A short concluding section, usually of a dramatic or fictional work."
-msgstr ""
+msgstr "（閉幕辞、終章）"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:665
@@ -1185,7 +1185,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:666
 msgid "An opening section of a literary work (typically drama or poetry)."
-msgstr ""
+msgstr "（序幕・序詞）"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:669
