@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-06 10:52+0900\n"
+"PO-Revision-Date: 2019-12-06 10:57+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -1115,7 +1115,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:633
 msgid "A poem."
-msgstr "（詩）"
+msgstr "（詩）詩。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:636
@@ -1125,7 +1125,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:637
 msgid "A group of two or more poems under a common heading."
-msgstr "2つ以上の詩の集まりで、共通の見出しの下にあるもの。"
+msgstr "共通の見出しの下にある、2つ以上の詩の集まり。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:640
@@ -1185,7 +1185,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:666
 msgid "An opening section of a literary work (typically drama or poetry)."
-msgstr "（序幕・序詞）"
+msgstr "（序幕、序詞）"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:669
