@@ -471,42 +471,35 @@
             </row>
             <row>
               <cell>appendix</cell>
-              <cell>Usually appears in back matter.</cell>
+              <cell>（付録）通常、後付けに置かれる。</cell>
             </row>
             <row>
               <cell>bibliography</cell>
-              <cell>Usually appears in back matter.</cell>
+              <cell>（付録）通常、後付けに置かれる。</cell>
             </row>
             <row>
               <cell>colophon</cell>
-              <cell>A short inscription, typically at the end of a
-              book or manuscript, containing the title, printer, date
-              and place of printing, etc. Usually appears in back
-              matter.</cell>
+              <cell>（奥付）一般的に本や写本の最後にある短い記入。書名、印刷者、印刷の場所と日付などを含む。通常、後付けに置かれる。</cell>
             </row>
             <row>
               <cell>concluding</cell>
-              <cell>Any section of the back matter that does not carry
-              a more specific designation; includes afterwords,
-              epilogues, codas, etc.</cell>
+              <cell>（結語）後付けにあるセクションで、それ以上の具体的な指定を伴わない任意のセクション。後書き、結語、終結部などを含む。</cell>
             </row>
             <row>
               <cell>endnotes</cell>
-              <cell>A section containing endnotes for the document.</cell>
+              <cell>（巻末注）文書の巻末注のセクション。</cell>
             </row>
             <row>
               <cell>glossary</cell>
-              <cell>Usually appears in back matter.</cell>
+              <cell>（付録）通常、後付けに置かれる。</cell>
             </row>
             <row>
               <cell>index</cell>
-              <cell>An alphabetical listing of the topics in a
-              document, usually with accompanying page references.
-              Usually appears in back matter.</cell>
+              <cell>（索引）文書内の主題のアルファベット順の一覧で、通常該当ページへの参照を伴う。通常、後付けに置かれる。</cell>
             </row>
             <row>
               <cell>notes</cell>
-              <cell>Usually appears in back matter.</cell>
+              <cell>（付録）通常、後付けに置かれる。</cell>
             </row>
           </table>
         </div>
