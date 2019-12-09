@@ -466,7 +466,7 @@
             </row>
             <row>
               <cell>addendum</cell>
-              <cell>（補遺）出版物の最後に付された追加の情報。通常は書き残したこと。</cell>
+              <cell>（補遺）出版物の最後に付された追加の情報。通常は書き落としたこと。</cell>
             </row>
             <row>
               <cell>appendix</cell>
@@ -486,7 +486,7 @@
             </row>
             <row>
               <cell>endnotes</cell>
-              <cell>（巻末注）文書の巻末注のセクション。</cell>
+              <cell>（巻末注）文書の巻末の注のセクション。</cell>
             </row>
             <row>
               <cell>glossary</cell>
