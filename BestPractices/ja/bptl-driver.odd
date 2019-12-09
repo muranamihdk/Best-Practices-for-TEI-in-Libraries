@@ -300,7 +300,7 @@
             </row>
             <row>
               <cell>docAuthorization</cell>
-              <cell>当該文書の印刷が正式に認可されたものであることを示す声明。</cell>
+              <cell>（版権）当該文書の印刷が正式に認可されたものであることを示す声明。</cell>
             </row>
             <row>
               <cell>foreword</cell>
@@ -329,7 +329,7 @@
             </row>
             <row>
               <cell>book</cell>
-              <cell>（本）長い作品の主要な構造コンポーネントで、テキスト内で「本」として明示的に識別されているもの</cell>
+              <cell>（本）長い作品の主要な構造コンポーネントで、テキスト内で「本」として明示的に識別されているもの。</cell>
             </row>
             <row>
               <cell>chapter</cell>
@@ -353,7 +353,7 @@
             </row>
             <row>
               <cell>drama</cell>
-              <cell>（脚本、台本）劇形式のテキスト。</cell>
+              <cell>（脚本）劇形式のテキスト。</cell>
             </row>
             <row>
               <cell>dramaPart</cell>
@@ -381,89 +381,79 @@
             </row>
             <row>
               <cell>argument</cell>
-              <cell>A short passage at the start of a document or
-              section giving a prose description of its
-              contents.</cell>
+              <cell>（大意）文書やセクションの始めにあって、その内容の説明を散文で与える、短い文章。</cell>
             </row>
             <row>
               <cell>corrigenda</cell>
-              <cell>A section describing corrections to be made to the document.</cell>
+              <cell>（正誤表）当該文書に対する訂正を記述するセクション。</cell>
             </row>
             <row>
               <cell>entry</cell>
-              <cell>An entry in a document that is organized as a log
-              or diary with dated entries.</cell>
+              <cell>（記入）日記やログなど日付の入った記述がまとめられた文書中の1日分の記述。</cell>
             </row>            
             <row>
               <cell>epigraph</cell>
-              <cell>A short quotation at the start of a document or
-              section, often accompanied by an attribution.</cell>
+              <cell>（題辞）文書の始めの短い引用。多くは引用元表示を伴う。</cell>
             </row>
             <row>
               <cell>epilogue</cell>
-              <cell>（閉幕辞、終章）</cell>
+              <cell>（閉幕辞、終章）短い締めくくりのセクション。通常は劇作品やフィクションのもの。</cell>
             </row>
             <row>
               <cell>prologue</cell>
-              <cell>（序幕、序詞）</cell>
+              <cell>（序幕、序詞）文芸作品（通常、劇や詩）の始まりのセクション。</cell>
             </row>
             <row>
               <cell>narrative</cell>
-              <cell>An embedded narrative.</cell>
+              <cell>（語り）作品中に入れ子になった物語。</cell>
             </row>
             <row>
               <cell>nonfictionProse</cell>
-              <cell>A text intended to be nonfiction consisting primarily of prose.</cell>
+              <cell>虚構ではないことを意図して書かれた主に散文で構成されたテキスト。</cell>
             </row>
             <row>
               <cell>novelPart</cell>
-              <cell>A portion of a novel.</cell>
+              <cell>（部）小説の一部。</cell>
             </row>
             <row>
               <cell>advert</cell>
-              <cell>An advertisement for a printed work or other product.</cell>
+              <cell>（広告）印刷作品やその他の作品の広告。</cell>
             </row>
             <row>
               <cell>calendar</cell>
-              <cell>A formal calendar; a document or document section identifying itself as a
-              calendar.</cell>
+              <cell>正式なカレンダー。カレンダーとして自分自身を識別する文書または文書セクション。</cell>
             </row>
             <row>
               <cell>essay</cell>
-              <cell>A short prose non-fiction document.</cell>
+              <cell>（エッセイ）フィクションではない短い散文の文書。</cell>
             </row>
             <row>
               <cell>examination</cell>
-              <cell>A section that is identified explicitly as an
-              <soCalled>examination</soCalled> in a text that uses
-              this as a main structural division.</cell>
+              <cell>（証人尋問）「尋問」と明示されているセクションで、それを主要な構成区分として使用しているテキスト中のもの。</cell>
             </row>
             <row>
               <cell>letter</cell>
-              <cell>Any document in epistolary form, i.e. addressed by
-              a sender to a recipient.</cell>
+              <cell>（手紙）書簡、つまり送信者が受信者宛てに送信する形式の文書。</cell>
             </row>
             <row>
               <cell>prayer</cell>
-              <cell>A prayer.</cell>
+              <cell>（祈祷）祈り。</cell>
             </row>
             <row>
               <cell>recipe</cell>
-              <cell>A recipe in a cookbook.</cell>
+              <cell>（レシピ）料理本のレシピ。</cell>
             </row>
             <row>
               <cell>speech</cell>
-              <cell>A section described as a speech or public lecture,
-              in a document that uses this as a main structural
-              division.</cell>
+              <cell>（演説）演説または公的な講義として記述されたセクションで、それを主要な構成区分とする文書中のもの。</cell>
             </row>
             <row>
               <cell>timeline</cell>
-              <cell>A timeline.</cell>
+              <cell>（年表）年表。</cell>
             </row>
             <row>
               <cell>tract</cell>
-              <cell>A short treatise in pamphlet form often on a religious subject.</cell>
+              <cell>小冊子形式の短い論文で、しばしば宗教的な主題に関するもの。</cell>
             </row>
           </table>
         </div>
