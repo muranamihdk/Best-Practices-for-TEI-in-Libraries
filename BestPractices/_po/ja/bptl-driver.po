@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-06 10:57+0900\n"
+"PO-Revision-Date: 2019-12-09 19:32+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -955,7 +955,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:556
 msgid "A statement indicating that the document's printing was officially authorized."
-msgstr "当該文書の印刷が正式に認可されたものであることを示す声明。"
+msgstr "（版権）当該文書の印刷が正式に認可されたものであることを示す声明。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:559
@@ -1005,7 +1005,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:588
 msgid "A major structural component of a long work, identified explicitly in the text as a “book”"
-msgstr "（本）長い作品の主要な構造コンポーネントで、テキスト内で「本」として明示的に識別されているもの"
+msgstr "（本）長い作品の主要な構造コンポーネントで、テキスト内で「本」として明示的に識別されているもの。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:592
@@ -1065,7 +1065,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:613
 msgid "A dramatic text."
-msgstr "（脚本、台本）劇形式のテキスト。"
+msgstr "（脚本）劇形式のテキスト。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:616
@@ -1135,7 +1135,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:641
 msgid "A short passage at the start of a document or section giving a prose description of its contents."
-msgstr ""
+msgstr "（大意）文書やセクションの始めにあって、その内容の説明を散文で与える、短い文章。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:646
@@ -1145,7 +1145,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:647
 msgid "A section describing corrections to be made to the document."
-msgstr ""
+msgstr "（正誤表）当該文書に対する訂正を記述するセクション。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:650
@@ -1155,7 +1155,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:651
 msgid "An entry in a document that is organized as a log or diary with dated entries."
-msgstr ""
+msgstr "（記入）日記やログなど日付の入った記述がまとめられた文書中の1日分の記述。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:655
@@ -1165,7 +1165,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:656
 msgid "A short quotation at the start of a document or section, often accompanied by an attribution."
-msgstr ""
+msgstr "（題辞）文書の始めの短い引用。多くは引用元表示を伴う。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:660
@@ -1175,7 +1175,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:661
 msgid "A short concluding section, usually of a dramatic or fictional work."
-msgstr "（閉幕辞、終章）"
+msgstr "（閉幕辞、終章）短い締めくくりのセクション。通常は劇作品やフィクションのもの。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:665
@@ -1185,7 +1185,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:666
 msgid "An opening section of a literary work (typically drama or poetry)."
-msgstr "（序幕、序詞）"
+msgstr "（序幕、序詞）文芸作品（通常、劇や詩）の始まりのセクション。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:669
@@ -1195,7 +1195,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:670
 msgid "An embedded narrative."
-msgstr ""
+msgstr "（語り）作品中に入れ子になった物語。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:673
@@ -1205,7 +1205,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:674
 msgid "A text intended to be nonfiction consisting primarily of prose."
-msgstr ""
+msgstr "虚構ではないことを意図して書かれた主に散文で構成されたテキスト。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:677
@@ -1215,7 +1215,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:678
 msgid "A portion of a novel."
-msgstr ""
+msgstr "（部）小説の一部。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:681
@@ -1225,7 +1225,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:682
 msgid "An advertisement for a printed work or other product."
-msgstr ""
+msgstr "（広告）印刷作品やその他の作品の広告。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:685
@@ -1235,7 +1235,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:686
 msgid "A formal calendar; a document or document section identifying itself as a calendar."
-msgstr ""
+msgstr "正式なカレンダー。カレンダーとして自分自身を識別する文書または文書セクション。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:690
@@ -1245,7 +1245,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:691
 msgid "A short prose non-fiction document."
-msgstr ""
+msgstr "（エッセイ）フィクションではない短い散文の文書。"
 
 #. (itstool) path: row/cell
 #. (itstool) path: cell/soCalled
@@ -1256,7 +1256,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:695
 msgid "A section that is identified explicitly as an <_:soCalled-1/> in a text that uses this as a main structural division."
-msgstr ""
+msgstr "（証人尋問）「尋問」と明示されているセクションで、それを主要な構成区分として使用しているテキスト中のもの。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:700
@@ -1266,7 +1266,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:701
 msgid "Any document in epistolary form, i.e. addressed by a sender to a recipient."
-msgstr ""
+msgstr "（手紙）書簡、つまり送信者が受信者宛てに送信する形式の文書。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:705
@@ -1276,7 +1276,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:706
 msgid "A prayer."
-msgstr ""
+msgstr "（祈祷）祈り。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:709
@@ -1286,7 +1286,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:710
 msgid "A recipe in a cookbook."
-msgstr ""
+msgstr "（レシピ）料理本のレシピ。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:713
@@ -1296,7 +1296,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:714
 msgid "A section described as a speech or public lecture, in a document that uses this as a main structural division."
-msgstr ""
+msgstr "（演説）演説または公的な講義として記述されたセクションで、それを主要な構成区分とする文書中のもの。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:719
@@ -1306,7 +1306,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:720
 msgid "A timeline."
-msgstr ""
+msgstr "（年表）年表。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:723
@@ -1316,7 +1316,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:724
 msgid "A short treatise in pamphlet form often on a religious subject."
-msgstr ""
+msgstr "小冊子形式の短い論文で、しばしば宗教的な主題に関するもの。"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:729
