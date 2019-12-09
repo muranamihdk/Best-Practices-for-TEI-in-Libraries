@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-09 19:32+0900\n"
+"PO-Revision-Date: 2019-12-09 20:10+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -1342,7 +1342,7 @@ msgstr ""
 #: bptl-driver.odd:742 bptl-driver.odd:746 bptl-driver.odd:767
 #: bptl-driver.odd:777
 msgid "Usually appears in back matter."
-msgstr ""
+msgstr "（付録）通常、後付けに置かれる。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:745
@@ -1357,7 +1357,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:750
 msgid "A short inscription, typically at the end of a book or manuscript, containing the title, printer, date and place of printing, etc. Usually appears in back matter."
-msgstr ""
+msgstr "（奥付）一般的に本や写本の最後にある短い記入。書名、印刷者、印刷の場所と日付などを含む。通常、後付けに置かれる。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:756
@@ -1367,7 +1367,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:757
 msgid "Any section of the back matter that does not carry a more specific designation; includes afterwords, epilogues, codas, etc."
-msgstr ""
+msgstr "（結語）後付けにあるセクションで、それ以上の具体的な指定を伴わない任意のセクション。後書き、結語、終結部などを含む。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:762
@@ -1377,7 +1377,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:763
 msgid "A section containing endnotes for the document."
-msgstr ""
+msgstr "（巻末注）文書の巻末注のセクション。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:766
@@ -1392,7 +1392,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:771
 msgid "An alphabetical listing of the topics in a document, usually with accompanying page references. Usually appears in back matter."
-msgstr ""
+msgstr "（索引）文書内の主題のアルファベット順の一覧で、通常該当ページへの参照を伴う。通常、後付けに置かれる。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:776
