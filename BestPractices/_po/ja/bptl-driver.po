@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-09 21:31+0900\n"
+"PO-Revision-Date: 2019-12-09 21:42+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -1331,7 +1331,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:737
 msgid "Additional material, typically omissions, added at the end of a publication."
-msgstr "（補遺）出版物の最後に付された追加の情報。通常は書き残したこと。"
+msgstr "（補遺）出版物の最後に付された追加の情報。通常は書き落としたこと。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:741
@@ -1377,7 +1377,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: bptl-driver.odd:763
 msgid "A section containing endnotes for the document."
-msgstr "（巻末注）文書の巻末注のセクション。"
+msgstr "（巻末注）文書の巻末の注のセクション。"
 
 #. (itstool) path: row/cell
 #: bptl-driver.odd:766
