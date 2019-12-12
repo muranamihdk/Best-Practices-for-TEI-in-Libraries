@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-12 23:36+0900\n"
+"PO-Revision-Date: 2019-12-12 23:39+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -1418,7 +1418,7 @@ msgstr "後に続く"
 #. (itstool) path: div/p
 #: bptl-driver.odd:785
 msgid "Page breaks should be encoded using the <_:gi-1/> element, with the value of the <_:att-2/> attribute denoting the number of the page whose content <_:emph-3/> this element. The <_:gi-4/> element should always be contained within a text division for ease of retrieval with indexing software. For example, a page break that occurs between chapters 2 and 3 should be encoded right after the opening tag of the text division that opens chapter 3 rather than before the closing tag of the division that ends chapter 2 or between the two text divisions. In the case of a page break occurring at the boundary of nested textual divisions, the <_:gi-5/> element should always be encoded within the lowest level division. For example, a page break that occurs between chapters 2 and 3, where chapter 3 begins with an editor's note requiring its own text division, would be encoded right after the opening tag of the text division for the editor's note."
-msgstr "改ページは、<_:gi-1/> 要素を用いて符号化すべきである。その際、<_:att-2/> 属性の値によって、この要素の<_:emph-3/>ページのページ番号を示さなければならない。<_:gi-4/> 要素は、索引ソフトウェアによる検索を容易にするために、常にテキスト区分の内部に含まれていなければならない。例えば、第2章と第3章の間で行われている改ページは、第3章の始めのテキスト区分の、開始タグの直後で符号化されなければならない。第2章の最後のテキスト区分の終了タグの直前や、第2章と第3章の間で符号化してはならない。入れ子になったテキスト区分内で改ページが行われている場合、<_:gi-5/> 要素は常に最も内側のテキスト区分内で符号化されねばならない。例えば、改ページが第2章と第3章の間で行われ、第3章が編集者注で始まっていている場合、編集者注はそれ自身のテキスト区分を必要とするので、改ページの符号化は編集者注のテキスト区分の開始タグ直後で行う。"
+msgstr "改ページは、<_:gi-1/> 要素を用いて符号化すべきである。その際、<_:att-2/> 属性の値によって、この要素の<_:emph-3/>ページのページ番号を示さなければならない。<_:gi-4/> 要素は、索引ソフトウェアによる検索を容易にするために、常にテキスト区分の内部に含まれていなければならない。例えば、第2章と第3章の間で行われている改ページは、第3章の始めのテキスト区分の、開始タグの直後で符号化されなければならない。第2章の最後のテキスト区分の終了タグの直前や、第2章と第3章の間で符号化してはならない。入れ子になったテキスト区分内で改ページが行われている場合、<_:gi-5/> 要素は常に最も内側のテキスト区分内で符号化されねばならない。例えば、改ページが第2章と第3章の間で行われ、第3章が編集者注で始まっていている場合、編集者注はそれ自体でテキスト区分を必要とするので、改ページの符号化は編集者注のテキスト区分の開始タグ直後で行う。"
 
 #. (itstool) path: p/gi
 #: bptl-driver.odd:802
