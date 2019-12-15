@@ -511,17 +511,17 @@
       </div>
       <div type="===" xml:id="txtimglnk">
         <head>符号化済みテキストと原文画像間のリンク</head>
-        <p>符号化テキストと、元文書の複製ページ画像をリンクするためには、3つの推奨メカニズムがある。プロジェクトでは、次のいずれかの方法を使用できる。<list>
-          <item><gi>surface</gi> 要素で <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHFAX"><att>facs</att></ref> 属性を使用し、対応するページ画像のURIを示す（すべてのレベルで）。</item>
-          <item><gi>pb</gi> 要素で <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHFAX"><att>facs</att></ref> 属性を使用し、対応するページ画像のURIを示す（レベル2から5で）。</item>
-          <item><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHFAX"><gi>facsimile</gi></ref> 要素を使用してテキストに対応する画像の集合を定義し、さらに <gi>surface</gi> 要素（すべてのレベルで）または <gi>pb</gi> 要素（レベル2から5で）で <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHFAX"><att>facs</att></ref> 属性を使用することにより、対応するページ画像のURIを示す。</item>
+        <p>符号化テキストと、元の文書の複製ページ画像をリンクするためには、推奨の仕組みが3つある。プロジェクトでは、次のいずれかの方法が使用できる。<list>
+          <item><gi>surface</gi> 要素で <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHFAX"><att>facs</att></ref> 属性を使用し、対応するページ画像のURIを示す（すべてのレベルで利用可）。</item>
+          <item><gi>pb</gi> 要素で <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHFAX"><att>facs</att></ref> 属性を使用し、対応するページ画像のURIを示す（レベル2から5で利用可）。</item>
+          <item><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHFAX"><gi>facsimile</gi></ref> 要素を使用してテキストに対応する画像の集合を定義し、さらに <gi>surface</gi> 要素（すべてのレベル）または <gi>pb</gi> 要素（レベル2から5）で <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html#PHFAX"><att>facs</att></ref> 属性を使用することにより、対応するページ画像のURIを示す。</item>
           <item><ref target="http://www.loc.gov/standards/mets/">Metadata Encoding
-        and Transmission Standard</ref>（METS）ドキュメントにおいては、個々の <gi>file</gi> 要素で <att>GROUPID</att> 属性を使用し、<gi>surface</gi> 要素（すべてのレベルで）または <gi>pb</gi> 要素（レベル2から5で）の <att>xml:id</att> 属性を指し示す。これにより、<gi>surface</gi> または <gi>pb</gi> で示されるページと、1つまたは複数の複製ページ画像（例えばマスター画像やWeb用画像など）との間を対応付ける。</item>
+        and Transmission Standard</ref>（METS）ドキュメントにおいては、個々の <gi>file</gi> 要素で <att>GROUPID</att> 属性を使用し、ここで <gi>surface</gi> 要素（すべてのレベル）または <gi>pb</gi> 要素（レベル2から5）の <att>xml:id</att> 属性を指し示す。これにより、<gi>surface</gi> または <gi>pb</gi> で示されるページと、1つまたは複数の複製ページ画像（例えばマスター画像やWeb用画像など）との間を対応付ける。</item>
         </list></p>
-        <p>METS に依存するプロジェクトでは、 <att>xml:id</att> 属性がコンテンツの概念的な識別子として使用され、そのコンテンツの特定の表現への明示的な指示子としては使われていないことに注意されたい（逆に <att>facs</att> 属性は識別子ではなく指示子である）。そのためこれらの識別子は、さまざまなコンテンツタイプをまとめ（例えばマスター画像ファイル、Web配信用の派生画像ファイル、PDFなど）、コンテンツのすべてのバージョンを明示的に一覧表示し、構成要素間の関係を定義したMETSドキュメントを生成するために使用される。これはMETSドキュメントの <gi>mets:fileSec</gi> セクションと <gi>mets:structMap</gi> セクションを使用して実現されている（TEIプロジェクトのための<ref target="http://fedora.dlib.indiana.edu:8080/fedora/get/iudl:269584/METSNAV">METSドキュメント例</ref>を参照のこと）。</p>
+        <p>METSに依存するプロジェクトでは、 <att>xml:id</att> 属性がコンテンツの概念的な識別子として使用され、そのコンテンツの特定の表現への明示的な指示子としては使われていないことに注意されたい（逆に <att>facs</att> 属性は識別子ではなく指示子である）。そのためこれらの識別子は、さまざまなコンテンツタイプ（例えばマスター画像ファイル、Web配信用の派生画像ファイル、PDFなど）をひとつにまとめ、コンテンツのすべてのバージョンを明示的に一覧表示し、そして構成要素間の関係を定義した、METSドキュメントを生成するために使用される。これはMETSドキュメントの <gi>mets:fileSec</gi> セクションと <gi>mets:structMap</gi> セクションを使用して実現される（TEIプロジェクトのための<ref target="http://fedora.dlib.indiana.edu:8080/fedora/get/iudl:269584/METSNAV">METSドキュメント例</ref>を参照のこと）。</p>
 
         <p><ref target="http://iiif.io/">International Image
-        Interoperability Framework</ref>（IIIF）は、そのユーザーコミュニティの拡大に伴い、符号化テキストと元文書画像をリンクするための代替メカニズムとして、注目される可能性が高い。<att>facs</att> 属性の値として、IIIF画像APIのリクエストURI（例えばフルサイズの画像にアクセスするためのURIなど）を使うことは可能である。しかし、TEIとIIIFという2つの実践的コミュニティは、それぞれのデータを統合するメカニズムの具体的な詳細について、まだ合意していないことには注意されたい。</p>
+        Interoperability Framework</ref>（IIIF）は、そのユーザーコミュニティの増大に伴い、符号化テキストと元文書画像をリンクするための代替メカニズムとして、注目される可能性が高い。<att>facs</att> 属性の値として、IIIFの画像APIのリクエストURI（例えばフルサイズの画像にアクセスするためのURIなど）を使うことは可能である。しかし、TEIとIIIFという2つの実践的コミュニティは、それぞれのデータを統合するメカニズムの具体的な詳細について、まだ合意していないことには注意されたい。</p>
       </div>
       <div type="===">
         <head>属性の使用に関する一般的なガイドライン</head>
