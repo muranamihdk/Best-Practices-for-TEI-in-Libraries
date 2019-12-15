@@ -521,25 +521,17 @@
         <p>METSに依存するプロジェクトでは、 <att>xml:id</att> 属性がコンテンツの概念的な識別子として使用され、そのコンテンツの特定の表現への明示的な指示子としては使われていないことに注意されたい（逆に <att>facs</att> 属性は識別子ではなく指示子である）。そのためこれらの識別子は、さまざまなコンテンツタイプ（例えばマスター画像ファイル、Web配信用の派生画像ファイル、PDFなど）をひとつにまとめ、コンテンツのすべてのバージョンを明示的に一覧表示し、そして構成要素間の関係を定義した、METSドキュメントを生成するために使用される。これはMETSドキュメントの <gi>mets:fileSec</gi> セクションと <gi>mets:structMap</gi> セクションを使用して実現される（TEIプロジェクトのための<ref target="http://fedora.dlib.indiana.edu:8080/fedora/get/iudl:269584/METSNAV">METSドキュメント例</ref>を参照のこと）。</p>
 
         <p><ref target="http://iiif.io/">International Image
-        Interoperability Framework</ref>（IIIF）は、そのユーザーコミュニティの増大に伴い、符号化テキストと元文書画像をリンクするための代替メカニズムとして、注目される可能性が高い。<att>facs</att> 属性の値として、IIIFの画像APIのリクエストURI（例えばフルサイズの画像にアクセスするためのURIなど）を使うことは可能である。しかし、TEIとIIIFという2つの実践的コミュニティは、それぞれのデータを統合するメカニズムの具体的な詳細について、まだ合意していないことには注意されたい。</p>
+        Interoperability Framework</ref>（IIIF）は、そのユーザーコミュニティの拡大に伴い、符号化テキストと元文書画像をリンクするための代替メカニズムとして、注目される可能性が高い。<att>facs</att> 属性の値として、IIIFの画像APIのリクエストURI（例えばフルサイズの画像にアクセスするためのURIなど）を使うことは可能である。しかし、TEIとIIIFという2つの実践的コミュニティは、それぞれのデータを統合するメカニズムの具体的な詳細について、まだ合意していないことには注意されたい。</p>
       </div>
       <div type="===">
         <head>属性の使用に関する一般的なガイドライン</head>
-        <p>These <title>Best Practices</title> provide recommended usage of <ref target="#headertable">attributes
-        as used in the TEI header</ref> and within the body of the TEI
-        document (within the <gi>text</gi> element), as evidenced by
-        attributes used in encoding example snippets and the prose
-        description of this document.</p>
+        <p>この <title>Best Practices</title> は、<ref target="#headertable">TEI ヘッダーで使用される属性</ref>およびTEIドキュメント本文内（<gi>text</gi> 要素内）で使用される属性の、推奨される使用方法を提供している。これは符号化例の抜粋で使用される属性と、この文書の散文での説明によって示される。</p>
         <!--<p>Scores of attributes are available for use within
         <gi>text</gi>, and a list of those recommended for use in documents
         conforming to these <title>Best Practices</title> is included in <ref
         target="#Appendix_A:_Recommended_Attributes">Appendix
         A</ref>.</p>-->
-        <p>This section contains general advice on the use of particular
-        attributes commonly needed for library encoding projects. (All
-        of the attributes below are commonly used on various elements,
-        but not every element requires or even allows these
-        attributes.)</p>
+        <p>このセクションでは、図書館での符号化プロジェクトで一般的に必要な、特定の属性の使用に関する一般的なアドバイスについて説明する。以下のすべての属性は、一般的にさまざまな要素で使用されるが、すべての要素においてこれらの属性を必要とするわけではなく、また使用が許可されているわけでもない。</p>
         <div type="====" xml:id="type">
           <head><att>type</att></head>
           <p>Constructing a list of acceptable attribute values for
