@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-12 23:39+0900\n"
+"PO-Revision-Date: 2019-12-15 17:04+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -1456,12 +1456,12 @@ msgstr ""
 #. (itstool) path: list/item
 #: bptl-driver.odd:810
 msgid "Use the <_:ref-1/> attribute on a <_:gi-2/> element to point to the corresponding page image using a URI (any level)."
-msgstr ""
+msgstr "<_:gi-2/> 要素で <_:ref-1/> 属性を使用し、対応するページ画像のURIを示す（すべてのレベルで）。"
 
 #. (itstool) path: list/item
 #: bptl-driver.odd:814
 msgid "Use the <_:ref-1/> attribute on a <_:gi-2/> element to point to the corresponding page image using a URI (levels 2–5)."
-msgstr ""
+msgstr "<_:gi-2/> 要素で <_:ref-1/> 属性を使用し、対応するページ画像のURIを示す（レベル2から5で）。"
 
 #. (itstool) path: ref/gi
 #. (itstool) path: cell/gi
@@ -1472,7 +1472,7 @@ msgstr ""
 #. (itstool) path: list/item
 #: bptl-driver.odd:818
 msgid "Use the <_:ref-1/> element to define a set of images that correspond to the text, in conjunction with the <_:ref-2/> attribute on a <_:gi-3/> element (any level) or <_:gi-4/> element (levels 2–5) to point to the corresponding page image using a URI."
-msgstr ""
+msgstr "<_:ref-1/> 要素を使用してテキストに対応する画像の集合を定義し、さらに <_:gi-3/> 要素（すべてのレベルで）または <_:gi-4/> 要素（レベル2から5で）で <_:ref-2/> 属性を使用することにより、対応するページ画像のURIを示す。"
 
 #. (itstool) path: item/att
 #: bptl-driver.odd:826
@@ -1500,12 +1500,12 @@ msgstr ""
 #. (itstool) path: list/item
 #: bptl-driver.odd:826
 msgid "Use the <_:att-1/> attribute on various <_:gi-2/> elements in a <_:ref-3/> (METS) document to point to the <_:att-4/> attributes of the <_:gi-5/> (any level) or <_:gi-6/> (levels 2–5), thereby providing correspondence between the page indicated by the <_:gi-7/> or <_:gi-8/> and one or more facsimile page images (e.g., master, web derivatives, etc.)."
-msgstr ""
+msgstr "<_:ref-3/>（METS）ドキュメントにおいては、個々の <_:gi-2/> 要素で <_:att-1/> 属性を使用し、<_:gi-5/> 要素（すべてのレベルで）または <_:gi-6/> 要素（レベル2から5で）の <_:att-4/> 属性を指し示す。これにより、<_:gi-7/> または <_:gi-8/> で示されるページと、1つまたは複数の複製ページ画像（例えばマスター画像やWeb用画像など）との間を対応付ける。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:806
 msgid "There are three recommended mechanisms for linking between the encoded text and facsimile page images of source documents. Projects may use any of the following methods: <_:list-1/>"
-msgstr ""
+msgstr "符号化テキストと、元文書の複製ページ画像をリンクするためには、3つの推奨メカニズムがある。プロジェクトでは、次のいずれかの方法を使用できる。<_:list-1/>"
 
 #. (itstool) path: p/gi
 #: bptl-driver.odd:847
@@ -1520,12 +1520,12 @@ msgstr ""
 #. (itstool) path: p/ref
 #: bptl-driver.odd:849
 msgid "sample METS document"
-msgstr ""
+msgstr "METSドキュメント例"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:837
 msgid "For those projects relying on METS, note that the <_:att-1/> attribute is used as a conceptual identifier for content as opposed to an explicit pointer to a specific representation of that content. (Conversely, the <_:att-2/> attribute is a pointer, not an identifier.) These identifiers are then used to generate a METS document that bundles the various content types (e.g., master image files, derivative image files for Web delivery, PDFs, etc.), explicitly lists all versions of the content, and defines the relationships between the constituent parts. This is achieved through the use of the <_:gi-3/> and <_:gi-4/> sections of the METS document (see <_:ref-5/> for a TEI project)."
-msgstr ""
+msgstr "METS に依存するプロジェクトでは、 <_:att-1/> 属性がコンテンツの概念的な識別子として使用され、そのコンテンツの特定の表現への明示的な指示子としては使われていないことに注意されたい（逆に <_:att-2/> 属性は識別子ではなく指示子である）。そのためこれらの識別子は、さまざまなコンテンツタイプをまとめ（例えばマスター画像ファイル、Web配信用の派生画像ファイル、PDFなど）、コンテンツのすべてのバージョンを明示的に一覧表示し、構成要素間の関係を定義したMETSドキュメントを生成するために使用される。これはMETSドキュメントの <_:gi-3/> セクションと <_:gi-4/> セクションを使用して実現されている（TEIプロジェクトのための<_:ref-5/>を参照のこと）。"
 
 #. (itstool) path: p/ref
 #: bptl-driver.odd:852
@@ -1535,7 +1535,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:852
 msgid "The <_:ref-1/> (IIIF), with its growing user community, is likely to emerge as an alternative mechanism for linking between encoded text and images of source documents. The value of a <_:att-2/> attribute could be a IIIF Image API Request URI (e.g., to access a full-sized image). However, note that the TEI and IIIF communities have not yet agreed upon specific details of a mechanism for integrating data from these two communities of practice."
-msgstr ""
+msgstr "<_:ref-1/>（IIIF）は、そのユーザーコミュニティの拡大に伴い、符号化テキストと元文書画像をリンクするための代替メカニズムとして、注目される可能性が高い。<_:att-2/> 属性の値として、IIIF画像APIのリクエストURI（例えばフルサイズの画像にアクセスするためのURIなど）を使うことは可能である。しかし、TEIとIIIFという2つの実践的コミュニティは、それぞれのデータを統合するメカニズムの具体的な詳細について、まだ合意していないことには注意されたい。"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:863
