@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-15 17:29+0900\n"
+"PO-Revision-Date: 2019-12-15 18:01+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -1535,7 +1535,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:852
 msgid "The <_:ref-1/> (IIIF), with its growing user community, is likely to emerge as an alternative mechanism for linking between encoded text and images of source documents. The value of a <_:att-2/> attribute could be a IIIF Image API Request URI (e.g., to access a full-sized image). However, note that the TEI and IIIF communities have not yet agreed upon specific details of a mechanism for integrating data from these two communities of practice."
-msgstr "<_:ref-1/>（IIIF）は、そのユーザーコミュニティの増大に伴い、符号化テキストと元文書画像をリンクするための代替メカニズムとして、注目される可能性が高い。<_:att-2/> 属性の値として、IIIFの画像APIのリクエストURI（例えばフルサイズの画像にアクセスするためのURIなど）を使うことは可能である。しかし、TEIとIIIFという2つの実践的コミュニティは、それぞれのデータを統合するメカニズムの具体的な詳細について、まだ合意していないことには注意されたい。"
+msgstr "<_:ref-1/>（IIIF）は、そのユーザーコミュニティの拡大に伴い、符号化テキストと元文書画像をリンクするための代替メカニズムとして、注目される可能性が高い。<_:att-2/> 属性の値として、IIIFの画像APIのリクエストURI（例えばフルサイズの画像にアクセスするためのURIなど）を使うことは可能である。しかし、TEIとIIIFという2つの実践的コミュニティは、それぞれのデータを統合するメカニズムの具体的な詳細について、まだ合意していないことには注意されたい。"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:863
@@ -1545,17 +1545,17 @@ msgstr "属性の使用に関する一般的なガイドライン"
 #. (itstool) path: p/ref
 #: bptl-driver.odd:865
 msgid "attributes as used in the TEI header"
-msgstr ""
+msgstr "TEI ヘッダーで使用される属性"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:864
 msgid "These <_:title-1/> provide recommended usage of <_:ref-2/> and within the body of the TEI document (within the <_:gi-3/> element), as evidenced by attributes used in encoding example snippets and the prose description of this document."
-msgstr ""
+msgstr "この <_:title-1/> は、<_:ref-2/>およびTEIドキュメント本文内（<_:gi-3/> 要素内）で使用される属性の、推奨される使用方法を提供している。これは符号化例の抜粋で使用される属性と、この文書の散文での説明によって示される。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:875
 msgid "This section contains general advice on the use of particular attributes commonly needed for library encoding projects. (All of the attributes below are commonly used on various elements, but not every element requires or even allows these attributes.)"
-msgstr ""
+msgstr "このセクションでは、図書館での符号化プロジェクトで一般的に必要な、特定の属性の使用に関する一般的なアドバイスについて説明する。以下のすべての属性は、一般的にさまざまな要素で使用されるが、すべての要素においてこれらの属性を必要とするわけではなく、また使用が許可されているわけでもない。"
 
 #. (itstool) path: p/ref
 #: bptl-driver.odd:887
