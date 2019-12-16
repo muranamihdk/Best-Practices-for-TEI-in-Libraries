@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-16 14:01+0900\n"
+"PO-Revision-Date: 2019-12-16 14:33+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -1718,7 +1718,7 @@ msgstr "P5のセクション16.2.3で説明されているように"
 #. (itstool) path: div/p
 #: bptl-driver.odd:948
 msgid "If there is a desire to have an authority file spanning documents, it might be tempting to use relative URIs (as discussed above), rather than an absolute URIs, in the value of <_:att-1/> in order to create a local authority file. However, such URIs cannot be resolved in a stable way as the location of the TEI document changes. As in <_:ref-2/>, these <_:title-3/> recommend the use of the <_:att-4/> attribute with <_:term-5/> as described in <_:ref-6/> in order to create unique local identifiers that can also be shared across files and projects. For example, a tag URI created in 2016 for nabokovpapers.org might look like this: <_:egXML-7/> If desired, such tag URIs could be shortened by creating a private URI scheme <_:ref-8/>."
-msgstr "複数のドキュメントにまたがって典拠ファイルが必要な場合は、ローカル典拠ファイルを作成するために、絶対URIではなく（上で説明したような）相対URIを <_:att-1/> の値に使用したくなるかもしれない。しかしそのようなURIは、TEIドキュメントの場所が変更されてしまうと、ファイルの場所を見失うという不確実さを持つ。<_:ref-2/>と同様に、この <_:title-3/> では、ファイルやプロジェクト間で共有できる一意のローカル識別子を作成するために、<_:ref-6/> で説明されているように、<_:att-4/> 属性を <_:term-5/> と共に使用することを勧める。たとえば、2016年に作成されたnabokovpapers.org用のタグURIは次のようになる。<_:egXML-7/>必要であれば、このようなタグURIを短くするために、<_:ref-8/>、プライベートURIスキーマを作成することができる。"
+msgstr "複数のドキュメントにまたがって典拠ファイルが必要な場合は、ローカル典拠ファイルを作成するために、絶対URIではなく（上で説明したような）相対URIを <_:att-1/> の値に使用したくなるかもしれない。しかしそのようなURIは、TEIドキュメントの場所が変更されてしまうと、ファイルの場所を見失うという不確実さを持つ。<_:ref-2/>と同様に、この <_:title-3/> では、ファイルやプロジェクト間で共有できる一意のローカル識別子を作成するために、<_:ref-6/> で説明されているように、<_:att-4/> 属性を<_:term-5/>と共に使用することを勧める。たとえば、2016年に作成されたnabokovpapers.org用のタグURIは次のようになる。<_:egXML-7/>必要であれば、このようなタグURIを短くするために、<_:ref-8/>、プライベートURIスキーマを作成することができる。"
 
 #. (itstool) path: head/att
 #. (itstool) path: p/att
@@ -1743,22 +1743,22 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:964
 msgid "At levels 3 and above, the <_:att-1/>, <_:att-2/>, and <_:att-3/> attributes may be used when it is desirable to record information about how a textual feature was displayed in the source document."
-msgstr ""
+msgstr "レベル3以上では、元の文書でのテキスト機能の表示のされ方を情報として記録することが望ましい場合は、<_:att-1/> 属性と <_:att-2/> 属性、および <_:att-3/> 属性を使用することができる。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:968
 msgid "Never use these attributes on header elements since, in the header, metadata is transcribed and possibly regularized, as in a catalog record, but its exact appearance is not meant to be captured."
-msgstr ""
+msgstr "これらの属性をヘッダーの各要素で使用してはならない。なぜなら、ヘッダーにおいては目録レコードのようにメタデータが書き起こされ、正規化される可能性があるため、その正確な見た目を記録することにはなっていないからである。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:972
 msgid "If a project is normalizing the rendering of text objects (for example, such that all titles should be italicized, regardless of how they appeared in the source document), there is no need to use these attributes; instead, a stylesheet will determine that all titles are displayed in italics."
-msgstr ""
+msgstr "プロジェクトでテキストオブジェクトの表示を標準化している場合（たとえば、元文書での表示方法に関係なく、すべてのタイトルを斜体にするような場合）、これらの属性を使用する必要はない。代わりにスタイルシートによって、すべてのタイトルを斜体で表示する。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:978
 msgid "However, if a project is faithfully recording the rendering in the source document, one of these attributes should be used to indicate this rendering, either on all elements to be rendered differently from the surrounding text or on all elements whose rendering does not follow the default stylesheet."
-msgstr ""
+msgstr "一方プロジェクトが元文書の表示方法を忠実に記録している場合は、周囲のテキストとは異なる表示を行うすべての要素、または既定のスタイルシートに従わない表示が行われるすべての要素に対して、これらの属性の1つを使用して表示方法を示す必要がある。"
 
 #. (itstool) path: p/eg
 #: bptl-driver.odd:988
