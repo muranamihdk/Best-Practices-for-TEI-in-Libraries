@@ -525,7 +525,7 @@
       </div>
       <div type="===">
         <head>属性の使用に関する一般的なガイドライン</head>
-        <p>この <title>Best Practices</title> は、<ref target="#headertable">TEI ヘッダーで使用される属性</ref>およびTEIドキュメント本文内（<gi>text</gi> 要素内）で使用される属性の、推奨される使用方法を提供している。これは符号化例の抜粋で使用される属性と、この文書の散文での説明によって示される。</p>
+        <p>この <title>Best Practices</title> では、<ref target="#headertable">TEI ヘッダーで使用される属性</ref>、およびTEIドキュメント本文内（<gi>text</gi> 要素内）で使用される属性の、推奨される使用方法を提供している。この文書では、符号化例の抜粋で使用された属性と、文章での説明によってこれを示す。</p>
         <!--<p>Scores of attributes are available for use within
         <gi>text</gi>, and a list of those recommended for use in documents
         conforming to these <title>Best Practices</title> is included in <ref
@@ -534,15 +534,15 @@
         <p>このセクションでは、図書館での符号化プロジェクトで一般的に必要な、特定の属性の使用に関する一般的なアドバイスについて説明する。以下のすべての属性は、一般的にさまざまな要素で使用されるが、すべての要素においてこれらの属性を必要とするわけではなく、また使用が許可されているわけでもない。</p>
         <div type="====" xml:id="type">
           <head><att>type</att></head>
-          <p>各個々の要素の <att>type</att> 属性に対して許容される属性値のリストを、すべてのユーザーが同意できる形で作成することは不可能である。代わりに、プロジェクトのテキストで使用される <att>type</att> 属性値を <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/USE.html#IM">ODD</ref> ファイル内に記述し、この一覧をテキストを使用するユーザが使用できるようにすることを勧める。現時点では、ODD ファイルのWebフロントエンドエディタである <ref target="http://roma.tei-c.org/">Roma</ref> には、この記述を作成するメカニズムがないため、ODDファイルに手動で追加する必要がある。印刷書籍の書誌的な特徴の標準的な名前と定義については、John Carterの<_title-5/> (8th edition, New Castle, Del. and London: Oak Knoll Books and the British Library, 2004, <ptr target="https://www.ilab.org/articles/john-carter-abc-book-collectors"/> でオンラインで入手できる) を参照されたい。</p>
+          <p>個々の要素の <att>type</att> 属性に対して許容される属性値のリストを、すべてのユーザーが同意できる形で作成することは不可能である。代わりに、プロジェクトのテキストで使用される <att>type</att> 属性値を <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/USE.html#IM">ODD</ref> ファイル内に記述し、テキストを使用するユーザがこの一覧を参照できるようにすることを勧める。ODD ファイルのWebフロントエンドエディタである <ref target="http://roma.tei-c.org/">Roma</ref> には、現時点ではこの記述を作成するメカニズムがないため、ODDファイルには手動で追加する必要がある。印刷書籍の書誌的な特徴の標準的な名前と定義については、John Carter の <title>ABC for Book Collectors</title> (8th edition, New Castle, Del. and London: Oak Knoll Books and the British Library, 2004, <ptr target="https://www.ilab.org/articles/john-carter-abc-book-collectors"/> でオンラインで入手できる) を参照されたい。</p>
         </div>
         <div type="====">
           <head><att>n</att></head>
-          <p>この属性は、機械処理の要素に番号を付けるために使用される場合があるが、多くの場合は、ページ番号や脚注番号など、元の文書で表示されていたデータを含む。例: <tag>pb n="456"/</tag></p>
+          <p>この属性は、機械処理の要素に番号を付けるために使用される場合もあるが、多くの場合は、ページ番号や脚注番号など、元の文書で表示されていたデータのために使われる。例: <tag>pb n="456"/</tag></p>
         </div>
         <div type="====" xml:id="ref-tag-uris">
           <head><att>ref</att> and tag URIs</head>
-          <p><att>ref</att> 属性は、<gi>persName</gi> や <gi>orgName</gi>、<gi>author</gi> など、さまざまな要素で使用できる。その値は、要素の内容についての外部メタデータを特定するURIである。図書館のリンクト・データ・アプリケーションを使えば、URIを介して多くの典拠レコードにアクセスが可能なため、曖昧性の解消（典拠コントロール）のためにこの属性を使用できる。例えば、</p>
+          <p><att>ref</att> 属性は、<gi>persName</gi> や <gi>orgName</gi>、<gi>author</gi> など、さまざまな要素で使用できる。その値は、要素の内容についての外部メタデータを特定するURIである。図書館のリンクト・データ・アプリケーションを使えば、URIを介して多くの典拠レコードにアクセスが可能なため、曖昧性の解消（典拠コントロール）のためにこの属性を使用できる。例を以下に示す。</p>
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <placeName ref="http://vocab.getty.edu/page/tgn/7012924">Indianapolis</placeName>
             <author>
@@ -554,9 +554,9 @@
             </author>
           </egXML>
 
-          <p>しかしながら、曖昧さ回避のための外部URIが利用可能でない場合も多い。符号化プロジェクトでは、URIフラグメント識別子（<ref target="#uris">above</ref>を参照）を使用して、同じTEIドキュメント内の典拠レコード（<att>xml:id</att> で特定される）を指すようにすることができる。たとえばテキストの転写においては、次のようにしておいて<egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <p>しかし、曖昧さ回避のための外部URIが利用できないことも多い。符号化プロジェクトでは、URIフラグメント識別子（<ref target="#uris">上記説明</ref>を参照のこと）を使用して、同じTEIドキュメント内の典拠レコード（<att>xml:id</att> で特定される）を示すようにすることができる。たとえばテキストの転写において、次のようにしておく。<egXML xmlns="http://www.tei-c.org/ns/Examples">
             <placeName ref="#geo_0034">Texas</placeName>
-          </egXML>そして同じドキュメント内の他の場所で統制語彙を用いて定義することができる。<egXML xmlns="http://www.tei-c.org/ns/Examples">
+          </egXML>そして同じドキュメント内の他の場所で統制語彙を用いて定義する。<egXML xmlns="http://www.tei-c.org/ns/Examples">
             <listPlace>
               <place xml:id="geo_0034">
                 <placeName>
@@ -568,7 +568,7 @@
           </egXML></p>
           <p>XMLソフトウェアは <code>ref="#geo_0034"</code> に遭遇すると <code>xml:id="geo_0034"</code> がドキュメント内の他の場所に存在することを確認する。</p>
 
-          <p>複数のドキュメントにまたがって典拠ファイルが必要な場合は、ローカル典拠ファイルを作成するために、絶対URIではなく（上で説明したような）相対URIを <att>ref</att> の値に使用したくなるかもしれない。しかしそのようなURIは、TEIドキュメントの場所が変更されてしまうと、ファイルの場所を見失うという不確実さを持つ。<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONARS">P5のセクション 3.5.1「文字列を参照する」</ref>と同様に、この <title>Best Practices</title> では、ファイルやプロジェクト間で共有できる一意のローカル識別子を作成するために、<ref target="http://www.ietf.org/rfc/rfc4151">IETF RFC 4151</ref> で説明されているように、<att>ref</att> 属性を <term>tag URIs</term> と共に使用することを勧める。たとえば、2016年に作成されたnabokovpapers.org用のタグURIは次のようになる。<egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <p>複数のドキュメントにまたがって典拠ファイルが必要な場合は、ローカル典拠ファイルを作成するために、絶対URIではなく（上で説明したような）相対URIを <att>ref</att> の値に使用したくなるかもしれない。しかしそのようなURIは、TEIドキュメントの場所が変更されてしまうと、ファイルの場所を見失うという不確実さを持つ。<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONARS">P5のセクション 3.5.1「文字列を参照する」</ref>と同様に、この <title>Best Practices</title> では、ファイルやプロジェクト間で共有できる一意のローカル識別子を作成するために、<ref target="http://www.ietf.org/rfc/rfc4151">IETF RFC 4151</ref> で説明されているように、<att>ref</att> 属性を <term>タグURI</term> と共に使用することを勧める。たとえば、2016年に作成されたnabokovpapers.org用のタグURIは次のようになる。<egXML xmlns="http://www.tei-c.org/ns/Examples">
             <persName ref="tag:nabokovpapers.org,2016:B_V001">Blavdak Vinomori</persName>
           </egXML>必要であれば、このようなタグURIを短くするために、<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SAPU">P5のセクション16.2.3で説明されているように</ref>、プライベートURIスキーマを作成することができる。</p>
         </div>
