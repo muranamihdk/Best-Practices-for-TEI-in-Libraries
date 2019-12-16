@@ -534,36 +534,15 @@
         <p>このセクションでは、図書館での符号化プロジェクトで一般的に必要な、特定の属性の使用に関する一般的なアドバイスについて説明する。以下のすべての属性は、一般的にさまざまな要素で使用されるが、すべての要素においてこれらの属性を必要とするわけではなく、また使用が許可されているわけでもない。</p>
         <div type="====" xml:id="type">
           <head><att>type</att></head>
-          <p>Constructing a list of acceptable attribute values for
-          the <att>type</att> attribute for each element, on which
-          everyone could agree, is impossible. Instead, it is
-          recommended that projects describe the <att>type</att>
-          attribute values used in their texts in the project <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/USE.html#IM">ODD</ref>
-          file and that this list be made available to people using
-          the texts. It is worth noting that, at present, <ref target="http://roma.tei-c.org/">Roma</ref>, the web
-          front-end editor for ODD files, does not have a mechanism
-          for providing this documentation; instead, this information should be added to the
-          ODD file manually. For a list of standard names and
-          definitions of bibliographic features of printed books, see
-          <title>ABC for Book Collectors</title> by John Carter (8th
-          edition, New Castle, Del. and London: Oak Knoll Books and
-          the British Library, 2004, available online at
-          <ptr target="https://www.ilab.org/articles/john-carter-abc-book-collectors"/>).</p>
+          <p>各個々の要素の <att>type</att> 属性に対して許容される属性値のリストを、すべてのユーザーが同意できる形で作成することは不可能である。代わりに、プロジェクトのテキストで使用される <att>type</att> 属性値を <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/USE.html#IM">ODD</ref> ファイル内に記述し、この一覧をテキストを使用するユーザが使用できるようにすることを勧める。現時点では、ODD ファイルのWebフロントエンドエディタである <ref target="http://roma.tei-c.org/">Roma</ref> には、この記述を作成するメカニズムがないため、ODDファイルに手動で追加する必要がある。印刷書籍の書誌的な特徴の標準的な名前と定義については、John Carterの<_title-5/> (8th edition, New Castle, Del. and London: Oak Knoll Books and the British Library, 2004, <ptr target="https://www.ilab.org/articles/john-carter-abc-book-collectors"/> でオンラインで入手できる) を参照されたい。</p>
         </div>
         <div type="====">
           <head><att>n</att></head>
-          <p>This attribute is sometimes used to number elements for
-          machine processing, but it often includes data represented
-          in the source document, such as page numbers or footnote
-          numbers. Example: <tag>pb n="456"/</tag></p>
+          <p>この属性は、機械処理の要素に番号を付けるために使用される場合があるが、多くの場合は、ページ番号や脚注番号など、元の文書で表示されていたデータを含む。例: <tag>pb n="456"/</tag></p>
         </div>
         <div type="====" xml:id="ref-tag-uris">
           <head><att>ref</att> and tag URIs</head>
-          <p>The <att>ref</att> attribute is available on a variety of elements, including <gi>persName</gi>, <gi>orgName</gi>
-          <gi>author</gi>, and <gi>title</gi>. Its value is a URI that identifies external metadata about the content of the
-          element. Since Linked Data applications in libraries make many authority records accessible through URIs, 
-          this attribute can be used for disambiguation (authority control). For example:
-          </p>
+          <p><att>ref</att> 属性は、<gi>persName</gi> や <gi>orgName</gi>、<gi>author</gi> など、さまざまな要素で使用できる。その値は、要素の内容についての外部メタデータを特定するURIである。図書館のリンクト・データ・アプリケーションを使えば、URIを介して多くの典拠レコードにアクセスが可能なため、曖昧性の解消（典拠コントロール）のためにこの属性を使用できる。例えば、</p>
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <placeName ref="http://vocab.getty.edu/page/tgn/7012924">Indianapolis</placeName>
             <author>
@@ -575,14 +554,9 @@
             </author>
           </egXML>
 
-          <p>Still, there are times when an outside URI for disambiguation is not available. An encoding project could use URI 
-          fragment identifiers (see <ref target="#uris">above</ref>) to point to an authority record (identified with <att>xml:id</att>) within the same 
-          TEI document. For example, in the transcription of the text, you can use
-          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <p>しかしながら、曖昧さ回避のための外部URIが利用可能でない場合も多い。符号化プロジェクトでは、URIフラグメント識別子（<ref target="#uris">above</ref>を参照）を使用して、同じTEIドキュメント内の典拠レコード（<att>xml:id</att> で特定される）を指すようにすることができる。たとえばテキストの転写においては、次のようにしておいて<egXML xmlns="http://www.tei-c.org/ns/Examples">
             <placeName ref="#geo_0034">Texas</placeName>
-          </egXML>
-          which would be defined in a controlled vocabulary elsewhere in the same document:
-          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          </egXML>そして同じドキュメント内の他の場所で統制語彙を用いて定義することができる。<egXML xmlns="http://www.tei-c.org/ns/Examples">
             <listPlace>
               <place xml:id="geo_0034">
                 <placeName>
@@ -591,26 +565,12 @@
                 </placeName>
               </place>
             </listPlace>
-          </egXML>
-          </p>
-          <p>XML software will then confirm when it
-          encounters <code>ref="#geo_0034"</code> that
-          <code>xml:id="geo_0034"</code> exists elsewhere in the
-          document.</p>
+          </egXML></p>
+          <p>XMLソフトウェアは <code>ref="#geo_0034"</code> に遭遇すると <code>xml:id="geo_0034"</code> がドキュメント内の他の場所に存在することを確認する。</p>
 
-          <p>If there is a desire to have an authority file spanning documents, it might be tempting 
-          to use relative URIs (as discussed above), rather than an absolute URIs, in the value of <att>ref</att> in order to 
-          create a local authority file.  However, such URIs cannot be resolved in a stable way as the location of the TEI document 
-          changes. As in <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONARS">section 3.5.1, Referring Strings, of P5</ref>,
-          these <title>Best Practices</title> recommend the use of the <att>ref</att> attribute 
-            with <term>tag URIs</term> as described in <ref target="http://www.ietf.org/rfc/rfc4151">IETF RFC 4151</ref> in order to create unique local identifiers that can also be 
-          shared across files and projects. For example, a tag URI created in 2016 for 
-          nabokovpapers.org might look like this:
-          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <p>複数のドキュメントにまたがって典拠ファイルが必要な場合は、ローカル典拠ファイルを作成するために、絶対URIではなく（上で説明したような）相対URIを <att>ref</att> の値に使用したくなるかもしれない。しかしそのようなURIは、TEIドキュメントの場所が変更されてしまうと、ファイルの場所を見失うという不確実さを持つ。<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONARS">P5のセクション 3.5.1「文字列を参照する」</ref>と同様に、この <title>Best Practices</title> では、ファイルやプロジェクト間で共有できる一意のローカル識別子を作成するために、<ref target="http://www.ietf.org/rfc/rfc4151">IETF RFC 4151</ref> で説明されているように、<att>ref</att> 属性を <term>tag URIs</term> と共に使用することを勧める。たとえば、2016年に作成されたnabokovpapers.org用のタグURIは次のようになる。<egXML xmlns="http://www.tei-c.org/ns/Examples">
             <persName ref="tag:nabokovpapers.org,2016:B_V001">Blavdak Vinomori</persName>
-          </egXML>
-          If desired, such tag URIs could be shortened by creating a private URI scheme 
-          <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SAPU">as described in section 16.2.3 of P5</ref>.</p>
+          </egXML>必要であれば、このようなタグURIを短くするために、<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SAPU">P5のセクション16.2.3で説明されているように</ref>、プライベートURIスキーマを作成することができる。</p>
         </div>
         <div type="====">
           <head><att>style</att>, <att>rendition</att>, and <att>rend</att></head>
