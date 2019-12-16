@@ -568,32 +568,16 @@
           </egXML></p>
           <p>XMLソフトウェアは <code>ref="#geo_0034"</code> に遭遇すると <code>xml:id="geo_0034"</code> がドキュメント内の他の場所に存在することを確認する。</p>
 
-          <p>複数のドキュメントにまたがって典拠ファイルが必要な場合は、ローカル典拠ファイルを作成するために、絶対URIではなく（上で説明したような）相対URIを <att>ref</att> の値に使用したくなるかもしれない。しかしそのようなURIは、TEIドキュメントの場所が変更されてしまうと、ファイルの場所を見失うという不確実さを持つ。<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONARS">P5のセクション 3.5.1「文字列を参照する」</ref>と同様に、この <title>Best Practices</title> では、ファイルやプロジェクト間で共有できる一意のローカル識別子を作成するために、<ref target="http://www.ietf.org/rfc/rfc4151">IETF RFC 4151</ref> で説明されているように、<att>ref</att> 属性を <term>タグURI</term> と共に使用することを勧める。たとえば、2016年に作成されたnabokovpapers.org用のタグURIは次のようになる。<egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <p>複数のドキュメントにまたがって典拠ファイルが必要な場合は、ローカル典拠ファイルを作成するために、絶対URIではなく（上で説明したような）相対URIを <att>ref</att> の値に使用したくなるかもしれない。しかしそのようなURIは、TEIドキュメントの場所が変更されてしまうと、ファイルの場所を見失うという不確実さを持つ。<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CO.html#CONARS">P5のセクション 3.5.1「文字列を参照する」</ref>と同様に、この <title>Best Practices</title> では、ファイルやプロジェクト間で共有できる一意のローカル識別子を作成するために、<ref target="http://www.ietf.org/rfc/rfc4151">IETF RFC 4151</ref> で説明されているように、<att>ref</att> 属性を<term>タグURI</term>と共に使用することを勧める。たとえば、2016年に作成されたnabokovpapers.org用のタグURIは次のようになる。<egXML xmlns="http://www.tei-c.org/ns/Examples">
             <persName ref="tag:nabokovpapers.org,2016:B_V001">Blavdak Vinomori</persName>
           </egXML>必要であれば、このようなタグURIを短くするために、<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/SA.html#SAPU">P5のセクション16.2.3で説明されているように</ref>、プライベートURIスキーマを作成することができる。</p>
         </div>
         <div type="====">
           <head><att>style</att>, <att>rendition</att>, and <att>rend</att></head>
-          <p>At levels 3 and above, the <att>style</att>, <att>rend</att>, and
-          <att>rendition</att> attributes may be used when it is
-          desirable to record information about how a textual
-          feature was displayed in the source document.</p>
-          <p>Never use these attributes on header elements since, in the header, metadata
-          is transcribed and possibly regularized, as in a catalog
-          record, but its exact appearance is not meant to be
-          captured.</p>
-          <p>If a project is normalizing the rendering of text objects
-          (for example, such that all titles should be italicized,
-          regardless of how they appeared in the source document),
-          there is no need to use these attributes; instead, a
-          stylesheet will determine that all titles are displayed in
-          italics.</p>
-          <p>However, if a project is faithfully recording the
-          rendering in the source document, one of these attributes
-          should be used to indicate this rendering, either on all
-          elements to be rendered differently from the surrounding
-          text or on all elements whose rendering does not follow the
-          default stylesheet.</p>
+          <p>レベル3以上では、元の文書でのテキスト機能の表示のされ方を情報として記録することが望ましい場合は、<att>style</att> 属性と <att>rend</att> 属性、および <att>rendition</att> 属性を使用することができる。</p>
+          <p>これらの属性をヘッダーの各要素で使用してはならない。なぜなら、ヘッダーにおいては目録レコードのようにメタデータが書き起こされ、正規化される可能性があるため、その正確な見た目を記録することにはなっていないからである。</p>
+          <p>プロジェクトでテキストオブジェクトの表示を標準化している場合（たとえば、元文書での表示方法に関係なく、すべてのタイトルを斜体にするような場合）、これらの属性を使用する必要はない。代わりにスタイルシートによって、すべてのタイトルを斜体で表示する。</p>
+          <p>一方プロジェクトが元文書の表示方法を忠実に記録している場合は、周囲のテキストとは異なる表示を行うすべての要素、または既定のスタイルシートに従わない表示が行われるすべての要素に対して、これらの属性の1つを使用して表示方法を示す必要がある。</p>
 
           <p>For the value of the <att>style</att> attribute, use only
           valid CSS properties and values as in a CSS declaration-block
