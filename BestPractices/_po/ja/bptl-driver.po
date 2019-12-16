@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-15 18:01+0900\n"
+"PO-Revision-Date: 2019-12-16 10:39+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -1575,7 +1575,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:882
 msgid "Constructing a list of acceptable attribute values for the <_:att-1/> attribute for each element, on which everyone could agree, is impossible. Instead, it is recommended that projects describe the <_:att-2/> attribute values used in their texts in the project <_:ref-3/> file and that this list be made available to people using the texts. It is worth noting that, at present, <_:ref-4/>, the web front-end editor for ODD files, does not have a mechanism for providing this documentation; instead, this information should be added to the ODD file manually. For a list of standard names and definitions of bibliographic features of printed books, see <_:title-5/> by John Carter (8th edition, New Castle, Del. and London: Oak Knoll Books and the British Library, 2004, available online at <_:ptr-6/>)."
-msgstr ""
+msgstr "各個々の要素の <_:att-1/> 属性に対して許容される属性値のリストを、すべてのユーザーが同意できる形で作成することは不可能である。代わりに、プロジェクトのテキストで使用される <_:att-2/> 属性値を <_:ref-3/> ファイル内に記述し、この一覧をテキストを使用するユーザが使用できるようにすることを勧める。現時点では、ODD ファイルのWebフロントエンドエディタである <_:ref-4/> には、この記述を作成するメカニズムがないため、ODDファイルに手動で追加する必要がある。印刷書籍の書誌的な特徴の標準的な名前と定義については、John Carterの<_title-5/> (8th edition, New Castle, Del. and London: Oak Knoll Books and the British Library, 2004, <_:ptr-6/> でオンラインで入手できる) を参照されたい。"
 
 #. (itstool) path: p/tag
 #: bptl-driver.odd:905
@@ -1585,7 +1585,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:902
 msgid "This attribute is sometimes used to number elements for machine processing, but it often includes data represented in the source document, such as page numbers or footnote numbers. Example: <_:tag-1/>"
-msgstr ""
+msgstr "この属性は、機械処理の要素に番号を付けるために使用される場合があるが、多くの場合は、ページ番号や脚注番号など、元の文書で表示されていたデータを含む。例: <_:tag-1/>"
 
 #. (itstool) path: head/att
 #. (itstool) path: p/att
@@ -1622,7 +1622,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:909
 msgid "The <_:att-1/> attribute is available on a variety of elements, including <_:gi-2/>, <_:gi-3/> <_:gi-4/>, and <_:gi-5/>. Its value is a URI that identifies external metadata about the content of the element. Since Linked Data applications in libraries make many authority records accessible through URIs, this attribute can be used for disambiguation (authority control). For example:"
-msgstr ""
+msgstr "<_:att-1/> 属性は、<_:gi-2/> や <_:gi-3/>、<_:gi-4/> など、さまざまな要素で使用できる。その値は、要素の内容についての外部メタデータを特定するURIである。図書館のリンクト・データ・アプリケーションを使えば、URIを介して多くの典拠レコードにアクセスが可能なため、曖昧性の解消（典拠コントロール）のためにこの属性を使用できる。例えば、"
 
 #. (itstool) path: egXML/placeName
 #: bptl-driver.odd:915
@@ -1673,7 +1673,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:925
 msgid "Still, there are times when an outside URI for disambiguation is not available. An encoding project could use URI fragment identifiers (see <_:ref-1/>) to point to an authority record (identified with <_:att-2/>) within the same TEI document. For example, in the transcription of the text, you can use <_:egXML-3/> which would be defined in a controlled vocabulary elsewhere in the same document: <_:egXML-4/>"
-msgstr ""
+msgstr "しかしながら、曖昧さ回避のための外部URIが利用可能でない場合も多い。符号化プロジェクトでは、URIフラグメント識別子（<_:ref-1/>を参照）を使用して、同じTEIドキュメント内の典拠レコード（<_:att-2/> で特定される）を指すようにすることができる。たとえばテキストの転写においては、次のようにしておいて<_:egXML-3/>そして同じドキュメント内の他の場所で統制語彙を用いて定義することができる。<_:egXML-4/>"
 
 #. (itstool) path: p/code
 #: bptl-driver.odd:944
@@ -1688,12 +1688,12 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:943
 msgid "XML software will then confirm when it encounters <_:code-1/> that <_:code-2/> exists elsewhere in the document."
-msgstr ""
+msgstr "XMLソフトウェアは <_:code-1/> に遭遇すると <_:code-2/> がドキュメント内の他の場所に存在することを確認する。"
 
 #. (itstool) path: p/ref
 #: bptl-driver.odd:951
 msgid "section 3.5.1, Referring Strings, of P5"
-msgstr ""
+msgstr "P5のセクション 3.5.1「文字列を参照する」"
 
 #. (itstool) path: p/term
 #: bptl-driver.odd:953
@@ -1713,12 +1713,12 @@ msgstr ""
 #. (itstool) path: p/ref
 #: bptl-driver.odd:960
 msgid "as described in section 16.2.3 of P5"
-msgstr ""
+msgstr "P5のセクション16.2.3で説明されているように"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:948
 msgid "If there is a desire to have an authority file spanning documents, it might be tempting to use relative URIs (as discussed above), rather than an absolute URIs, in the value of <_:att-1/> in order to create a local authority file. However, such URIs cannot be resolved in a stable way as the location of the TEI document changes. As in <_:ref-2/>, these <_:title-3/> recommend the use of the <_:att-4/> attribute with <_:term-5/> as described in <_:ref-6/> in order to create unique local identifiers that can also be shared across files and projects. For example, a tag URI created in 2016 for nabokovpapers.org might look like this: <_:egXML-7/> If desired, such tag URIs could be shortened by creating a private URI scheme <_:ref-8/>."
-msgstr ""
+msgstr "複数のドキュメントにまたがって典拠ファイルが必要な場合は、ローカル典拠ファイルを作成するために、絶対URIではなく（上で説明したような）相対URIを <_:att-1/> の値に使用したくなるかもしれない。しかしそのようなURIは、TEIドキュメントの場所が変更されてしまうと、ファイルの場所を見失うという不確実さを持つ。<_:ref-2/>と同様に、この <_:title-3/> では、ファイルやプロジェクト間で共有できる一意のローカル識別子を作成するために、<_:ref-6/> で説明されているように、<_:att-4/> 属性を <_:term-5/> と共に使用することを勧める。たとえば、2016年に作成されたnabokovpapers.org用のタグURIは次のようになる。<_:egXML-7/>必要であれば、このようなタグURIを短くするために、<_:ref-8/>、プライベートURIスキーマを作成することができる。"
 
 #. (itstool) path: head/att
 #. (itstool) path: p/att
