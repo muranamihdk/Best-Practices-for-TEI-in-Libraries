@@ -542,7 +542,7 @@
         </div>
         <div type="====" xml:id="ref-tag-uris">
           <head><att>ref</att> and tag URIs</head>
-          <p><att>ref</att> 属性は、<gi>persName</gi> や <gi>orgName</gi>、<gi>author</gi> など、さまざまな要素で使用できる。その値は、要素の内容についての外部メタデータを特定するURIである。図書館のリンクト・データ・アプリケーションを使えば、URIを介して多くの典拠レコードにアクセスが可能なため、曖昧性の解消（典拠コントロール）のためにこの属性を使用できる。例を以下に示す。</p>
+          <p><att>ref</att> 属性は、<gi>persName</gi> や <gi>orgName</gi>、<gi>author</gi> など、さまざまな要素で使用できる。その値は、要素の内容についての外部メタデータを同定するURIである。図書館のリンクト・データ・アプリケーションを使えば、URIを介して多くの典拠レコードにアクセスが可能なため、曖昧性の解消（典拠コントロール）のためにこの属性を使用できる。例を以下に示す。</p>
           <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <placeName ref="http://vocab.getty.edu/page/tgn/7012924">Indianapolis</placeName>
             <author>
@@ -574,46 +574,22 @@
         </div>
         <div type="====">
           <head><att>style</att>, <att>rendition</att>, and <att>rend</att></head>
-          <p>レベル3以上では、元の文書でのテキスト機能の表示のされ方を情報として記録することが望ましい場合は、<att>style</att> 属性と <att>rend</att> 属性、および <att>rendition</att> 属性を使用することができる。</p>
+          <p>レベル3以上において、元の文書でのテキスト機能の表示のされ方を情報として記録することが望ましい場合は、<att>style</att> 属性と <att>rend</att> 属性、および <att>rendition</att> 属性を使用することができる。</p>
           <p>これらの属性をヘッダーの各要素で使用してはならない。なぜなら、ヘッダーにおいては目録レコードのようにメタデータが書き起こされ、正規化される可能性があるため、その正確な見た目を記録することにはなっていないからである。</p>
           <p>プロジェクトでテキストオブジェクトの表示を標準化している場合（たとえば、元文書での表示方法に関係なく、すべてのタイトルを斜体にするような場合）、これらの属性を使用する必要はない。代わりにスタイルシートによって、すべてのタイトルを斜体で表示する。</p>
           <p>一方プロジェクトが元文書の表示方法を忠実に記録している場合は、周囲のテキストとは異なる表示を行うすべての要素、または既定のスタイルシートに従わない表示が行われるすべての要素に対して、これらの属性の1つを使用して表示方法を示す必要がある。</p>
 
-          <p>For the value of the <att>style</att> attribute, use only
-          valid CSS properties and values as in a CSS declaration-block
-          but without curly braces. For example:
-          <eg>&lt;foreign style="font-style: italic"&gt;</eg>
-          <eg>&lt;title style="text-decoration: underline; font-size: x-large"&gt;</eg></p>
+          <p><att>style</att> 属性の値には、CSS宣言ブロックで有効なCSSプロパティと値のみを使用する。ただし中括弧は使用しない。例えば次のように指定する。<eg>&lt;foreign style="font-style: italic"&gt;</eg> <eg>&lt;title style="text-decoration: underline; font-size: x-large"&gt;</eg></p>
 
-          <p>Default descriptions of source document renditions can be
-          established using the <gi>rendition</gi> element in the
-          <gi>teiHeader</gi>. Specify the desired rendition (as CSS)
-          in the content of the <gi>rendition</gi>, and to which
-          elements it applies (using CSS selector syntax) in the
-          <att>selector</att> attribute. For example:
-          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <p>元の文書のデフォルト表示の記述は、<gi>teiHeader</gi> の <gi>rendition</gi> 要素を使用して設定できる。<gi>rendition</gi> 要素の内容に目的の表示を（CSSとして）指定し、<att>selector</att> 属性でどの要素にそれを適用するかを（CSSセレクタ構文を使用して）指定する。例えば以下の例。<egXML xmlns="http://www.tei-c.org/ns/Examples">
             <rendition selector="div[type='chap']&gt;head" scheme="css">font-style: italic; font-weight: bold</rendition>
             <rendition selector="div[type='sect']&gt;head" scheme="css">font-style: italic</rendition>
-          </egXML>
-            This example indicates that headings of chapters in
-            the source document were in bold italics, whereas headings
-            of sections were in italics, but not boldface.</p>
+          </egXML>この例は、元の文書の章の見出しは太字の斜体で、セクションの見出しは太字ではない斜体であることを示している。</p>
 
-            <p>Alternatively, use the <att>rendition</att> <emph rend="font-weight: bold;">attribute</emph> to give an
-          internal scheme:
-          <eg>&lt;foreign rendition="#i"&gt;</eg>
-          documented with the <gi>rendition</gi> <emph rend="font-weight: bold;">element</emph> in the header:
-          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <p>別の方法としては、<att>rendition</att> <emph rend="font-weight: bold;">属性</emph>を使用して内部スキームを指定する。<eg>&lt;foreign rendition="#i"&gt;</eg> ヘッダーの <gi>rendition</gi> <emph rend="font-weight: bold;">要素</emph>に記載しておく。<egXML xmlns="http://www.tei-c.org/ns/Examples">
             <rendition xml:id="i" scheme="css">font-style: italic</rendition>
-          </egXML>
-          Use of the <att>rendition</att> attribute and element offers
-          an additional level of indirection, decreasing the total
-          number of keystrokes in the XML and therefore possibly reducing the chance of
-          typos being introduced in the encoding.</p>
-          <p>If there are formatting features in the source that cannot be
-          expressed with CSS syntax, the <att>rend</att> attribute may be
-          used instead of <att>style</att> or <att>rendition</att> to supply a 
-          rendering using a locally defined style language.</p>
+          </egXML> <att>rendition</att> 属性と要素の使用は、追加の間接的階層を持ち込むため、XML内のキーストロークの総数を減少させ、それゆえに符号化作業に入力ミスが発生する可能性を減少させる。</p>
+          <p>CSS構文では表現できない書式の特徴が元文書に存在する場合は、<att>rendition</att> の代わりに <att>rend</att> 属性を使用するか、ローカル定義のスタイル言語を使用しての表示を提供するために、<att>style</att> を使用することができる。</p>
         </div>
         <div type="====">
           <head><att>xml:lang</att></head>
