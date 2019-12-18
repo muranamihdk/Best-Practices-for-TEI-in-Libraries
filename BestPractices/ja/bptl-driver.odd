@@ -581,25 +581,20 @@
 
           <p><att>style</att> 属性の値には、CSS宣言ブロックで有効なCSSプロパティと値のみを使用する。ただし中括弧は使用しない。例えば次のように指定する。<eg>&lt;foreign style="font-style: italic"&gt;</eg> <eg>&lt;title style="text-decoration: underline; font-size: x-large"&gt;</eg></p>
 
-          <p>元の文書のデフォルト表示の記述は、<gi>teiHeader</gi> の <gi>rendition</gi> 要素を使用して設定できる。<gi>rendition</gi> 要素の内容に目的の表示を（CSSとして）指定し、<att>selector</att> 属性でどの要素にそれを適用するかを（CSSセレクタ構文を使用して）指定する。例えば以下の例。<egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <p>元の文書でのデフォルト表示の記述は、<gi>teiHeader</gi> の <gi>rendition</gi> 要素を使用して設定できる。<gi>rendition</gi> 要素の内容に目的の表示を（CSSとして）指定し、どの要素にそれを適用するかを <att>selector</att> 属性で（CSSセレクタ構文を使用して）指定する。例えば以下の例。<egXML xmlns="http://www.tei-c.org/ns/Examples">
             <rendition selector="div[type='chap']&gt;head" scheme="css">font-style: italic; font-weight: bold</rendition>
             <rendition selector="div[type='sect']&gt;head" scheme="css">font-style: italic</rendition>
-          </egXML>この例は、元の文書の章の見出しは太字の斜体で、セクションの見出しは太字ではない斜体であることを示している。</p>
+          </egXML> 上の例は、元の文書の章の見出しは太字の斜体であり、セクションの見出しは太字ではない斜体であることを示している。</p>
 
-            <p>別の方法としては、<att>rendition</att> <emph rend="font-weight: bold;">属性</emph>を使用して内部スキームを指定する。<eg>&lt;foreign rendition="#i"&gt;</eg> ヘッダーの <gi>rendition</gi> <emph rend="font-weight: bold;">要素</emph>に記載しておく。<egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <p>別の方法としては、<att>rendition</att> <emph rend="font-weight: bold;">属性</emph>を使用して内部スキームを指定する。そして <eg>&lt;foreign rendition="#i"&gt;</eg> ヘッダーの <gi>rendition</gi> <emph rend="font-weight: bold;">要素</emph>にドキュメント化しておく。<egXML xmlns="http://www.tei-c.org/ns/Examples">
             <rendition xml:id="i" scheme="css">font-style: italic</rendition>
           </egXML> <att>rendition</att> 属性と要素の使用は、追加の間接的階層を持ち込むため、XML内のキーストロークの総数を減少させ、それゆえに符号化作業に入力ミスが発生する可能性を減少させる。</p>
           <p>CSS構文では表現できない書式の特徴が元文書に存在する場合は、<att>rendition</att> の代わりに <att>rend</att> 属性を使用するか、ローカル定義のスタイル言語を使用しての表示を提供するために、<att>style</att> を使用することができる。</p>
         </div>
         <div type="====">
           <head><att>xml:lang</att></head>
-          <p>This attribute is used to indicate the natural language of the content of
-          an element. It is generally not found on or within the
-          <gi>sourceDoc</gi> or <gi>text</gi> elements at Level 1 or
-          Level 2, but is common at Level 3 and above. See the
-          documentation of the <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-teidata.language.html">teidata.language
-          datatype</ref> in P5 for information on the
-          values of <att>xml:lang</att>.</p>
+          <p>この属性は要素内容の自然言語を示すために使用される。通常、レベル1またはレベル2の <gi>sourceDoc</gi> 要素や <gi>text</gi> 要素、またその内包する要素には使われないが、レベル3以上では一般的である。<att>xml:lang</att> の値については、P5の <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-teidata.language.html">teidata.language
+          datatype</ref> のドキュメントを参照してもらいたい。</p>
         </div>
       </div>
     </div>
@@ -622,7 +617,7 @@
         <row>
           <cell>├</cell>
           <cell><gi>sourceDoc</gi></cell>
-          <cell>[レベル 1 では推奨、レベル 2 〜 5 では省略可能] 一般に機械により生成されたそのままの、それ以上の論理的あるいは構造的な情報を含まない、文書の各ページの転写を含む。</cell>
+          <cell>[レベル1では推奨、レベル2〜5では省略可能] 一般に機械により生成されたそのままの、それ以上の論理的あるいは構造的な情報を含まない、文書の各ページの転写を含む。</cell>
         </row>
         <row>
           <cell>├</cell>
