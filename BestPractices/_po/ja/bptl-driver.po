@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2018-11-13 12:24+0900\n"
-"PO-Revision-Date: 2019-12-16 23:52+0900\n"
+"PO-Revision-Date: 2019-12-18 20:35+0900\n"
 "Last-Translator: Weblate Admin <muranamihideaki@gmail.com>\n"
 "Language-Team: Japanese <http://www3420ue.sakura.ne.jp/projects/tei-in-libraries/bptl-driver/ja/>\n"
 "Language: ja\n"
@@ -1794,7 +1794,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:991
 msgid "Default descriptions of source document renditions can be established using the <_:gi-1/> element in the <_:gi-2/>. Specify the desired rendition (as CSS) in the content of the <_:gi-3/>, and to which elements it applies (using CSS selector syntax) in the <_:att-4/> attribute. For example: <_:egXML-5/> This example indicates that headings of chapters in the source document were in bold italics, whereas headings of sections were in italics, but not boldface."
-msgstr "元の文書のデフォルト表示の記述は、<_:gi-2/> の <_:gi-1/> 要素を使用して設定できる。<_:gi-3/> 要素の内容に目的の表示を（CSSとして）指定し、<_:att-4/> 属性でどの要素にそれを適用するかを（CSSセレクタ構文を使用して）指定する。例えば以下の例。<_:egXML-5/>この例は、元の文書の章の見出しは太字の斜体で、セクションの見出しは太字ではない斜体であることを示している。"
+msgstr "元の文書でのデフォルト表示の記述は、<_:gi-2/> の <_:gi-1/> 要素を使用して設定できる。<_:gi-3/> 要素の内容に目的の表示を（CSSとして）指定し、どの要素にそれを適用するかを <_:att-4/> 属性で（CSSセレクタ構文を使用して）指定する。例えば以下の例。<_:egXML-5/> 上の例は、元の文書の章の見出しは太字の斜体であり、セクションの見出しは太字ではない斜体であることを示している。"
 
 #. (itstool) path: p/emph
 #: bptl-driver.odd:1006
@@ -1814,7 +1814,7 @@ msgstr "要素"
 #. (itstool) path: div/p
 #: bptl-driver.odd:1005
 msgid "Alternatively, use the <_:att-1/> <_:emph-2/> to give an internal scheme: <_:eg-3/> documented with the <_:gi-4/> <_:emph-5/> in the header: <_:egXML-6/> Use of the <_:att-7/> attribute and element offers an additional level of indirection, decreasing the total number of keystrokes in the XML and therefore possibly reducing the chance of typos being introduced in the encoding."
-msgstr "別の方法としては、<_:att-1/> <_:emph-2/>を使用して内部スキームを指定する。<_:eg-3/> ヘッダーの <_:gi-4/> <_:emph-5/>に記載しておく。<_:egXML-6/> <_:att-7/> 属性と要素の使用は、追加の間接的階層を持ち込むため、XML内のキーストロークの総数を減少させ、それゆえに符号化作業に入力ミスが発生する可能性を減少させる。"
+msgstr "別の方法としては、<_:att-1/> <_:emph-2/>を使用して内部スキームを指定する。そして <_:eg-3/> ヘッダーの <_:gi-4/> <_:emph-5/>にドキュメント化しておく。<_:egXML-6/> <_:att-7/> 属性と要素の使用は、追加の間接的階層を持ち込むため、XML内のキーストロークの総数を減少させ、それゆえに符号化作業に入力ミスが発生する可能性を減少させる。"
 
 #. (itstool) path: div/p
 #: bptl-driver.odd:1018
@@ -1843,7 +1843,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: bptl-driver.odd:1025
 msgid "This attribute is used to indicate the natural language of the content of an element. It is generally not found on or within the <_:gi-1/> or <_:gi-2/> elements at Level 1 or Level 2, but is common at Level 3 and above. See the documentation of the <_:ref-3/> in P5 for information on the values of <_:att-4/>."
-msgstr ""
+msgstr "この属性は要素内容の自然言語を示すために使用される。通常、レベル1またはレベル2の <_:gi-1/> 要素や <_:gi-2/> 要素、またその内包する要素には使われないが、レベル3以上では一般的である。<_:att-4/> の値については、P5の <_:ref-3/> のドキュメントを参照してもらいたい。"
 
 #. (itstool) path: div/head
 #: bptl-driver.odd:1037
@@ -1888,7 +1888,7 @@ msgstr "[必須] TEIドキュメントに関するメタデータを含む。<_:
 #. (itstool) path: row/cell
 #: bptl-driver.odd:1055
 msgid "[recommended at Level 1, optional at Levels 2–5] Contains a direct, generally machine-generated, transcription of document pages without further logical or structural information."
-msgstr "[レベル 1 では推奨、レベル 2 〜 5 では省略可能] 一般に機械により生成されたそのままの、それ以上の論理的あるいは構造的な情報を含まない、文書の各ページの転写を含む。"
+msgstr "[レベル1では推奨、レベル2〜5では省略可能] 一般に機械により生成されたそのままの、それ以上の論理的あるいは構造的な情報を含まない、文書の各ページの転写を含む。"
 
 #. (itstool) path: cell/ref
 #: bptl-driver.odd:1060
