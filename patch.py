@@ -76,8 +76,7 @@ toggle_scripts = ""
 for class_tag in all_classes:
     if class_tag in ["teiHeader", "textClass", "keywords"]:
         continue
-    script = """
-    document.getElementById("{}").textContent = "▼";
+    script = """document.getElementById("{}").textContent = "▼";
     $("#{}").click(function() {{
         var elem = $(".{}")[0];
         if (elem.style.display == 'none') {{
@@ -88,12 +87,11 @@ for class_tag in all_classes:
             $(".{}").hide();
             document.getElementById("{}").textContent = "▶︎";
         }}
-    }});
-    """.replace("{}", class_tag)
+    }});""".replace("{}", class_tag)
     toggle_scripts += script
 
 table_tr_toggle_script = """
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 $(document).ready(function() {{
     {}
