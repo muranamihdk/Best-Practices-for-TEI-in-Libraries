@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-19 23:28+0900\n"
+"PO-Revision-Date: 2019-12-19 23:32+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -192,7 +192,7 @@ msgstr "TEI ヘッダーは符号化テキストのメタデータである。�
 #. (itstool) path: div/p
 #: BestPractices/bptl-header.odd:123
 msgid "As with any descriptive metadata, the metadata in the TEI header can serve multiple audiences. In the local context, a TEI header provides metadata about the TEI document, its source, and its provenance. The TEI header may be used to enable metadata exchange, to automatically create indexes (author lists, title lists) for a collection of TEI documents, and to aid in browsing heterogeneous TEI documents. TEI headers may also be used as a basis for other metadata records (such as MARC or Dublin Core), though generation of other formats may require human intervention because they often are more granular, or have different granularity, than TEI headers."
-msgstr "他の記述的メタデータと同様に、TEIヘッダーのメタデータは複数のユーザーを対象としてサービスを提供できる。ローカルコンテキストでは、TEIヘッダーはTEIドキュメント、その元文書、およびその来歴に関するメタデータを提供する。TEIヘッダーを使用すると、メタデータの交換を可能にしたり、TEIドキュメントのコレクションのインデックス（著者リスト、タイトルリスト）を自動的に作成したり、別バージョンのTEIドキュメントを参照することができる。TEIヘッダーは、他のメタデータレコード（MARCやDublin Coreなど）の基礎としても使用できるが、他のフォーマットはTEIヘッダーよりも粒度が小さかったり、粒度が異なることが多いため、その生成には人間の介入が必要になる場合がある。"
+msgstr "他の記述的メタデータと同様に、TEIヘッダーのメタデータは複数対象のユーザーの用途に資することができる。ローカルコンテキストでは、TEIヘッダーはTEIドキュメント、その元文書、およびその来歴に関するメタデータを提供する。TEIヘッダーを使用すると、メタデータの交換を可能にしたり、TEIドキュメントのコレクションのインデックス（著者リスト、タイトルリスト）を自動的に作成したり、別バージョンのTEIドキュメントを参照することもできる。TEIヘッダーは、他のメタデータレコード（MARCやDublin Coreなど）の基礎としても使用できるが、他のフォーマットはTEIヘッダーよりも粒度が小さかったり、粒度が異なることが多いため、その生成には人間の介入が必要になる場合がある。"
 
 #. (itstool) path: div/head
 #: BestPractices/bptl-header.odd:137
