@@ -66,7 +66,7 @@ for matched, colspan, tag in re.findall("(<tr>.*?<td colspan=\"(\d)\">.*?&lt;(.+
 assert len(all_classes) == len(set(all_classes))
 
 for class_tag in all_classes:
-    if class_tag in ["teiHeader", "textClass", "keywords"]:  # teiHeaderは├がないので、textClassとkeywords"は階層が浅いので折りたたまない
+    if class_tag in ["teiHeader", "keywords"]:  # teiHeaderは├がないので、textClassとkeywords"は階層が浅いので折りたたまない
         continue
     found = re.search("<td>?(├|└)</td>(<td colspan=\"\d\">)?<span class=\"?(gi|tag)\">&lt;{}.*?&gt;</span>".format(class_tag), table).group(0)
     found = re.sub("<td>?(├|└)</td>", "<td id=\"{}\">┬</td>".format(class_tag), found)
@@ -74,7 +74,7 @@ for class_tag in all_classes:
 
 toggle_scripts = ""
 for class_tag in all_classes:
-    if class_tag in ["teiHeader", "textClass", "keywords"]:
+    if class_tag in ["teiHeader", "keywords"]:
         continue
     script = """document.getElementById("{}").textContent = "▼";
     $("#{}").click(function() {{
