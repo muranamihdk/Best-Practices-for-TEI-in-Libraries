@@ -104,18 +104,7 @@
         <div type="introduction">
           <head>はじめに</head>
           <p>TEI ヘッダーは符号化テキストのメタデータである。これには、電子ドキュメントに関連する書誌情報と、必要に応じて、電子版の元となったオリジナルの非電子的文書の書誌データが含まれる。TEI ヘッダーには多くの場合、電子ドキュメントの作成に使用された符号化に関する決定事項や、符号化の実務についての説明が含まれている。<ref target="http://www.tei-c.org/Lite/">TEI Lite</ref> では、ヘッダーは <quote>「電子的な扉ページ」</quote> と呼ばれているが、実際には、通常のMARCには含まれない付加的データを持つ目録、と言った方がより近い。</p>
-          <p>As with any descriptive metadata, the metadata in the TEI
-          header can serve multiple audiences. In the local context, a
-          TEI header provides metadata about the TEI document, its
-          source, and its provenance. The TEI header may be used to enable
-          metadata exchange, to automatically create indexes (author
-          lists, title lists) for a collection of TEI documents, and
-          to aid in browsing heterogeneous TEI documents. TEI headers
-          may also be used as a basis for other metadata records (such
-          as MARC or Dublin Core), though generation of other formats
-          may require human intervention because they often are more
-          granular, or have different granularity, than TEI
-          headers.</p>
+          <p>他の記述的メタデータと同様に、TEIヘッダーのメタデータは複数のユーザーを対象としてサービスを提供できる。ローカルコンテキストでは、TEIヘッダーはTEIドキュメント、その元文書、およびその来歴に関するメタデータを提供する。TEIヘッダーを使用すると、メタデータの交換を可能にしたり、TEIドキュメントのコレクションのインデックス（著者リスト、タイトルリスト）を自動的に作成したり、別バージョンのTEIドキュメントを参照することができる。TEIヘッダーは、他のメタデータレコード（MARCやDublin Coreなど）の基礎としても使用できるが、他のフォーマットはTEIヘッダーよりも粒度が小さかったり、粒度が異なることが多いため、その生成には人間の介入が必要になる場合がある。</p>
         </div>
         <div type="section">
           <head>TEIヘッダーとMARC</head>
