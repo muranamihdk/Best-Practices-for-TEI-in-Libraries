@@ -120,8 +120,7 @@
        </div>
         <div xml:id="frbr" type="section">
         <head>TEIヘッダーとFRBR</head>
-        <p><title><choice><expan>「書誌レコードの機能要件」</expan><abbr>FRBR</abbr></choice></title><note><ptr target="https://www.ifla.org/publications/functional-requirements-for-bibliographic-records"/></note> は、<cit><quote>「書誌レコードのデータを利用者のニーズに関連づけるために」</quote> <bibl>(<title>Functional Requirements for
-                        Bibliographic Records: Final Report</title>, <date>February
+        <p><title><choice><expan>『書誌レコードの機能要件』</expan><abbr>FRBR</abbr></choice></title><note><ptr target="https://www.ifla.org/publications/functional-requirements-for-bibliographic-records"/></note> は、<cit><quote>「書誌レコードのデータを利用者のニーズに関連づけるために」</quote> <bibl>(<title>『書誌レコードの機能要件最終報告書』</title>, <date>February
                         2009</date>, <citedRange unit="page">p. 7</citedRange>, <ptr target="https://www.ifla.org/files/assets/cataloguing/frbr/frbr_2008.pdf"/>)</bibl></cit> <choice><expan>国際図書館連盟</expan><abbr>IFLA</abbr></choice><note><ptr target="https://www.ifla.org/"/></note> によって開発された概念モデルである。最もよく知られているのは、<term>著作</term>、<term>表現形</term>、<term>体現形</term>、<term>個別資料</term>の4つの主要な書誌的実体モデルである。FRBRモデルには、これらの実体の幾つかの間での主要な関係も含まれている。つまり、著作はひとつ以上の表現形によって<term>実現</term>され、表現形はひとつ以上の体現形によって<term>具体化</term>され、体現形はひとつ以上の個別資料によって<term>例示</term>される、というものである。2008年に <title>FRBR</title> が公開されて以来、図書館メタデータコミュニティは、書誌メタデータに関連するより正確な実体関係モデルを開発するために協力してきた。特に <title>FRBRoo</title><note><ptr target="http://www.cidoc-crm.org/frbroo/"/></note> と BIBFRAME <note><ptr target="https://www.loc.gov/bibframe/"/></note> は、いずれもFRBRの4つの主要な実体とは異なる書誌的実体を定義している。</p>
                 <p>It is important to note that these <title>Best Practices</title>, like P5 as a whole, does not distinguish betwen <term>work</term>,
                 <term>expression</term>, <term>manifestation</term>, and <term>item</term> according to their definitions in FRBR.</p>
