@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-20 22:15+0900\n"
+"PO-Revision-Date: 2019-12-20 22:18+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -214,12 +214,12 @@ msgstr "TEIで電子テキストを作成し、MARCの書誌レコードを通�
 #: BestPractices/bptl-header.odd:207 BestPractices/bptl-header.odd:264
 #: BestPractices/bptl-header.odd:1392
 msgid "Best Practices"
-msgstr ""
+msgstr "「ベストプラクティス」"
 
 #. (itstool) path: div/p
 #: BestPractices/bptl-header.odd:159
 msgid "In order to allow automatic generation of TEI headers from MARC bibliographic records and MARC bibliographic records from TEI headers, according to these <_:title-1/>, some elements should contain content not typical for TEI practice but necessary due to a lack of granularity in the MARC format."
-msgstr "MARC書誌レコードからのTEIヘッダーの自動生成と、TEIヘッダーからのMARC書誌レコードの自動生成を可能にするために、この <_:title-1/> に基づく場合は、典型的なTEIの慣習にはないが、MARCフォーマットの粒度の欠如を埋めるために必要なコンテンツを、一部の要素で含める必要がある。"
+msgstr "MARC書誌レコードからのTEIヘッダーの自動生成と、TEIヘッダーからのMARC書誌レコードの自動生成を可能にするために、この<_:title-1/>に基づく場合は、典型的なTEIの慣習にはないが、MARCフォーマットの粒度の欠如を埋めるために必要なコンテンツを、一部の要素で含める必要がある。"
 
 #. (itstool) path: div/head
 #: BestPractices/bptl-header.odd:166
