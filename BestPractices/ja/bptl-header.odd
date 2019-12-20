@@ -114,18 +114,9 @@
         </div>
         <div type="section">
           <head>TEIヘッダーとMETS</head>
-          <p>The <ref target="https://www.loc.gov/standards/mets/">Metadata
-          Encoding and Transmission Standard</ref> (METS) includes
-          direct support for TEI Headers; that is, a complete
-          <gi>teiHeader</gi> element can be included in a METS
-          metadata record alongside MARC, MODS, and DC metadata. METS
-          specifies an <att>MDTYPE</att> of <val>TEIHDR</val> to
-          indicate a TEI Header. For an example of how this might be
-          done, see this <ref target="./edmcook-original_mets_xmp.xml">sample METS
-          record</ref> for <title>The “Sure to Rise” Cookery
-          Book</title>. We are unaware of any METS implementations
-          which provide significant support for TEI headers
-          out-of-the-box.</p>
+          <p><ref target="https://www.loc.gov/standards/mets/">Metadata
+          Encoding and Transmission Standard</ref> (METS) はTEI ヘッダーを直接サポートしている。つまり、完全な <gi>teiHeader</gi> 要素は、MARC、MODS、およびDCメタデータと共にMETSメタデータレコードに含めることができる。METSは、TEIヘッダーを示すために <val>TEIHDR</val> の <att>MDTYPE</att> を指定する。どのようにこれを行うかの例については、<title>The “Sure to Rise” Cookery
+          Book</title> のための <ref target="./edmcook-original_mets_xmp.xml">METSレコード例</ref> を参照してもらいたい。私たちの知る限り、TEIヘッダーのサポートをその仕様に含むMETSの実装はない。</p>
        </div>
         <div xml:id="frbr" type="section">
         <head>TEIヘッダーとFRBR</head>
