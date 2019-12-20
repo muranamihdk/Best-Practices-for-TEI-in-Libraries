@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-21 00:39+0900\n"
+"PO-Revision-Date: 2019-12-21 00:43+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -261,7 +261,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: BestPractices/bptl-header.odd:167
 msgid "The <_:ref-1/> (METS) includes direct support for TEI Headers; that is, a complete <_:gi-2/> element can be included in a METS metadata record alongside MARC, MODS, and DC metadata. METS specifies an <_:att-3/> of <_:val-4/> to indicate a TEI Header. For an example of how this might be done, see this <_:ref-5/> for <_:title-6/>. We are unaware of any METS implementations which provide significant support for TEI headers out-of-the-box."
-msgstr "<_:ref-1/> (METS) はTEI ヘッダーを直接サポートしている。つまり、完全な <_:gi-2/> 要素は、MARC、MODS、およびDCメタデータと共にMETSメタデータレコードに含めることができる。METSは、TEIヘッダーを示すために <_:val-4/> の <_:att-3/> を指定する。どのようにこれを行うかの例については、<_:title-6/> のための <_:ref-5/> を参照してもらいたい。私たちの知る限り、TEIヘッダーのサポートをその仕様に含むMETSの実装はない。"
+msgstr "<_:ref-1/> (METS) はTEI ヘッダーを直接サポートしている。つまり、METSメタデータレコードの中には、MARCやMODS、DCメタデータと共に、完全な <_:gi-2/> 要素を含めることができる。METSは、TEIヘッダーであることを示すために <_:val-4/> の <_:att-3/> を指定する。どのようにこれを行うかの例については、<_:title-6/> の <_:ref-5/> を参照してもらいたい。私たちの知る限り、TEIヘッダーのサポートをその仕様に含むMETSの実装はない。"
 
 #. (itstool) path: div/head
 #: BestPractices/bptl-header.odd:183
