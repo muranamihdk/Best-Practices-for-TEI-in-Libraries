@@ -115,7 +115,7 @@
         <div type="section">
           <head>TEIヘッダーとMETS</head>
           <p><ref target="https://www.loc.gov/standards/mets/">Metadata
-          Encoding and Transmission Standard</ref> (METS) はTEI ヘッダーを直接サポートしている。つまり、METSメタデータレコードの中には、MARCやMODS、DCメタデータと共に、完全な <gi>teiHeader</gi> 要素を含めることができる。METSは、TEIヘッダーであることを示すために <val>TEIHDR</val> の <att>MDTYPE</att> を指定する。どのようにこれを行うかの例については、<title>The “Sure to Rise” Cookery
+          Encoding and Transmission Standard</ref> (METS) はTEI ヘッダーを直接サポートしている。つまり、METSメタデータレコードの中には、MARCやMODS、DCメタデータと共に、完全な <gi>teiHeader</gi> 要素を含めることができる。METSは、TEIヘッダーであることを示すために、<val>TEIHDR</val> の <att>MDTYPE</att> を指定する。どのようにこれを行うかの例については、<title>The “Sure to Rise” Cookery
           Book</title> の <ref target="./edmcook-original_mets_xmp.xml">METSレコード例</ref> を参照してもらいたい。私たちの知る限り、TEIヘッダーのサポートをその仕様に含むMETSの実装はない。</p>
        </div>
         <div xml:id="frbr" type="section">
