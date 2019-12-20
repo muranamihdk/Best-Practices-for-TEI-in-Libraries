@@ -120,24 +120,10 @@
        </div>
         <div xml:id="frbr" type="section">
         <head>TEIヘッダーとFRBR</head>
-        <p><title><choice><expan>Functional Requirements for Bibliographic
-                        Records</expan><abbr>FRBR</abbr></choice></title><note><ptr target="https://www.ifla.org/publications/functional-requirements-for-bibliographic-records"/></note> is a conceptual model developed by <choice><expan>the International
-                    Federation of Library Associations</expan><abbr>IFLA</abbr></choice><note><ptr target="https://www.ifla.org/"/></note>
-            <cit><quote>for relating the data that are stored in bibliographic records to the needs
+        <p><title><choice><expan>「書誌レコードの機能要件」</expan><abbr>FRBR</abbr></choice></title><note><ptr target="https://www.ifla.org/publications/functional-requirements-for-bibliographic-records"/></note> は、 <choice><expan>国際図書館連盟</expan><abbr>IFLA</abbr></choice><note><ptr target="https://www.ifla.org/"/></note> <cit><quote>for relating the data that are stored in bibliographic records to the needs
                     of the users of those records</quote> <bibl>(<title>Functional Requirements for
                         Bibliographic Records: Final Report</title>, <date>February
-                        2009</date>, <citedRange unit="page">p. 7</citedRange>, <ptr target="https://www.ifla.org/files/assets/cataloguing/frbr/frbr_2008.pdf"/>)</bibl></cit>. It is best
-            known for its model of four primary bibliographic entities: <term>work</term>,
-                <term>expression</term>, <term>manifestation</term>, and <term>item</term>. The FRBR
-            model also includes primary relationships between certain of these entities: a work may
-            be <term>realized through</term> one or more expressions, an expression may be
-                <term>embodied in</term> one or more manifestations, and a manifestation may be
-                <term>exemplified by</term> one or more items. Since the publication of
-                <title>FRBR</title> in 2008, the library metadata community has collaborated to
-            develop more precise entity-relationship models relating to bibliographic
-            metadata—notably <title>FRBRoo</title><note><ptr target="http://www.cidoc-crm.org/frbroo/"/></note>
-                and BIBFRAME<note><ptr target="https://www.loc.gov/bibframe/"/></note>, each with different
-            configurations of bibliographic entities than the four primary entities in FRBR.</p>
+                        2009</date>, <citedRange unit="page">p. 7</citedRange>, <ptr target="https://www.ifla.org/files/assets/cataloguing/frbr/frbr_2008.pdf"/>)</bibl></cit> によって開発された概念モデルである。最もよく知られているのは、<term>work</term>、<term>expression</term>、<term>manifestation</term>、<term>item</term>の4つの主要な書誌的実体モデルである。FRBRモデルには、これらの実体の幾つかの間での主要な関係も含まれている。つまり、著作はひとつ以上の表現形によって<term>実現</term>され、表現形はひとつ以上の体現形によって<term>具体化</term>され、体現形はひとつ以上の個別資料によって<term>例示</term>される、というものである。2008年に <title>FRBR</title> が公開されて以来、図書館メタデータコミュニティは、書誌メタデータに関連するより正確な実体関係モデルを開発するために協力してきた。特に <title>FRBRoo</title><note><ptr target="http://www.cidoc-crm.org/frbroo/"/></note> と BIBFRAME <note><ptr target="https://www.loc.gov/bibframe/"/></note> は、いずれもFRBRの4つの主要な実体とは異なる書誌的実体を定義している。</p>
                 <p>It is important to note that these <title>Best Practices</title>, like P5 as a whole, does not distinguish betwen <term>work</term>,
                 <term>expression</term>, <term>manifestation</term>, and <term>item</term> according to their definitions in FRBR.</p>
         <p>Due to sustained interest in the original FRBR model from within the TEI community, these
