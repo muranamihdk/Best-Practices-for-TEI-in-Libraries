@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-21 00:45+0900\n"
+"PO-Revision-Date: 2019-12-21 08:37+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -337,17 +337,17 @@ msgstr ""
 #. (itstool) path: p/term
 #: BestPractices/bptl-header.odd:196
 msgid "realized through"
-msgstr ""
+msgstr "実現"
 
 #. (itstool) path: p/term
 #: BestPractices/bptl-header.odd:197
 msgid "embodied in"
-msgstr ""
+msgstr "具体化"
 
 #. (itstool) path: p/term
 #: BestPractices/bptl-header.odd:198
 msgid "exemplified by"
-msgstr ""
+msgstr "例示"
 
 #. (itstool) path: p/title
 #: BestPractices/bptl-header.odd:201
@@ -357,7 +357,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: BestPractices/bptl-header.odd:184
 msgid "<_:title-1/><_:note-2/> is a conceptual model developed by <_:choice-3/><_:note-4/> <_:cit-5/>. It is best known for its model of four primary bibliographic entities: <_:term-6/>, <_:term-7/>, <_:term-8/>, and <_:term-9/>. The FRBR model also includes primary relationships between certain of these entities: a work may be <_:term-10/> one or more expressions, an expression may be <_:term-11/> one or more manifestations, and a manifestation may be <_:term-12/> one or more items. Since the publication of <_:title-13/> in 2008, the library metadata community has collaborated to develop more precise entity-relationship models relating to bibliographic metadata—notably <_:title-14/><_:note-15/> and BIBFRAME<_:note-16/>, each with different configurations of bibliographic entities than the four primary entities in FRBR."
-msgstr ""
+msgstr "<_:title-1/><_:note-2/> は、 <_:choice-3/><_:note-4/> <_:cit-5/> によって開発された概念モデルである。最もよく知られているのは、<_:term-6/>、<_:term-7/>、<_:term-8/>、<_:term-9/>の4つの主要な書誌的実体モデルである。FRBRモデルには、これらの実体の幾つかの間での主要な関係も含まれている。つまり、著作はひとつ以上の表現形によって<_:term-10/>され、表現形はひとつ以上の体現形によって<_:term-11/>され、体現形はひとつ以上の個別資料によって<_:term-12/>される、というものである。2008年に <_:title-13/> が公開されて以来、図書館メタデータコミュニティは、書誌メタデータに関連するより正確な実体関係モデルを開発するために協力してきた。特に <_:title-14/><_:note-15/> と BIBFRAME <_:note-16/> は、いずれもFRBRの4つの主要な実体とは異なる書誌的実体を定義している。"
 
 #. (itstool) path: div/p
 #: BestPractices/bptl-header.odd:204
