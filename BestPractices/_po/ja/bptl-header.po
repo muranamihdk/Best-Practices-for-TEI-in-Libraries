@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-21 08:55+0900\n"
+"PO-Revision-Date: 2019-12-21 09:07+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -271,7 +271,7 @@ msgstr "TEIヘッダーとFRBR"
 #. (itstool) path: choice/expan
 #: BestPractices/bptl-header.odd:184
 msgid "Functional Requirements for Bibliographic Records"
-msgstr "『書誌レコードの機能要件』"
+msgstr "「書誌レコードの機能要件」"
 
 #. (itstool) path: choice/abbr
 #. (itstool) path: p/title
@@ -312,7 +312,7 @@ msgstr ""
 #. (itstool) path: cit/bibl
 #: BestPractices/bptl-header.odd:190
 msgid "(<_:title-1/>, <_:date-2/>, <_:citedRange-3/>, <_:ptr-4/>)"
-msgstr "(<_:title-1/>, <_:date-2/>, <_:citedRange-3/>, <_:ptr-4/>)"
+msgstr "(<_:title-1/>, <_:date-2/>, <_:citedRange-3/>, <_:ptr-4/>)、"
 
 #. (itstool) path: p/term
 #: BestPractices/bptl-header.odd:193 BestPractices/bptl-header.odd:204
