@@ -1,6 +1,32 @@
 import re
 
 # ========================================================
+# 英語の引用符 ' ' を「」に置き換える　その他置き換え
+# ========================================================
+
+replacements = (
+    ("‘「", "「"),
+    ("」’", "」"),
+    ("((", "("),
+    (")、)", ")、"),
+)
+
+with open("index.html") as f:
+    source = f.read()
+
+for old, new in replacements:
+    if re.search(old, source):
+        source = source.replace(old, new)
+        if not re.search(new, source):
+            print(f'Skipped: failed to replace "{old}".')
+    else:
+        print(f'Skipped: not found "{old}".')
+
+with open("index.html", "w") as f:
+    f.write(source)
+
+
+# ========================================================
 #「3.6. テキスト区分」の表に日本語訳独自の文字を追加する
 #（poファイルでは同じ文章を訳し分けられないのでここで対応）
 # ========================================================
@@ -21,9 +47,7 @@ with open("index.html") as f:
 for old, new in replacements:
     if re.search(old, source):
         source = source.replace(old, new)
-        if re.search(new, source):
-            print(f'Replaced: "{old}" with "{new}".')
-        else:
+        if not re.search(new, source):
             print(f'Skipped: failed to replace "{old}".')
     else:
         print(f'Skipped: not found "{old}".')
