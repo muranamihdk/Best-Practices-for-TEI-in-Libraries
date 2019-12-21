@@ -16,7 +16,7 @@ with open("index.html") as f:
 
 for old, new in replacements:
     if re.search(old, source):
-        source = source.replace(old, new)
+        source = re.sub(old, new, source)
         if re.search(old, source):
             print(f'Skipped: failed to replace "{old}".')
     else:
