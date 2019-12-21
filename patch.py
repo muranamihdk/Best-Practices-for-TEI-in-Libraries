@@ -101,16 +101,16 @@ toggle_scripts = ""
 for class_tag in all_classes:
     if class_tag in ["teiHeader", "keywords"]:
         continue
-    script = """$("#{}").html('<span style="color: blue">┳</span>');
+    script = """document.getElementById("{}").textContent = "┳";
     $("#{}").click(function() {{
         var elem = $(".{}")[0];
         if (elem.style.display == 'none') {{
             $(".{}").show();
-            $("#{}").html('<span style="color: blue">┳</span>');
+            document.getElementById("{}").textContent = "┳";
         }}
         else {{
             $(".{}").hide();
-            $("#{}").html('<span style="color: blue">┣</span>');
+            document.getElementById("{}").textContent = "┣";
         }}
     }});""".replace("{}", class_tag)
     toggle_scripts += script
