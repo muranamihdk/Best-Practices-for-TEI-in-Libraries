@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-21 22:23+0900\n"
+"PO-Revision-Date: 2019-12-21 22:28+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -362,7 +362,7 @@ msgstr "<_:title-1/><_:note-2/> は、<_:cit-5/> <_:choice-3/><_:note-4/> によ
 #. (itstool) path: div/p
 #: BestPractices/bptl-header.odd:204
 msgid "It is important to note that these <_:title-1/>, like P5 as a whole, does not distinguish betwen <_:term-2/>, <_:term-3/>, <_:term-4/>, and <_:term-5/> according to their definitions in FRBR."
-msgstr " この <_:title-1/> では、全体としての P5 と同様に、FRBR での定義に従うならば、<_:term-2/> と <_:term-3/>、 <_:term-4/>、 <_:term-5/> を区別しないことに注意することは重要である。"
+msgstr "FRBRでの定義に従うならば、全体としてのP5と同様に、この <_:title-1/> では <_:term-2/> と <_:term-3/> と <_:term-4/> と <_:term-5/> を区別しないことに注意することは重要である。"
 
 #. (itstool) path: p/gi
 #. (itstool) path: cell/gi
