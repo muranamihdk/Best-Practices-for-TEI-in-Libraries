@@ -124,17 +124,14 @@
                         2009</date>, <citedRange unit="page">p. 7</citedRange>, <ptr target="https://www.ifla.org/files/assets/cataloguing/frbr/frbr_2008.pdf"/>)、</bibl></cit> <choice><expan>国際図書館連盟</expan><abbr>IFLA</abbr></choice><note><ptr target="https://www.ifla.org/"/></note> によって開発された概念モデルである。最もよく知られているのは、<term>著作</term>、<term>表現形</term>、<term>体現形</term>、<term>個別資料</term>の4つの主要な書誌的実体モデルである。FRBRモデルには、これらの実体の幾つかの間での主要な関係も含まれている。つまり、著作はひとつ以上の表現形によって<term>実現</term>され、表現形はひとつ以上の体現形によって<term>具体化</term>され、体現形はひとつ以上の個別資料によって<term>例示</term>される、というものである。2008年に <title>FRBR</title> が公開されて以来、図書館メタデータコミュニティは、書誌メタデータに関連するより正確な実体関係モデルを開発するために協力してきた。特に <title>FRBRoo</title><note><ptr target="http://www.cidoc-crm.org/frbroo/"/></note> と BIBFRAME <note><ptr target="https://www.loc.gov/bibframe/"/></note> は、いずれもFRBRの4つの主要な実体とは異なる書誌的実体を定義している。</p>
                 <p>FRBRでの定義に従うならば、全体としてのP5と同様に、この <title>「ベストプラクティス」</title> では<term>著作</term>と<term>表現形</term>と<term>体現形</term>と<term>個別資料</term>を区別しないことに注意することは重要である。</p>
         <p>TEIコミュニティ内部での本来のFRBRに対する継続的な関心により、この <title>「ベストプラクティス」</title> では、符号化従事者がTEIドキュメントに関連する書誌的な実体を識別し、それらの間の関係を表現する方法を説明する。たとえば、ある稀覯本の特定の版（FRBRでいう体現形）のテキストがTEIドキュメントに含まれている場合、ヘッダーでこの書籍のすべての現存するコピー（FRBRでいう個別資料）への参照を含めることができる。これらの関連付けと書誌実体への参照は、<gi>sourceDesc</gi> 要素の省略可能な子要素である <gi>listRelation</gi> を使用して符号化される。</p>
-        <p>次の例はFRBRの4つの主要な実体のインスタンス間の、3つの関連をすべて現している。 <egXML xmlns="http://www.tei-c.org/ns/Examples">
+        <p>次の例は、FRBRの4つの主要な実体のインスタンス間の、3つの関連をすべて現している。 <egXML xmlns="http://www.tei-c.org/ns/Examples">
                 <listRelation>
                     <relation ref="http://purl.org/vocab/frbr/core#realization" active="http://d-nb.info/gnd/4128140-8" passive="http://d-nb.info/gnd/4217850-2"/>
                     <relation ref="http://purl.org/vocab/frbr/core#embodiment" active="http://d-nb.info/gnd/4217850-2" passive="http://d-nb.info/1022142836"/>
                     <relation ref="http://purl.org/vocab/frbr/core#exemplar" active="http://d-nb.info/1022142836" passive="http://lobid.org/items/HT017412936:DE-361:NA088.88-4442721#!"/>
                 </listRelation>
             </egXML></p>
-            <p>Note that a TEI document itself, like any other XML
-            document, occupies an ambiguous territory between a FRBR
-            expression and a FRBR
-            manifestation.<note>
+            <p>TEIドキュメントそれ自体は、すべてのその他のXMLドキュメントと同様に、FRBR表現形とFRBR体現形の間の、曖昧な領域を占めるということに注意してもらいたい。 <note>
             <bibl>
               <author>Renear, Allen</author>,
               <author>Christopher Phillippe</author>,
@@ -145,8 +142,7 @@
             <title level="m">Proceedings of Extreme Markup Languages 2003</title>.
             <ptr target="http://conferences.idealliance.org/extreme/html/2003/Lawton01/EML2003Lawton01.html"/>.
             </bibl>
-            </note>
-            </p>
+            </note></p>
         </div>
         <div type="section">
           <head>TEIヘッダーとその他のメタデータスキーマ</head>
