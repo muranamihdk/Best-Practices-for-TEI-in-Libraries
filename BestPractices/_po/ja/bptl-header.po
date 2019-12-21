@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-21 22:28+0900\n"
+"PO-Revision-Date: 2019-12-21 22:41+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -362,7 +362,7 @@ msgstr "<_:title-1/><_:note-2/> は、<_:cit-5/> <_:choice-3/><_:note-4/> によ
 #. (itstool) path: div/p
 #: BestPractices/bptl-header.odd:204
 msgid "It is important to note that these <_:title-1/>, like P5 as a whole, does not distinguish betwen <_:term-2/>, <_:term-3/>, <_:term-4/>, and <_:term-5/> according to their definitions in FRBR."
-msgstr "FRBRでの定義に従うならば、全体としてのP5と同様に、この <_:title-1/> では <_:term-2/> と <_:term-3/> と <_:term-4/> と <_:term-5/> を区別しないことに注意することは重要である。"
+msgstr "FRBRでの定義に従うならば、全体としてのP5と同様に、この <_:title-1/> では<_:term-2/>と<_:term-3/>と<_:term-4/>と<_:term-5/>を区別しないことに注意することは重要である。"
 
 #. (itstool) path: p/gi
 #. (itstool) path: cell/gi
@@ -385,12 +385,12 @@ msgstr ""
 #. (itstool) path: div/p
 #: BestPractices/bptl-header.odd:206
 msgid "Due to sustained interest in the original FRBR model from within the TEI community, these <_:title-1/> describe how an encoder might identify bibliographic entities relating to a TEI document and express relationships between them. For example, a TEI document might contain the text of a particular edition of a rare book (a FRBR manifestation), and the header could reference all extant copies (FRBR items) of this book. These relationships and references to bibliographic entities are encoded using the <_:gi-2/> element, an optional child of <_:gi-3/>."
-msgstr "TEIコミュニティ内部での本来のFRBRに対する継続的な関心により、この <_:title-1/> では、符号化従事者がTEIドキュメントに関連する書誌的な実体を識別し、それらの間の関係を表現する方法を説明する。たとえば、TEIドキュメントにある稀覯本の特定の版（FRBRでいう体現形）のテキストが含まれている場合、ヘッダーでこの書籍のすべての現存するコピー（FRBRでいう個別資料）を参照することができる。これらの関連付けと書誌実体への参照は、<_:gi-3/> 要素の省略可能な子要素である <_:gi-2/> を使用して符号化される。"
+msgstr "TEIコミュニティ内部での本来のFRBRに対する継続的な関心により、この <_:title-1/> では、符号化従事者がTEIドキュメントに関連する書誌的な実体を識別し、それらの間の関係を表現する方法を説明する。たとえば、ある稀覯本の特定の版（FRBRでいう体現形）のテキストがTEIドキュメントに含まれている場合、ヘッダーでこの書籍のすべての現存するコピー（FRBRでいう個別資料）への参照を含めることができる。これらの関連付けと書誌実体への参照は、<_:gi-3/> 要素の省略可能な子要素である <_:gi-2/> を使用して符号化される。"
 
 #. (itstool) path: div/p
 #: BestPractices/bptl-header.odd:213
 msgid "The following example expresses all three FRBR relationships between instances of the four primary FRBR entities: <_:egXML-1/>"
-msgstr ""
+msgstr "次の例はFRBRの4つの主要な実体のインスタンス間の、3つの関連をすべて現している。 <_:egXML-1/>"
 
 #. (itstool) path: bibl/author
 #: BestPractices/bptl-header.odd:232
