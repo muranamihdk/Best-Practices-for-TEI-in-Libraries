@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-21 09:07+0900\n"
+"PO-Revision-Date: 2019-12-21 22:23+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -297,7 +297,7 @@ msgstr "「書誌レコードのデータを利用者のニーズに関連づけ
 #. (itstool) path: bibl/title
 #: BestPractices/bptl-header.odd:190
 msgid "Functional Requirements for Bibliographic Records: Final Report"
-msgstr "『書誌レコードの機能要件最終報告書』"
+msgstr "『書誌レコードの機能要件　IFLA書誌レコード機能要件研究グループ最終報告』"
 
 #. (itstool) path: bibl/date
 #: BestPractices/bptl-header.odd:191
@@ -362,7 +362,7 @@ msgstr "<_:title-1/><_:note-2/> は、<_:cit-5/> <_:choice-3/><_:note-4/> によ
 #. (itstool) path: div/p
 #: BestPractices/bptl-header.odd:204
 msgid "It is important to note that these <_:title-1/>, like P5 as a whole, does not distinguish betwen <_:term-2/>, <_:term-3/>, <_:term-4/>, and <_:term-5/> according to their definitions in FRBR."
-msgstr ""
+msgstr " この <_:title-1/> では、全体としての P5 と同様に、FRBR での定義に従うならば、<_:term-2/> と <_:term-3/>、 <_:term-4/>、 <_:term-5/> を区別しないことに注意することは重要である。"
 
 #. (itstool) path: p/gi
 #. (itstool) path: cell/gi
@@ -385,7 +385,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: BestPractices/bptl-header.odd:206
 msgid "Due to sustained interest in the original FRBR model from within the TEI community, these <_:title-1/> describe how an encoder might identify bibliographic entities relating to a TEI document and express relationships between them. For example, a TEI document might contain the text of a particular edition of a rare book (a FRBR manifestation), and the header could reference all extant copies (FRBR items) of this book. These relationships and references to bibliographic entities are encoded using the <_:gi-2/> element, an optional child of <_:gi-3/>."
-msgstr ""
+msgstr "TEIコミュニティ内部での本来のFRBRに対する継続的な関心により、この <_:title-1/> では、符号化従事者がTEIドキュメントに関連する書誌的な実体を識別し、それらの間の関係を表現する方法を説明する。たとえば、TEIドキュメントにある稀覯本の特定の版（FRBRでいう体現形）のテキストが含まれている場合、ヘッダーでこの書籍のすべての現存するコピー（FRBRでいう個別資料）を参照することができる。これらの関連付けと書誌実体への参照は、<_:gi-3/> 要素の省略可能な子要素である <_:gi-2/> を使用して符号化される。"
 
 #. (itstool) path: div/p
 #: BestPractices/bptl-header.odd:213
