@@ -9,6 +9,7 @@ replacements = (
     ("」’", "」"),
     ("\(\(", "("),
     ("\)、\)", ")、"),
+    ("<a class=\"link_ptr\" href=\"https://www.ifla.org/files/assets/cataloguing/frbr/frbr_2008.pdf\"><span>https://www.ifla.org/files/assets/cataloguing/frbr/frbr_2008.pdf</span></a>", "<a class=\"link_ptr\" href=\"http://archive.ifla.org/VII/s13/frbr/frbr-jp.pdf\"><span>http://archive.ifla.org/VII/s13/frbr/frbr-jp.pdf</span></a>"),
 )
 
 with open("index.html") as f:

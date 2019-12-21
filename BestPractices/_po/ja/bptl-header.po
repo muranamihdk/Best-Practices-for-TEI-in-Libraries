@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-21 22:55+0900\n"
+"PO-Revision-Date: 2019-12-21 22:58+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -307,7 +307,7 @@ msgstr ""
 #. (itstool) path: bibl/citedRange
 #: BestPractices/bptl-header.odd:192
 msgid "p. 7"
-msgstr ""
+msgstr "p. 15"
 
 #. (itstool) path: cit/bibl
 #: BestPractices/bptl-header.odd:190
