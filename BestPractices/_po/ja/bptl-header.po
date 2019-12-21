@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-21 22:58+0900\n"
+"PO-Revision-Date: 2019-12-21 23:06+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -297,7 +297,7 @@ msgstr "「書誌レコードのデータを利用者のニーズに関連づけ
 #. (itstool) path: bibl/title
 #: BestPractices/bptl-header.odd:190
 msgid "Functional Requirements for Bibliographic Records: Final Report"
-msgstr "『書誌レコードの機能要件　IFLA書誌レコード機能要件研究グループ最終報告』"
+msgstr "『書誌レコードの機能要件 最終報告』"
 
 #. (itstool) path: bibl/date
 #: BestPractices/bptl-header.odd:191
@@ -307,7 +307,7 @@ msgstr ""
 #. (itstool) path: bibl/citedRange
 #: BestPractices/bptl-header.odd:192
 msgid "p. 7"
-msgstr "p. 15"
+msgstr ""
 
 #. (itstool) path: cit/bibl
 #: BestPractices/bptl-header.odd:190
