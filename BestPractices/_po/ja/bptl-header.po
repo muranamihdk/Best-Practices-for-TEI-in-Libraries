@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-24 00:19+0900\n"
+"PO-Revision-Date: 2019-12-24 00:59+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -514,7 +514,7 @@ msgstr "扉ページが存在せず、元文書からの拠り所もない場合
 #. (itstool) path: div/p
 #: BestPractices/bptl-header.odd:284
 msgid "It is recommended that metadata about the source document included in the header be taken from the catalog record for the source document. However, there may be cases when this information is incomplete or insufficient. The following sources of information are recommended in creating the TEI header: <_:list-1/>"
-msgstr "元の文書に関するヘッダーのメタデータは、元の文書の目録記録から取得することを勧める。しかし、この情報が不完全または不十分な場合がある。TEI ヘッダーの作成に推奨できる情報源は、次のようになる。 <_:list-1/>"
+msgstr "元の文書に関するヘッダーのメタデータは、元の文書の目録記録から取得することを勧める。しかし、この情報が不完全または不十分な場合がある。TEI ヘッダーの作成には、以下の情報源が推奨される。 <_:list-1/>"
 
 #. (itstool) path: div/head
 #: BestPractices/bptl-header.odd:307
@@ -524,7 +524,7 @@ msgstr "TEIヘッダーで推奨される要素と属性"
 #. (itstool) path: div/p
 #: BestPractices/bptl-header.odd:308
 msgid "Below is documentation on use of elements and attributes within the <_:gi-1/> element. These recommendations apply to all levels of encoding. The mapping to MARC for cataloging the TEI document assumes that the header is created based on the encoded text, not the source document. Note that the terms “work” and “item” are not used in the narrow way that they are defined in RDA."
-msgstr "<_:gi-1/> 要素内での要素と属性の使用に関するドキュメントを次に示す。これら推奨事項は、すべてのレベルの符号化に適用される。TEI ドキュメントの目録を作成するためのMARCへのマッピングは、ヘッダーは元の文書ではなく符号化されたテキストに基づいて作成されることを前提としている。「著作」と「個別資料」という用語は、RDAで定義されている狭い方向では使用されていないことに注意してもらいたい。"
+msgstr "<_:gi-1/> 要素内での要素と属性の使用に関するドキュメントを次に示す。これら推奨事項は、すべてのレベルの符号化に適用される。TEIドキュメントの目録作成のためのMARCへのマッピングは、元の文書ではなく符号化されたテキストに基づいて、ヘッダーが作成されることを前提としている。「著作」と「個別資料」という用語は、RDAで定義されている狭い方向では使用されていないことに注意してもらいたい。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:318
@@ -1825,7 +1825,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:1368 BestPractices/bptl-header.odd:1542
 msgid "[recommended]"
-msgstr ""
+msgstr "[推奨]"
 
 #. (itstool) path: cell/gi
 #: BestPractices/bptl-header.odd:1377
@@ -2330,7 +2330,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:1802
 msgid "[optional] Use as a wrapper for embedded non-TEI metadata."
-msgstr ""
+msgstr "[任意] 非TEIメタデータを囲んで埋め込むために使用する。"
 
 #. (itstool) path: cell/gi
 #: BestPractices/bptl-header.odd:1810
@@ -2356,12 +2356,12 @@ msgstr ""
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:1814
 msgid "[optional] Create a <_:gi-1/> element to record each significant change to the TEI document, in reverse chronological order (i.e., most recent first). A prose description of the change is recorded as the content of each <_:gi-2/> element. This prose may contain lists for organization, and phrase-level markup (like <_:gi-3/>, <_:gi-4/>, or <_:gi-5/>), but not paragraphs."
-msgstr ""
+msgstr "[任意] <_:gi-1/> 要素を作成して、TEIドキュメントに対する重要な変更を、時系列の逆順で（つまり最新が最初にくるように）記録する。変更の説明の文章は、それぞれを <_:gi-2/> 要素の内容として記録する。この文章には、整理のためのリスト表示と、句レベルのマークアップ（<_:gi-3/> や <_:gi-4/>、<_:gi-5/> など）を含むことができるが、段落を含んではならない。"
 
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:1822
 msgid "The date of the change should be recorded using the <_:att-1/> attribute (see <_:ref-2/>)."
-msgstr ""
+msgstr "変更の日付は、<_:att-1/> 属性を使用して記録しなければならない（<_:ref-2/> を参照のこと）。"
 
 #. (itstool) path: p/att
 #: BestPractices/bptl-header.odd:1827
@@ -2381,7 +2381,7 @@ msgstr ""
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:1826
 msgid "The person who is responsible for making the change should be indicated by the <_:att-1/> attribute of <_:gi-2/>. Its value is a URI that points to a <_:gi-3/> or <_:gi-4/> that encodes information about the responsible party. Note that this reference is a URI, not an IDREF, and thus is typically not checked by validation software. Small projects sometimes take advantage of this by putting information into the URI itself, and not having a <_:gi-5/> or <_:gi-6/> element. For example, the document might simply give <_:code-7/>, relying on human readers to understand this reference."
-msgstr ""
+msgstr "変更の責任者は、<_:gi-2/> 要素の <_:att-1/> 属性で示さなければならない。その値は、責任者に関する情報を符号化する <_:gi-3/> または <_:gi-4/> を指すURIである。この参照はIDREFではなくURIであるため、通常は妥当性検証ソフトではチェックされないことに注意してもらいたい。小規模なプロジェクトでは、URI自体に情報を入力し、 <_:gi-5/> 要素や <_:gi-6/> 要素を持たない方が有利なことがある。たとえば、ドキュメントでは単に <_:code-7/> とし、この参照の理解については読者に依存する場合などである。"
 
 #. (itstool) path: div/head
 #: BestPractices/bptl-header.odd:1846
