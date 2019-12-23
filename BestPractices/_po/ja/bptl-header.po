@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-23 22:05+0900\n"
+"PO-Revision-Date: 2019-12-23 22:27+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -494,7 +494,7 @@ msgstr ""
 #. (itstool) path: div/p
 #: BestPractices/bptl-header.odd:273
 msgid "Within the library domain, there are several authoritative publications on how to create bibliographic and descriptive metadata for objects. These are usually called “descriptive cataloging standards”; two prominent examples are the <_:title-1/> (ISBD) and <_:title-2/> (RDA), an implementation of ISBD that has replaced the Anglo-American Cataloguing Rules, Second Edition (AACR2) and other national cataloging codes. These standards are extensive and outline a set of rules that enforce consistency across a voluminous amount of metadata."
-msgstr ""
+msgstr "図書館分野には、対象の書誌的および記述的メタデータを作成するための方法に関する、信頼できる出版物がいくつかある。これらは通常、「記述的目録標準」と呼ばれる。2つのその代表的な例は、 <_:title-1/> (ISBD) と、ISBD の実装で、英米目録規則第2版 (AACR2) およびその他の国家目録コードを置き換えた <_:title-2/> (RDA) である。これらの標準は広範囲なものであり、莫大な量のメタデータ全体で一貫性を保つための、一連のルールの要点を述べている。"
 
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:291
