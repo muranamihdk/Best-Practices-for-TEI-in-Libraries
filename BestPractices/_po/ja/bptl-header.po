@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-23 22:27+0900\n"
+"PO-Revision-Date: 2019-12-24 00:16+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -499,22 +499,22 @@ msgstr "図書館分野には、対象の書誌的および記述的メタデー
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:291
 msgid "For an electronic document with a digitized title page and title page verso, the chief source of information is the information coded as the title page and title page verso."
-msgstr ""
+msgstr "デジタル化された扉ページと扉ページ裏面を持つ電子ドキュメントの場合、主要な情報源は扉ページと扉ページ裏面にコーディングされた情報である。"
 
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:295
 msgid "If there is no digitized title page but the header creator knows the physical source document from which it was derived, the header creator should refer to that source document for metadata creation."
-msgstr ""
+msgstr "デジタル化された扉ページはなくても、ヘッダーの作成者が派生元となる元の物理的文書を知っている場合、ヘッダーの作成者はその元文書を参照してメタデータを作成すべきである。"
 
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:299
 msgid "If no title page is present and there is no evidence from a source document, the header creator may assign a title and author, if appropriate, enclosing the information in square brackets."
-msgstr ""
+msgstr "扉ページが存在せず、元文書からの拠り所もない場合は、ヘッダーの作成者は、必要に応じて、タイトルと作成者の情報を角かっこで囲んで付与しても良い。"
 
 #. (itstool) path: div/p
 #: BestPractices/bptl-header.odd:284
 msgid "It is recommended that metadata about the source document included in the header be taken from the catalog record for the source document. However, there may be cases when this information is incomplete or insufficient. The following sources of information are recommended in creating the TEI header: <_:list-1/>"
-msgstr ""
+msgstr "元の文書に関するヘッダーのメタデータは、元の文書の目録記録から取得することを勧める。しかし、この情報が不完全または不十分な場合がある。TEI ヘッダーの作成に推奨できる情報源は、次のようになる。 <_:list-1/>"
 
 #. (itstool) path: div/head
 #: BestPractices/bptl-header.odd:307
@@ -524,7 +524,7 @@ msgstr "TEIヘッダーで推奨される要素と属性"
 #. (itstool) path: div/p
 #: BestPractices/bptl-header.odd:308
 msgid "Below is documentation on use of elements and attributes within the <_:gi-1/> element. These recommendations apply to all levels of encoding. The mapping to MARC for cataloging the TEI document assumes that the header is created based on the encoded text, not the source document. Note that the terms “work” and “item” are not used in the narrow way that they are defined in RDA."
-msgstr ""
+msgstr "<_:gi-1/> 要素内での要素と属性の使用に関するドキュメントを次に示す。これら推奨事項は、すべてのレベルの符号化に適用される。TEI ドキュメントの目録を作成するためのMARCへのマッピングは、ヘッダーは元の文書ではなく符号化されたテキストに基づいて作成されることを前提としている。「著作」と「個別資料」という用語は、RDAで定義されている狭い方向では使用されていないことに注意してもらいたい。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:318
