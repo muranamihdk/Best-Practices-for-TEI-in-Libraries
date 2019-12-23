@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-24 00:59+0900\n"
+"PO-Revision-Date: 2019-12-24 01:00+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1918,7 +1918,7 @@ msgstr ""
 #: BestPractices/bptl-header.odd:1421 BestPractices/bptl-header.odd:1681
 #: BestPractices/bptl-header.odd:1743
 msgid "[optional]"
-msgstr ""
+msgstr "[任意]"
 
 #. (itstool) path: cell/tag
 #: BestPractices/bptl-header.odd:1432
