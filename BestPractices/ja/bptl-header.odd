@@ -169,8 +169,8 @@
             <row role="label">
               <cell cols="7">要素</cell>
               <cell>説明</cell>
-              <cell>TEI文書をRDA2017年4月改訂版に従って目録化した場合に対応するMARC</cell>
-              <cell>Equivalent in MARC for the source document (whether cataloged according to RDA or AACR2)</cell>
+              <cell>TEIドキュメントをRDA2017年4月改訂版に従って目録化した場合に対応するMARC</cell>
+              <cell>元の文書をRDAかAACR2に基づき目録化した場合に対応するMARC</cell>
             </row>
 
             <row>
