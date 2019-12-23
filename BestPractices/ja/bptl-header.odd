@@ -146,28 +146,9 @@
         </div>
         <div type="section">
           <head>TEIヘッダーとその他のメタデータスキーマ</head>
-          <p>Several other descriptive metadata schemas are prevalent
-          within the library domain, including Dublin Core (DC),
-          Dublin Core Qualified (DCQ), and the Metadata Object
-          Description Schema (MODS). Each of these schemas contains
-          elements that capture the same data as many of the elements
-          in the TEI header. As with MARC, a variety of automated or
-          manual workflows can be implemented to crosswalk metadata
-          from one standard to another and provide for increased
-          sharing of metadata about electronic texts in larger
-          contexts. In particular, DC and MODS are common schemas used
-          by the Open Archives Initiative Protocol for Metadata
-          Harvesting (OAI-PMH) and may be particularly valuable for
-          sharing metadata across institutions.</p>
-          <p>Unfortunately, there is currently no mechanism for specifying that the content
-          of an element should be drawn from an outside metadata source or that this outside
-          metadata source should supplement the content of the element. In the absence of 
-          such mechanisms, users of these <title>Best Practices</title> may use the 
-          <gi>idno</gi> element to supply identifiers for outside metadata records and may
-          supply identifiers for certain authority records using the <att>ref</att> attribute,
-          allowed on certain elements.</p>
-          <p>The header's <gi>xenoData</gi> element may be used to embed non-TEI metadata in a 
-          TEI document.</p>
+          <p>図書館分野では、ダブリン・コア (DC)、修飾ダブリン・コア (DCQ)、メタデータオブジェクト記述スキーマ (MODS) など、その他いくつかの記述的メタデータスキーマが 広く行き渡っている。これらの各スキーマには、TEIヘッダーの多くの要素と、同じデータを記述する要素が含まれている。MARCにおけるのと同様、ある標準から別の標準へとメタデータを横断したり、より大きなコンテキストで電子テキストのメタデータの共有を向上させるために、さまざまな自動の、または手動の工程を実装することができる。特にDCとMODSは、OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) で使用される一般的なスキーマであり、機関の間でメタデータを共有するために特に役立つ場合がある。</p>
+          <p>残念ながら、現在のところ、要素のコンテンツを外部のメタデータソースから描画すること、またはこの外部のメタデータソースが要素のコンテンツを補足することを指定するメカニズムは存在しない。このようなメカニズムがない場合、この <title>「ベストプラクティス」</title> のユーザーは 、外部メタデータレコードの識別子を提供するために <gi>idno</gi> 要素を使用すること、また特定の機関レコードの識別子を指定するために特定の要素で許可される <att>ref</att> 属性を使用することができる。</p>
+          <p>ヘッダーの <gi>xenoData</gi> 要素を使用して、TEI以外のメタデータをTEIドキュメントに埋め込むことができる。</p>
         </div>
         <div type="section">
           <head>TEIヘッダーのデータの値を決定する</head>
