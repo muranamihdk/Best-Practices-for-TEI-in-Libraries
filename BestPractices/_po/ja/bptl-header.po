@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-24 00:16+0900\n"
+"PO-Revision-Date: 2019-12-24 00:19+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -539,12 +539,12 @@ msgstr "説明"
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:320
 msgid "Equivalent in MARC when cataloging the TEI document according to RDA April 2017 update"
-msgstr "TEI文書をRDA2017年4月改訂版に従って目録化した場合に対応するMARC"
+msgstr "TEIドキュメントをRDA2017年4月改訂版に従って目録化した場合に対応するMARC"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:321
 msgid "Equivalent in MARC for the source document (whether cataloged according to RDA or AACR2)"
-msgstr ""
+msgstr "元の文書をRDAかAACR2に基づき目録化した場合に対応するMARC"
 
 #. (itstool) path: cell/tag
 #: BestPractices/bptl-header.odd:326
