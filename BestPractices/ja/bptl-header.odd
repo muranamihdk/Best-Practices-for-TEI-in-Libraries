@@ -155,37 +155,15 @@
           <p>図書館分野には、対象の書誌的および記述的メタデータを作成するための方法に関する、信頼できる出版物がいくつかある。これらは通常、「記述的目録標準」と呼ばれる。2つのその代表的な例は、 <title>International Standard Bibliographic
           Description</title> (ISBD) と、ISBD の実装で、英米目録規則第2版 (AACR2) およびその他の国家目録コードを置き換えた <title>Resource Description
           and Access</title> (RDA) である。これらの標準は広範囲なものであり、莫大な量のメタデータ全体で一貫性を保つための、一連のルールの要点を述べている。</p>
-          <p>It is recommended that metadata about the source document
-          included in the header be taken from the catalog record for
-          the source document. However, there may be cases when this
-          information is incomplete or insufficient. The following
-          sources of information are recommended in creating the TEI
-          header:
-          <list type="ordered">
-            <item> For an electronic document with a digitized title
-            page and title page verso, the chief source of information
-            is the information coded as the title page and title page
-            verso.</item>
-            <item>If there is no digitized title page but the header
-            creator knows the physical source document from which it
-            was derived, the header creator should refer to that
-            source document for metadata creation.</item>
-            <item>If no title page is present and there is no evidence
-            from a source document, the header creator may assign a
-            title and author, if appropriate, enclosing the
-            information in square brackets.</item>
-          </list>
-          </p>
+          <p>元の文書に関するヘッダーのメタデータは、元の文書の目録記録から取得することを勧める。しかし、この情報が不完全または不十分な場合がある。TEI ヘッダーの作成に推奨できる情報源は、次のようになる。 <list type="ordered">
+            <item>デジタル化された扉ページと扉ページ裏面を持つ電子ドキュメントの場合、主要な情報源は扉ページと扉ページ裏面にコーディングされた情報である。</item>
+            <item>デジタル化された扉ページはなくても、ヘッダーの作成者が派生元となる元の物理的文書を知っている場合、ヘッダーの作成者はその元文書を参照してメタデータを作成すべきである。</item>
+            <item>扉ページが存在せず、元文書からの拠り所もない場合は、ヘッダーの作成者は、必要に応じて、タイトルと作成者の情報を角かっこで囲んで付与しても良い。</item>
+          </list></p>
         </div>
         <div type="elrecs" xml:id="headertable">
           <head>TEIヘッダーで推奨される要素と属性</head>
-          <p>Below is documentation on use of elements and attributes
-          within the <gi>teiHeader</gi> element. These recommendations
-          apply to all levels of encoding. The mapping to MARC for
-          cataloging the TEI document assumes that the header is
-          created based on the encoded text, not the source document.
-          Note that the terms “work” and “item” are not used in the
-          narrow way that they are defined in RDA.</p>
+          <p><gi>teiHeader</gi> 要素内での要素と属性の使用に関するドキュメントを次に示す。これら推奨事項は、すべてのレベルの符号化に適用される。TEI ドキュメントの目録を作成するためのMARCへのマッピングは、ヘッダーは元の文書ではなく符号化されたテキストに基づいて作成されることを前提としている。「著作」と「個別資料」という用語は、RDAで定義されている狭い方向では使用されていないことに注意してもらいたい。</p>
           <table rend="table">
 
             <row role="label">
