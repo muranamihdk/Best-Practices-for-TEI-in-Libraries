@@ -155,7 +155,7 @@
           <p>図書館分野には、対象の書誌的および記述的メタデータを作成するための方法に関する、信頼できる出版物がいくつかある。これらは通常、「記述的目録標準」と呼ばれる。2つのその代表的な例は、 <title>International Standard Bibliographic
           Description</title> (ISBD) と、ISBD の実装で、英米目録規則第2版 (AACR2) およびその他の国家目録コードを置き換えた <title>Resource Description
           and Access</title> (RDA) である。これらの標準は広範囲なものであり、莫大な量のメタデータ全体で一貫性を保つための、一連のルールの要点を述べている。</p>
-          <p>元の文書に関するヘッダーのメタデータは、元の文書の目録記録から取得することを勧める。しかし、この情報が不完全または不十分な場合がある。TEI ヘッダーの作成に推奨できる情報源は、次のようになる。 <list type="ordered">
+          <p>元の文書に関するヘッダーのメタデータは、元の文書の目録記録から取得することを勧める。しかし、この情報が不完全または不十分な場合がある。TEI ヘッダーの作成には、以下の情報源が推奨される。 <list type="ordered">
             <item>デジタル化された扉ページと扉ページ裏面を持つ電子ドキュメントの場合、主要な情報源は扉ページと扉ページ裏面にコーディングされた情報である。</item>
             <item>デジタル化された扉ページはなくても、ヘッダーの作成者が派生元となる元の物理的文書を知っている場合、ヘッダーの作成者はその元文書を参照してメタデータを作成すべきである。</item>
             <item>扉ページが存在せず、元文書からの拠り所もない場合は、ヘッダーの作成者は、必要に応じて、タイトルと作成者の情報を角かっこで囲んで付与しても良い。</item>
@@ -163,7 +163,7 @@
         </div>
         <div type="elrecs" xml:id="headertable">
           <head>TEIヘッダーで推奨される要素と属性</head>
-          <p><gi>teiHeader</gi> 要素内での要素と属性の使用に関するドキュメントを次に示す。これら推奨事項は、すべてのレベルの符号化に適用される。TEI ドキュメントの目録を作成するためのMARCへのマッピングは、ヘッダーは元の文書ではなく符号化されたテキストに基づいて作成されることを前提としている。「著作」と「個別資料」という用語は、RDAで定義されている狭い方向では使用されていないことに注意してもらいたい。</p>
+          <p><gi>teiHeader</gi> 要素内での要素と属性の使用に関するドキュメントを次に示す。これら推奨事項は、すべてのレベルの符号化に適用される。TEIドキュメントの目録作成のためのMARCへのマッピングは、元の文書ではなく符号化されたテキストに基づいて、ヘッダーが作成されることを前提としている。「著作」と「個別資料」という用語は、RDAで定義されている狭い方向では使用されていないことに注意してもらいたい。</p>
           <table rend="table">
 
             <row role="label">
@@ -1193,7 +1193,7 @@
               <cell cols="6">
                 <gi>encodingDesc</gi>
               </cell>
-              <cell>[recommended]</cell>
+              <cell>[推奨]</cell>
               <cell>n/a</cell>
               <cell>n/a</cell>
             </row>
@@ -1367,7 +1367,7 @@
               <cell cols="5">
                 <gi>tagsDecl</gi>
               </cell>
-              <cell>[recommended]</cell>
+              <cell>[推奨]</cell>
               <cell>n/a</cell>
               <cell>n/a</cell>
             </row>
@@ -1626,7 +1626,7 @@
               <cell cols="6">
                 <gi>xenoData</gi>
               </cell>
-              <cell>[optional] Use as a wrapper for embedded non-TEI metadata.</cell>
+              <cell>[任意] 非TEIメタデータを囲んで埋め込むために使用する。</cell>
               <cell>n/a</cell>
               <cell>n/a</cell>
             </row>
@@ -1638,30 +1638,10 @@
                 <tag>change when="YYYY-MM-DD" who="[URI]"</tag>
               </cell>
               <cell>
-                <p>[optional] Create a <gi>change</gi> element to record each
-                significant change to the TEI document, in reverse
-                chronological order (i.e., most recent first). A prose
-                description of the change is recorded as the content
-                of each <gi>change</gi> element. This prose may
-                contain lists for organization, and phrase-level
-                markup (like <gi>gi</gi>, <gi>ptr</gi>, or
-                <gi>date</gi>), but not paragraphs.</p>
-                <p>The date of the change should be recorded using the
-                <att>when</att> attribute (see <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.datable.w3c.html">att.datable.w3c
-                class</ref>).</p>
-                <p>The person who is responsible for making the change
-                should be indicated by the <att>who</att> attribute of
-                <gi>change</gi>. Its value is a URI that points to a
-                <gi>respStmt</gi> or <gi>person</gi> that encodes
-                information about the responsible party. Note that
-                this reference is a URI, not an IDREF, and
-                thus is typically not checked by validation software. Small
-                projects sometimes take advantage of this by putting
-                information into the URI itself, and not having a
-                <gi>respStmt</gi> or <gi>person</gi> element. For
-                example, the document might simply give
-                <code>who="#Jane_Smith"</code>, relying on human
-                readers to understand this reference.</p>
+                <p>[任意] <gi>change</gi> 要素を作成して、TEIドキュメントに対する重要な変更を、時系列の逆順で（つまり最新が最初にくるように）記録する。変更の説明の文章は、それぞれを <gi>change</gi> 要素の内容として記録する。この文章には、整理のためのリスト表示と、句レベルのマークアップ（<gi>gi</gi> や <gi>ptr</gi>、<gi>date</gi> など）を含むことができるが、段落を含んではならない。</p>
+                <p>変更の日付は、<att>when</att> 属性を使用して記録しなければならない（<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.datable.w3c.html">att.datable.w3c
+                class</ref> を参照のこと）。</p>
+                <p>変更の責任者は、<gi>change</gi> 要素の <att>who</att> 属性で示さなければならない。その値は、責任者に関する情報を符号化する <gi>respStmt</gi> または <gi>person</gi> を指すURIである。この参照はIDREFではなくURIであるため、通常は妥当性検証ソフトではチェックされないことに注意してもらいたい。小規模なプロジェクトでは、URI自体に情報を入力し、 <gi>respStmt</gi> 要素や <gi>person</gi> 要素を持たない方が有利なことがある。たとえば、ドキュメントでは単に <code>who="#Jane_Smith"</code> とし、この参照の理解については読者に依存する場合などである。</p>
               </cell>
               <cell>n/a</cell>
               <cell>n/a</cell>
