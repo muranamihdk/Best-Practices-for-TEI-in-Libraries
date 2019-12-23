@@ -152,17 +152,9 @@
         </div>
         <div type="section">
           <head>TEIヘッダーのデータの値を決定する</head>
-          <p>Within the library domain, there are several
-          authoritative publications on how to create bibliographic
-          and descriptive metadata for objects. These are usually
-          called “descriptive cataloging standards”; two prominent
-          examples are the <title>International Standard Bibliographic
-          Description</title> (ISBD) and <title>Resource Description
-          and Access</title> (RDA), an implementation of ISBD that has
-          replaced the Anglo-American Cataloguing Rules, Second
-          Edition (AACR2) and other national cataloging codes. These
-          standards are extensive and outline a set of rules that
-          enforce consistency across a voluminous amount of metadata.</p>
+          <p>図書館分野には、対象の書誌的および記述的メタデータを作成するための方法に関する、信頼できる出版物がいくつかある。これらは通常、「記述的目録標準」と呼ばれる。2つのその代表的な例は、 <title>International Standard Bibliographic
+          Description</title> (ISBD) と、ISBD の実装で、英米目録規則第2版 (AACR2) およびその他の国家目録コードを置き換えた <title>Resource Description
+          and Access</title> (RDA) である。これらの標準は広範囲なものであり、莫大な量のメタデータ全体で一貫性を保つための、一連のルールの要点を述べている。</p>
           <p>It is recommended that metadata about the source document
           included in the header be taken from the catalog record for
           the source document. However, there may be cases when this
