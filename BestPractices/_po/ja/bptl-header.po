@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-24 09:50+0900\n"
+"PO-Revision-Date: 2019-12-24 10:12+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -727,7 +727,7 @@ msgstr ""
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:362
 msgid "[required] One or more <_:gi-1/> elements are required to give the title of the TEI document being created. It is suggested that titles be constructed based on the source document according to the descriptive cataloging standard used."
-msgstr "[必須] 作成されるTEIドキュメントのタイトルを指定するために、1つ以上の <_:gi-1/> 要素が必要である。使用される記述的目録の標準に従い、元となる文書に基づいてタイトルを作成することが推奨される。"
+msgstr "[必須] 作成されるTEIドキュメントのタイトルを指定するために、1つ以上の <_:gi-1/> 要素が必要である。使用される記述的目録の標準に従い、元の文書に基づいてタイトルを作成することが推奨される。"
 
 #. (itstool) path: p/att
 #: BestPractices/bptl-header.odd:367 BestPractices/bptl-header.odd:908
@@ -752,32 +752,32 @@ msgstr ""
 #. (itstool) path: item/val
 #: BestPractices/bptl-header.odd:375 BestPractices/bptl-header.odd:806
 msgid "main"
-msgstr ""
+msgstr "main（主タイトル）"
 
 #. (itstool) path: item/val
 #: BestPractices/bptl-header.odd:378 BestPractices/bptl-header.odd:809
 msgid "sub"
-msgstr ""
+msgstr "sub（副タイトル）"
 
 #. (itstool) path: item/val
 #: BestPractices/bptl-header.odd:381 BestPractices/bptl-header.odd:812
 msgid "alt"
-msgstr ""
+msgstr "alt（別タイトル）"
 
 #. (itstool) path: item/val
 #: BestPractices/bptl-header.odd:384 BestPractices/bptl-header.odd:815
 msgid "short"
-msgstr ""
+msgstr "short（タイトルの省略形）"
 
 #. (itstool) path: item/val
 #: BestPractices/bptl-header.odd:387 BestPractices/bptl-header.odd:818
 msgid "desc"
-msgstr ""
+msgstr "desc（タイトルについての説明）"
 
 #. (itstool) path: item/val
 #: BestPractices/bptl-header.odd:390 BestPractices/bptl-header.odd:821
 msgid "translated"
-msgstr ""
+msgstr "translated（翻訳されたタイトル）"
 
 #. (itstool) path: item/val
 #: BestPractices/bptl-header.odd:393 BestPractices/bptl-header.odd:915
@@ -787,7 +787,7 @@ msgstr ""
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:392 BestPractices/bptl-header.odd:915
 msgid "<_:val-1/> (used for the title proper and alternative title according to the descriptive cataloging standard used)"
-msgstr ""
+msgstr "<_:val-1/>（使用される記述的目録標準に従って、適切なタイトルと別タイトルに使用する）"
 
 #. (itstool) path: item/val
 #: BestPractices/bptl-header.odd:396 BestPractices/bptl-header.odd:824
@@ -799,7 +799,7 @@ msgstr ""
 #: BestPractices/bptl-header.odd:396 BestPractices/bptl-header.odd:823
 #: BestPractices/bptl-header.odd:918
 msgid "<_:val-1/> (used for a version of the title with initial articles removed, to be used for sorting titles alphabetically but not for display)"
-msgstr ""
+msgstr "<_:val-1/>（先頭の冠詞が削除されたバージョンのタイトルに使用される。タイトルをアルファベット順に並べ替えるのに使用されるが、表示には使用されない）"
 
 #. (itstool) path: item/val
 #: BestPractices/bptl-header.odd:400 BestPractices/bptl-header.odd:922
@@ -809,7 +809,7 @@ msgstr ""
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:400
 msgid "<_:val-1/> (used for the remainder of the title information — parallel titles, titles subsequent to the first, and other title information — according to the descriptive cataloging standard used)"
-msgstr ""
+msgstr "<_:val-1/>（タイトル情報のその他残りの部分——並列タイトル、最初のタイトルに続くタイトル、およびその他のタイトル情報——に使用される。）"
 
 #. (itstool) path: item/val
 #: BestPractices/bptl-header.odd:405 BestPractices/bptl-header.odd:930
@@ -819,7 +819,7 @@ msgstr ""
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:405 BestPractices/bptl-header.odd:930
 msgid "<_:val-1/> (used for a preferred title according to the descriptive cataloging standard used)"
-msgstr ""
+msgstr "<_:val-1/>（使用される記述的目録標準に従って優先タイトルに使用される）"
 
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:370 BestPractices/bptl-header.odd:801
@@ -1248,7 +1248,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:730
 msgid "[required] Use one <_:gi-1/> per source document. Metadata for the source document may be automatically generated from a MARC record."
-msgstr "[必須] 元文書1つごとに1つの <_:gi-1/> を使用する。元文書のメタデータは、MARCレコードから自動的に生成される場合がある。"
+msgstr "[必須] 作成元となった文書1つごとに1つの <_:gi-1/> を使用する。元文書のメタデータは、MARCレコードから自動的に生成される場合がある。"
 
 #. (itstool) path: cell/gi
 #: BestPractices/bptl-header.odd:740 BestPractices/bptl-header.odd:742
