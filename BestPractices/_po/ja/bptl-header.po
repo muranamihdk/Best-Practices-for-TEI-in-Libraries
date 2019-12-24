@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-24 01:00+0900\n"
+"PO-Revision-Date: 2019-12-24 09:50+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1065,7 +1065,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:584
 msgid "[recommended] Include a statement about the edition of the TEI document produced, not the source document."
-msgstr ""
+msgstr "[推奨] 制作されたTEIドキュメントの版に関する宣明を含む。元文書のではない。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:585 BestPractices/bptl-header.odd:992
@@ -1080,7 +1080,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:595
 msgid "[required] Use the child elements below (rather than <_:gi-1/> for a prose description)."
-msgstr ""
+msgstr "[必須] 説明の文章には以下の子要素を使用する（<_:gi-1/> は使わない）。"
 
 #. (itstool) path: cell/gi
 #. (itstool) path: p/gi
@@ -1201,7 +1201,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:683
 msgid "[optional] This element contains information about the electronic series being created."
-msgstr ""
+msgstr "[任意] この要素は作成される電子叢書に関する情報を含む。"
 
 #. (itstool) path: cell/tag
 #: BestPractices/bptl-header.odd:694
@@ -1237,7 +1237,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:719
 msgid "[optional] Use one <_:gi-1/> element for each note about the TEI document that does not have an appropriate location elsewhere in the header."
-msgstr ""
+msgstr "[任意] TEIドキュメントに関する注記について、ヘッダー内に他に適当な場所がない場合に、注記1つごとに1つの <_:gi-1/> 要素を使用する。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:720 BestPractices/bptl-header.odd:721
@@ -1248,7 +1248,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:730
 msgid "[required] Use one <_:gi-1/> per source document. Metadata for the source document may be automatically generated from a MARC record."
-msgstr ""
+msgstr "[必須] 元文書1つごとに1つの <_:gi-1/> を使用する。元文書のメタデータは、MARCレコードから自動的に生成される場合がある。"
 
 #. (itstool) path: cell/gi
 #: BestPractices/bptl-header.odd:740 BestPractices/bptl-header.odd:742
