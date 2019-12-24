@@ -299,7 +299,7 @@
                   <item>700</item>
                   <item>710</item>
                   <item>711</item>
-                </list> すべてにおいて、関連指定子 "author" を使用する。</cell>
+                </list> すべてについて、関連指定子 "author" を使用する。</cell>
               <cell>
                 <list>
                   <item>100</item>
@@ -323,14 +323,11 @@
                 <p>[推奨] 該当する場合は、<gi>author</gi> 要素に加え、TEIドキュメントの編集を行った実体（通常は元文書の編集者）の名前を、1 つ以上の <gi>editor</gi> 要素 (1要素に1つの名前) を使用して符号化する。符号化プロジェクトによって適当であると考えられた場合は、TEIドキュメントそのものの編集者をここに入力する。該当する場合は <gi>persName</gi> または <gi>orgName</gi> を使用する。可能な限り、著者名典拠ファイルでオーソライズされた形式の名前を確立または使用する。</p>
                 <p>P5とは異なり、この要素は、一般的に編集者と見なされない翻訳者、イラストレーター、 編纂者などのその他の役割には使用してはならない。したがって、<att>role</att> 属性は使用してはならない。</p>
               </cell>
-              <cell>
-                <list>
+              <cell><list>
                   <item>700</item>
                   <item>710</item>
                   <item>711</item>
-                </list>
-                For all, use the relationship designator “editor”.
-              </cell>
+                </list> すべてについて、関連指定子 "editor" を使用する。</cell>
               <cell>
                 <list>
                   <item>700</item>
@@ -347,22 +344,10 @@
               <cell cols="4">
                 <gi>respStmt</gi>
               </cell>
-              <cell>[recommended] Record the names of other persons or
-              organizations, one responsibility or party per
-              <gi>respStmt</gi>, that have responsibility for the
-              intellectual or artistic content of the TEI
-              document—often by transitivity from the source
-              document—not covered by <gi>author</gi> and
-              <gi>editor</gi>. This includes translators,
-              illustrators, compilers, proofreaders, encoders, and
-              those who wrote a preface or introduction. Each
-              <gi>respStmt</gi> should contain either:
-              <list type="simple">
+              <cell>[推奨] TEIドキュメントの知的または芸術的な内容に対して（多くの場合元の文書からの推移性によって）責任を持つ、<gi>author</gi>と<gi>editor</gi>ではカバーされないその他の人または組織の名前を、1つの責任または関係者ごとに1つの <gi>respStmt</gi> を使用して記録する。これには、翻訳者、イラストレーター、編纂者、校正者、符号化従事者、および序文や前書きを書いた人が含まれる。それぞれの <gi>respStmt</gi> には、以下のいずれかを含めなければならない。 <list type="simple">
                 <item>one <gi>resp</gi> followed by one or more of <gi>persName</gi> or <gi>orgName</gi></item>
                 <item>one or more of <gi>persName</gi> or <gi>orgName</gi> followed by one <gi>resp</gi></item>
-              </list>
-              Whenever possible, establish or use the authorized form
-              of the name from a name authority file.</cell>
+              </list>可能な限り、著者名典拠ファイルでオーソライズされた形式の名前を確立または使用する。</cell>
               <cell>
                 <list>
                   <item>700</item>
