@@ -504,7 +504,7 @@
               <cell cols="4">
                 <gi>biblStruct</gi>
               </cell>
-              <cell>[推奨] <gi>biblStruct</gi> は、ISBDに従って表示しやすいように、以下の順序で子要素を配置して使用する（この要素は、構造を遵守させるために <gi>bibl</gi> の代わりに使用されるが、<gi>biblFull</gi> は通常図書館のメタデータ情報源で使用できるよりも多くの要素を必要とするため、使用されない）。</cell>
+              <cell>[推奨] <gi>biblStruct</gi> は、ISBDに従って表示しやすいように、以下の順序で子要素を配置して使用する（この要素は、構造を遵守させるために <gi>bibl</gi> の代わりに使用されるが、<gi>biblFull</gi> は図書館のメタデータ情報源で通常使用できるよりも多くの要素を必要とするため、使用されない）。</cell>
               <cell>n/a</cell>
               <cell>n/a</cell>
             </row>
@@ -517,9 +517,7 @@
               <cell cols="3">
                 <gi>analytic</gi>
               </cell>
-              <cell>[recommended] Use this element and its children only if the object of encoding is part of a larger 
-              work—for example, an article in a journal issue, a chapter in a book, or a poem in a
-              collection. Below the object of encoding that is part of a larger work is referred to as the <term>analytic item</term>.</cell>
+              <cell>[推奨] この要素とその子要素は、符号化の対象がより大きな著作の一部である場合、例えばジャーナルのある号の論文、書籍の中の章、詩集内のひとつの詩などにのみ使用する。より大きな著作の一部である符号化対象は、以下で <term>analytic item</term> と呼ばれる。</cell>
               <cell>n/a</cell>
               <cell>n/a</cell>
             </row>
@@ -533,13 +531,7 @@
               <cell cols="2">
                 <gi>author</gi>
               </cell>
-              <cell>[recommended] One or more <gi>author</gi> elements (one name per
-              element) are used to encode the name for the personal
-              author or corporate body responsible for the creation of
-              the intellectual or artistic content of the analytic item. Use
-              <gi>persName</gi> or <gi>orgName</gi> when applicable.
-              Whenever possible, establish or use the authorized form
-              of the name from a name authority file.</cell>
+              <cell>[推奨] analytic itemの知的または芸術的な内容の作成に責任を持つ個人の作成者、または組織体の名前を符号化するために、1つ以上の <gi>author</gi> 要素（要素ごとに1つの名前）を使用する。該当する場合は、 <gi>persName</gi> または <gi>orgName</gi> を使用する。可能な限り、著者名典拠ファイルによりオーソライズされた形式の名前を確立または使用する。</cell>
               <cell>n/a</cell>
               <cell>n/a</cell>
             </row>
@@ -607,11 +599,7 @@
               <cell cols="3">
                 <gi>monogr</gi>
               </cell>
-              <cell>[required] Use this element to group together the elements describing the source document 
-              bibliographic item that is published as an independent item. The TEI definition of 
-              this element specifies that it is used even for works that might not otherwise be 
-              considered “monographs,” so, for example, bibliographic data about a journal title
-              is included in this element.</cell>
+              <cell>[必須] 独立した個別資料として発行された、元文書の書誌事項を記述する要素をひとつにまとめるために、この要素を使用する。TEIではこの要素を、TEI以外では「モノグラフ（独立した個別資料）」と見なされない可能性のある著作にも使用する、と定義している。そのため例えば、ジャーナルタイトルに関する書誌データはこの要素に含まれる。</cell>
               <cell>n/a</cell>
               <cell>n/a</cell>
             </row>
@@ -974,10 +962,7 @@
               <cell cols="3">
                 <gi>series</gi>
               </cell>
-              <cell>[recommended] If applicable, give information about the series
-              to which the source document bibliographic item belongs,
-              given according to the descriptive cataloging standard
-              used.</cell>
+              <cell>[推奨] 該当する場合は、元文書の書誌的個別資料が属する叢書に関する情報を、使用される記述的目録規則に従って指定する。</cell>
               <cell/>
               <cell/>
             </row>
@@ -1093,7 +1078,7 @@
         <cell cols="4">
             <gi>listRelation</gi>
         </cell>
-        <cell>[任意] <gi>listRelation</gi> は <gi>relation</gi> 子要素と共に使用して、TEI ドキュメントに関連するFRBR実体および関連を表現する（上のセクション「<ref target="#frbr">4.1.5 TEIヘッダーとFRBR</ref>」を参照のこと）。</cell>
+        <cell>[任意] <gi>listRelation</gi> は <gi>relation</gi> 子要素と共に使用して、TEIドキュメントに関連するFRBR実体および関連を表現する（上のセクション「<ref target="#frbr">4.1.5 TEIヘッダーとFRBR</ref>」を参照のこと）。</cell>
         <cell>n/a</cell>
         <cell>n/a</cell>
     </row>
