@@ -1093,7 +1093,7 @@
         <cell cols="4">
             <gi>listRelation</gi>
         </cell>
-        <cell>[任意]  は <gi>listRelation</gi> 子要素と共に使用して、TEI ドキュメントに関連するFRBR実体および関連を表現する（上の「<ref target="#frbr">セクション 4.1.5 TEIヘッダーとFRBR</ref>」を参照のこと）。</cell>
+        <cell>[任意] <gi>listRelation</gi> は <gi>relation</gi> 子要素と共に使用して、TEI ドキュメントに関連するFRBR実体および関連を表現する（上のセクション「<ref target="#frbr">4.1.5 TEIヘッダーとFRBR</ref>」を参照のこと）。</cell>
         <cell>n/a</cell>
         <cell>n/a</cell>
     </row>
