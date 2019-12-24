@@ -504,13 +504,7 @@
               <cell cols="4">
                 <gi>biblStruct</gi>
               </cell>
-              <cell>[recommended] Use <gi>biblStruct</gi> with child elements
-              arranged in the order below for ease of display
-              according to ISBD. (This element is used instead of
-              <gi>bibl</gi> to enforce structure, but
-              <gi>biblFull</gi> is not used because it requires more
-              elements than are typically available in library
-              metadata sources.)</cell>
+              <cell>[推奨] <gi>biblStruct</gi> は、ISBDに従って表示しやすいように、以下の順序で子要素を配置して使用する（この要素は、構造を遵守させるために <gi>bibl</gi> の代わりに使用されるが、<gi>biblFull</gi> は通常図書館のメタデータ情報源で使用できるよりも多くの要素を必要とするため、使用されない）。</cell>
               <cell>n/a</cell>
               <cell>n/a</cell>
             </row>
@@ -1099,8 +1093,7 @@
         <cell cols="4">
             <gi>listRelation</gi>
         </cell>
-        <cell>[optional] Use <gi>listRelation</gi> with <gi>relation</gi> child elements to express any FRBR
-            entities and relationships relating to the TEI document (see <ref target="#frbr">section 4.1.5, The TEI Header and FRBR</ref>, above).</cell>
+        <cell>[任意]  は <gi>listRelation</gi> 子要素と共に使用して、TEI ドキュメントに関連するFRBR実体および関連を表現する（上の「<ref target="#frbr">セクション 4.1.5 TEIヘッダーとFRBR</ref>」を参照のこと）。</cell>
         <cell>n/a</cell>
         <cell>n/a</cell>
     </row>
