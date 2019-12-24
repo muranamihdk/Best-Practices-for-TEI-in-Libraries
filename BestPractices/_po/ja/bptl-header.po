@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-24 11:38+0900\n"
+"PO-Revision-Date: 2019-12-24 12:23+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1065,7 +1065,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:584
 msgid "[recommended] Include a statement about the edition of the TEI document produced, not the source document."
-msgstr "[推奨] 制作されたTEIドキュメントの版に関する宣明を含む。元文書のではない。"
+msgstr "[推奨] 制作されたTEIドキュメントの版に関する宣言を含む。元文書のではない。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:585 BestPractices/bptl-header.odd:992
@@ -1092,7 +1092,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:607
 msgid "[recommended] The publisher is the party responsible for making the file (the TEI document, not the source document) public."
-msgstr ""
+msgstr "[推奨] 発行者は、TEIドキュメントファイルの公開について責任を持つ者である（元の文書の公開についてではない）。"
 
 #. (itstool) path: row/cell
 #. (itstool) path: list/item
@@ -1108,7 +1108,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:621
 msgid "[recommended] The distributor is the party from whom copies of the file (the TEI document, not the source document) can be obtained. Often the same as <_:gi-1/>, in which case no <_:gi-2/> should be given."
-msgstr ""
+msgstr "[推奨] 頒布者は、TEI ドキュメントファイルの複製の頒布者であり、複製をそこから入手できる。多くの場合 <_:gi-1/> と同じであるが、その場合は <_:gi-2/> は指定すべきではない。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:622
@@ -1118,7 +1118,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:633
 msgid "[recommended] Any unique identifier for the TEI document as determined by the publisher of the TEI document. Optionally use a <_:att-1/> attribute to indicate the type of identifier."
-msgstr ""
+msgstr "[推奨] TEIドキュメントの一意の識別子で、TEIドキュメントの発行者によって決定される。必要に応じて、識別子の種類を示すための <_:att-1/> 属性を使用する。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:637
@@ -1138,7 +1138,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:648
 msgid "[recommended] Provide a prose rights statement for the TEI document. If possible, provide a standard license, such as one from Creative Commons, using the <_:gi-1/> element. Otherwise, provide information on all applicable rights—rights in the original work, rights in page images of the source document, and rights in the encoded text—in a <_:gi-2/> element."
-msgstr ""
+msgstr "[推奨] TEIドキュメントの権利についての宣言を提供する。可能であれば、<_:gi-1/> 要素を使用して、クリエイティブ・コモンズなどの標準ライセンスを提供する。そうでない場合は、適用されうるすべての権利（元の著作の権利、元文書のページ画像の権利、符号化テキストの権利）に関する情報を、<_:gi-2/> 要素内で提供する。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:655
@@ -1185,7 +1185,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:666
 msgid "[recommended] Refers to the date of the first publication of this edition of the TEI document. The <_:att-1/> attribute (see <_:ref-2/>) is used instead of free content to aid machine processing. (In this context, the <_:gi-3/> element should have no content.)"
-msgstr ""
+msgstr "[推奨] TEIドキュメントのこの版の最初の発行日を参照する。コンピュータでの処理を助けるために、自由記述ではなく、<_:att-1/> 属性が使用される（<_:ref-2/> を参照のこと）。ゆえにこの文脈においては、<_:gi-3/> 要素は空要素でなければならない。"
 
 #. (itstool) path: row/cell
 #. (itstool) path: list/item
