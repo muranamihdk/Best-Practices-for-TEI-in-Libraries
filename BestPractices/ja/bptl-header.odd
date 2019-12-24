@@ -441,7 +441,7 @@
                 <tag>date when="___"/</tag>
               </cell>
               <cell>[推奨] TEIドキュメントのこの版の最初の発行日を参照する。コンピュータでの処理を助けるために、自由記述ではなく、<att>when</att> 属性が使用される（<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.datable.w3c.html">att.datable.w3c
-              class</ref> を参照のこと）。ゆえにこの文脈においては、<gi>date</gi> 要素は空要素でなければならない。</cell>
+              class</ref> を参照のこと）。この文脈においては、<gi>date</gi> 要素は空要素でなければならない。</cell>
               <cell>264_1 $c</cell>
               <cell>n/a</cell>
             </row>
@@ -452,7 +452,7 @@
               <cell cols="5">
                 <gi>seriesStmt</gi>
               </cell>
-              <cell>[任意] この要素は作成される電子叢書に関する情報を含む。</cell>
+              <cell>[オプション]この要素には、作成される電子シリーズに関する情報が含まれます。</cell>
               <cell>n/a</cell>
               <cell>n/a</cell>
             </row>
@@ -464,16 +464,11 @@
               <cell cols="4">
                 <tag>title level="s" type="___"</tag>
               </cell>
-              <cell>[recommended] This element contains the title of the series. Whenever
-              possible, establish or use the authorized form of the
-              title from a name authority file. Use of the
-              <att>type</att> attribute is optional, but if it is
-              used, it should follow <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html">the
-              instructions for use of this element in P5</ref>.</cell>
+              <cell>[推奨] この要素には、叢書のタイトルが含まれる。可能な限り、著者名典拠ファイルによりオーソライズされた形式のタイトルを確立または使用する。<att>type</att> 属性の使用は任意であるが、使用する場合は<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html">この要素の使用に関するP5の指示</ref>に従わねばならない。</cell>
               <cell>
                 <list>
                   <item>490</item>
-                  <item>8xx (optional)</item>
+                  <item>8xx (任意)</item>
                 </list>
               </cell>
               <cell>n/a</cell>
