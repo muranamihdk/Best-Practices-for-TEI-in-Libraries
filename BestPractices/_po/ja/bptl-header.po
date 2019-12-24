@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-24 11:18+0900\n"
+"PO-Revision-Date: 2019-12-24 11:32+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -983,7 +983,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:476
 msgid "<_:list-1/> For all, use the relation designator “author”."
-msgstr "<_:list-1/> すべてにおいて、関連指定子 \"author\" を使用する。"
+msgstr "<_:list-1/> すべてについて、関連指定子 \"author\" を使用する。"
 
 #. (itstool) path: cell/gi
 #. (itstool) path: p/gi
@@ -1010,7 +1010,7 @@ msgstr "P5とは異なり、この要素は、一般的に編集者と見なさ�
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:523
 msgid "<_:list-1/> For all, use the relationship designator “editor”."
-msgstr ""
+msgstr "<_:list-1/> すべてについて、関連指定子 \"editor\" を使用する。"
 
 #. (itstool) path: cell/gi
 #. (itstool) path: p/gi
@@ -1042,7 +1042,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:547
 msgid "[recommended] Record the names of other persons or organizations, one responsibility or party per <_:gi-1/>, that have responsibility for the intellectual or artistic content of the TEI document—often by transitivity from the source document—not covered by <_:gi-2/> and <_:gi-3/>. This includes translators, illustrators, compilers, proofreaders, encoders, and those who wrote a preface or introduction. Each <_:gi-4/> should contain either: <_:list-5/> Whenever possible, establish or use the authorized form of the name from a name authority file."
-msgstr ""
+msgstr "[推奨] TEIドキュメントの知的または芸術的な内容に対して（多くの場合元の文書からの推移性によって）責任を持つ、<_:gi-2/>と<_:gi-3/>ではカバーされないその他の人または組織の名前を、1つの責任または関係者ごとに1つの <_:gi-1/> を使用して記録する。これには、翻訳者、イラストレーター、編纂者、校正者、符号化従事者、および序文や前書きを書いた人が含まれる。それぞれの <_:gi-4/> には、以下のいずれかを含めなければならない。 <_:list-5/>可能な限り、著者名典拠ファイルでオーソライズされた形式の名前を確立または使用する。"
 
 #. (itstool) path: cell/gi
 #: BestPractices/bptl-header.odd:581
