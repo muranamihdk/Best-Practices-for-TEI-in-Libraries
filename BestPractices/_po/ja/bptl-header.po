@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-24 12:23+0900\n"
+"PO-Revision-Date: 2019-12-24 12:33+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1185,7 +1185,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:666
 msgid "[recommended] Refers to the date of the first publication of this edition of the TEI document. The <_:att-1/> attribute (see <_:ref-2/>) is used instead of free content to aid machine processing. (In this context, the <_:gi-3/> element should have no content.)"
-msgstr "[推奨] TEIドキュメントのこの版の最初の発行日を参照する。コンピュータでの処理を助けるために、自由記述ではなく、<_:att-1/> 属性が使用される（<_:ref-2/> を参照のこと）。ゆえにこの文脈においては、<_:gi-3/> 要素は空要素でなければならない。"
+msgstr "[推奨] TEIドキュメントのこの版の最初の発行日を参照する。コンピュータでの処理を助けるために、自由記述ではなく、<_:att-1/> 属性が使用される（<_:ref-2/> を参照のこと）。この文脈においては、<_:gi-3/> 要素は空要素でなければならない。"
 
 #. (itstool) path: row/cell
 #. (itstool) path: list/item
@@ -1201,7 +1201,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:683
 msgid "[optional] This element contains information about the electronic series being created."
-msgstr "[任意] この要素は作成される電子叢書に関する情報を含む。"
+msgstr "[オプション]この要素には、作成される電子シリーズに関する情報が含まれます。"
 
 #. (itstool) path: cell/tag
 #: BestPractices/bptl-header.odd:694
@@ -1211,12 +1211,12 @@ msgstr ""
 #. (itstool) path: cell/ref
 #: BestPractices/bptl-header.odd:701 BestPractices/bptl-header.odd:1258
 msgid "the instructions for use of this element in P5"
-msgstr ""
+msgstr "この要素の使用に関するP5の指示"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:696
 msgid "[recommended] This element contains the title of the series. Whenever possible, establish or use the authorized form of the title from a name authority file. Use of the <_:att-1/> attribute is optional, but if it is used, it should follow <_:ref-2/>."
-msgstr ""
+msgstr "[推奨] この要素には、叢書のタイトルが含まれる。可能な限り、著者名典拠ファイルによりオーソライズされた形式のタイトルを確立または使用する。<_:att-1/> 属性の使用は任意であるが、使用する場合は<_:ref-2/>に従わねばならない。"
 
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:705
@@ -1226,7 +1226,7 @@ msgstr ""
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:706
 msgid "8xx (optional)"
-msgstr ""
+msgstr "8xx (任意)"
 
 #. (itstool) path: cell/gi
 #: BestPractices/bptl-header.odd:717 BestPractices/bptl-header.odd:719
