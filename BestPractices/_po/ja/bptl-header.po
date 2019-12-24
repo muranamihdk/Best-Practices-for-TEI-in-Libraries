@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-24 14:01+0900\n"
+"PO-Revision-Date: 2019-12-24 21:19+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1269,7 +1269,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:742
 msgid "[recommended] Use <_:gi-1/> with child elements arranged in the order below for ease of display according to ISBD. (This element is used instead of <_:gi-2/> to enforce structure, but <_:gi-3/> is not used because it requires more elements than are typically available in library metadata sources.)"
-msgstr "[推奨] <_:gi-1/> は、ISBDに従って表示しやすいように、以下の順序で子要素を配置して使用する（この要素は、構造を遵守させるために <_:gi-2/> の代わりに使用されるが、<_:gi-3/> は通常図書館のメタデータ情報源で使用できるよりも多くの要素を必要とするため、使用されない）。"
+msgstr "[推奨] <_:gi-1/> は、ISBDに従って表示しやすいように、以下の順序で子要素を配置して使用する（この要素は、構造を遵守させるために <_:gi-2/> の代わりに使用されるが、<_:gi-3/> は図書館のメタデータ情報源で通常使用できるよりも多くの要素を必要とするため、使用されない）。"
 
 #. (itstool) path: cell/gi
 #. (itstool) path: valItem/gloss
@@ -1287,12 +1287,12 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:761
 msgid "[recommended] Use this element and its children only if the object of encoding is part of a larger work—for example, an article in a journal issue, a chapter in a book, or a poem in a collection. Below the object of encoding that is part of a larger work is referred to as the <_:term-1/>."
-msgstr ""
+msgstr "[推奨] この要素とその子要素は、符号化の対象がより大きな著作の一部である場合、例えばジャーナルのある号の論文、書籍の中の章、詩集内のひとつの詩などにのみ使用する。より大きな著作の一部である符号化対象は、以下で <_:term-1/> と呼ばれる。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:777
 msgid "[recommended] One or more <_:gi-1/> elements (one name per element) are used to encode the name for the personal author or corporate body responsible for the creation of the intellectual or artistic content of the analytic item. Use <_:gi-2/> or <_:gi-3/> when applicable. Whenever possible, establish or use the authorized form of the name from a name authority file."
-msgstr ""
+msgstr "[推奨] analytic itemの知的または芸術的な内容の作成に責任を持つ個人の作成者、または組織体の名前を符号化するために、1つ以上の <_:gi-1/> 要素（要素ごとに1つの名前）を使用する。該当する場合は、 <_:gi-2/> または <_:gi-3/> を使用する。可能な限り、著者名典拠ファイルによりオーソライズされた形式の名前を確立または使用する。"
 
 #. (itstool) path: cell/tag
 #: BestPractices/bptl-header.odd:795
@@ -1329,7 +1329,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:856
 msgid "[required] Use this element to group together the elements describing the source document bibliographic item that is published as an independent item. The TEI definition of this element specifies that it is used even for works that might not otherwise be considered “monographs,” so, for example, bibliographic data about a journal title is included in this element."
-msgstr ""
+msgstr "[必須] 独立した個別資料として発行された、元文書の書誌事項を記述する要素をひとつにまとめるために、この要素を使用する。TEIではこの要素を、TEI以外では「モノグラフ（独立した個別資料）」と見なされない可能性のある著作にも使用する、と定義している。そのため例えば、ジャーナルタイトルに関する書誌データはこの要素に含まれる。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:874
@@ -1720,7 +1720,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:1236
 msgid "[recommended] If applicable, give information about the series to which the source document bibliographic item belongs, given according to the descriptive cataloging standard used."
-msgstr ""
+msgstr "[推奨] 該当する場合は、元文書の書誌的個別資料が属する叢書に関する情報を、使用される記述的目録規則に従って指定する。"
 
 #. (itstool) path: cell/tag
 #: BestPractices/bptl-header.odd:1251
@@ -1815,7 +1815,7 @@ msgstr "4.1.5 TEIヘッダーとFRBR"
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:1356
 msgid "[optional] Use <_:gi-1/> with <_:gi-2/> child elements to express any FRBR entities and relationships relating to the TEI document (see <_:ref-3/>, above)."
-msgstr "[任意] <_:gi-1/> は <_:gi-2/> 子要素と共に使用して、TEI ドキュメントに関連するFRBR実体および関連を表現する（上のセクション「<_:ref-3/>」を参照のこと）。"
+msgstr "[任意] <_:gi-1/> は <_:gi-2/> 子要素と共に使用して、TEIドキュメントに関連するFRBR実体および関連を表現する（上のセクション「<_:ref-3/>」を参照のこと）。"
 
 #. (itstool) path: cell/gi
 #: BestPractices/bptl-header.odd:1366
