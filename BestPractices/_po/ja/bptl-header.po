@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-24 11:01+0900\n"
+"PO-Revision-Date: 2019-12-24 11:18+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -939,7 +939,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:442
 msgid "[recommended] One or more <_:gi-1/> elements (one name per element) are used to encode the names of entities primarily responsible for the content of the TEI document—usually, the author(s) of the source document. Use <_:gi-2/> or <_:gi-3/> when applicable. Whenever possible, establish or use the authorized form of the name from a name authority file. Examples: <_:list-4/> Optionally use the <_:att-5/> attribute on <_:gi-6/>gi&gt; and <_:gi-7/> to supply a URI for a record in an authority file (see <_:ref-8/>)."
-msgstr "[推奨] TEIドキュメントの内容に対して主に責任のある実体の名前（通常は元文の書の著者）を、<_:gi-1/> 要素を1つ以上（名前ごとに1要素）使用して、符号化する。該当する場合は、 <_:gi-2/> または <_:gi-3/> を使用する。可能な限り、名前典拠ファイルでオーソライズされた形式の名前を確立または使用する。例: <_:list-4/>必要に応じて、<_:gi-6/> および <_:gi-7/> の <_:att-5/> 属性を使用して、典拠ファイル内のレコードURIを指定する 。"
+msgstr "[推奨] TEIドキュメントの内容に対して主に責任のある実体の名前（通常は元文の書の著者）を、<_:gi-1/> 要素を1つ以上（名前ごとに1要素）使用して、符号化する。該当する場合は、 <_:gi-2/> または <_:gi-3/> を使用する。可能な限り、著者名典拠ファイルでオーソライズされた形式の名前を確立または使用する。例: <_:list-4/>必要に応じて、<_:gi-6/> および <_:gi-7/> の <_:att-5/> 属性を使用して、典拠ファイル内のレコードURIを指定する 。"
 
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:478 BestPractices/bptl-header.odd:489
@@ -995,7 +995,7 @@ msgstr ""
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:507
 msgid "[recommended] If applicable, use one or more <_:gi-1/> elements (one name per element) to encode the names of entities besides those in <_:gi-2/> elements that acted as editors of the TEI document—usually, the editor(s) of the source document. If considered appropriate by the encoding project, the editor of the TEI document should be entered here. Use <_:gi-3/> or <_:gi-4/> when applicable. Whenever possible, establish or use the authorized form of the name from a name authority file."
-msgstr ""
+msgstr "[推奨] 該当する場合は、<_:gi-2/> 要素に加え、TEIドキュメントの編集を行った実体（通常は元文書の編集者）の名前を、1 つ以上の <_:gi-1/> 要素 (1要素に1つの名前) を使用して符号化する。符号化プロジェクトによって適当であると考えられた場合は、TEIドキュメントそのものの編集者をここに入力する。該当する場合は <_:gi-3/> または <_:gi-4/> を使用する。可能な限り、著者名典拠ファイルでオーソライズされた形式の名前を確立または使用する。"
 
 #. (itstool) path: p/att
 #: BestPractices/bptl-header.odd:520
@@ -1005,7 +1005,7 @@ msgstr ""
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:517
 msgid "Unlike in P5, do not use this element for translators, illustrators, compilers, or other roles not generally considered an editor. Therefore, do not use the <_:att-1/> attribute."
-msgstr ""
+msgstr "P5とは異なり、この要素は、一般的に編集者と見なされない翻訳者、イラストレーター、 編纂者などのその他の役割には使用してはならない。したがって、<_:att-1/> 属性は使用してはならない。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:523
