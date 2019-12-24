@@ -269,16 +269,7 @@
               <cell cols="4">
                 <gi>author</gi>
               </cell>
-              <cell>
-                [recommended] One or more <gi>author</gi> elements (one name per
-                element) are used to encode the names of entities
-                primarily responsible for the content of the TEI
-                document—usually, the author(s) of the source
-                document. Use <gi>persName</gi> or <gi>orgName</gi>
-                when applicable. Whenever possible, establish or use
-                the authorized form of the name from a name authority
-                file. Examples:
-                <list>
+              <cell>[推奨] TEIドキュメントの内容に対して主に責任のある実体の名前（通常は元文の書の著者）を、<gi>author</gi> 要素を1つ以上（名前ごとに1要素）使用して、符号化する。該当する場合は、 <gi>persName</gi> または <gi>orgName</gi> を使用する。可能な限り、名前典拠ファイルでオーソライズされた形式の名前を確立または使用する。例: <list>
                   <item>
                     <eg>&lt;author&gt;&lt;persName&gt;Shakespeare, William, 1564-1616&lt;/persName&gt;&lt;/author&gt;</eg>
                   </item>
@@ -300,20 +291,15 @@
                   <item>
                     <eg>&lt;author&gt;&lt;persName&gt;Joannes, Actuarius, 13th/14th cent.&lt;/persName&gt;&lt;/author&gt;</eg>
                   </item>
-                </list>
-                      Optionally use the <att>ref</att> attribute on <gi>persName</gi>gi&gt; and <gi>orgName</gi> to supply a URI for a record in an authority file (see <ref target="#name-tagging">section 4.2.5.6.2</ref>).
-              </cell>
-              <cell>
-                <list>
+                </list>必要に応じて、<gi>persName</gi> および <gi>orgName</gi> の <att>ref</att> 属性を使用して、典拠ファイル内のレコードURIを指定する 。</cell>
+              <cell><list>
                   <item>100</item>
                   <item>110</item>
                   <item>111</item>
                   <item>700</item>
                   <item>710</item>
                   <item>711</item>
-                </list>
-                For all, use the relation designator “author”.
-              </cell>
+                </list> すべてにおいて、関連指定子 "author" を使用する。</cell>
               <cell>
                 <list>
                   <item>100</item>
