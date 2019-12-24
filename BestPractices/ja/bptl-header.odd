@@ -369,7 +369,7 @@
                 <gi>editionStmt</gi>
                 <gi>p</gi>
               </cell>
-              <cell>[推奨] 制作されたTEIドキュメントの版に関する宣明を含む。元文書のではない。</cell>
+              <cell>[推奨] 制作されたTEIドキュメントの版に関する宣言を含む。元文書のではない。</cell>
               <cell>250</cell>
               <cell>n/a</cell>
             </row>
@@ -392,9 +392,7 @@
               <cell cols="4">
                 <gi>publisher</gi>
               </cell>
-              <cell>[recommended] The publisher is the party responsible for making
-              the file (the TEI document, not the source document)
-              public.</cell>
+              <cell>[推奨] 発行者は、TEIドキュメントファイルの公開について責任を持つ者である（元の文書の公開についてではない）。</cell>
               <cell>264_1 $b</cell>
               <cell>n/a</cell>
             </row>
@@ -406,7 +404,7 @@
               <cell cols="4">
                 <gi>distributor</gi>
               </cell>
-              <cell>[recommended] The distributor is the party from whom copies of the file (the TEI document, not the source document) can be obtained. Often the same as <gi>publisher</gi>, in which case no <gi>distributor</gi> should be given.</cell>
+              <cell>[推奨] 頒布者は、TEI ドキュメントファイルの複製の頒布者であり、複製をそこから入手できる。多くの場合 <gi>publisher</gi> と同じであるが、その場合は <gi>distributor</gi> は指定すべきではない。</cell>
               <cell>264_2 $b</cell>
               <cell>n/a</cell>
             </row>
@@ -418,10 +416,7 @@
               <cell cols="4">
                 <gi>idno</gi>
               </cell>
-              <cell>[recommended] Any unique identifier for the TEI document as determined by the
-              publisher of the TEI document.
-              Optionally use a <att>type</att> attribute to indicate the type of
-              identifier.</cell>
+              <cell>[推奨] TEIドキュメントの一意の識別子で、TEIドキュメントの発行者によって決定される。必要に応じて、識別子の種類を示すための <att>type</att> 属性を使用する。</cell>
               <cell>028 5_</cell>
               <cell>n/a</cell>
             </row>
@@ -433,13 +428,7 @@
               <cell cols="4">
                 <gi>availability</gi>
               </cell>
-              <cell>[recommended] Provide a prose rights statement for the TEI
-              document. If possible, provide a standard license, such
-              as one from Creative Commons, using the <gi>license</gi>
-              element. Otherwise, provide information on all
-              applicable rights—rights in the original work, rights
-              in page images of the source document, and rights in the
-              encoded text—in a <gi>p</gi> element.</cell>
+              <cell>[推奨] TEIドキュメントの権利についての宣言を提供する。可能であれば、<gi>license</gi> 要素を使用して、クリエイティブ・コモンズなどの標準ライセンスを提供する。そうでない場合は、適用されうるすべての権利（元の著作の権利、元文書のページ画像の権利、符号化テキストの権利）に関する情報を、<gi>p</gi> 要素内で提供する。</cell>
               <cell>540</cell>
               <cell>n/a</cell>
             </row>
@@ -451,12 +440,8 @@
               <cell cols="4">
                 <tag>date when="___"/</tag>
               </cell>
-              <cell>[recommended] Refers to the date of the first publication of
-              this edition of the TEI document. The <att>when</att>
-              attribute (see <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.datable.w3c.html">att.datable.w3c
-              class</ref>) is used instead of free content to aid
-              machine processing. (In this context, the <gi>date</gi>
-              element should have no content.)</cell>
+              <cell>[推奨] TEIドキュメントのこの版の最初の発行日を参照する。コンピュータでの処理を助けるために、自由記述ではなく、<att>when</att> 属性が使用される（<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.datable.w3c.html">att.datable.w3c
+              class</ref> を参照のこと）。ゆえにこの文脈においては、<gi>date</gi> 要素は空要素でなければならない。</cell>
               <cell>264_1 $c</cell>
               <cell>n/a</cell>
             </row>
