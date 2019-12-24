@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-24 11:32+0900\n"
+"PO-Revision-Date: 2019-12-24 11:38+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1032,12 +1032,12 @@ msgstr ""
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:558 BestPractices/bptl-header.odd:962
 msgid "one <_:gi-1/> followed by one or more of <_:gi-2/> or <_:gi-3/>"
-msgstr ""
+msgstr "1つの <_:gi-1/> に続けて1つ以上の <_:gi-2/> または <_:gi-3/>"
 
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:559 BestPractices/bptl-header.odd:964
 msgid "one or more of <_:gi-1/> or <_:gi-2/> followed by one <_:gi-3/>"
-msgstr ""
+msgstr "1つ以上の <_:gi-1/> または <_:gi-2/> に続けて1つの <_:gi-3/>"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:547
