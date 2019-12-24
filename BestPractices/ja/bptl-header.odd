@@ -345,8 +345,8 @@
                 <gi>respStmt</gi>
               </cell>
               <cell>[推奨] TEIドキュメントの知的または芸術的な内容に対して（多くの場合元の文書からの推移性によって）責任を持つ、<gi>author</gi>と<gi>editor</gi>ではカバーされないその他の人または組織の名前を、1つの責任または関係者ごとに1つの <gi>respStmt</gi> を使用して記録する。これには、翻訳者、イラストレーター、編纂者、校正者、符号化従事者、および序文や前書きを書いた人が含まれる。それぞれの <gi>respStmt</gi> には、以下のいずれかを含めなければならない。 <list type="simple">
-                <item>one <gi>resp</gi> followed by one or more of <gi>persName</gi> or <gi>orgName</gi></item>
-                <item>one or more of <gi>persName</gi> or <gi>orgName</gi> followed by one <gi>resp</gi></item>
+                <item>1つの <gi>resp</gi> に続けて1つ以上の <gi>persName</gi> または <gi>orgName</gi></item>
+                <item>1つ以上の <gi>persName</gi> または <gi>orgName</gi> に続けて1つの <gi>resp</gi></item>
               </list>可能な限り、著者名典拠ファイルでオーソライズされた形式の名前を確立または使用する。</cell>
               <cell>
                 <list>
