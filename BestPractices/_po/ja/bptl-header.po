@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-24 12:33+0900\n"
+"PO-Revision-Date: 2019-12-24 13:57+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1269,7 +1269,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:742
 msgid "[recommended] Use <_:gi-1/> with child elements arranged in the order below for ease of display according to ISBD. (This element is used instead of <_:gi-2/> to enforce structure, but <_:gi-3/> is not used because it requires more elements than are typically available in library metadata sources.)"
-msgstr ""
+msgstr "[推奨] <_:gi-1/> は、ISBDに従って表示しやすいように、以下の順序で子要素を配置して使用する（この要素は、構造を遵守させるために <_:gi-2/> の代わりに使用されるが、<_:gi-3/> は通常図書館のメタデータ情報源で使用できるよりも多くの要素を必要とするため、使用されない）。"
 
 #. (itstool) path: cell/gi
 #. (itstool) path: valItem/gloss
@@ -1810,12 +1810,12 @@ msgstr ""
 #. (itstool) path: cell/ref
 #: BestPractices/bptl-header.odd:1358
 msgid "section 4.1.5, The TEI Header and FRBR"
-msgstr ""
+msgstr "セクション 4.1.5 TEIヘッダーとFRBR"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:1356
 msgid "[optional] Use <_:gi-1/> with <_:gi-2/> child elements to express any FRBR entities and relationships relating to the TEI document (see <_:ref-3/>, above)."
-msgstr ""
+msgstr "[任意] <_:gi-1/> は <_:gi-1/> 子要素と共に使用して、TEI ドキュメントに関連するFRBR実体および関連を表現する（上の「<_:ref-3/>」を参照のこと）。"
 
 #. (itstool) path: cell/gi
 #: BestPractices/bptl-header.odd:1366
