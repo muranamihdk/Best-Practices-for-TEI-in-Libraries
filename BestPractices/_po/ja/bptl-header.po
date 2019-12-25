@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-24 21:19+0900\n"
+"PO-Revision-Date: 2019-12-25 19:46+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1287,7 +1287,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:761
 msgid "[recommended] Use this element and its children only if the object of encoding is part of a larger work—for example, an article in a journal issue, a chapter in a book, or a poem in a collection. Below the object of encoding that is part of a larger work is referred to as the <_:term-1/>."
-msgstr "[推奨] この要素とその子要素は、符号化の対象がより大きな著作の一部である場合、例えばジャーナルのある号の論文、書籍の中の章、詩集内のひとつの詩などにのみ使用する。より大きな著作の一部である符号化対象は、以下で <_:term-1/> と呼ばれる。"
+msgstr "[推奨] 符号化の対象がより大きな著作の一部である場合、例えばジャーナルのある号の論文、書籍の中の章、詩集内のひとつの詩などの場合にのみ、この要素とその子要素を使用する。より大きな著作の一部である符号化対象は、以下で <_:term-1/> と呼ばれる。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:777
@@ -1302,7 +1302,7 @@ msgstr ""
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:798
 msgid "[recommended] At least one <_:gi-1/> element is required for the title of the analytic item. Transcribe the title according to the the descriptive cataloging standard used."
-msgstr ""
+msgstr "[推奨] analytic item のタイトルとして、少なくとも1つの <_:gi-1/> 要素が必須である。使用する記述的目録規則に従ってタイトルを書き起こす。"
 
 #. (itstool) path: cell/tag
 #: BestPractices/bptl-header.odd:839 BestPractices/bptl-header.odd:1220
@@ -1319,7 +1319,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:841
 msgid "[optional] In the value of <_:att-1/>, provide a URI for analytic item. For example, this could be link to a facsimile of the analytic item that is different from the TEI document."
-msgstr ""
+msgstr "[任意] analytic item のURIを <_:att-1/> の値に指定する。たとえば、analytic item のファクシミリでTEIドキュメントと異同があるものへのリンクを指定できる。"
 
 #. (itstool) path: cell/gi
 #: BestPractices/bptl-header.odd:854
