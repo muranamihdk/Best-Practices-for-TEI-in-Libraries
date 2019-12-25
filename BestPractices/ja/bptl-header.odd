@@ -517,7 +517,7 @@
               <cell cols="3">
                 <gi>analytic</gi>
               </cell>
-              <cell>[推奨] この要素とその子要素は、符号化の対象がより大きな著作の一部である場合、例えばジャーナルのある号の論文、書籍の中の章、詩集内のひとつの詩などにのみ使用する。より大きな著作の一部である符号化対象は、以下で <term>analytic item</term> と呼ばれる。</cell>
+              <cell>[推奨] 符号化の対象がより大きな著作の一部である場合、例えばジャーナルのある号の論文、書籍の中の章、詩集内のひとつの詩などの場合にのみ、この要素とその子要素を使用する。より大きな著作の一部である符号化対象は、以下で <term>analytic item</term> と呼ばれる。</cell>
               <cell>n/a</cell>
               <cell>n/a</cell>
             </row>
@@ -546,9 +546,7 @@
                 <tag>title level="a" type="___"</tag>
               </cell>
               <cell>
-                <p>[recommended] At least one <gi>title</gi> element is required for
-                the title of the analytic item. Transcribe the title according to the the
-                descriptive cataloging standard used.</p>
+                <p>[推奨] analytic item のタイトルとして、少なくとも1つの <gi>title</gi> 要素が必須である。使用する記述的目録規則に従ってタイトルを書き起こす。</p>
                 <p><att>type</att> 属性の使用が推奨される。現場での実際に沿うように次のいずれかの値を指定すべきである。 <list>
                   <item>
                     <val>main（主タイトル）</val>
@@ -584,9 +582,7 @@
               <cell cols="2">
                 <tag>ptr target="___"</tag>
               </cell>
-              <cell>
-                      [optional] In the value of <att>target</att>, provide a URI for analytic item. For example, this could be link to a facsimile of the analytic item that is different from the TEI document.
-              </cell>
+              <cell>[任意] analytic item のURIを <att>target</att> の値に指定する。たとえば、analytic item のファクシミリでTEIドキュメントと異同があるものへのリンクを指定できる。</cell>
               <cell>n/a</cell>
               <cell>n/a</cell>
             </row>
