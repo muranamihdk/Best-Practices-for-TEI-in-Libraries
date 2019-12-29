@@ -163,7 +163,7 @@
         </div>
         <div type="elrecs" xml:id="headertable">
           <head>TEIヘッダーで推奨される要素と属性</head>
-          <p><gi>teiHeader</gi> 要素内での要素と属性の使用に関するドキュメントを次に示す。これら推奨事項は、すべてのレベルの符号化に適用される。TEIドキュメントの目録作成のためのMARCへのマッピングは、元の文書ではなく符号化されたテキストに基づいて、ヘッダーが作成されることを前提としている。「著作」と「個別資料」という用語は、RDAで定義されている狭い方向では使用されていないことに注意してもらいたい。</p>
+          <p><gi>teiHeader</gi> 要素内での要素と属性の使用に関するドキュメントを次に示す。これら推奨事項は、すべてのレベルの符号化に適用される。TEIドキュメントの目録作成のためのMARCへのマッピングは、元の文書ではなく符号化されたテキストに基づいて、ヘッダーが作成されることを前提としている。「著作」と「個別資料」という用語は、RDAで定義されているような狭い用途では使用されていないことに注意してもらいたい。</p>
           <table rend="table">
 
             <row role="label">
@@ -531,7 +531,7 @@
               <cell cols="2">
                 <gi>author</gi>
               </cell>
-              <cell>[推奨] analytic itemの知的または芸術的な内容の作成に責任を持つ個人の作成者、または組織体の名前を符号化するために、1つ以上の <gi>author</gi> 要素（要素ごとに1つの名前）を使用する。該当する場合は、 <gi>persName</gi> または <gi>orgName</gi> を使用する。可能な限り、著者名典拠ファイルによりオーソライズされた形式の名前を確立または使用する。</cell>
+              <cell>[推奨] analytic itemの知的または芸術的な内容の作成に責任を持つ個人の作成者、または組織体の名前を符号化するために、1つ以上の <gi>author</gi> 要素（要素ごとに1つの名前）を使用する。該当する場合は、 <gi>persName</gi> または <gi>orgName</gi> を使用する。可能な限り、著者名典拠ファイルにより統制された形式の名前を確立または使用する。</cell>
               <cell>n/a</cell>
               <cell>n/a</cell>
             </row>
@@ -595,7 +595,7 @@
               <cell cols="3">
                 <gi>monogr</gi>
               </cell>
-              <cell>[必須] 独立した個別資料として発行された、元文書の書誌事項を記述する要素をひとつにまとめるために、この要素を使用する。TEIではこの要素を、TEI以外では「モノグラフ（独立した個別資料）」と見なされない可能性のある著作にも使用する、と定義している。そのため例えば、ジャーナルタイトルに関する書誌データはこの要素に含まれる。</cell>
+              <cell>[必須] 独立したアイテムとして発行された、元文書の書誌的な個別資料を記述する要素をひとつにまとめるために、この要素を使用する。TEIではこの要素を、TEI以外では「モノグラフ（独立した個別資料）」と見なされない可能性のある著作にも使用する、と定義している。そのため例えば、ジャーナルタイトルに関する書誌データはこの要素に含まれる。</cell>
               <cell>n/a</cell>
               <cell>n/a</cell>
             </row>
@@ -609,15 +609,7 @@
               <cell cols="2">
                 <gi>author</gi>
               </cell>
-              <cell>[recommended] One or more <gi>author</gi> elements (one name per
-              element) are used to encode the name for the personal
-              author or corporate body responsible for the creation of
-              the intellectual or artistic content of the source
-              document bibliographic item, even if this creator is not
-              the main entry in the catalog record. Use
-              <gi>persName</gi> or <gi>orgName</gi> when applicable.
-              Whenever possible, establish or use the authorized form
-              of the name from a name authority file.</cell>
+              <cell>[推奨] 元文書である書誌的な個別資料の知的または芸術的な内容の作成に責任を持つ、個人の作成者または組織体が、目録レコードの主記入ではなくてもその名前を符号化するために、1つ以上の <gi>author</gi> 要素（要素ごとに1つの名前）を使用する。該当する場合は、 <gi>persName</gi> または <gi>orgName</gi> を使用する。可能な限り、著者名典拠ファイルにより統制された形式の名前を確立または使用する。</cell>
               <cell>534 $a = 1st author</cell>
               <cell>
                 <list>
@@ -639,23 +631,13 @@
                 <tag>title level="___" type="___"</tag>
               </cell>
               <cell>
-                <p>[recommended] At least one <gi>title</gi> element is recommended
-                for the title of the source document bibliographic
-                item. Transcribe the title according to the
-                descriptive cataloging standard used.</p>
-                <p>Use of the <att>level</att> attribute is optional.
-                If used, it should be used <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html">as in P5</ref>.</p>
+                <p>[推奨] 元文書である書誌的な個別資料のタイトルとして、少なくとも1つの <gi>title</gi> 要素が推奨される。使用する記述的目録規則に従ってタイトルを書き起こす。</p>
+                <p><att>level</att> 属性の使用は任意である。使用する場合は、<ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html">P5におけるのと同様に</ref>使用せねばならない。</p>
                 <p><att>type</att> 属性の使用が推奨される。現場での実際に沿うように次のいずれかの値を指定すべきである。 <list>
                   <item><val>marc245a</val>（使用される記述的目録標準に従って、適切なタイトルと別タイトルに使用する）</item>
                   <item><val>filing</val>（先頭の冠詞が削除されたバージョンのタイトルに使用される。タイトルをアルファベット順に並べ替えるのに使用されるが、表示には使用されない）</item>
-                  <item><val>marc245b</val> (used for the the
-                  remainder of the title information — parallel
-                  titles, titles subsequent to the first, and other
-                  title information — according to the descriptive
-                  cataloging standard used)</item>
-                  <item><val>marc245c</val> (used for the statement of
-                  responsibility according to the descriptive
-                  cataloging standard used)</item>
+                  <item><val>marc245b</val>（使用する記述的目録規則に従い、タイトル情報の残りの部分——並列タイトル、第一タイトルに続くタイトル、およびその他のタイトル情報——に使用される）</item>
+                  <item><val>marc245c</val>（使用する記述的目録規則に従って責任表示に使用される）</item>
                   <item><val>preferred</val>（使用される記述的目録標準に従って優先タイトルに使用される）</item>
                 </list></p>
               </cell>
@@ -679,26 +661,12 @@
                 <gi>respStmt</gi>
               </cell>
               <cell>
-                <p>[recommended] Statement of responsibility on the source document
-                bibliographic item, according to the descriptive
-                cataloging standard used. Record one responsibility or
-                party per <gi>respStmt</gi>. Each <gi>respStmt</gi>
-                should contain either:
-                <list type="simple">
-                  <item>one <gi>resp</gi> followed by one or more of
-                  <gi>persName</gi> or <gi>orgName</gi></item>
-                  <item>one or more of <gi>persName</gi> or
-                  <gi>orgName</gi> followed by one
-                  <gi>resp</gi></item>
-                </list>
-                Whenever possible, establish or use the form of the
-                authorized name from a name authority file.</p>
-                <p>If generating the <gi>sourceDesc</gi> from a MARC
-                record, it will be difficult to split the content of
-                the 245c field into <gi>resp</gi> and
-                <gi>persName</gi> (or <gi>orgName</gi>) elements, so
-                it is recommended to use <tag>title
-                type="marc245c"</tag> instead of this element.</p>
+                <p>[推奨] 使用する記述的目録規則に従った、元文書である書誌的な個別資料についての責任表示。1つの責任または関係者ごとに1つの <gi>respStmt</gi> を使用して記録する。それぞれの <gi>respStmt</gi> には、以下のいずれかを含めなければならない。<list type="simple">
+                  <item>1つの <gi>resp</gi> に続けて1つ以上の <gi>persName</gi> または <gi>orgName</gi></item>
+                  <item>1つ以上の <gi>persName</gi> または <gi>orgName</gi> に続けて1つの <gi>resp</gi></item>
+                </list>可能な限り、著者名典拠ファイルで統制された形式の名前を確立または使用する。</p>
+                <p>MARCレコードから <gi>sourceDesc</gi> を生成する場合、項目245cの内容を <gi>resp</gi> 要素と <gi>persName</gi>（または <gi>orgName</gi>）要素に分割することは困難であるため、この要素の代わりに <tag>title
+                type="marc245c"</tag> を使用することを勧める。</p>
               </cell>
               <cell>500</cell>
               <cell>n/a</cell>
@@ -713,7 +681,7 @@
               <cell cols="2">
                 <gi>edition</gi>
               </cell>
-              <cell>[recommended] Edition statement (if present) according to the descriptive cataloging standard used.</cell>
+              <cell>[推奨] 使用する記述的目録規則に従った版表示（存在する場合）。</cell>
               <cell>534 $b</cell>
               <cell>250</cell>
             </row>
