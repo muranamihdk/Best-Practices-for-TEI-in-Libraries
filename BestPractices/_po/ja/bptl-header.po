@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2019-12-25 19:46+0900\n"
+"PO-Revision-Date: 2019-12-29 10:00+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -524,7 +524,7 @@ msgstr "TEIヘッダーで推奨される要素と属性"
 #. (itstool) path: div/p
 #: BestPractices/bptl-header.odd:308
 msgid "Below is documentation on use of elements and attributes within the <_:gi-1/> element. These recommendations apply to all levels of encoding. The mapping to MARC for cataloging the TEI document assumes that the header is created based on the encoded text, not the source document. Note that the terms “work” and “item” are not used in the narrow way that they are defined in RDA."
-msgstr "<_:gi-1/> 要素内での要素と属性の使用に関するドキュメントを次に示す。これら推奨事項は、すべてのレベルの符号化に適用される。TEIドキュメントの目録作成のためのMARCへのマッピングは、元の文書ではなく符号化されたテキストに基づいて、ヘッダーが作成されることを前提としている。「著作」と「個別資料」という用語は、RDAで定義されている狭い方向では使用されていないことに注意してもらいたい。"
+msgstr "<_:gi-1/> 要素内での要素と属性の使用に関するドキュメントを次に示す。これら推奨事項は、すべてのレベルの符号化に適用される。TEIドキュメントの目録作成のためのMARCへのマッピングは、元の文書ではなく符号化されたテキストに基づいて、ヘッダーが作成されることを前提としている。「著作」と「個別資料」という用語は、RDAで定義されているような狭い用途では使用されていないことに注意してもらいたい。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:318
@@ -1292,7 +1292,7 @@ msgstr "[推奨] 符号化の対象がより大きな著作の一部である場
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:777
 msgid "[recommended] One or more <_:gi-1/> elements (one name per element) are used to encode the name for the personal author or corporate body responsible for the creation of the intellectual or artistic content of the analytic item. Use <_:gi-2/> or <_:gi-3/> when applicable. Whenever possible, establish or use the authorized form of the name from a name authority file."
-msgstr "[推奨] analytic itemの知的または芸術的な内容の作成に責任を持つ個人の作成者、または組織体の名前を符号化するために、1つ以上の <_:gi-1/> 要素（要素ごとに1つの名前）を使用する。該当する場合は、 <_:gi-2/> または <_:gi-3/> を使用する。可能な限り、著者名典拠ファイルによりオーソライズされた形式の名前を確立または使用する。"
+msgstr "[推奨] analytic itemの知的または芸術的な内容の作成に責任を持つ個人の作成者、または組織体の名前を符号化するために、1つ以上の <_:gi-1/> 要素（要素ごとに1つの名前）を使用する。該当する場合は、 <_:gi-2/> または <_:gi-3/> を使用する。可能な限り、著者名典拠ファイルにより統制された形式の名前を確立または使用する。"
 
 #. (itstool) path: cell/tag
 #: BestPractices/bptl-header.odd:795
@@ -1329,12 +1329,12 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:856
 msgid "[required] Use this element to group together the elements describing the source document bibliographic item that is published as an independent item. The TEI definition of this element specifies that it is used even for works that might not otherwise be considered “monographs,” so, for example, bibliographic data about a journal title is included in this element."
-msgstr "[必須] 独立した個別資料として発行された、元文書の書誌事項を記述する要素をひとつにまとめるために、この要素を使用する。TEIではこの要素を、TEI以外では「モノグラフ（独立した個別資料）」と見なされない可能性のある著作にも使用する、と定義している。そのため例えば、ジャーナルタイトルに関する書誌データはこの要素に含まれる。"
+msgstr "[必須] 独立したアイテムとして発行された、元文書の書誌的な個別資料を記述する要素をひとつにまとめるために、この要素を使用する。TEIではこの要素を、TEI以外では「モノグラフ（独立した個別資料）」と見なされない可能性のある著作にも使用する、と定義している。そのため例えば、ジャーナルタイトルに関する書誌データはこの要素に含まれる。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:874
 msgid "[recommended] One or more <_:gi-1/> elements (one name per element) are used to encode the name for the personal author or corporate body responsible for the creation of the intellectual or artistic content of the source document bibliographic item, even if this creator is not the main entry in the catalog record. Use <_:gi-2/> or <_:gi-3/> when applicable. Whenever possible, establish or use the authorized form of the name from a name authority file."
-msgstr ""
+msgstr "[推奨] 元文書である書誌的な個別資料の知的または芸術的な内容の作成に責任を持つ、個人の作成者または組織体が、目録レコードの主記入ではなくてもその名前を符号化するために、1つ以上の <_:gi-1/> 要素（要素ごとに1つの名前）を使用する。該当する場合は、 <_:gi-2/> または <_:gi-3/> を使用する。可能な限り、著者名典拠ファイルにより統制された形式の名前を確立または使用する。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:883
@@ -1349,23 +1349,23 @@ msgstr ""
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:904
 msgid "[recommended] At least one <_:gi-1/> element is recommended for the title of the source document bibliographic item. Transcribe the title according to the descriptive cataloging standard used."
-msgstr ""
+msgstr "[推奨] 元文書である書誌的な個別資料のタイトルとして、少なくとも1つの <_:gi-1/> 要素が推奨される。使用する記述的目録規則に従ってタイトルを書き起こす。"
 
 #. (itstool) path: p/ref
 #. (itstool) path: cell/ref
 #: BestPractices/bptl-header.odd:910 BestPractices/bptl-header.odd:1713
 msgid "as in P5"
-msgstr ""
+msgstr "P5におけるのと同様に"
 
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:908
 msgid "Use of the <_:att-1/> attribute is optional. If used, it should be used <_:ref-2/>."
-msgstr ""
+msgstr "<_:att-1/> 属性の使用は任意である。使用する場合は、<_:ref-2/>使用せねばならない。"
 
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:922
 msgid "<_:val-1/> (used for the the remainder of the title information — parallel titles, titles subsequent to the first, and other title information — according to the descriptive cataloging standard used)"
-msgstr ""
+msgstr "<_:val-1/>（使用する記述的目録規則に従い、タイトル情報の残りの部分——並列タイトル、第一タイトルに続くタイトル、およびその他のタイトル情報——に使用される）"
 
 #. (itstool) path: item/val
 #: BestPractices/bptl-header.odd:927
@@ -1375,7 +1375,7 @@ msgstr ""
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:927
 msgid "<_:val-1/> (used for the statement of responsibility according to the descriptive cataloging standard used)"
-msgstr ""
+msgstr "<_:val-1/>（使用する記述的目録規則に従って責任表示に使用される）"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:936
@@ -1385,7 +1385,7 @@ msgstr ""
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:956
 msgid "[recommended] Statement of responsibility on the source document bibliographic item, according to the descriptive cataloging standard used. Record one responsibility or party per <_:gi-1/>. Each <_:gi-2/> should contain either: <_:list-3/> Whenever possible, establish or use the form of the authorized name from a name authority file."
-msgstr ""
+msgstr "[推奨] 使用する記述的目録規則に従った、元文書である書誌的な個別資料についての責任表示。1つの責任または関係者ごとに1つの <_:gi-1/> を使用して記録する。それぞれの <_:gi-2/> には、以下のいずれかを含めなければならない。<_:list-3/>可能な限り、著者名典拠ファイルで統制された形式の名前を確立または使用する。"
 
 #. (itstool) path: p/tag
 #: BestPractices/bptl-header.odd:974
@@ -1395,7 +1395,7 @@ msgstr ""
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:970
 msgid "If generating the <_:gi-1/> from a MARC record, it will be difficult to split the content of the 245c field into <_:gi-2/> and <_:gi-3/> (or <_:gi-4/>) elements, so it is recommended to use <_:tag-5/> instead of this element."
-msgstr ""
+msgstr "MARCレコードから <_:gi-1/> を生成する場合、項目245cの内容を <_:gi-2/> 要素と <_:gi-3/>（または <_:gi-4/>）要素に分割することは困難であるため、この要素の代わりに <_:tag-5/> を使用することを勧める。"
 
 #. (itstool) path: row/cell
 #. (itstool) path: list/item
@@ -1412,7 +1412,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:990
 msgid "[recommended] Edition statement (if present) according to the descriptive cataloging standard used."
-msgstr ""
+msgstr "[推奨] 使用する記述的目録規則に従った版表示（存在する場合）。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:991
