@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2020-01-19 23:57+0900\n"
+"PO-Revision-Date: 2020-01-20 00:18+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1432,7 +1432,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:1019
 msgid "[recommended] Place of publication from the source document bibliographic item according to the descriptive cataloging standard used. Optionally remove ISBD punctuation for separating areas of the bibliographic description (such as a colon) when deriving from a MARC record. However, use brackets to indicate supplied information according to the descriptive cataloging standard used, e.g. “[Toronto?]” or “[Place of publication not identified]”."
-msgstr "[推奨] 使用される記述的目録規則に従って、元文書の書誌項目から、出版された場所。必要に応じて、MARCレコードから転記する際に、書誌記述の領域を区切るためのISBD句読点（コロンなど）を削除する。ただし、角かっこを使用して、使用される記述的目録規則に従って提供された情報を示す。例：\"[Toronto?]\"、\"[出版地不明]\" など。"
+msgstr "[推奨] 使用される記述的目録規則に従って、元文書の書誌項目から、出版された場所。必要に応じて、MARCレコードから転記する際に、書誌記述の領域を区切るためのISBD句読点（コロンなど）を削除する。ただし、提供された情報を示すための角かっこは、使用される記述的目録規則に従い使用する。例：\"[Toronto?]\"、\"[出版地不明]\" など。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:1028 BestPractices/bptl-header.odd:1056
