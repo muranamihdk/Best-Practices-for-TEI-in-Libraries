@@ -710,15 +710,7 @@
               <cell cols="1">
                 <gi>pubPlace</gi>
               </cell>
-              <cell>[recommended] Place of publication from the source document
-              bibliographic item according to the descriptive
-              cataloging standard used. Optionally remove ISBD
-              punctuation for separating areas of the bibliographic
-              description (such as a colon) when deriving from a MARC
-              record. However, use brackets to indicate supplied
-              information according to the descriptive cataloging
-              standard used, e.g. “[Toronto?]” or “[Place of
-              publication not identified]”.</cell>
+              <cell>[推奨] 使用される記述的目録規則に従って、元文書の書誌項目から、出版された場所。必要に応じて、MARCレコードから転記する際に、書誌記述の領域を区切るためのISBD句読点（コロンなど）を削除する。ただし、角かっこを使用して、使用される記述的目録規則に従って提供された情報を示す。例："[Toronto?]"、"[出版地不明]" など。</cell>
               <cell>534 $c</cell>
               <cell>
                 <list>
