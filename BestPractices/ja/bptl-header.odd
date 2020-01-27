@@ -769,16 +769,9 @@
               </cell>
               <cell>
                 <p>[推奨] 元文書の書誌項目に基づく、発行日、販売日など。この要素の内容は、使用される記述的目録規則に従った、このデータの宣言である。</p>
-                <p>使用される記述的目録規則に従った要素の内容は、機械的な処理が簡単ではないので、可能な場合は、以下の属性の<emph>いずれか</emph>を、有効な値とともに含めること。<emph>いずれか</emph> <att>when</att>。<emph>もしくは</emph>、<att>notBefore</att> と <att>notAfter</att> の両方。<emph>もしくは</emph>、<att>from</att> と <att>to</att> のうちのひとつか両方。</p>
-                <p>Descriptive cataloging standards may distinguish
-                between a possible range of dates for publication
-                (such as “[between 1860 and 1868?]”. In the case of
-                uncertainty, use <code>cert="low"</code>.</p>
-                <p>If the date is unknown (for example, recorded
-                according to the descriptive cataloging standard used,
-                e.g., “[date of publication not identified]" or "[date
-                of distribution not identified]”, use
-                <code>cert="unknown"</code>.</p>
+                <p>使用される記述的目録規則に従った要素の内容は、機械的な処理が簡単ではないので、可能な場合は、以下の属性の<emph>いずれか</emph>を、有効な値とともに含めること：<att>when</att>、<emph>もしくは</emph><att>notBefore</att> と <att>notAfter</att> の両方、<emph>もしくは</emph><att>from</att> と <att>to</att> のうちのひとつあるいは両方。</p>
+                <p>記述的目録規則は、出版日をありうる範囲として記述することができる（例えば、"[1860から1868の間か]"）。値が不確かな場合は、<code>cert="low"</code> を使用する。</p>
+                <p>日付が不明な場合は（例えば使用する記述的目録規則に従って記録した場合、"[出版日不明]" または "[発売日不明]" など）、<code>cert="unknown"</code> を使用する。</p>
               </cell>
               <cell>
                 <list>
