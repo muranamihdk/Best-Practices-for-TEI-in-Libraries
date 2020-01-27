@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2020-01-20 00:18+0900\n"
+"PO-Revision-Date: 2020-01-27 19:43+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1432,7 +1432,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:1019
 msgid "[recommended] Place of publication from the source document bibliographic item according to the descriptive cataloging standard used. Optionally remove ISBD punctuation for separating areas of the bibliographic description (such as a colon) when deriving from a MARC record. However, use brackets to indicate supplied information according to the descriptive cataloging standard used, e.g. “[Toronto?]” or “[Place of publication not identified]”."
-msgstr "[推奨] 使用される記述的目録規則に従って、元文書の書誌項目から、出版された場所。必要に応じて、MARCレコードから転記する際に、書誌記述の領域を区切るためのISBD句読点（コロンなど）を削除する。ただし、提供された情報を示すための角かっこは、使用される記述的目録規則に従い使用する。例：\"[Toronto?]\"、\"[出版地不明]\" など。"
+msgstr "[推奨] 使用される記述的目録規則に従った、元文書の書誌項目に基づく、出版地。必要に応じて、MARCレコードから転記する際に、書誌記述の領域を区切るためのISBD句読点（コロンなど）を削除する。ただし、提供された情報を示すための角かっこは、使用される記述的目録規則に従い使用する。例：\"[Toronto?]\"、\"[出版地不明]\" など。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:1028 BestPractices/bptl-header.odd:1056
@@ -1452,7 +1452,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:1047
 msgid "[recommended] Name of publisher, distributor, etc. from the source document bibliographic item according to the descriptive cataloging standard used. Optionally remove ISBD punctuation for separating areas of the bibliographic description (such as a comma) when deriving from a MARC record. However, leave brackets that indicate supplied information according to the descriptive cataloging standard used, e.g. “[publisher not identified]”."
-msgstr ""
+msgstr "[推奨] 使用される記述的目録規則に従った、元文書の書誌項目に基づく、出版者、販売者等の名称。必要に応じて、MARCレコードから転記する際に、書誌記述の領域を区切るためのISBD句読点（コンマなど）を削除する。ただし、提供された情報を示すための角かっこは、使用される記述的目録規則に従い使用する。例：\"[出版者不明]\" など。"
 
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:1059
@@ -1470,7 +1470,7 @@ msgstr ""
 #: BestPractices/bptl-header.odd:1084 BestPractices/bptl-header.odd:1088
 #: BestPractices/bptl-header.odd:1101 BestPractices/bptl-header.odd:1103
 msgid "or"
-msgstr ""
+msgstr "もしくは"
 
 #. (itstool) path: cell/tag
 #: BestPractices/bptl-header.odd:1078
@@ -1495,12 +1495,12 @@ msgstr ""
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:1093
 msgid "[recommended] Date of publication, distribution, etc. from the source document bibliographic item. The content of the element is the statement of this data according to the descriptive cataloging standard used."
-msgstr ""
+msgstr "[推奨] 元文書の書誌項目に基づく、発行日、販売日など。この要素の内容は、使用される記述的目録規則に従った、このデータの宣言である。"
 
 #. (itstool) path: p/emph
 #: BestPractices/bptl-header.odd:1101
 msgid "either"
-msgstr ""
+msgstr "いずれか"
 
 #. (itstool) path: p/att
 #: BestPractices/bptl-header.odd:1102
@@ -1525,7 +1525,7 @@ msgstr ""
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:1097
 msgid "Since the content of the element according to the descriptive cataloging standard used is not easily processed by machine, when possible include the following attribute(s) with valid values: <_:emph-1/> <_:att-2/>, <_:emph-3/> both <_:att-4/> and <_:att-5/>, <_:emph-6/> one or both of <_:att-7/> and <_:att-8/>."
-msgstr ""
+msgstr "使用される記述的目録規則に従った要素の内容は、機械的な処理が簡単ではないので、可能な場合は、以下の属性の<_:emph-1/>を、有効な値とともに含めること。<_:emph-1/> <_:att-2/>。<_:emph-3/>、<_:att-4/> と <_:att-5/> の両方。<_:emph-6/>、<_:att-7/> と <_:att-8/> のうちのひとつか両方。"
 
 #. (itstool) path: p/code
 #: BestPractices/bptl-header.odd:1108
