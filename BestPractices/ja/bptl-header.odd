@@ -769,14 +769,14 @@
               </cell>
               <cell>
                 <p>[推奨] 元文書の書誌項目に基づく、発行日、販売日など。この要素の内容は、使用される記述的目録規則に従った、このデータの宣言である。</p>
-                <p>使用される記述的目録規則に従った要素の内容は、機械的な処理が簡単ではないので、可能な場合は、以下の属性の<emph>いずれか</emph>を、有効な値とともに含めること：<att>when</att>、<emph>もしくは</emph><att>notBefore</att> と <att>notAfter</att> の両方、<emph>もしくは</emph><att>from</att> と <att>to</att> のうちのひとつあるいは両方。</p>
+                <p>使用される記述的目録規則に従った要素の内容は、機械的な処理が簡単ではないので、可能な場合は、以下の属性の<emph>いずれか</emph>を、有効な値とともに含める。<att>when</att>、<emph>もしくは</emph> <att>notBefore</att> と <att>notAfter</att> の両方、<emph>もしくは</emph> <att>from</att> と <att>to</att> のうちのひとつあるいは両方。</p>
                 <p>記述的目録規則は、出版日をありうる範囲として記述することができる（例えば、"[1860から1868の間か]"）。値が不確かな場合は、<code>cert="low"</code> を使用する。</p>
                 <p>日付が不明な場合は（例えば使用する記述的目録規則に従って記録した場合、"[出版日不明]" または "[発売日不明]" など）、<code>cert="unknown"</code> を使用する。</p>
               </cell>
               <cell>
                 <list>
-                  <item>534 $c (content of element)</item>
-                  <item>Dates fixed fields (value of attribute(s))</item>
+                  <item>534 $c（要素の内容）</item>
+                  <item>日付固定フィールド（属性の値）</item>
                 </list>
               </cell>
               <cell>
