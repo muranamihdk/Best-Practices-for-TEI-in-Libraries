@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2020-01-27 19:55+0900\n"
+"PO-Revision-Date: 2020-01-27 20:01+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1525,7 +1525,7 @@ msgstr ""
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:1097
 msgid "Since the content of the element according to the descriptive cataloging standard used is not easily processed by machine, when possible include the following attribute(s) with valid values: <_:emph-1/> <_:att-2/>, <_:emph-3/> both <_:att-4/> and <_:att-5/>, <_:emph-6/> one or both of <_:att-7/> and <_:att-8/>."
-msgstr "使用される記述的目録規則に従った要素の内容は、機械的な処理が簡単ではないので、可能な場合は、以下の属性の<_:emph-1/>を、有効な値とともに含めること：<_:att-2/>、<_:emph-3/><_:att-4/> と <_:att-5/> の両方、<_:emph-6/><_:att-7/> と <_:att-8/> のうちのひとつあるいは両方。"
+msgstr "使用される記述的目録規則に従った要素の内容は、機械的な処理が簡単ではないので、可能な場合は、以下の属性の<_:emph-1/>を、有効な値とともに含める。<_:att-2/>、<_:emph-3/> <_:att-4/> と <_:att-5/> の両方、<_:emph-6/> <_:att-7/> と <_:att-8/> のうちのひとつあるいは両方。"
 
 #. (itstool) path: p/code
 #: BestPractices/bptl-header.odd:1108
@@ -1550,12 +1550,12 @@ msgstr "日付が不明な場合は（例えば使用する記述的目録規則
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:1117
 msgid "534 $c (content of element)"
-msgstr ""
+msgstr "534 $c（要素の内容）"
 
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:1118
 msgid "Dates fixed fields (value of attribute(s))"
-msgstr ""
+msgstr "日付固定フィールド（属性の値）"
 
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:1123
