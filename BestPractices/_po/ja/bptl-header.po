@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2020-01-27 19:43+0900\n"
+"PO-Revision-Date: 2020-01-27 19:55+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1525,7 +1525,7 @@ msgstr ""
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:1097
 msgid "Since the content of the element according to the descriptive cataloging standard used is not easily processed by machine, when possible include the following attribute(s) with valid values: <_:emph-1/> <_:att-2/>, <_:emph-3/> both <_:att-4/> and <_:att-5/>, <_:emph-6/> one or both of <_:att-7/> and <_:att-8/>."
-msgstr "使用される記述的目録規則に従った要素の内容は、機械的な処理が簡単ではないので、可能な場合は、以下の属性の<_:emph-1/>を、有効な値とともに含めること。<_:emph-1/> <_:att-2/>。<_:emph-3/>、<_:att-4/> と <_:att-5/> の両方。<_:emph-6/>、<_:att-7/> と <_:att-8/> のうちのひとつか両方。"
+msgstr "使用される記述的目録規則に従った要素の内容は、機械的な処理が簡単ではないので、可能な場合は、以下の属性の<_:emph-1/>を、有効な値とともに含めること：<_:att-2/>、<_:emph-3/><_:att-4/> と <_:att-5/> の両方、<_:emph-6/><_:att-7/> と <_:att-8/> のうちのひとつあるいは両方。"
 
 #. (itstool) path: p/code
 #: BestPractices/bptl-header.odd:1108
@@ -1535,7 +1535,7 @@ msgstr ""
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:1105
 msgid "Descriptive cataloging standards may distinguish between a possible range of dates for publication (such as “[between 1860 and 1868?]”. In the case of uncertainty, use <_:code-1/>."
-msgstr ""
+msgstr "記述的目録規則は、出版日をありうる範囲として記述することができる（例えば、\"[1860から1868の間か]\"）。値が不確かな場合は、<_:code-1/> を使用する。"
 
 #. (itstool) path: p/code
 #: BestPractices/bptl-header.odd:1113
@@ -1545,7 +1545,7 @@ msgstr ""
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:1109
 msgid "If the date is unknown (for example, recorded according to the descriptive cataloging standard used, e.g., “[date of publication not identified]\" or \"[date of distribution not identified]”, use <_:code-1/>."
-msgstr ""
+msgstr "日付が不明な場合は（例えば使用する記述的目録規則に従って記録した場合、\"[出版日不明]\" または \"[発売日不明]\" など）、<_:code-1/> を使用する。"
 
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:1117
