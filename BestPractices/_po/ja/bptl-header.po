@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2020-02-02 22:57+0900\n"
+"PO-Revision-Date: 2020-02-02 23:08+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1630,7 +1630,7 @@ msgstr ""
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:1191
 msgid "Those listed in <_:ref-1/>"
-msgstr "<_:ref-1/> に列挙されているもの"
+msgstr "<_:ref-1/> で挙げられているもの"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:1178
