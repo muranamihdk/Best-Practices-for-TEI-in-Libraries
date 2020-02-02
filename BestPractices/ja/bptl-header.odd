@@ -828,7 +828,7 @@
               <cell>[任意] 1 つ以上の <gi>idno</gi> 要素を使用して、元文書やテキスト、書誌的アイテムの著作などの識別子を指定する。それが所蔵する図書館によって割り当てられたものか（請求番号など）、元の文書の出版者によって割り当てられたかものか（ISBNなど）、標準書誌であるか（<title>Short Title Catalogue</title> や <_title-3/> の識別子など）は問わない。<att>type</att> 属性には以下の値が該当すればそれを用い、もしくは他に適当な値が作成できればそれを用いる。<list>
                 <item><val>LCCN</val>（アメリカ議会図書館の統制番号）</item>
                 <item> <val>LC_call_number</val> </item>
-                <item><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-idno.html">P5</ref> に列挙されているもの</item>
+                <item><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-idno.html">P5</ref> で挙げられているもの</item>
               </list></cell>
               <cell>ISBNには 534 $z</cell>
               <cell><list>
