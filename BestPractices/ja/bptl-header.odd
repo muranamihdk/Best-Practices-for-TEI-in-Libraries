@@ -900,8 +900,7 @@
               <cell cols="2">
                 <tag>biblScope unit="volume"</tag>
               </cell>
-              <cell>[recommended] If applicable, use for volume numbering of the
-              source document within the series.</cell>
+              <cell>[推奨] 該当する場合はシリーズにおける元文書の巻数表示に使用する。</cell>
               <cell>534 $f</cell>
               <cell>
                 <list>
@@ -920,7 +919,7 @@
               <cell cols="2">
                 <tag>idno type="ISSN"</tag>
               </cell>
-              <cell>[recommended] If applicable, use for an ISSN for the series.</cell>
+              <cell>[推奨] 該当する場合はシリーズのISSNに使用する。</cell>
               <cell/>
               <cell/>
             </row>
@@ -934,7 +933,7 @@
               <cell cols="2">
                 <tag>ptr target="___"</tag>
               </cell>
-              <cell>[optional] In the value of <att>target</att>, provide a URI for a catalog record for the source document.</cell>
+              <cell>[任意] <att>target</att> の値の中で、元文書の目録記録のURIを提供する。</cell>
               <cell/>
               <cell/>
             </row>
@@ -948,9 +947,7 @@
                 <gi>relatedItem</gi>
                 <gi>biblStruct</gi>
               </cell>
-              <cell>[recommended] If applicable, describe a work related to the source 
-              document, following the guidelines for the components of the 
-                      <gi>biblStruct</gi> that is a child of <gi>sourceDesc</gi>.</cell>
+              <cell>[推奨] 該当する場合は、 <gi>sourceDesc</gi> の子要素である <gi>biblStruct</gi> の構成要素のためのガイドラインに従って、元文書に関連ある作品について説明する。</cell>
               <cell>
                 <list>
                   <item>700 $t</item>
@@ -1000,7 +997,7 @@
                 <gi>projectDesc</gi>
                 <gi>p</gi>
               </cell>
-              <cell>[optional] Include a description of the purpose for which the electronic file was encoded.</cell>
+              <cell>[任意] この電子ファイルが符号化された目的の説明を含む。</cell>
               <cell>500</cell>
               <cell>n/a</cell>
             </row>
@@ -1012,17 +1009,13 @@
                 <tag>schemaRef url="___"</tag>
               </cell>
               <cell>
-                  <p>[recommended] Documents the encoding level according to these <title>Best Practices</title>. Use the
-                <att>url</att> attribute for the value that indicates
-                the encoding level:
-                <list>
+                  <p>[推奨] この <title>「ベストプラクティス」</title> に基づいた符号化レベルを記録する。符号化レベルを示す値として以下を <att>url</att> 属性に使用する。 <list>
                   <item> Level 1: <val>bptl:L1-v4.0.0</val></item>
                   <item> Level 2: <val>bptl:L2-v4.0.0</val></item>
                   <item> Level 3: <val>bptl:L3-v4.0.0</val></item>
                   <item> Level 4: <val>bptl:L4-v4.0.0</val></item>
                   <item> Level 5: <val>bptl:L5-v4.0.0</val></item>
-                </list>
-                </p>
+                </list></p>
               </cell>
               <cell>
                 <list>
