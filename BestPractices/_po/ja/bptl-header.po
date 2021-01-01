@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2020-02-10 13:09+0900\n"
+"PO-Revision-Date: 2021-01-01 20:49+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. (itstool) path: titleStmt/title
 #: BestPractices/bptl-header.odd:12
@@ -1755,7 +1755,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:1278
 msgid "[recommended] If applicable, use for volume numbering of the source document within the series."
-msgstr ""
+msgstr "[推奨] 該当する場合はシリーズにおける元文書の巻数表示に使用する。"
 
 #. (itstool) path: cell/tag
 #: BestPractices/bptl-header.odd:1296
@@ -1765,17 +1765,17 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:1298
 msgid "[recommended] If applicable, use for an ISSN for the series."
-msgstr ""
+msgstr "[推奨] 該当する場合はシリーズのISSNに使用する。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:1312
 msgid "[optional] In the value of <_:att-1/>, provide a URI for a catalog record for the source document."
-msgstr ""
+msgstr "[任意] <_:att-1/> の値の中で、元文書の目録記録のURIを提供する。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:1326
 msgid "[recommended] If applicable, describe a work related to the source document, following the guidelines for the components of the <_:gi-1/> that is a child of <_:gi-2/>."
-msgstr ""
+msgstr "[推奨] 該当する場合は、 <_:gi-2/> の子要素である <_:gi-1/> の構成要素のためのガイドラインに従って、元文書に関連ある作品について説明する。"
 
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:1331 BestPractices/bptl-header.odd:1340
@@ -1835,7 +1835,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:1380
 msgid "[optional] Include a description of the purpose for which the electronic file was encoded."
-msgstr ""
+msgstr "[任意] この電子ファイルが符号化された目的の説明を含む。"
 
 #. (itstool) path: cell/tag
 #: BestPractices/bptl-header.odd:1389
@@ -1901,7 +1901,7 @@ msgstr ""
 #. (itstool) path: cell/p
 #: BestPractices/bptl-header.odd:1392
 msgid "[recommended] Documents the encoding level according to these <_:title-1/>. Use the <_:att-2/> attribute for the value that indicates the encoding level: <_:list-3/>"
-msgstr ""
+msgstr "[推奨] この <_:title-1/> に基づいた符号化レベルを記録する。符号化レベルを示す値として以下を <_:att-2/> 属性に使用する。 <_:list-3/>"
 
 #. (itstool) path: list/item
 #: BestPractices/bptl-header.odd:1406
