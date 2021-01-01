@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2019-04-15 05:07+0900\n"
-"PO-Revision-Date: 2020-02-02 23:08+0900\n"
+"PO-Revision-Date: 2020-02-10 13:09+0900\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3\n"
 
 #. (itstool) path: titleStmt/title
 #: BestPractices/bptl-header.odd:12
@@ -1730,7 +1730,7 @@ msgstr ""
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:1253
 msgid "[recommended] Contains the title of the series. Whenever possible, establish or use the authorized form of the title from a name authority file. Use of the <_:att-1/> attribute is optional, but if it is used, it should follow <_:ref-2/>."
-msgstr ""
+msgstr "[推奨] シリーズのタイトルを含む。可能な場合は、著者典拠ファイルから統制形のタイトルを作成するか使用する。<_:att-1/> 属性の使用は任意だが、使用する場合は <_:ref-2/> に従わねばならない。"
 
 #. (itstool) path: row/cell
 #: BestPractices/bptl-header.odd:1260 BestPractices/bptl-header.odd:1280
