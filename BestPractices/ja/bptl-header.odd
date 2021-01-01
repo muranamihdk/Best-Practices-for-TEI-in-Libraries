@@ -881,12 +881,7 @@
               <cell cols="2">
                 <tag>title level="s"</tag>
               </cell>
-              <cell>[recommended] Contains the title of the series. Whenever
-              possible, establish or use the authorized form of the
-              title from a name authority file. Use of the
-              <att>type</att> attribute is optional, but if it is
-              used, it should follow <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html">the
-              instructions for use of this element in P5</ref>.</cell>
+              <cell>[推奨] シリーズのタイトルを含む。可能な場合は、著者典拠ファイルから統制形のタイトルを作成するか使用する。<att>type</att> 属性の使用は任意だが、使用する場合は <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html">この要素の使用に関するP5の指示</ref> に従わねばならない。</cell>
               <cell>534 $f</cell>
               <cell>
                 <list>
